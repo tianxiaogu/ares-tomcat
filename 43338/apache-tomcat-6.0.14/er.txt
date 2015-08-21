@@ -1,0 +1,104 @@
+Using CATALINA_BASE:   /home/t/Projects/error-transformation-vm/tomcat/43338/apache-tomcat-6.0.14
+Using CATALINA_HOME:   /home/t/Projects/error-transformation-vm/tomcat/43338/apache-tomcat-6.0.14
+Using CATALINA_TMPDIR: /home/t/Projects/error-transformation-vm/tomcat/43338/apache-tomcat-6.0.14/temp
+Using JRE_HOME:       /home/t/Projects/error-transformation-vm/jdk1.7.0_65/
+Jun 29, 2015 12:51:23 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/t/Projects/error-transformation-vm/hotspot/build/linux/linux_amd64_compiler2/fastdebug:/home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jun 29, 2015 12:51:23 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Jun 29, 2015 12:51:23 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 832 ms
+Jun 29, 2015 12:51:23 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jun 29, 2015 12:51:23 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.14
+Jun 29, 2015 12:51:23 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive test.war
+Fill Stack: 0. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Using java runtime at: /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre
+Fill Stack: 1. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 2. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 3. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 4. org.apache.tomcat.util.IntrospectionUtils.callMethod1(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/Object;@135
+Fill Stack: 5. org.apache.tomcat.util.digester.SetNextRule.end()V@198
+Fill Stack: 6. org.apache.tomcat.util.digester.Rule.end(Ljava/lang/String;Ljava/lang/String;)V@1
+Fill Stack: 7. org.apache.tomcat.util.digester.Digester.endElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V@530
+Fill Stack: 8. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V@78
+Fill Stack: 9. com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endNamespaceScope(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;Z)V@20
+Fill Stack: 10. com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleEndElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;Z)V@223
+Fill Stack: 11. com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V@4
+Fill Stack: 12. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement()I@140
+Fill Stack: 13. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next()I@1407
+Fill Stack: 14. com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next()I@4
+Fill Stack: 15. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Z)Z@238
+Fill Stack: 16. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Z)Z@123
+Fill Stack: 17. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@29
+Fill Stack: 18. com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@76
+Fill Stack: 19. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Lorg/xml/sax/InputSource;)V@43
+Fill Stack: 20. com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Lorg/xml/sax/InputSource;)V@53
+Fill Stack: 21. org.apache.tomcat.util.digester.Digester.parse(Lorg/xml/sax/InputSource;)Ljava/lang/Object;@9
+Fill Stack: 22. org.apache.catalina.startup.ContextConfig.applicationWebConfig()V@308
+Fill Stack: 23. org.apache.catalina.startup.ContextConfig.start()V@128
+Fill Stack: 24. org.apache.catalina.startup.ContextConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@50
+Fill Stack: 25. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 26. org.apache.catalina.core.StandardContext.start()V@936
+Fill Stack: 27. org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V@156
+Fill Stack: 28. org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V@26
+Fill Stack: 29. org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V@25
+Fill Stack: 30. org.apache.catalina.startup.HostConfig.deployWAR(Ljava/lang/String;Ljava/io/File;Ljava/lang/String;)V@511
+Fill Stack: 31. org.apache.catalina.startup.HostConfig.deployWARs(Ljava/io/File;[Ljava/lang/String;)V@153
+Fill Stack: 32. org.apache.catalina.startup.HostConfig.deployApps()V@25
+Fill Stack: 33. org.apache.catalina.startup.HostConfig.start()V@147
+Fill Stack: 34. org.apache.catalina.startup.HostConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@132
+Fill Stack: 35. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 36. org.apache.catalina.core.ContainerBase.start()V@306
+Fill Stack: 37. org.apache.catalina.core.StandardHost.start()V@314
+Fill Stack: 38. org.apache.catalina.core.ContainerBase.start()V@266
+Fill Stack: 39. org.apache.catalina.core.StandardEngine.start()V@221
+Fill Stack: 40. org.apache.catalina.core.StandardService.start()V@132
+Fill Stack: 41. org.apache.catalina.core.StandardServer.start()V@88
+Fill Stack: 42. org.apache.catalina.startup.Catalina.start()V@32
+Fill Stack: 43. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 44. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 45. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 46. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 47. org.apache.catalina.startup.Bootstrap.start()V@37
+Fill Stack: 48. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@125
+(java/lang/IllegalArgumentException) (trivially handled) (early return) (end_index=7, index=0, rettype=void, top method)
+recovery time: 0ms, result: 1
+Jun 29, 2015 12:51:24 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Jun 29, 2015 12:51:24 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Jun 29, 2015 12:51:24 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/84  config=null
+Jun 29, 2015 12:51:25 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1554 ms
+Fill Stack: 0. java.lang.Runtime.removeShutdownHook(Ljava/lang/Thread;)Z@22
+Fill Stack: 1. org.apache.catalina.startup.Catalina.stop()V@14
+Fill Stack: 2. org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run()V@14
+recovery time: 0ms, result: 0
+Jun 29, 2015 12:51:29 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Fill Stack: 0. java.lang.Integer.<init>(Ljava/lang/String;)V@8
+Fill Stack: 1. sun.net.InetAddressCachePolicy.<clinit>()V@27
+Fill Stack: 2. java.net.InetAddress$Cache.getPolicy()I@10
+Fill Stack: 3. java.net.InetAddress$Cache.put(Ljava/lang/String;[Ljava/net/InetAddress;)Ljava/net/InetAddress$Cache;@1
+Fill Stack: 4. java.net.InetAddress.cacheInitIfNeeded()V@67
+Fill Stack: 5. java.net.InetAddress.cacheAddresses(Ljava/lang/String;[Ljava/net/InetAddress;Z)V@11
+Fill Stack: 6. java.net.InetAddress.getAddressesFromNameService(Ljava/lang/String;Ljava/net/InetAddress;)[Ljava/net/InetAddress;@212
+Fill Stack: 7. java.net.InetAddress.getLocalHost()Ljava/net/InetAddress;@90
+Fill Stack: 8. org.apache.jk.common.ChannelSocket.unLockSocket()V@29
+Fill Stack: 9. org.apache.jk.common.ChannelSocket.pause()V@10
+Fill Stack: 10. org.apache.jk.server.JkMain.pause()V@32
+Fill Stack: 11. org.apache.jk.server.JkCoyoteHandler.pause()V@16
+Fill Stack: 12. org.apache.catalina.connector.Connector.pause()V@4
+Fill Stack: 13. org.apache.catalina.core.StandardService.stop()V@42
+Fill Stack: 14. org.apache.catalina.core.StandardServer.stop()V@65
+Fill Stack: 15. org.apache.catalina.startup.Catalina.stop()V@39
+Fill Stack: 16. org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run()V@14
+recovery time: 0ms, result: 0
+Jun 29, 2015 12:51:30 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jun 29, 2015 12:51:30 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
