@@ -1,0 +1,803 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (/home/t/Projects/error-transformation/hotspot/src/share/vm/runtime/stackValue.hpp:79), pid=28590, tid=139667413407488
+#  assert(type() == T_INT) failed: type check
+#
+# JRE version: Java(TM) SE Runtime Environment (7.0_67-b01) (build 1.7.0_67-b01)
+# Java VM: OpenJDK 64-Bit Server VM (24.60-b08-internal-fastdebug mixed mode linux-amd64 compressed oops)
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007f06d400d800):  JavaThread "main" [_thread_in_vm, id=28595, stack(0x00007f06da801000,0x00007f06da902000)]
+
+Stack: [0x00007f06da801000,0x00007f06da902000],  sp=0x00007f06da8fcfa0,  free space=1007k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0xe251b8]  VMError::report_and_die()+0x178
+V  [libjvm.so+0x6af97b]  report_vm_error(char const*, int, char const*, char const*)+0x7b
+V  [libjvm.so+0xc8148d]  RecoveryOracle::load_stack_data(JavaThread*, Handle, int&)+0x71d
+V  [libjvm.so+0xc8225e]  RecoveryOracle::run_jpf_with_exception(JavaThread*, Handle, int&)+0x18e
+V  [libjvm.so+0xc82863]  RecoveryOracle::run_jpf_with_recovery_action(JavaThread*, GrowableArray<methodHandle>*, GrowableArray<int>*, RecoveryAction*)+0xc3
+V  [libjvm.so+0xc860cc]  RecoveryOracle::do_recover(JavaThread*, RecoveryAction*)+0x57c
+V  [libjvm.so+0xc8626a]  RecoveryOracle::recover(JavaThread*, RecoveryAction*)+0x3a
+V  [libjvm.so+0xcbebe1]  OptoRuntime::handle_exception_C_helper(JavaThread*, nmethod*&)+0x761
+V  [libjvm.so+0xcbf1a9]  OptoRuntime::handle_exception_C(JavaThread*)+0x59
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+v  ~ExceptionBlob
+J 239 C2 org.apache.tomcat.util.digester.Digester.startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V (466 bytes) @ 0x00007f06d05992a4 [0x00007f06d0597c20+0x1684]
+j  com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V+297
+j  com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V+4
+j  com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement()Z+372
+J 165 C2 com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next()I (2345 bytes) @ 0x00007f06d0534720 [0x00007f06d05331a0+0x1580]
+J 238 C2 com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Z)Z (272 bytes) @ 0x00007f06d05860e8 [0x00007f06d0585a20+0x6c8]
+j  com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Z)Z+123
+j  com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V+29
+j  com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V+76
+j  com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Lorg/xml/sax/InputSource;)V+43
+j  com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Lorg/xml/sax/InputSource;)V+53
+j  org.apache.tomcat.util.digester.Digester.parse(Lorg/xml/sax/InputSource;)Ljava/lang/Object;+9
+j  org.apache.catalina.startup.ContextConfig.parseWebXml(Lorg/xml/sax/InputSource;Lorg/apache/catalina/deploy/WebXml;Z)V+104
+j  org.apache.catalina.startup.ContextConfig.webConfig()V+109
+j  org.apache.catalina.startup.ContextConfig.configureStart()V+123
+j  org.apache.catalina.startup.ContextConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V+57
+j  org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V+37
+j  org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V+6
+j  org.apache.catalina.core.StandardContext.startInternal()V+606
+j  org.apache.catalina.util.LifecycleBase.start()V+190
+j  org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V+172
+j  org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V+26
+j  org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V+40
+j  org.apache.catalina.startup.HostConfig.deployDirectory(Lorg/apache/catalina/util/ContextName;Ljava/io/File;Ljava/lang/String;)V+460
+j  org.apache.catalina.startup.HostConfig.deployDirectories(Ljava/io/File;[Ljava/lang/String;)V+97
+j  org.apache.catalina.startup.HostConfig.deployApps()V+37
+j  org.apache.catalina.startup.HostConfig.start()V+236
+j  org.apache.catalina.startup.HostConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V+125
+j  org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V+37
+j  org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V+6
+j  org.apache.catalina.util.LifecycleBase.setStateInternal(Lorg/apache/catalina/LifecycleState;Ljava/lang/Object;Z)V+140
+j  org.apache.catalina.util.LifecycleBase.setState(Lorg/apache/catalina/LifecycleState;)V+4
+j  org.apache.catalina.core.ContainerBase.startInternal()V+237
+j  org.apache.catalina.core.StandardHost.startInternal()V+142
+j  org.apache.catalina.util.LifecycleBase.start()V+190
+j  org.apache.catalina.core.ContainerBase.startInternal()V+200
+j  org.apache.catalina.core.StandardEngine.startInternal()V+41
+j  org.apache.catalina.util.LifecycleBase.start()V+190
+j  org.apache.catalina.core.StandardService.startInternal()V+63
+j  org.apache.catalina.util.LifecycleBase.start()V+190
+j  org.apache.catalina.core.StandardServer.startInternal()V+45
+j  org.apache.catalina.util.LifecycleBase.start()V+190
+j  org.apache.catalina.startup.Catalina.start()V+37
+v  ~StubRoutines::call_stub
+j  sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+0
+j  sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+87
+j  sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+6
+j  java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+57
+j  org.apache.catalina.startup.Bootstrap.start()V+37
+j  org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V+135
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x00007f06d489c800 JavaThread "GC Daemon" daemon [_thread_blocked, id=28612, stack(0x00007f06be117000,0x00007f06be218000)]
+  0x00007f06d412d800 JavaThread "Service Thread" daemon [_thread_blocked, id=28610, stack(0x00007f06cc0bd000,0x00007f06cc1be000)]
+  0x00007f06d412a800 JavaThread "C2 CompilerThread1" daemon [_thread_in_native, id=28609, stack(0x00007f06cc1be000,0x00007f06cc2bf000)]
+  0x00007f06d4127000 JavaThread "C2 CompilerThread0" daemon [_thread_in_vm, id=28608, stack(0x00007f06cc2bf000,0x00007f06cc3c0000)]
+  0x00007f06d4124800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=28607, stack(0x00007f06cc3c0000,0x00007f06cc4c1000)]
+  0x00007f06d40be000 JavaThread "Finalizer" daemon [_thread_blocked, id=28606, stack(0x00007f06cc92d000,0x00007f06cca2e000)]
+  0x00007f06d40bb800 JavaThread "Reference Handler" daemon [_thread_blocked, id=28605, stack(0x00007f06cca2e000,0x00007f06ccb2f000)]
+=>0x00007f06d400d800 JavaThread "main" [_thread_in_vm, id=28595, stack(0x00007f06da801000,0x00007f06da902000)]
+
+Other Threads:
+  0x00007f06d40b2800 VMThread [stack: 0x00007f06ccb2f000,0x00007f06ccc30000] [id=28604]
+  0x00007f06d4131000 WatcherThread [stack: 0x00007f06bfeff000,0x00007f06c0000000] [id=28611]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ PSYoungGen      total 55808K, used 14772K [0x00000007c2000000, 0x00000007c8d00000, 0x0000000800000000)
+  eden space 48128K, 14% used [0x00000007c2000000,0x00000007c26edd00,0x00000007c4f00000)
+  from space 7680K, 99% used [0x00000007c5680000,0x00000007c5dff528,0x00000007c5e00000)
+  to   space 7680K, 0% used [0x00000007c4f00000,0x00000007c4f00000,0x00000007c5680000)
+ ParOldGen       total 126976K, used 5743K [0x0000000746000000, 0x000000074dc00000, 0x00000007c2000000)
+  object space 126976K, 4% used [0x0000000746000000,0x000000074659bc20,0x000000074dc00000)
+ PSPermGen       total 21504K, used 17133K [0x0000000740e00000, 0x0000000742300000, 0x0000000746000000)
+  object space 21504K, 79% used [0x0000000740e00000,0x0000000741ebb500,0x0000000742300000)
+
+Card table byte_map: [0x00007f06cfd84000,0x00007f06d037e000] byte_map_base: 0x00007f06cc37d000
+
+Polling page: 0x00007f06da92e000
+
+Code Cache  [0x00007f06d037e000, 0x00007f06d05ee000, 0x00007f06d337e000)
+ total_blobs=572 nmethods=245 adapters=286 free_code_cache=47005Kb largest_free_block=48004480
+
+Compilation events (10 events):
+Event: 3.297 Thread 0x00007f06d412a800 nmethod 243 0x00007f06d0564110 code [0x00007f06d0564260, 0x00007f06d0564378]
+Event: 3.297 Thread 0x00007f06d412a800  245             java.util.regex.Matcher::search (109 bytes)
+Event: 3.304 Thread 0x00007f06d4127000 nmethod 244 0x00007f06d057b9d0 code [0x00007f06d057bb60, 0x00007f06d057bf98]
+Event: 3.304 Thread 0x00007f06d4127000  246   !         org.apache.tomcat.util.digester.Digester::endElement (665 bytes)
+Event: 3.305 Thread 0x00007f06d412a800 nmethod 245 0x00007f06d057ae90 code [0x00007f06d057b020, 0x00007f06d057b418]
+Event: 3.305 Thread 0x00007f06d412a800  247             org.apache.juli.logging.DirectJDKLog::isDebugEnabled (11 bytes)
+Event: 3.307 Thread 0x00007f06d412a800 nmethod 247 0x00007f06d057c550 code [0x00007f06d057c6a0, 0x00007f06d057c758]
+Event: 3.307 Thread 0x00007f06d412a800  248             gov.nasa.jpf.util.OATHash::hashMixin (113 bytes)
+Event: 3.307 Thread 0x00007f06d412a800 nmethod 248 0x00007f06d0563dd0 code [0x00007f06d0563f00, 0x00007f06d0563fb8]
+Event: 3.308 Thread 0x00007f06d412a800  249             java.lang.StringBuilder::<init> (18 bytes)
+
+GC Heap History (6 events):
+Event: 1.198 GC heap before
+{Heap before GC invocations=1 (full 0):
+ PSYoungGen      total 55808K, used 16456K [0x00000007c2000000, 0x00000007c5e00000, 0x0000000800000000)
+  eden space 48128K, 34% used [0x00000007c2000000,0x00000007c30121e8,0x00000007c4f00000)
+  from space 7680K, 0% used [0x00000007c5680000,0x00000007c5680000,0x00000007c5e00000)
+  to   space 7680K, 0% used [0x00000007c4f00000,0x00000007c4f00000,0x00000007c5680000)
+ ParOldGen       total 126976K, used 0K [0x0000000746000000, 0x000000074dc00000, 0x00000007c2000000)
+  object space 126976K, 0% used [0x0000000746000000,0x0000000746000000,0x000000074dc00000)
+ PSPermGen       total 21504K, used 9153K [0x0000000740e00000, 0x0000000742300000, 0x0000000746000000)
+  object space 21504K, 42% used [0x0000000740e00000,0x00000007416f04f8,0x0000000742300000)
+Event: 1.212 GC heap after
+Heap after GC invocations=1 (full 0):
+ PSYoungGen      total 55808K, used 3915K [0x00000007c2000000, 0x00000007c5e00000, 0x0000000800000000)
+  eden space 48128K, 0% used [0x00000007c2000000,0x00000007c2000000,0x00000007c4f00000)
+  from space 7680K, 50% used [0x00000007c4f00000,0x00000007c52d2c68,0x00000007c5680000)
+  to   space 7680K, 0% used [0x00000007c5680000,0x00000007c5680000,0x00000007c5e00000)
+ ParOldGen       total 126976K, used 72K [0x0000000746000000, 0x000000074dc00000, 0x00000007c2000000)
+  object space 126976K, 0% used [0x0000000746000000,0x0000000746012010,0x000000074dc00000)
+ PSPermGen       total 21504K, used 9153K [0x0000000740e00000, 0x0000000742300000, 0x0000000746000000)
+  object space 21504K, 42% used [0x0000000740e00000,0x00000007416f04f8,0x0000000742300000)
+}
+Event: 1.212 GC heap before
+{Heap before GC invocations=2 (full 1):
+ PSYoungGen      total 55808K, used 3915K [0x00000007c2000000, 0x00000007c5e00000, 0x0000000800000000)
+  eden space 48128K, 0% used [0x00000007c2000000,0x00000007c2000000,0x00000007c4f00000)
+  from space 7680K, 50% used [0x00000007c4f00000,0x00000007c52d2c68,0x00000007c5680000)
+  to   space 7680K, 0% used [0x00000007c5680000,0x00000007c5680000,0x00000007c5e00000)
+ ParOldGen       total 126976K, used 72K [0x0000000746000000, 0x000000074dc00000, 0x00000007c2000000)
+  object space 126976K, 0% used [0x0000000746000000,0x0000000746012010,0x000000074dc00000)
+ PSPermGen       total 21504K, used 9153K [0x0000000740e00000, 0x0000000742300000, 0x0000000746000000)
+  object space 21504K, 42% used [0x0000000740e00000,0x00000007416f04f8,0x0000000742300000)
+Event: 1.285 GC heap after
+Heap after GC invocations=2 (full 1):
+ PSYoungGen      total 55808K, used 0K [0x00000007c2000000, 0x00000007c5e00000, 0x0000000800000000)
+  eden space 48128K, 0% used [0x00000007c2000000,0x00000007c2000000,0x00000007c4f00000)
+  from space 7680K, 0% used [0x00000007c4f00000,0x00000007c4f00000,0x00000007c5680000)
+  to   space 7680K, 0% used [0x00000007c5680000,0x00000007c5680000,0x00000007c5e00000)
+ ParOldGen       total 126976K, used 3752K [0x0000000746000000, 0x000000074dc00000, 0x00000007c2000000)
+  object space 126976K, 2% used [0x0000000746000000,0x00000007463aa2c0,0x000000074dc00000)
+ PSPermGen       total 21504K, used 9151K [0x0000000740e00000, 0x0000000742300000, 0x0000000746000000)
+  object space 21504K, 42% used [0x0000000740e00000,0x00000007416efc90,0x0000000742300000)
+}
+Event: 3.113 GC heap before
+{Heap before GC invocations=3 (full 1):
+ PSYoungGen      total 55808K, used 48128K [0x00000007c2000000, 0x00000007c5e00000, 0x0000000800000000)
+  eden space 48128K, 100% used [0x00000007c2000000,0x00000007c4f00000,0x00000007c4f00000)
+  from space 7680K, 0% used [0x00000007c4f00000,0x00000007c4f00000,0x00000007c5680000)
+  to   space 7680K, 0% used [0x00000007c5680000,0x00000007c5680000,0x00000007c5e00000)
+ ParOldGen       total 126976K, used 3752K [0x0000000746000000, 0x000000074dc00000, 0x00000007c2000000)
+  object space 126976K, 2% used [0x0000000746000000,0x00000007463aa2c0,0x000000074dc00000)
+ PSPermGen       total 21504K, used 16994K [0x0000000740e00000, 0x0000000742300000, 0x0000000746000000)
+  object space 21504K, 79% used [0x0000000740e00000,0x0000000741e98990,0x0000000742300000)
+Event: 3.159 GC heap after
+Heap after GC invocations=3 (full 1):
+ PSYoungGen      total 55808K, used 7677K [0x00000007c2000000, 0x00000007c8d00000, 0x0000000800000000)
+  eden space 48128K, 0% used [0x00000007c2000000,0x00000007c2000000,0x00000007c4f00000)
+  from space 7680K, 99% used [0x00000007c5680000,0x00000007c5dff528,0x00000007c5e00000)
+  to   space 7680K, 0% used [0x00000007c4f00000,0x00000007c4f00000,0x00000007c5680000)
+ ParOldGen       total 126976K, used 5743K [0x0000000746000000, 0x000000074dc00000, 0x00000007c2000000)
+  object space 126976K, 4% used [0x0000000746000000,0x000000074659bc20,0x000000074dc00000)
+ PSPermGen       total 21504K, used 16994K [0x0000000740e00000, 0x0000000742300000, 0x0000000746000000)
+  object space 21504K, 79% used [0x0000000740e00000,0x0000000741e98990,0x0000000742300000)
+}
+
+Deoptimization events (10 events):
+Event: 2.408 Thread 0x00007f06d400d800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f06d054fb84 method=java.util.regex.Pattern$Slice.match(Ljava/util/regex/Matcher;ILjava/lang/CharSequence;)Z @ 75
+Event: 2.408 Thread 0x00007f06d400d800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f06d054fb84 method=java.util.regex.Pattern$Slice.match(Ljava/util/regex/Matcher;ILjava/lang/CharSequence;)Z @ 75
+Event: 2.408 Thread 0x00007f06d400d800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f06d054fb84 method=java.util.regex.Pattern$Slice.match(Ljava/util/regex/Matcher;ILjava/lang/CharSequence;)Z @ 75
+Event: 2.439 Thread 0x00007f06d400d800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f06d054a300 method=java.util.regex.Pattern$Slice.match(Ljava/util/regex/Matcher;ILjava/lang/CharSequence;)Z @ 75
+Event: 2.987 Thread 0x00007f06d400d800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f06d055fb24 method=java.util.HashMap$KeySet.iterator()Ljava/util/Iterator; @ 4
+Event: 2.987 Thread 0x00007f06d400d800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f06d055fb24 method=java.util.HashMap$KeySet.iterator()Ljava/util/Iterator; @ 4
+Event: 2.987 Thread 0x00007f06d400d800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f06d055fb24 method=java.util.HashMap$KeySet.iterator()Ljava/util/Iterator; @ 4
+Event: 2.987 Thread 0x00007f06d400d800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f06d055fb24 method=java.util.HashMap$KeySet.iterator()Ljava/util/Iterator; @ 4
+Event: 3.017 Thread 0x00007f06d400d800 Uncommon trap: reason=unreached action=reinterpret pc=0x00007f06d04b4858 method=java.lang.AbstractStringBuilder.append(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; @ 1
+Event: 3.040 Thread 0x00007f06d400d800 Uncommon trap: reason=null_check action=make_not_entrant pc=0x00007f06d051c3cc method=java.util.jar.Attributes.putValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; @ 13
+
+Internal exceptions (10 events):
+Event: 3.311 Thread 0x00007f06d400d800 Threw 0x00000007c2627300 at /home/t/Projects/error-transformation/hotspot/src/share/vm/prims/jvm.cpp:1244
+Event: 3.311 Thread 0x00007f06d400d800 Threw 0x00000007c2627c20 at /home/t/Projects/error-transformation/hotspot/src/share/vm/prims/jvm.cpp:1244
+Event: 3.312 Thread 0x00007f06d400d800 Threw 0x00000007c262ae40 at /home/t/Projects/error-transformation/hotspot/src/share/vm/prims/jvm.cpp:1244
+Event: 3.312 Thread 0x00007f06d400d800 Threw 0x00000007c262b760 at /home/t/Projects/error-transformation/hotspot/src/share/vm/prims/jvm.cpp:1244
+Event: 3.312 Thread 0x00007f06d400d800 Threw 0x00000007c262e4f0 at /home/t/Projects/error-transformation/hotspot/src/share/vm/prims/jvm.cpp:1244
+Event: 3.313 Thread 0x00007f06d400d800 Threw 0x00000007c262ee10 at /home/t/Projects/error-transformation/hotspot/src/share/vm/prims/jvm.cpp:1244
+Event: 3.313 Thread 0x00007f06d400d800 Threw 0x00000007c2631ba0 at /home/t/Projects/error-transformation/hotspot/src/share/vm/prims/jvm.cpp:1244
+Event: 3.313 Thread 0x00007f06d400d800 Threw 0x00000007c26324c0 at /home/t/Projects/error-transformation/hotspot/src/share/vm/prims/jvm.cpp:1244
+Event: 3.314 Thread 0x00007f06d400d800 Threw 0x00000007c2635368 at /home/t/Projects/error-transformation/hotspot/src/share/vm/prims/jvm.cpp:1244
+Event: 3.314 Thread 0x00007f06d400d800 Threw 0x00000007c2635c88 at /home/t/Projects/error-transformation/hotspot/src/share/vm/prims/jvm.cpp:1244
+
+Events (10 events):
+Event: 3.311 loading class 0x00007f06d497ebf8
+Event: 3.311 loading class 0x00007f06d497ebf8 done
+Event: 3.312 loading class 0x00007f06d497ebf8
+Event: 3.312 loading class 0x00007f06d497ebf8 done
+Event: 3.312 loading class 0x00007f06d497ebf8
+Event: 3.312 loading class 0x00007f06d497ebf8 done
+Event: 3.313 loading class 0x00007f06d497ebf8
+Event: 3.313 loading class 0x00007f06d497ebf8 done
+Event: 3.313 loading class 0x00007f06d497ebf8
+Event: 3.314 loading class 0x00007f06d497ebf8 done
+
+
+Dynamic libraries:
+00400000-00408000 r-xp 00000000 08:04 7758614                            /home/t/Projects/error-transformation/hotspot/build/linux/linux_amd64_compiler2/fastdebug/gamma
+00607000-00608000 r--p 00007000 08:04 7758614                            /home/t/Projects/error-transformation/hotspot/build/linux/linux_amd64_compiler2/fastdebug/gamma
+00608000-00609000 rw-p 00008000 08:04 7758614                            /home/t/Projects/error-transformation/hotspot/build/linux/linux_amd64_compiler2/fastdebug/gamma
+01d2b000-01d4c000 rw-p 00000000 00:00 0                                  [heap]
+740e00000-742300000 rw-p 00000000 00:00 0 
+742300000-746000000 rw-p 00000000 00:00 0 
+746000000-74dc00000 rw-p 00000000 00:00 0 
+74dc00000-7c2000000 rw-p 00000000 00:00 0 
+7c2000000-7c8d00000 rw-p 00000000 00:00 0 
+7c8d00000-800000000 rw-p 00000000 00:00 0 
+7f0674000000-7f067402f000 rw-p 00000000 00:00 0 
+7f067402f000-7f0678000000 ---p 00000000 00:00 0 
+7f067c000000-7f067c021000 rw-p 00000000 00:00 0 
+7f067c021000-7f0680000000 ---p 00000000 00:00 0 
+7f0680000000-7f0680021000 rw-p 00000000 00:00 0 
+7f0680021000-7f0684000000 ---p 00000000 00:00 0 
+7f0684000000-7f068572c000 rw-p 00000000 00:00 0 
+7f068572c000-7f0688000000 ---p 00000000 00:00 0 
+7f0688000000-7f0688021000 rw-p 00000000 00:00 0 
+7f0688021000-7f068c000000 ---p 00000000 00:00 0 
+7f068c000000-7f068c021000 rw-p 00000000 00:00 0 
+7f068c021000-7f0690000000 ---p 00000000 00:00 0 
+7f0690000000-7f069111d000 rw-p 00000000 00:00 0 
+7f069111d000-7f0694000000 ---p 00000000 00:00 0 
+7f0694000000-7f0694021000 rw-p 00000000 00:00 0 
+7f0694021000-7f0698000000 ---p 00000000 00:00 0 
+7f0698000000-7f0698021000 rw-p 00000000 00:00 0 
+7f0698021000-7f069c000000 ---p 00000000 00:00 0 
+7f069c000000-7f069c021000 rw-p 00000000 00:00 0 
+7f069c021000-7f06a0000000 ---p 00000000 00:00 0 
+7f06a2070000-7f06a8000000 rw-p 00000000 00:00 0 
+7f06a8000000-7f06a8021000 rw-p 00000000 00:00 0 
+7f06a8021000-7f06ac000000 ---p 00000000 00:00 0 
+7f06ac000000-7f06ac021000 rw-p 00000000 00:00 0 
+7f06ac021000-7f06b0000000 ---p 00000000 00:00 0 
+7f06b0000000-7f06b0021000 rw-p 00000000 00:00 0 
+7f06b0021000-7f06b4000000 ---p 00000000 00:00 0 
+7f06b4000000-7f06b4021000 rw-p 00000000 00:00 0 
+7f06b4021000-7f06b8000000 ---p 00000000 00:00 0 
+7f06b8000000-7f06b8021000 rw-p 00000000 00:00 0 
+7f06b8021000-7f06bc000000 ---p 00000000 00:00 0 
+7f06bd9fd000-7f06bdbb9000 rw-p 00000000 00:00 0 
+7f06bdbb9000-7f06bdbbc000 ---p 00000000 00:00 0 
+7f06bdbbc000-7f06bdcba000 rw-p 00000000 00:00 0 
+7f06bdcba000-7f06bdcd0000 r-xp 00000000 08:04 3542930                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f06bdcd0000-7f06bdecf000 ---p 00016000 08:04 3542930                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f06bdecf000-7f06bded0000 rw-p 00015000 08:04 3542930                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f06bded0000-7f06bdf02000 r-xp 00000000 08:04 134871                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libsunec.so
+7f06bdf02000-7f06be101000 ---p 00032000 08:04 134871                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libsunec.so
+7f06be101000-7f06be107000 rw-p 00031000 08:04 134871                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libsunec.so
+7f06be107000-7f06be117000 rw-p 00000000 00:00 0 
+7f06be117000-7f06be11a000 ---p 00000000 00:00 0 
+7f06be11a000-7f06be218000 rw-p 00000000 00:00 0                          [stack:28612]
+7f06be218000-7f06be21d000 r-xp 00000000 08:04 3809941                    /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f06be21d000-7f06be41c000 ---p 00005000 08:04 3809941                    /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f06be41c000-7f06be41d000 r--p 00004000 08:04 3809941                    /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f06be41d000-7f06be41e000 rw-p 00005000 08:04 3809941                    /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f06be41e000-7f06be420000 r-xp 00000000 08:04 3809930                    /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f06be420000-7f06be620000 ---p 00002000 08:04 3809930                    /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f06be620000-7f06be621000 r--p 00002000 08:04 3809930                    /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f06be621000-7f06be622000 rw-p 00003000 08:04 3809930                    /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f06be622000-7f06be63f000 r-xp 00000000 08:04 3810849                    /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f06be63f000-7f06be83f000 ---p 0001d000 08:04 3810849                    /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f06be83f000-7f06be840000 r--p 0001d000 08:04 3810849                    /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f06be840000-7f06be841000 rw-p 0001e000 08:04 3810849                    /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f06be841000-7f06be850000 r-xp 00000000 08:04 3809951                    /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7f06be850000-7f06bea4f000 ---p 0000f000 08:04 3809951                    /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7f06bea4f000-7f06bea50000 r--p 0000e000 08:04 3809951                    /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7f06bea50000-7f06bea51000 rw-p 0000f000 08:04 3809951                    /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7f06bea51000-7f06bea56000 r-xp 00000000 08:04 3809971                    /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7f06bea56000-7f06bec55000 ---p 00005000 08:04 3809971                    /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7f06bec55000-7f06bec56000 r--p 00004000 08:04 3809971                    /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7f06bec56000-7f06bec57000 rw-p 00005000 08:04 3809971                    /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7f06bec57000-7f06bec60000 r-xp 00000000 08:04 3809965                    /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7f06bec60000-7f06bee5f000 ---p 00009000 08:04 3809965                    /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7f06bee5f000-7f06bee60000 r--p 00008000 08:04 3809965                    /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7f06bee60000-7f06bee61000 rw-p 00009000 08:04 3809965                    /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7f06bee61000-7f06bef91000 r-xp 00000000 08:04 3809928                    /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f06bef91000-7f06bf191000 ---p 00130000 08:04 3809928                    /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f06bf191000-7f06bf192000 r--p 00130000 08:04 3809928                    /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f06bf192000-7f06bf196000 rw-p 00131000 08:04 3809928                    /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f06bf196000-7f06bf1a7000 r-xp 00000000 08:04 3809943                    /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7f06bf1a7000-7f06bf3a6000 ---p 00011000 08:04 3809943                    /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7f06bf3a6000-7f06bf3a7000 r--p 00010000 08:04 3809943                    /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7f06bf3a7000-7f06bf3a8000 rw-p 00011000 08:04 3809943                    /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7f06bf3a8000-7f06bf3f8000 r-xp 00000000 08:04 134909                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/xawt/libmawt.so
+7f06bf3f8000-7f06bf5f8000 ---p 00050000 08:04 134909                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/xawt/libmawt.so
+7f06bf5f8000-7f06bf5fc000 rw-p 00050000 08:04 134909                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/xawt/libmawt.so
+7f06bf5fc000-7f06bf5fd000 rw-p 00000000 00:00 0 
+7f06bf5fd000-7f06bf69f000 r-xp 00000000 08:04 134852                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libawt.so
+7f06bf69f000-7f06bf89f000 ---p 000a2000 08:04 134852                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libawt.so
+7f06bf89f000-7f06bf8ab000 rw-p 000a2000 08:04 134852                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libawt.so
+7f06bf8ab000-7f06bf8cf000 rw-p 00000000 00:00 0 
+7f06bf8cf000-7f06bf8d7000 r-xp 00000000 08:04 134905                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libmanagement.so
+7f06bf8d7000-7f06bfad6000 ---p 00008000 08:04 134905                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libmanagement.so
+7f06bfad6000-7f06bfad7000 rw-p 00007000 08:04 134905                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libmanagement.so
+7f06bfad7000-7f06bfaed000 r-xp 00000000 08:04 134897                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libnet.so
+7f06bfaed000-7f06bfced000 ---p 00016000 08:04 134897                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libnet.so
+7f06bfced000-7f06bfcee000 rw-p 00016000 08:04 134897                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libnet.so
+7f06bfcee000-7f06bfcfe000 r-xp 00000000 08:04 134894                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libnio.so
+7f06bfcfe000-7f06bfefe000 ---p 00010000 08:04 134894                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libnio.so
+7f06bfefe000-7f06bfeff000 rw-p 00010000 08:04 134894                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libnio.so
+7f06bfeff000-7f06bff00000 ---p 00000000 00:00 0 
+7f06bff00000-7f06c0000000 rw-p 00000000 00:00 0                          [stack:28611]
+7f06c0000000-7f06c0021000 rw-p 00000000 00:00 0 
+7f06c0021000-7f06c4000000 ---p 00000000 00:00 0 
+7f06c4000000-7f06c4021000 rw-p 00000000 00:00 0 
+7f06c4021000-7f06c8000000 ---p 00000000 00:00 0 
+7f06c8000000-7f06c8021000 rw-p 00000000 00:00 0 
+7f06c8021000-7f06cc000000 ---p 00000000 00:00 0 
+7f06cc036000-7f06cc037000 rw-p 00000000 00:00 0 
+7f06cc037000-7f06cc040000 r--s 00058000 08:04 3720802                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/webapps/examples/WEB-INF/lib/standard.jar
+7f06cc040000-7f06cc042000 r--s 00004000 08:04 3720801                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/webapps/examples/WEB-INF/lib/jstl.jar
+7f06cc042000-7f06cc043000 r--s 00000000 08:04 3573807                    /home/t/Projects/aotes/jpf-core/build/jpf-annotations.jar
+7f06cc043000-7f06cc047000 r--s 0002d000 08:04 134917                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/ext/sunjce_provider.jar
+7f06cc047000-7f06cc04a000 r--s 00037000 08:04 134919                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/ext/sunpkcs11.jar
+7f06cc04a000-7f06cc04b000 r--s 00003000 08:04 134922                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/ext/sunec.jar
+7f06cc04b000-7f06cc04d000 r--s 00019000 08:04 134843                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/jce.jar
+7f06cc04d000-7f06cc051000 r--s 0008a000 08:04 134762                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/jsse.jar
+7f06cc051000-7f06cc055000 r--s 000f7000 08:04 134923                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/ext/localedata.jar
+7f06cc055000-7f06cc05f000 r--s 00251000 08:04 134162                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/resources.jar
+7f06cc05f000-7f06cc066000 r--s 00089000 08:04 3720355                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/lib/jasper.jar
+7f06cc066000-7f06cc068000 r--s 0001c000 08:04 3720354                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/lib/jasper-el.jar
+7f06cc068000-7f06cc069000 r--s 00001000 08:04 3720362                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/lib/tomcat-api.jar
+7f06cc069000-7f06cc06b000 r--s 0001e000 08:04 3720348                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/lib/catalina-ha.jar
+7f06cc06b000-7f06cc070000 r--s 0003a000 08:04 3720349                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/lib/catalina-tribes.jar
+7f06cc070000-7f06cc082000 r--s 00153000 08:04 3720350                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/lib/catalina.jar
+7f06cc082000-7f06cc085000 r--s 0000e000 08:04 3720367                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/lib/tomcat-i18n-es.jar
+7f06cc085000-7f06cc087000 r--s 0000b000 08:04 3720369                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/lib/tomcat-i18n-ja.jar
+7f06cc087000-7f06cc089000 r--s 00009000 08:04 3720353                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/lib/el-api.jar
+7f06cc089000-7f06cc08c000 r--s 0000a000 08:04 3720368                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/lib/tomcat-i18n-fr.jar
+7f06cc08c000-7f06cc0bd000 rw-p 00000000 00:00 0 
+7f06cc0bd000-7f06cc0c0000 ---p 00000000 00:00 0 
+7f06cc0c0000-7f06cc1be000 rw-p 00000000 00:00 0                          [stack:28610]
+7f06cc1be000-7f06cc1c1000 ---p 00000000 00:00 0 
+7f06cc1c1000-7f06cc2bf000 rw-p 00000000 00:00 0                          [stack:28609]
+7f06cc2bf000-7f06cc2c2000 ---p 00000000 00:00 0 
+7f06cc2c2000-7f06cc3c0000 rw-p 00000000 00:00 0                          [stack:28608]
+7f06cc3c0000-7f06cc3c3000 ---p 00000000 00:00 0 
+7f06cc3c3000-7f06cc4c1000 rw-p 00000000 00:00 0                          [stack:28607]
+7f06cc4c1000-7f06cc92d000 r--p 00000000 08:04 3809104                    /usr/lib/locale/locale-archive
+7f06cc92d000-7f06cc930000 ---p 00000000 00:00 0 
+7f06cc930000-7f06cca2e000 rw-p 00000000 00:00 0                          [stack:28606]
+7f06cca2e000-7f06cca31000 ---p 00000000 00:00 0 
+7f06cca31000-7f06ccb2f000 rw-p 00000000 00:00 0                          [stack:28605]
+7f06ccb2f000-7f06ccb30000 ---p 00000000 00:00 0 
+7f06ccb30000-7f06ce89e000 rw-p 00000000 00:00 0                          [stack:28604]
+7f06ce89e000-7f06cea5d000 r--s 039e5000 08:04 134841                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/rt.jar
+7f06cea5d000-7f06cf19c000 rw-p 00000000 00:00 0 
+7f06cf19c000-7f06cf19d000 ---p 00000000 00:00 0 
+7f06cf19d000-7f06cf29d000 rw-p 00000000 00:00 0                          [stack:28603]
+7f06cf29d000-7f06cf29e000 ---p 00000000 00:00 0 
+7f06cf29e000-7f06cf39e000 rw-p 00000000 00:00 0                          [stack:28602]
+7f06cf39e000-7f06cf39f000 ---p 00000000 00:00 0 
+7f06cf39f000-7f06cf49f000 rw-p 00000000 00:00 0                          [stack:28601]
+7f06cf49f000-7f06cf4a0000 ---p 00000000 00:00 0 
+7f06cf4a0000-7f06cf5a0000 rw-p 00000000 00:00 0                          [stack:28600]
+7f06cf5a0000-7f06cf5a1000 ---p 00000000 00:00 0 
+7f06cf5a1000-7f06cf6a1000 rw-p 00000000 00:00 0                          [stack:28599]
+7f06cf6a1000-7f06cf6a2000 ---p 00000000 00:00 0 
+7f06cf6a2000-7f06cf7a2000 rw-p 00000000 00:00 0                          [stack:28598]
+7f06cf7a2000-7f06cf7a3000 ---p 00000000 00:00 0 
+7f06cf7a3000-7f06cf8a3000 rw-p 00000000 00:00 0                          [stack:28597]
+7f06cf8a3000-7f06cf8a4000 ---p 00000000 00:00 0 
+7f06cf8a4000-7f06cf9e2000 rw-p 00000000 00:00 0                          [stack:28596]
+7f06cf9e2000-7f06cfd84000 rw-p 00000000 00:00 0 
+7f06cfd84000-7f06cfd8f000 rw-p 00000000 00:00 0 
+7f06cfd8f000-7f06cfdad000 rw-p 00000000 00:00 0 
+7f06cfdad000-7f06cfdeb000 rw-p 00000000 00:00 0 
+7f06cfdeb000-7f06d018d000 rw-p 00000000 00:00 0 
+7f06d018d000-7f06d01c4000 rw-p 00000000 00:00 0 
+7f06d01c4000-7f06d037d000 rw-p 00000000 00:00 0 
+7f06d037d000-7f06d037e000 rw-p 00000000 00:00 0 
+7f06d037e000-7f06d05ee000 rwxp 00000000 00:00 0 
+7f06d05ee000-7f06d337e000 rw-p 00000000 00:00 0 
+7f06d337e000-7f06d3398000 r-xp 00000000 08:04 134854                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libzip.so
+7f06d3398000-7f06d3598000 ---p 0001a000 08:04 134854                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libzip.so
+7f06d3598000-7f06d3599000 rw-p 0001a000 08:04 134854                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libzip.so
+7f06d3599000-7f06d35a4000 r-xp 00000000 08:04 3546683                    /lib/x86_64-linux-gnu/libnss_files-2.19.so
+7f06d35a4000-7f06d37a3000 ---p 0000b000 08:04 3546683                    /lib/x86_64-linux-gnu/libnss_files-2.19.so
+7f06d37a3000-7f06d37a4000 r--p 0000a000 08:04 3546683                    /lib/x86_64-linux-gnu/libnss_files-2.19.so
+7f06d37a4000-7f06d37a5000 rw-p 0000b000 08:04 3546683                    /lib/x86_64-linux-gnu/libnss_files-2.19.so
+7f06d37a5000-7f06d37b0000 r-xp 00000000 08:04 3546677                    /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+7f06d37b0000-7f06d39af000 ---p 0000b000 08:04 3546677                    /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+7f06d39af000-7f06d39b0000 r--p 0000a000 08:04 3546677                    /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+7f06d39b0000-7f06d39b1000 rw-p 0000b000 08:04 3546677                    /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+7f06d39b1000-7f06d39c8000 r-xp 00000000 08:04 3546664                    /lib/x86_64-linux-gnu/libnsl-2.19.so
+7f06d39c8000-7f06d3bc7000 ---p 00017000 08:04 3546664                    /lib/x86_64-linux-gnu/libnsl-2.19.so
+7f06d3bc7000-7f06d3bc8000 r--p 00016000 08:04 3546664                    /lib/x86_64-linux-gnu/libnsl-2.19.so
+7f06d3bc8000-7f06d3bc9000 rw-p 00017000 08:04 3546664                    /lib/x86_64-linux-gnu/libnsl-2.19.so
+7f06d3bc9000-7f06d3bcb000 rw-p 00000000 00:00 0 
+7f06d3bcb000-7f06d3bd4000 r-xp 00000000 08:04 3546656                    /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+7f06d3bd4000-7f06d3dd3000 ---p 00009000 08:04 3546656                    /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+7f06d3dd3000-7f06d3dd4000 r--p 00008000 08:04 3546656                    /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+7f06d3dd4000-7f06d3dd5000 rw-p 00009000 08:04 3546656                    /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+7f06d3dd5000-7f06d3dfe000 r-xp 00000000 08:04 134855                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libjava.so
+7f06d3dfe000-7f06d3ffe000 ---p 00029000 08:04 134855                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libjava.so
+7f06d3ffe000-7f06d4000000 rw-p 00029000 08:04 134855                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libjava.so
+7f06d4000000-7f06d5021000 rw-p 00000000 00:00 0 
+7f06d5021000-7f06d8000000 ---p 00000000 00:00 0 
+7f06d8000000-7f06d800f000 r--s 00190000 08:04 3720351                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/lib/ecj-3.6.2.jar
+7f06d800f000-7f06d8012000 r--s 00013000 08:04 3720356                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/lib/jsp-api.jar
+7f06d8012000-7f06d801e000 r--s 000a9000 08:04 3720365                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/lib/tomcat-coyote.jar
+7f06d801e000-7f06d8105000 rw-p 00000000 00:00 0 
+7f06d8105000-7f06d8123000 rw-p 00000000 00:00 0 
+7f06d8123000-7f06d8130000 r-xp 00000000 08:04 134881                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libverify.so
+7f06d8130000-7f06d832f000 ---p 0000d000 08:04 134881                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libverify.so
+7f06d832f000-7f06d8331000 rw-p 0000c000 08:04 134881                     /home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64/libverify.so
+7f06d8331000-7f06d8338000 r-xp 00000000 08:04 3546646                    /lib/x86_64-linux-gnu/librt-2.19.so
+7f06d8338000-7f06d8537000 ---p 00007000 08:04 3546646                    /lib/x86_64-linux-gnu/librt-2.19.so
+7f06d8537000-7f06d8538000 r--p 00006000 08:04 3546646                    /lib/x86_64-linux-gnu/librt-2.19.so
+7f06d8538000-7f06d8539000 rw-p 00007000 08:04 3546646                    /lib/x86_64-linux-gnu/librt-2.19.so
+7f06d8539000-7f06d863e000 r-xp 00000000 08:04 3546662                    /lib/x86_64-linux-gnu/libm-2.19.so
+7f06d863e000-7f06d883d000 ---p 00105000 08:04 3546662                    /lib/x86_64-linux-gnu/libm-2.19.so
+7f06d883d000-7f06d883e000 r--p 00104000 08:04 3546662                    /lib/x86_64-linux-gnu/libm-2.19.so
+7f06d883e000-7f06d883f000 rw-p 00105000 08:04 3546662                    /lib/x86_64-linux-gnu/libm-2.19.so
+7f06d883f000-7f06d89fa000 r-xp 00000000 08:04 3546643                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f06d89fa000-7f06d8bfa000 ---p 001bb000 08:04 3546643                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f06d8bfa000-7f06d8bfe000 r--p 001bb000 08:04 3546643                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f06d8bfe000-7f06d8c00000 rw-p 001bf000 08:04 3546643                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f06d8c00000-7f06d8c05000 rw-p 00000000 00:00 0 
+7f06d8c05000-7f06d8c0e000 r-xp 00000000 08:04 3801829                    /usr/lib/x86_64-linux-gnu/libhiredis.so.0.10
+7f06d8c0e000-7f06d8e0d000 ---p 00009000 08:04 3801829                    /usr/lib/x86_64-linux-gnu/libhiredis.so.0.10
+7f06d8e0d000-7f06d8e0e000 r--p 00008000 08:04 3801829                    /usr/lib/x86_64-linux-gnu/libhiredis.so.0.10
+7f06d8e0e000-7f06d8e0f000 rw-p 00009000 08:04 3801829                    /usr/lib/x86_64-linux-gnu/libhiredis.so.0.10
+7f06d8e0f000-7f06d8e28000 r-xp 00000000 08:04 3546681                    /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f06d8e28000-7f06d9027000 ---p 00019000 08:04 3546681                    /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f06d9027000-7f06d9028000 r--p 00018000 08:04 3546681                    /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f06d9028000-7f06d9029000 rw-p 00019000 08:04 3546681                    /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f06d9029000-7f06d902d000 rw-p 00000000 00:00 0 
+7f06d902d000-7f06d9030000 r-xp 00000000 08:04 3546653                    /lib/x86_64-linux-gnu/libdl-2.19.so
+7f06d9030000-7f06d922f000 ---p 00003000 08:04 3546653                    /lib/x86_64-linux-gnu/libdl-2.19.so
+7f06d922f000-7f06d9230000 r--p 00002000 08:04 3546653                    /lib/x86_64-linux-gnu/libdl-2.19.so
+7f06d9230000-7f06d9231000 rw-p 00003000 08:04 3546653                    /lib/x86_64-linux-gnu/libdl-2.19.so
+7f06d9231000-7f06da39f000 r-xp 00000000 08:04 7749428                    /home/t/Projects/error-transformation/hotspot/build/linux/linux_amd64_compiler2/fastdebug/libjvm.so
+7f06da39f000-7f06da59f000 ---p 0116e000 08:04 7749428                    /home/t/Projects/error-transformation/hotspot/build/linux/linux_amd64_compiler2/fastdebug/libjvm.so
+7f06da59f000-7f06da64a000 r--p 0116e000 08:04 7749428                    /home/t/Projects/error-transformation/hotspot/build/linux/linux_amd64_compiler2/fastdebug/libjvm.so
+7f06da64a000-7f06da676000 rw-p 01219000 08:04 7749428                    /home/t/Projects/error-transformation/hotspot/build/linux/linux_amd64_compiler2/fastdebug/libjvm.so
+7f06da676000-7f06da710000 rw-p 00000000 00:00 0 
+7f06da710000-7f06da733000 r-xp 00000000 08:04 3546639                    /lib/x86_64-linux-gnu/ld-2.19.so
+7f06da733000-7f06da734000 r--s 00003000 08:04 3720344                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/lib/annotations-api.jar
+7f06da734000-7f06da738000 r--s 00036000 08:04 3720366                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/lib/tomcat-dbcp.jar
+7f06da738000-7f06da73b000 r--s 00028000 08:04 3720357                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/lib/servlet-api.jar
+7f06da73b000-7f06da73c000 r--s 00005000 08:04 3720371                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/lib/tomcat-util.jar
+7f06da73c000-7f06da73e000 r--s 0000c000 08:04 3720345                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/lib/catalina-ant.jar
+7f06da73e000-7f06da740000 r--s 00008000 08:04 3720338                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/bin/tomcat-juli.jar
+7f06da740000-7f06da741000 r--s 00005000 08:04 3720331                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/bin/commons-daemon.jar
+7f06da741000-7f06da74b000 rw-p 00000000 00:00 0 
+7f06da74b000-7f06da801000 rw-p 00000000 00:00 0 
+7f06da801000-7f06da804000 ---p 00000000 00:00 0 
+7f06da804000-7f06da907000 rw-p 00000000 00:00 0                          [stack:28595]
+7f06da907000-7f06da908000 r--s 00006000 08:04 3720326                    /home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/bin/bootstrap.jar
+7f06da908000-7f06da920000 r--s 00186000 08:04 3573806                    /home/t/Projects/aotes/jpf-core/build/jpf.jar
+7f06da920000-7f06da924000 r--s 0001b000 08:04 3573805                    /home/t/Projects/aotes/jpf-core/build/jpf-classes.jar
+7f06da924000-7f06da92c000 rw-s 00000000 08:04 2366309                    /tmp/hsperfdata_t/28590
+7f06da92c000-7f06da92e000 rw-p 00000000 00:00 0 
+7f06da92e000-7f06da92f000 r--p 00000000 00:00 0 
+7f06da92f000-7f06da932000 rw-p 00000000 00:00 0 
+7f06da932000-7f06da933000 r--p 00022000 08:04 3546639                    /lib/x86_64-linux-gnu/ld-2.19.so
+7f06da933000-7f06da934000 rw-p 00023000 08:04 3546639                    /lib/x86_64-linux-gnu/ld-2.19.so
+7f06da934000-7f06da935000 rw-p 00000000 00:00 0 
+7fff65355000-7fff65377000 rw-p 00000000 00:00 0                          [stack]
+7fff653fe000-7fff65400000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+VM Arguments:
+jvm_args: -Djava.util.logging.config.file=/home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/conf/logging.properties -XX:TraceRuntimeRecovery=2060 -XX:+UseJPF -Xbootclasspath/a:/D/workspace/javaplus-jpf/bin:/home/t/Projects/aotes/jpf-core/build/jpf-classes.jar:/home/t/Projects/aotes/jpf-core/build/jpf.jar -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.endorsed.dirs=/home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/endorsed -Dcatalina.base=/home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev -Dcatalina.home=/home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev -Djava.io.tmpdir=/home/t/Projects/error-transformation/tomcat/51401/apache-tomcat-7.0.17-dev/temp 
+java_command: org.apache.catalina.startup.Bootstrap start
+Launcher Type: gamma
+
+Environment Variables:
+JAVA_HOME=/home/t/Projects/error-transformation/jdk1.7.0_67
+PATH=/home/t/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+LD_LIBRARY_PATH=/home/t/Projects/error-transformation/hotspot/build/linux/linux_amd64_compiler2/fastdebug:/home/t/Projects/error-transformation/jdk1.7.0_67/jre/lib/amd64
+LD_PRELOAD=
+SHELL=/bin/bash
+DISPLAY=:0
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0xe25d60], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGBUS: [libjvm.so+0xe25d60], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGFPE: [libjvm.so+0xbb1fb0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGPIPE: [libjvm.so+0xbb1fb0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGXFSZ: [libjvm.so+0xbb1fb0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGILL: [libjvm.so+0xbb1fb0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGUSR1: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGUSR2: [libjvm.so+0xbb22a0], sa_mask[0]=0x00000000, sa_flags=0x10000004
+SIGHUP: [libjvm.so+0xbb21b0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGINT: [libjvm.so+0xbb21b0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGTERM: [libjvm.so+0xbb21b0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGQUIT: [libjvm.so+0xbb21b0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+
+
+---------------  S Y S T E M  ---------------
+
+OS:jessie/sid
+
+uname:Linux 3.13.0-43-generic #72-Ubuntu SMP Mon Dec 8 19:35:06 UTC 2014 x86_64
+libc:glibc 2.19 NPTL 2.19 
+rlimit: STACK 8192k, CORE 0k, NPROC 94941, NOFILE 4096, AS infinity
+load average:0.73 0.54 0.55
+
+/proc/meminfo:
+MemTotal:       12182288 kB
+MemFree:          229428 kB
+Buffers:         2644656 kB
+Cached:          4657980 kB
+SwapCached:         5476 kB
+Active:          6077640 kB
+Inactive:        4860016 kB
+Active(anon):    2989196 kB
+Inactive(anon):  1148612 kB
+Active(file):    3088444 kB
+Inactive(file):  3711404 kB
+Unevictable:          96 kB
+Mlocked:              96 kB
+SwapTotal:       4095996 kB
+SwapFree:        4073032 kB
+Dirty:               380 kB
+Writeback:             0 kB
+AnonPages:       3629728 kB
+Mapped:           543408 kB
+Shmem:            502788 kB
+Slab:             814428 kB
+SReclaimable:     675140 kB
+SUnreclaim:       139288 kB
+KernelStack:        7064 kB
+PageTables:        65704 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    10187140 kB
+Committed_AS:    9962556 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      372916 kB
+VmallocChunk:   34359351736 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:   1060864 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:       99792 kB
+DirectMap2M:    12361728 kB
+
+
+CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, ht, tsc, tscinvbit
+
+/proc/cpuinfo:
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+stepping	: 7
+microcode	: 0x25
+cpu MHz		: 3401.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 6784.31
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+stepping	: 7
+microcode	: 0x25
+cpu MHz		: 3401.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 4
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 6784.31
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+stepping	: 7
+microcode	: 0x25
+cpu MHz		: 3401.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 4
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 6784.31
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+stepping	: 7
+microcode	: 0x25
+cpu MHz		: 3200.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 4
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 6784.31
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+stepping	: 7
+microcode	: 0x25
+cpu MHz		: 1600.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 4
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 6784.31
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+stepping	: 7
+microcode	: 0x25
+cpu MHz		: 1600.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 4
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 6784.31
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 6
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+stepping	: 7
+microcode	: 0x25
+cpu MHz		: 3401.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 4
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 6784.31
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 7
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+stepping	: 7
+microcode	: 0x25
+cpu MHz		: 3401.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 4
+apicid		: 7
+initial apicid	: 7
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 6784.31
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+
+
+Memory: 4k page, physical 12182288k(229428k free), swap 4095996k(4073032k free)
+
+vm_info: OpenJDK 64-Bit Server VM (24.60-b08-internal-fastdebug) for linux-amd64 JRE (1.7.0), built on Mar 22 2015 20:35:01 by "t" with gcc 4.8.2
+
+time: Sun Mar 22 21:44:07 2015
+elapsed time: 3 seconds
+

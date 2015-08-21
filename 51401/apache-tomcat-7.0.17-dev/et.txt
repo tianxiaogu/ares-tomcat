@@ -1,0 +1,1728 @@
+Using CATALINA_BASE:   /home/t/Projects/error-transformation-vm/tomcat/51401/apache-tomcat-7.0.17-dev
+Using CATALINA_HOME:   /home/t/Projects/error-transformation-vm/tomcat/51401/apache-tomcat-7.0.17-dev
+Using CATALINA_TMPDIR: /home/t/Projects/error-transformation-vm/tomcat/51401/apache-tomcat-7.0.17-dev/temp
+Using JRE_HOME:        /home/t/Projects/error-transformation-vm/jdk1.7.0_65/
+Using CLASSPATH:       /home/t/Projects/error-transformation-vm/tomcat/51401/apache-tomcat-7.0.17-dev/bin/bootstrap.jar:/home/t/Projects/error-transformation-vm/tomcat/51401/apache-tomcat-7.0.17-dev/bin/tomcat-juli.jar
+Fill Stack: 0. sun.reflect.generics.parser.SignatureParser.current()C@34
+Using java runtime at: /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre
+Fill Stack: 1. sun.reflect.generics.parser.SignatureParser.parseZeroOrMoreThrowsSignatures()[Lsun/reflect/generics/tree/FieldTypeSignature;@10
+Fill Stack: 2. sun.reflect.generics.parser.SignatureParser.parseMethodTypeSignature()Lsun/reflect/generics/tree/MethodTypeSignature;@34
+Fill Stack: 3. sun.reflect.generics.parser.SignatureParser.parseMethodSig(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@9
+Fill Stack: 4. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@4
+Fill Stack: 5. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/Tree;@2
+Fill Stack: 6. sun.reflect.generics.repository.AbstractRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@7
+Fill Stack: 7. sun.reflect.generics.repository.GenericDeclRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 8. sun.reflect.generics.repository.ConstructorRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 9. sun.reflect.generics.repository.MethodRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 10. sun.reflect.generics.repository.MethodRepository.make(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/MethodRepository;@6
+Fill Stack: 11. java.lang.reflect.Method.getGenericInfo()Lsun/reflect/generics/repository/MethodRepository;@16
+Fill Stack: 12. java.lang.reflect.Method.getGenericReturnType()Ljava/lang/reflect/Type;@8
+Fill Stack: 13. com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.makeCompositeMapping(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MXBeanMappingFactory;)Lcom/sun/jmx/mbeanserver/MXBeanMapping;@341
+Fill Stack: 14. com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.makeMapping(Ljava/lang/reflect/Type;Lcom/sun/jmx/mbeanserver/MXBeanMappingFactory;)Lcom/sun/jmx/mbeanserver/MXBeanMapping;@89
+Fill Stack: 15. com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.mappingForType(Ljava/lang/reflect/Type;Lcom/sun/jmx/mbeanserver/MXBeanMappingFactory;)Lcom/sun/jmx/mbeanserver/MXBeanMapping;@67
+Fill Stack: 16. com.sun.jmx.mbeanserver.ConvertingMethod.<init>(Ljava/lang/reflect/Method;)V@20
+Fill Stack: 17. com.sun.jmx.mbeanserver.ConvertingMethod.from(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@5
+Fill Stack: 18. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@1
+Fill Stack: 19. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Ljava/lang/Object;@2
+Fill Stack: 20. com.sun.jmx.mbeanserver.MBeanAnalyzer.initMaps(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@61
+Fill Stack: 21. com.sun.jmx.mbeanserver.MBeanAnalyzer.<init>(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@58
+Fill Stack: 22. com.sun.jmx.mbeanserver.MBeanAnalyzer.analyzer(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@6
+Fill Stack: 23. com.sun.jmx.mbeanserver.MXBeanIntrospector.getAnalyzer(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@2
+Fill Stack: 24. com.sun.jmx.mbeanserver.MBeanIntrospector.getPerInterface(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/PerInterface;@45
+Fill Stack: 25. com.sun.jmx.mbeanserver.MBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@90
+Fill Stack: 26. com.sun.jmx.mbeanserver.MXBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@3
+Fill Stack: 27. javax.management.StandardMBean.construct(Ljava/lang/Object;Ljava/lang/Class;ZZ)V@56
+Fill Stack: 28. javax.management.StandardMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;Z)V@9
+Fill Stack: 29. javax.management.StandardEmitterMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;ZLjavax/management/NotificationEmitter;)V@4
+Fill Stack: 30. java.lang.management.ManagementFactory$2.run()Ljava/lang/Void;@54
+Fill Stack: 31. java.lang.management.ManagementFactory$2.run()Ljava/lang/Object;@1
+Fill Stack: 32. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;@0
+Fill Stack: 33. java.lang.management.ManagementFactory.addMXBean(Ljavax/management/MBeanServer;Ljava/lang/management/PlatformManagedObject;)V@9
+Fill Stack: 34. java.lang.management.ManagementFactory.getPlatformMBeanServer()Ljavax/management/MBeanServer;@120
+Fill Stack: 35. org.apache.catalina.startup.Bootstrap.createClassLoader(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;@274
+Fill Stack: 36. org.apache.catalina.startup.Bootstrap.initClassLoaders()V@5
+Fill Stack: 37. org.apache.catalina.startup.Bootstrap.init()V@9
+Fill Stack: 38. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@15
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.generics.parser.SignatureParser.current()C@34
+Fill Stack: 1. sun.reflect.generics.parser.SignatureParser.parseSuperInterfaces()[Lsun/reflect/generics/tree/ClassTypeSignature;@10
+Fill Stack: 2. sun.reflect.generics.parser.SignatureParser.parseClassSignature()Lsun/reflect/generics/tree/ClassSignature;@30
+Fill Stack: 3. sun.reflect.generics.parser.SignatureParser.parseClassSig(Ljava/lang/String;)Lsun/reflect/generics/tree/ClassSignature;@9
+Fill Stack: 4. sun.reflect.generics.repository.ClassRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/ClassSignature;@4
+Fill Stack: 5. sun.reflect.generics.repository.ClassRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/Tree;@2
+Fill Stack: 6. sun.reflect.generics.repository.AbstractRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@7
+Fill Stack: 7. sun.reflect.generics.repository.GenericDeclRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 8. sun.reflect.generics.repository.ClassRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 9. sun.reflect.generics.repository.ClassRepository.make(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/ClassRepository;@6
+Fill Stack: 10. java.lang.Class.getGenericInfo()Lsun/reflect/generics/repository/ClassRepository;@16
+Fill Stack: 11. java.lang.Class.getTypeParameters()[Ljava/lang/reflect/TypeVariable;@8
+Fill Stack: 12. sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.validateConstructorArguments()V@4
+Fill Stack: 13. sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.<init>(Ljava/lang/Class;[Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)V@35
+Fill Stack: 14. sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.make(Ljava/lang/Class;[Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)Lsun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl;@7
+Fill Stack: 15. sun.reflect.generics.factory.CoreReflectionFactory.makeParameterizedType(Ljava/lang/reflect/Type;[Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)Ljava/lang/reflect/ParameterizedType;@6
+Fill Stack: 16. sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Lsun/reflect/generics/tree/ClassTypeSignature;)V@264
+Fill Stack: 17. sun.reflect.generics.tree.ClassTypeSignature.accept(Lsun/reflect/generics/visitor/TypeTreeVisitor;)V@2
+Fill Stack: 18. sun.reflect.generics.repository.MethodRepository.getReturnType()Ljava/lang/reflect/Type;@23
+Fill Stack: 19. java.lang.reflect.Method.getGenericReturnType()Ljava/lang/reflect/Type;@11
+Fill Stack: 20. com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.makeCompositeMapping(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MXBeanMappingFactory;)Lcom/sun/jmx/mbeanserver/MXBeanMapping;@341
+Fill Stack: 21. com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.makeMapping(Ljava/lang/reflect/Type;Lcom/sun/jmx/mbeanserver/MXBeanMappingFactory;)Lcom/sun/jmx/mbeanserver/MXBeanMapping;@89
+Fill Stack: 22. com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.mappingForType(Ljava/lang/reflect/Type;Lcom/sun/jmx/mbeanserver/MXBeanMappingFactory;)Lcom/sun/jmx/mbeanserver/MXBeanMapping;@67
+Fill Stack: 23. com.sun.jmx.mbeanserver.ConvertingMethod.<init>(Ljava/lang/reflect/Method;)V@20
+Fill Stack: 24. com.sun.jmx.mbeanserver.ConvertingMethod.from(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@5
+Fill Stack: 25. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@1
+Fill Stack: 26. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Ljava/lang/Object;@2
+Fill Stack: 27. com.sun.jmx.mbeanserver.MBeanAnalyzer.initMaps(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@61
+Fill Stack: 28. com.sun.jmx.mbeanserver.MBeanAnalyzer.<init>(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@58
+Fill Stack: 29. com.sun.jmx.mbeanserver.MBeanAnalyzer.analyzer(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@6
+Fill Stack: 30. com.sun.jmx.mbeanserver.MXBeanIntrospector.getAnalyzer(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@2
+Fill Stack: 31. com.sun.jmx.mbeanserver.MBeanIntrospector.getPerInterface(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/PerInterface;@45
+Fill Stack: 32. com.sun.jmx.mbeanserver.MBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@90
+Fill Stack: 33. com.sun.jmx.mbeanserver.MXBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@3
+Fill Stack: 34. javax.management.StandardMBean.construct(Ljava/lang/Object;Ljava/lang/Class;ZZ)V@56
+Fill Stack: 35. javax.management.StandardMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;Z)V@9
+Fill Stack: 36. javax.management.StandardEmitterMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;ZLjavax/management/NotificationEmitter;)V@4
+Fill Stack: 37. java.lang.management.ManagementFactory$2.run()Ljava/lang/Void;@54
+Fill Stack: 38. java.lang.management.ManagementFactory$2.run()Ljava/lang/Object;@1
+Fill Stack: 39. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;@0
+Fill Stack: 40. java.lang.management.ManagementFactory.addMXBean(Ljavax/management/MBeanServer;Ljava/lang/management/PlatformManagedObject;)V@9
+Fill Stack: 41. java.lang.management.ManagementFactory.getPlatformMBeanServer()Ljavax/management/MBeanServer;@120
+Fill Stack: 42. org.apache.catalina.startup.Bootstrap.createClassLoader(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;@274
+Fill Stack: 43. org.apache.catalina.startup.Bootstrap.initClassLoaders()V@5
+Fill Stack: 44. org.apache.catalina.startup.Bootstrap.init()V@9
+Fill Stack: 45. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@15
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.generics.parser.SignatureParser.current()C@34
+Fill Stack: 1. sun.reflect.generics.parser.SignatureParser.parseZeroOrMoreThrowsSignatures()[Lsun/reflect/generics/tree/FieldTypeSignature;@10
+Fill Stack: 2. sun.reflect.generics.parser.SignatureParser.parseMethodTypeSignature()Lsun/reflect/generics/tree/MethodTypeSignature;@34
+Fill Stack: 3. sun.reflect.generics.parser.SignatureParser.parseMethodSig(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@9
+Fill Stack: 4. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@4
+Fill Stack: 5. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/Tree;@2
+Fill Stack: 6. sun.reflect.generics.repository.AbstractRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@7
+Fill Stack: 7. sun.reflect.generics.repository.GenericDeclRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 8. sun.reflect.generics.repository.ConstructorRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 9. sun.reflect.generics.repository.MethodRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 10. sun.reflect.generics.repository.MethodRepository.make(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/MethodRepository;@6
+Fill Stack: 11. java.lang.reflect.Method.getGenericInfo()Lsun/reflect/generics/repository/MethodRepository;@16
+Fill Stack: 12. java.lang.reflect.Method.getGenericReturnType()Ljava/lang/reflect/Type;@8
+Fill Stack: 13. com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.makeCompositeMapping(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MXBeanMappingFactory;)Lcom/sun/jmx/mbeanserver/MXBeanMapping;@341
+Fill Stack: 14. com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.makeMapping(Ljava/lang/reflect/Type;Lcom/sun/jmx/mbeanserver/MXBeanMappingFactory;)Lcom/sun/jmx/mbeanserver/MXBeanMapping;@89
+Fill Stack: 15. com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.mappingForType(Ljava/lang/reflect/Type;Lcom/sun/jmx/mbeanserver/MXBeanMappingFactory;)Lcom/sun/jmx/mbeanserver/MXBeanMapping;@67
+Fill Stack: 16. com.sun.jmx.mbeanserver.ConvertingMethod.<init>(Ljava/lang/reflect/Method;)V@20
+Fill Stack: 17. com.sun.jmx.mbeanserver.ConvertingMethod.from(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@5
+Fill Stack: 18. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@1
+Fill Stack: 19. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Ljava/lang/Object;@2
+Fill Stack: 20. com.sun.jmx.mbeanserver.MBeanAnalyzer.initMaps(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@61
+Fill Stack: 21. com.sun.jmx.mbeanserver.MBeanAnalyzer.<init>(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@58
+Fill Stack: 22. com.sun.jmx.mbeanserver.MBeanAnalyzer.analyzer(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@6
+Fill Stack: 23. com.sun.jmx.mbeanserver.MXBeanIntrospector.getAnalyzer(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@2
+Fill Stack: 24. com.sun.jmx.mbeanserver.MBeanIntrospector.getPerInterface(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/PerInterface;@45
+Fill Stack: 25. com.sun.jmx.mbeanserver.MBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@90
+Fill Stack: 26. com.sun.jmx.mbeanserver.MXBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@3
+Fill Stack: 27. javax.management.StandardMBean.construct(Ljava/lang/Object;Ljava/lang/Class;ZZ)V@56
+Fill Stack: 28. javax.management.StandardMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;Z)V@9
+Fill Stack: 29. javax.management.StandardEmitterMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;ZLjavax/management/NotificationEmitter;)V@4
+Fill Stack: 30. java.lang.management.ManagementFactory$2.run()Ljava/lang/Void;@54
+Fill Stack: 31. java.lang.management.ManagementFactory$2.run()Ljava/lang/Object;@1
+Fill Stack: 32. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;@0
+Fill Stack: 33. java.lang.management.ManagementFactory.addMXBean(Ljavax/management/MBeanServer;Ljava/lang/management/PlatformManagedObject;)V@9
+Fill Stack: 34. java.lang.management.ManagementFactory.getPlatformMBeanServer()Ljavax/management/MBeanServer;@120
+Fill Stack: 35. org.apache.catalina.startup.Bootstrap.createClassLoader(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;@274
+Fill Stack: 36. org.apache.catalina.startup.Bootstrap.initClassLoaders()V@5
+Fill Stack: 37. org.apache.catalina.startup.Bootstrap.init()V@9
+Fill Stack: 38. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@15
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.generics.parser.SignatureParser.current()C@34
+Fill Stack: 1. sun.reflect.generics.parser.SignatureParser.parseZeroOrMoreThrowsSignatures()[Lsun/reflect/generics/tree/FieldTypeSignature;@10
+Fill Stack: 2. sun.reflect.generics.parser.SignatureParser.parseMethodTypeSignature()Lsun/reflect/generics/tree/MethodTypeSignature;@34
+Fill Stack: 3. sun.reflect.generics.parser.SignatureParser.parseMethodSig(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@9
+Fill Stack: 4. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@4
+Fill Stack: 5. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/Tree;@2
+Fill Stack: 6. sun.reflect.generics.repository.AbstractRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@7
+Fill Stack: 7. sun.reflect.generics.repository.GenericDeclRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 8. sun.reflect.generics.repository.ConstructorRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 9. sun.reflect.generics.repository.MethodRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 10. sun.reflect.generics.repository.MethodRepository.make(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/MethodRepository;@6
+Fill Stack: 11. java.lang.reflect.Method.getGenericInfo()Lsun/reflect/generics/repository/MethodRepository;@16
+Fill Stack: 12. java.lang.reflect.Method.getGenericReturnType()Ljava/lang/reflect/Type;@8
+Fill Stack: 13. com.sun.jmx.mbeanserver.ConvertingMethod.<init>(Ljava/lang/reflect/Method;)V@16
+Fill Stack: 14. com.sun.jmx.mbeanserver.ConvertingMethod.from(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@5
+Fill Stack: 15. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@1
+Fill Stack: 16. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Ljava/lang/Object;@2
+Fill Stack: 17. com.sun.jmx.mbeanserver.MBeanAnalyzer.initMaps(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@61
+Fill Stack: 18. com.sun.jmx.mbeanserver.MBeanAnalyzer.<init>(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@58
+Fill Stack: 19. com.sun.jmx.mbeanserver.MBeanAnalyzer.analyzer(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@6
+Fill Stack: 20. com.sun.jmx.mbeanserver.MXBeanIntrospector.getAnalyzer(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@2
+Fill Stack: 21. com.sun.jmx.mbeanserver.MBeanIntrospector.getPerInterface(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/PerInterface;@45
+Fill Stack: 22. com.sun.jmx.mbeanserver.MBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@90
+Fill Stack: 23. com.sun.jmx.mbeanserver.MXBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@3
+Fill Stack: 24. javax.management.StandardMBean.construct(Ljava/lang/Object;Ljava/lang/Class;ZZ)V@56
+Fill Stack: 25. javax.management.StandardMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;Z)V@9
+Fill Stack: 26. java.lang.management.ManagementFactory$2.run()Ljava/lang/Void;@71
+Fill Stack: 27. java.lang.management.ManagementFactory$2.run()Ljava/lang/Object;@1
+Fill Stack: 28. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;@0
+Fill Stack: 29. java.lang.management.ManagementFactory.addMXBean(Ljavax/management/MBeanServer;Ljava/lang/management/PlatformManagedObject;)V@9
+Fill Stack: 30. java.lang.management.ManagementFactory.getPlatformMBeanServer()Ljavax/management/MBeanServer;@120
+Fill Stack: 31. org.apache.catalina.startup.Bootstrap.createClassLoader(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;@274
+Fill Stack: 32. org.apache.catalina.startup.Bootstrap.initClassLoaders()V@5
+Fill Stack: 33. org.apache.catalina.startup.Bootstrap.init()V@9
+Fill Stack: 34. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@15
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.generics.parser.SignatureParser.current()C@34
+Fill Stack: 1. sun.reflect.generics.parser.SignatureParser.parseSuperInterfaces()[Lsun/reflect/generics/tree/ClassTypeSignature;@10
+Fill Stack: 2. sun.reflect.generics.parser.SignatureParser.parseClassSignature()Lsun/reflect/generics/tree/ClassSignature;@30
+Fill Stack: 3. sun.reflect.generics.parser.SignatureParser.parseClassSig(Ljava/lang/String;)Lsun/reflect/generics/tree/ClassSignature;@9
+Fill Stack: 4. sun.reflect.generics.repository.ClassRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/ClassSignature;@4
+Fill Stack: 5. sun.reflect.generics.repository.ClassRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/Tree;@2
+Fill Stack: 6. sun.reflect.generics.repository.AbstractRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@7
+Fill Stack: 7. sun.reflect.generics.repository.GenericDeclRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 8. sun.reflect.generics.repository.ClassRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 9. sun.reflect.generics.repository.ClassRepository.make(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/ClassRepository;@6
+Fill Stack: 10. java.lang.Class.getGenericInfo()Lsun/reflect/generics/repository/ClassRepository;@16
+Fill Stack: 11. java.lang.Class.getTypeParameters()[Ljava/lang/reflect/TypeVariable;@8
+Fill Stack: 12. sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.validateConstructorArguments()V@4
+Fill Stack: 13. sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.<init>(Ljava/lang/Class;[Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)V@35
+Fill Stack: 14. sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.make(Ljava/lang/Class;[Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)Lsun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl;@7
+Fill Stack: 15. sun.reflect.generics.factory.CoreReflectionFactory.makeParameterizedType(Ljava/lang/reflect/Type;[Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)Ljava/lang/reflect/ParameterizedType;@6
+Fill Stack: 16. sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Lsun/reflect/generics/tree/ClassTypeSignature;)V@264
+Fill Stack: 17. sun.reflect.generics.tree.ClassTypeSignature.accept(Lsun/reflect/generics/visitor/TypeTreeVisitor;)V@2
+Fill Stack: 18. sun.reflect.generics.repository.MethodRepository.getReturnType()Ljava/lang/reflect/Type;@23
+Fill Stack: 19. java.lang.reflect.Method.getGenericReturnType()Ljava/lang/reflect/Type;@11
+Fill Stack: 20. com.sun.jmx.mbeanserver.ConvertingMethod.<init>(Ljava/lang/reflect/Method;)V@16
+Fill Stack: 21. com.sun.jmx.mbeanserver.ConvertingMethod.from(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@5
+Fill Stack: 22. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@1
+Fill Stack: 23. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Ljava/lang/Object;@2
+Fill Stack: 24. com.sun.jmx.mbeanserver.MBeanAnalyzer.initMaps(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@61
+Fill Stack: 25. com.sun.jmx.mbeanserver.MBeanAnalyzer.<init>(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@58
+Fill Stack: 26. com.sun.jmx.mbeanserver.MBeanAnalyzer.analyzer(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@6
+Fill Stack: 27. com.sun.jmx.mbeanserver.MXBeanIntrospector.getAnalyzer(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@2
+Fill Stack: 28. com.sun.jmx.mbeanserver.MBeanIntrospector.getPerInterface(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/PerInterface;@45
+Fill Stack: 29. com.sun.jmx.mbeanserver.MBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@90
+Fill Stack: 30. com.sun.jmx.mbeanserver.MXBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@3
+Fill Stack: 31. javax.management.StandardMBean.construct(Ljava/lang/Object;Ljava/lang/Class;ZZ)V@56
+Fill Stack: 32. javax.management.StandardMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;Z)V@9
+Fill Stack: 33. java.lang.management.ManagementFactory$2.run()Ljava/lang/Void;@71
+Fill Stack: 34. java.lang.management.ManagementFactory$2.run()Ljava/lang/Object;@1
+Fill Stack: 35. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;@0
+Fill Stack: 36. java.lang.management.ManagementFactory.addMXBean(Ljavax/management/MBeanServer;Ljava/lang/management/PlatformManagedObject;)V@9
+Fill Stack: 37. java.lang.management.ManagementFactory.getPlatformMBeanServer()Ljavax/management/MBeanServer;@120
+Fill Stack: 38. org.apache.catalina.startup.Bootstrap.createClassLoader(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;@274
+Fill Stack: 39. org.apache.catalina.startup.Bootstrap.initClassLoaders()V@5
+Fill Stack: 40. org.apache.catalina.startup.Bootstrap.init()V@9
+Fill Stack: 41. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@15
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.generics.parser.SignatureParser.current()C@34
+Fill Stack: 1. sun.reflect.generics.parser.SignatureParser.parseZeroOrMoreThrowsSignatures()[Lsun/reflect/generics/tree/FieldTypeSignature;@10
+Fill Stack: 2. sun.reflect.generics.parser.SignatureParser.parseMethodTypeSignature()Lsun/reflect/generics/tree/MethodTypeSignature;@34
+Fill Stack: 3. sun.reflect.generics.parser.SignatureParser.parseMethodSig(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@9
+Fill Stack: 4. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@4
+Fill Stack: 5. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/Tree;@2
+Fill Stack: 6. sun.reflect.generics.repository.AbstractRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@7
+Fill Stack: 7. sun.reflect.generics.repository.GenericDeclRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 8. sun.reflect.generics.repository.ConstructorRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 9. sun.reflect.generics.repository.MethodRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 10. sun.reflect.generics.repository.MethodRepository.make(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/MethodRepository;@6
+Fill Stack: 11. java.lang.reflect.Method.getGenericInfo()Lsun/reflect/generics/repository/MethodRepository;@16
+Fill Stack: 12. java.lang.reflect.Method.getGenericReturnType()Ljava/lang/reflect/Type;@8
+Fill Stack: 13. com.sun.jmx.mbeanserver.ConvertingMethod.<init>(Ljava/lang/reflect/Method;)V@16
+Fill Stack: 14. com.sun.jmx.mbeanserver.ConvertingMethod.from(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@5
+Fill Stack: 15. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@1
+Fill Stack: 16. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Ljava/lang/Object;@2
+Fill Stack: 17. com.sun.jmx.mbeanserver.MBeanAnalyzer.initMaps(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@61
+Fill Stack: 18. com.sun.jmx.mbeanserver.MBeanAnalyzer.<init>(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@58
+Fill Stack: 19. com.sun.jmx.mbeanserver.MBeanAnalyzer.analyzer(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@6
+Fill Stack: 20. com.sun.jmx.mbeanserver.MXBeanIntrospector.getAnalyzer(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@2
+Fill Stack: 21. com.sun.jmx.mbeanserver.MBeanIntrospector.getPerInterface(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/PerInterface;@45
+Fill Stack: 22. com.sun.jmx.mbeanserver.MBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@90
+Fill Stack: 23. com.sun.jmx.mbeanserver.MXBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@3
+Fill Stack: 24. javax.management.StandardMBean.construct(Ljava/lang/Object;Ljava/lang/Class;ZZ)V@56
+Fill Stack: 25. javax.management.StandardMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;Z)V@9
+Fill Stack: 26. java.lang.management.ManagementFactory$2.run()Ljava/lang/Void;@71
+Fill Stack: 27. java.lang.management.ManagementFactory$2.run()Ljava/lang/Object;@1
+Fill Stack: 28. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;@0
+Fill Stack: 29. java.lang.management.ManagementFactory.addMXBean(Ljavax/management/MBeanServer;Ljava/lang/management/PlatformManagedObject;)V@9
+Fill Stack: 30. java.lang.management.ManagementFactory.getPlatformMBeanServer()Ljavax/management/MBeanServer;@120
+Fill Stack: 31. org.apache.catalina.startup.Bootstrap.createClassLoader(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;@274
+Fill Stack: 32. org.apache.catalina.startup.Bootstrap.initClassLoaders()V@5
+Fill Stack: 33. org.apache.catalina.startup.Bootstrap.init()V@9
+Fill Stack: 34. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@15
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.generics.parser.SignatureParser.current()C@34
+Fill Stack: 1. sun.reflect.generics.parser.SignatureParser.parseZeroOrMoreThrowsSignatures()[Lsun/reflect/generics/tree/FieldTypeSignature;@10
+Fill Stack: 2. sun.reflect.generics.parser.SignatureParser.parseMethodTypeSignature()Lsun/reflect/generics/tree/MethodTypeSignature;@34
+Fill Stack: 3. sun.reflect.generics.parser.SignatureParser.parseMethodSig(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@9
+Fill Stack: 4. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@4
+Fill Stack: 5. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/Tree;@2
+Fill Stack: 6. sun.reflect.generics.repository.AbstractRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@7
+Fill Stack: 7. sun.reflect.generics.repository.GenericDeclRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 8. sun.reflect.generics.repository.ConstructorRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 9. sun.reflect.generics.repository.MethodRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 10. sun.reflect.generics.repository.MethodRepository.make(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/MethodRepository;@6
+Fill Stack: 11. java.lang.reflect.Method.getGenericInfo()Lsun/reflect/generics/repository/MethodRepository;@16
+Fill Stack: 12. java.lang.reflect.Method.getGenericReturnType()Ljava/lang/reflect/Type;@8
+Fill Stack: 13. com.sun.jmx.mbeanserver.ConvertingMethod.<init>(Ljava/lang/reflect/Method;)V@16
+Fill Stack: 14. com.sun.jmx.mbeanserver.ConvertingMethod.from(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@5
+Fill Stack: 15. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@1
+Fill Stack: 16. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Ljava/lang/Object;@2
+Fill Stack: 17. com.sun.jmx.mbeanserver.MBeanAnalyzer.initMaps(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@61
+Fill Stack: 18. com.sun.jmx.mbeanserver.MBeanAnalyzer.<init>(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@58
+Fill Stack: 19. com.sun.jmx.mbeanserver.MBeanAnalyzer.analyzer(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@6
+Fill Stack: 20. com.sun.jmx.mbeanserver.MXBeanIntrospector.getAnalyzer(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@2
+Fill Stack: 21. com.sun.jmx.mbeanserver.MBeanIntrospector.getPerInterface(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/PerInterface;@45
+Fill Stack: 22. com.sun.jmx.mbeanserver.MBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@90
+Fill Stack: 23. com.sun.jmx.mbeanserver.MXBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@3
+Fill Stack: 24. javax.management.StandardMBean.construct(Ljava/lang/Object;Ljava/lang/Class;ZZ)V@56
+Fill Stack: 25. javax.management.StandardMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;Z)V@9
+Fill Stack: 26. java.lang.management.ManagementFactory$2.run()Ljava/lang/Void;@71
+Fill Stack: 27. java.lang.management.ManagementFactory$2.run()Ljava/lang/Object;@1
+Fill Stack: 28. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;@0
+Fill Stack: 29. java.lang.management.ManagementFactory.addMXBean(Ljavax/management/MBeanServer;Ljava/lang/management/PlatformManagedObject;)V@9
+Fill Stack: 30. java.lang.management.ManagementFactory.getPlatformMBeanServer()Ljavax/management/MBeanServer;@120
+Fill Stack: 31. org.apache.catalina.startup.Bootstrap.createClassLoader(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;@274
+Fill Stack: 32. org.apache.catalina.startup.Bootstrap.initClassLoaders()V@5
+Fill Stack: 33. org.apache.catalina.startup.Bootstrap.init()V@9
+Fill Stack: 34. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@15
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.generics.parser.SignatureParser.current()C@34
+Fill Stack: 1. sun.reflect.generics.parser.SignatureParser.parseZeroOrMoreThrowsSignatures()[Lsun/reflect/generics/tree/FieldTypeSignature;@10
+Fill Stack: 2. sun.reflect.generics.parser.SignatureParser.parseMethodTypeSignature()Lsun/reflect/generics/tree/MethodTypeSignature;@34
+Fill Stack: 3. sun.reflect.generics.parser.SignatureParser.parseMethodSig(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@9
+Fill Stack: 4. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@4
+Fill Stack: 5. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/Tree;@2
+Fill Stack: 6. sun.reflect.generics.repository.AbstractRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@7
+Fill Stack: 7. sun.reflect.generics.repository.GenericDeclRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 8. sun.reflect.generics.repository.ConstructorRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 9. sun.reflect.generics.repository.MethodRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 10. sun.reflect.generics.repository.MethodRepository.make(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/MethodRepository;@6
+Fill Stack: 11. java.lang.reflect.Method.getGenericInfo()Lsun/reflect/generics/repository/MethodRepository;@16
+Fill Stack: 12. java.lang.reflect.Method.getGenericReturnType()Ljava/lang/reflect/Type;@8
+Fill Stack: 13. com.sun.jmx.mbeanserver.ConvertingMethod.<init>(Ljava/lang/reflect/Method;)V@16
+Fill Stack: 14. com.sun.jmx.mbeanserver.ConvertingMethod.from(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@5
+Fill Stack: 15. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@1
+Fill Stack: 16. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Ljava/lang/Object;@2
+Fill Stack: 17. com.sun.jmx.mbeanserver.MBeanAnalyzer.initMaps(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@61
+Fill Stack: 18. com.sun.jmx.mbeanserver.MBeanAnalyzer.<init>(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@58
+Fill Stack: 19. com.sun.jmx.mbeanserver.MBeanAnalyzer.analyzer(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@6
+Fill Stack: 20. com.sun.jmx.mbeanserver.MXBeanIntrospector.getAnalyzer(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@2
+Fill Stack: 21. com.sun.jmx.mbeanserver.MBeanIntrospector.getPerInterface(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/PerInterface;@45
+Fill Stack: 22. com.sun.jmx.mbeanserver.MBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@90
+Fill Stack: 23. com.sun.jmx.mbeanserver.MXBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@3
+Fill Stack: 24. javax.management.StandardMBean.construct(Ljava/lang/Object;Ljava/lang/Class;ZZ)V@56
+Fill Stack: 25. javax.management.StandardMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;Z)V@9
+Fill Stack: 26. java.lang.management.ManagementFactory$2.run()Ljava/lang/Void;@71
+Fill Stack: 27. java.lang.management.ManagementFactory$2.run()Ljava/lang/Object;@1
+Fill Stack: 28. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;@0
+Fill Stack: 29. java.lang.management.ManagementFactory.addMXBean(Ljavax/management/MBeanServer;Ljava/lang/management/PlatformManagedObject;)V@9
+Fill Stack: 30. java.lang.management.ManagementFactory.getPlatformMBeanServer()Ljavax/management/MBeanServer;@120
+Fill Stack: 31. org.apache.catalina.startup.Bootstrap.createClassLoader(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;@274
+Fill Stack: 32. org.apache.catalina.startup.Bootstrap.initClassLoaders()V@5
+Fill Stack: 33. org.apache.catalina.startup.Bootstrap.init()V@9
+Fill Stack: 34. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@15
+recovery time: 0ms, result: 0
+Jun 29, 2015 2:14:05 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/t/Projects/error-transformation-vm/hotspot/build/linux/linux_amd64_compiler2/fastdebug:/home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jun 29, 2015 2:14:05 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler [http-bio-8080]
+Jun 29, 2015 2:14:05 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler [ajp-bio-8009]
+Jun 29, 2015 2:14:05 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1713 ms
+Jun 29, 2015 2:14:05 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jun 29, 2015 2:14:05 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.17-dev
+Jun 29, 2015 2:14:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jun 29, 2015 2:14:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory manager
+Fill Stack: 0. org.apache.tomcat.util.digester.Digester.startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V@369
+Fill Stack: 1. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V@297
+Fill Stack: 2. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement()Z@430
+Fill Stack: 3. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next()I@435
+Fill Stack: 4. com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next()I@4
+Fill Stack: 5. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Z)Z@238
+Fill Stack: 6. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Z)Z@123
+Fill Stack: 7. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@29
+Fill Stack: 8. com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@76
+Fill Stack: 9. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Lorg/xml/sax/InputSource;)V@43
+Fill Stack: 10. com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Lorg/xml/sax/InputSource;)V@53
+Fill Stack: 11. org.apache.tomcat.util.digester.Digester.parse(Lorg/xml/sax/InputSource;)Ljava/lang/Object;@9
+Fill Stack: 12. org.apache.catalina.startup.ContextConfig.parseWebXml(Lorg/xml/sax/InputSource;Lorg/apache/catalina/deploy/WebXml;Z)V@104
+Fill Stack: 13. org.apache.catalina.startup.ContextConfig.webConfig()V@58
+Fill Stack: 14. org.apache.catalina.startup.ContextConfig.configureStart()V@123
+Fill Stack: 15. org.apache.catalina.startup.ContextConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@57
+Fill Stack: 16. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 17. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 18. org.apache.catalina.core.StandardContext.startInternal()V@606
+Fill Stack: 19. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 20. org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V@172
+Fill Stack: 21. org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V@26
+Fill Stack: 22. org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V@40
+Fill Stack: 23. org.apache.catalina.startup.HostConfig.deployDirectory(Lorg/apache/catalina/util/ContextName;Ljava/io/File;Ljava/lang/String;)V@460
+Fill Stack: 24. org.apache.catalina.startup.HostConfig.deployDirectories(Ljava/io/File;[Ljava/lang/String;)V@97
+Fill Stack: 25. org.apache.catalina.startup.HostConfig.deployApps()V@37
+Fill Stack: 26. org.apache.catalina.startup.HostConfig.start()V@236
+Fill Stack: 27. org.apache.catalina.startup.HostConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@125
+Fill Stack: 28. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 29. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 30. org.apache.catalina.util.LifecycleBase.setStateInternal(Lorg/apache/catalina/LifecycleState;Ljava/lang/Object;Z)V@140
+Fill Stack: 31. org.apache.catalina.util.LifecycleBase.setState(Lorg/apache/catalina/LifecycleState;)V@4
+Fill Stack: 32. org.apache.catalina.core.ContainerBase.startInternal()V@237
+Fill Stack: 33. org.apache.catalina.core.StandardHost.startInternal()V@142
+Fill Stack: 34. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 35. org.apache.catalina.core.ContainerBase.startInternal()V@200
+Fill Stack: 36. org.apache.catalina.core.StandardEngine.startInternal()V@41
+Fill Stack: 37. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 38. org.apache.catalina.core.StandardService.startInternal()V@63
+Fill Stack: 39. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 40. org.apache.catalina.core.StandardServer.startInternal()V@45
+Fill Stack: 41. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 42. org.apache.catalina.startup.Catalina.start()V@37
+Fill Stack: 43. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 44. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 45. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 46. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 47. org.apache.catalina.startup.Bootstrap.start()V@37
+Fill Stack: 48. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@135
+Fill Stack: -1. org.apache.tomcat.util.digester.Rule.begin(Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V@UNKNOWN
+recovery time: 0ms, result: 0
+Jun 29, 2015 2:14:06 AM org.apache.tomcat.util.digester.Digester startElement
+SEVERE: Begin event threw exception
+java.lang.IllegalArgumentException: <session-config> element is limited to 1 occurrence
+	at org.apache.catalina.startup.SetSessionConfig.begin(WebRuleSet.java:722)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1282)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1363)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1543)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1730)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1241)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:885)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:344)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5103)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:812)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:787)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:607)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1055)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1322)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:379)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:324)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:774)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1033)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:443)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:727)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:620)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:449)
+
+Fill Stack: 0. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement()Z@430
+Fill Stack: 1. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next()I@435
+Fill Stack: 2. com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next()I@4
+Fill Stack: 3. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Z)Z@238
+Fill Stack: 4. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Z)Z@123
+Fill Stack: 5. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@29
+Fill Stack: 6. com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@76
+Fill Stack: 7. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Lorg/xml/sax/InputSource;)V@43
+Fill Stack: 8. com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Lorg/xml/sax/InputSource;)V@53
+Fill Stack: 9. org.apache.tomcat.util.digester.Digester.parse(Lorg/xml/sax/InputSource;)Ljava/lang/Object;@9
+Fill Stack: 10. org.apache.catalina.startup.ContextConfig.parseWebXml(Lorg/xml/sax/InputSource;Lorg/apache/catalina/deploy/WebXml;Z)V@104
+Fill Stack: 11. org.apache.catalina.startup.ContextConfig.webConfig()V@58
+Fill Stack: 12. org.apache.catalina.startup.ContextConfig.configureStart()V@123
+Fill Stack: 13. org.apache.catalina.startup.ContextConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@57
+Fill Stack: 14. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 15. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 16. org.apache.catalina.core.StandardContext.startInternal()V@606
+Fill Stack: 17. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 18. org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V@172
+Fill Stack: 19. org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V@26
+Fill Stack: 20. org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V@40
+Fill Stack: 21. org.apache.catalina.startup.HostConfig.deployDirectory(Lorg/apache/catalina/util/ContextName;Ljava/io/File;Ljava/lang/String;)V@460
+Fill Stack: 22. org.apache.catalina.startup.HostConfig.deployDirectories(Ljava/io/File;[Ljava/lang/String;)V@97
+Fill Stack: 23. org.apache.catalina.startup.HostConfig.deployApps()V@37
+Fill Stack: 24. org.apache.catalina.startup.HostConfig.start()V@236
+Fill Stack: 25. org.apache.catalina.startup.HostConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@125
+Fill Stack: 26. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 27. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 28. org.apache.catalina.util.LifecycleBase.setStateInternal(Lorg/apache/catalina/LifecycleState;Ljava/lang/Object;Z)V@140
+Fill Stack: 29. org.apache.catalina.util.LifecycleBase.setState(Lorg/apache/catalina/LifecycleState;)V@4
+Fill Stack: 30. org.apache.catalina.core.ContainerBase.startInternal()V@237
+Fill Stack: 31. org.apache.catalina.core.StandardHost.startInternal()V@142
+Fill Stack: 32. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 33. org.apache.catalina.core.ContainerBase.startInternal()V@200
+Fill Stack: 34. org.apache.catalina.core.StandardEngine.startInternal()V@41
+Fill Stack: 35. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 36. org.apache.catalina.core.StandardService.startInternal()V@63
+Fill Stack: 37. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 38. org.apache.catalina.core.StandardServer.startInternal()V@45
+Fill Stack: 39. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 40. org.apache.catalina.startup.Catalina.start()V@37
+Fill Stack: 41. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 42. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 43. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 44. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 45. org.apache.catalina.startup.Bootstrap.start()V@37
+Fill Stack: 46. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@135
+Fill Stack: -1. com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler.startElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V@UNKNOWN
+recovery time: 0ms, result: 0
+Jun 29, 2015 2:14:06 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at file:///home/t/Projects/error-transformation-vm/tomcat/51401/apache-tomcat-7.0.17-dev/conf/web.xml
+org.xml.sax.SAXParseException; systemId: file:///home/t/Projects/error-transformation-vm/tomcat/51401/apache-tomcat-7.0.17-dev/conf/web.xml; lineNumber: 468; columnNumber: 21; Error at (468, 21) : <session-config> element is limited to 1 occurrence
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2687)
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2713)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1285)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1363)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1543)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1730)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1241)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:885)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:344)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5103)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:812)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:787)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:607)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1055)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1322)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:379)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:324)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:774)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1033)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:443)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:727)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:620)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:449)
+Caused by: java.lang.IllegalArgumentException: <session-config> element is limited to 1 occurrence
+	at org.apache.catalina.startup.SetSessionConfig.begin(WebRuleSet.java:722)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1282)
+	... 48 more
+
+Jun 29, 2015 2:14:06 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 468 column 21
+Jun 29, 2015 2:14:06 AM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+Jun 29, 2015 2:14:06 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Jun 29, 2015 2:14:06 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/manager] startup failed due to previous errors
+Jun 29, 2015 2:14:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory host-manager
+Fill Stack: 0. org.apache.tomcat.util.digester.Digester.startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V@369
+Fill Stack: 1. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V@297
+Fill Stack: 2. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement()Z@430
+Fill Stack: 3. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next()I@435
+Fill Stack: 4. com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next()I@4
+Fill Stack: 5. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Z)Z@238
+Fill Stack: 6. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Z)Z@123
+Fill Stack: 7. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@29
+Fill Stack: 8. com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@76
+Fill Stack: 9. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Lorg/xml/sax/InputSource;)V@43
+Fill Stack: 10. com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Lorg/xml/sax/InputSource;)V@53
+Fill Stack: 11. org.apache.tomcat.util.digester.Digester.parse(Lorg/xml/sax/InputSource;)Ljava/lang/Object;@9
+Fill Stack: 12. org.apache.catalina.startup.ContextConfig.parseWebXml(Lorg/xml/sax/InputSource;Lorg/apache/catalina/deploy/WebXml;Z)V@104
+Fill Stack: 13. org.apache.catalina.startup.ContextConfig.webConfig()V@58
+Fill Stack: 14. org.apache.catalina.startup.ContextConfig.configureStart()V@123
+Fill Stack: 15. org.apache.catalina.startup.ContextConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@57
+Fill Stack: 16. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 17. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 18. org.apache.catalina.core.StandardContext.startInternal()V@606
+Fill Stack: 19. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 20. org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V@172
+Fill Stack: 21. org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V@26
+Fill Stack: 22. org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V@40
+Fill Stack: 23. org.apache.catalina.startup.HostConfig.deployDirectory(Lorg/apache/catalina/util/ContextName;Ljava/io/File;Ljava/lang/String;)V@460
+Fill Stack: 24. org.apache.catalina.startup.HostConfig.deployDirectories(Ljava/io/File;[Ljava/lang/String;)V@97
+Fill Stack: 25. org.apache.catalina.startup.HostConfig.deployApps()V@37
+Fill Stack: 26. org.apache.catalina.startup.HostConfig.start()V@236
+Fill Stack: 27. org.apache.catalina.startup.HostConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@125
+Fill Stack: 28. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 29. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 30. org.apache.catalina.util.LifecycleBase.setStateInternal(Lorg/apache/catalina/LifecycleState;Ljava/lang/Object;Z)V@140
+Fill Stack: 31. org.apache.catalina.util.LifecycleBase.setState(Lorg/apache/catalina/LifecycleState;)V@4
+Fill Stack: 32. org.apache.catalina.core.ContainerBase.startInternal()V@237
+Fill Stack: 33. org.apache.catalina.core.StandardHost.startInternal()V@142
+Fill Stack: 34. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 35. org.apache.catalina.core.ContainerBase.startInternal()V@200
+Fill Stack: 36. org.apache.catalina.core.StandardEngine.startInternal()V@41
+Fill Stack: 37. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 38. org.apache.catalina.core.StandardService.startInternal()V@63
+Fill Stack: 39. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 40. org.apache.catalina.core.StandardServer.startInternal()V@45
+Fill Stack: 41. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 42. org.apache.catalina.startup.Catalina.start()V@37
+Fill Stack: 43. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 44. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 45. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 46. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 47. org.apache.catalina.startup.Bootstrap.start()V@37
+Fill Stack: 48. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@135
+Fill Stack: -1. org.apache.tomcat.util.digester.Rule.begin(Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V@UNKNOWN
+recovery time: 0ms, result: 0
+Jun 29, 2015 2:14:06 AM org.apache.tomcat.util.digester.Digester startElement
+SEVERE: Begin event threw exception
+java.lang.IllegalArgumentException: <session-config> element is limited to 1 occurrence
+	at org.apache.catalina.startup.SetSessionConfig.begin(WebRuleSet.java:722)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1282)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1363)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1543)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1730)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1241)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:885)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:344)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5103)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:812)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:787)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:607)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1055)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1322)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:379)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:324)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:774)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1033)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:443)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:727)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:620)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:449)
+
+Fill Stack: 0. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement()Z@430
+Fill Stack: 1. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next()I@435
+Fill Stack: 2. com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next()I@4
+Fill Stack: 3. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Z)Z@238
+Fill Stack: 4. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Z)Z@123
+Fill Stack: 5. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@29
+Fill Stack: 6. com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@76
+Fill Stack: 7. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Lorg/xml/sax/InputSource;)V@43
+Fill Stack: 8. com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Lorg/xml/sax/InputSource;)V@53
+Fill Stack: 9. org.apache.tomcat.util.digester.Digester.parse(Lorg/xml/sax/InputSource;)Ljava/lang/Object;@9
+Fill Stack: 10. org.apache.catalina.startup.ContextConfig.parseWebXml(Lorg/xml/sax/InputSource;Lorg/apache/catalina/deploy/WebXml;Z)V@104
+Fill Stack: 11. org.apache.catalina.startup.ContextConfig.webConfig()V@58
+Fill Stack: 12. org.apache.catalina.startup.ContextConfig.configureStart()V@123
+Fill Stack: 13. org.apache.catalina.startup.ContextConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@57
+Fill Stack: 14. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 15. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 16. org.apache.catalina.core.StandardContext.startInternal()V@606
+Fill Stack: 17. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 18. org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V@172
+Fill Stack: 19. org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V@26
+Fill Stack: 20. org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V@40
+Fill Stack: 21. org.apache.catalina.startup.HostConfig.deployDirectory(Lorg/apache/catalina/util/ContextName;Ljava/io/File;Ljava/lang/String;)V@460
+Fill Stack: 22. org.apache.catalina.startup.HostConfig.deployDirectories(Ljava/io/File;[Ljava/lang/String;)V@97
+Fill Stack: 23. org.apache.catalina.startup.HostConfig.deployApps()V@37
+Fill Stack: 24. org.apache.catalina.startup.HostConfig.start()V@236
+Fill Stack: 25. org.apache.catalina.startup.HostConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@125
+Fill Stack: 26. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 27. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 28. org.apache.catalina.util.LifecycleBase.setStateInternal(Lorg/apache/catalina/LifecycleState;Ljava/lang/Object;Z)V@140
+Fill Stack: 29. org.apache.catalina.util.LifecycleBase.setState(Lorg/apache/catalina/LifecycleState;)V@4
+Fill Stack: 30. org.apache.catalina.core.ContainerBase.startInternal()V@237
+Fill Stack: 31. org.apache.catalina.core.StandardHost.startInternal()V@142
+Fill Stack: 32. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 33. org.apache.catalina.core.ContainerBase.startInternal()V@200
+Fill Stack: 34. org.apache.catalina.core.StandardEngine.startInternal()V@41
+Fill Stack: 35. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 36. org.apache.catalina.core.StandardService.startInternal()V@63
+Fill Stack: 37. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 38. org.apache.catalina.core.StandardServer.startInternal()V@45
+Fill Stack: 39. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 40. org.apache.catalina.startup.Catalina.start()V@37
+Fill Stack: 41. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 42. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 43. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 44. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 45. org.apache.catalina.startup.Bootstrap.start()V@37
+Fill Stack: 46. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@135
+Fill Stack: -1. com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler.startElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V@UNKNOWN
+recovery time: 0ms, result: 0
+Jun 29, 2015 2:14:06 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at file:///home/t/Projects/error-transformation-vm/tomcat/51401/apache-tomcat-7.0.17-dev/conf/web.xml
+org.xml.sax.SAXParseException; systemId: file:///home/t/Projects/error-transformation-vm/tomcat/51401/apache-tomcat-7.0.17-dev/conf/web.xml; lineNumber: 468; columnNumber: 21; Error at (468, 21) : <session-config> element is limited to 1 occurrence
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2687)
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2713)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1285)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1363)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1543)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1730)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1241)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:885)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:344)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5103)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:812)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:787)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:607)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1055)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1322)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:379)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:324)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:774)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1033)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:443)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:727)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:620)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:449)
+Caused by: java.lang.IllegalArgumentException: <session-config> element is limited to 1 occurrence
+	at org.apache.catalina.startup.SetSessionConfig.begin(WebRuleSet.java:722)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1282)
+	... 48 more
+
+Jun 29, 2015 2:14:06 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 468 column 21
+Fill Stack: 0. org.apache.tomcat.util.digester.Digester.startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V@369
+Fill Stack: 1. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V@297
+Fill Stack: 2. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement()Z@430
+Fill Stack: 3. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next()I@435
+Fill Stack: 4. com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next()I@4
+Fill Stack: 5. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Z)Z@238
+Fill Stack: 6. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Z)Z@123
+Fill Stack: 7. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@29
+Fill Stack: 8. com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@76
+Fill Stack: 9. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Lorg/xml/sax/InputSource;)V@43
+Fill Stack: 10. com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Lorg/xml/sax/InputSource;)V@53
+Fill Stack: 11. org.apache.tomcat.util.digester.Digester.parse(Lorg/xml/sax/InputSource;)Ljava/lang/Object;@9
+Fill Stack: 12. org.apache.catalina.startup.ContextConfig.parseWebXml(Lorg/xml/sax/InputSource;Lorg/apache/catalina/deploy/WebXml;Z)V@104
+Fill Stack: 13. org.apache.catalina.startup.ContextConfig.webConfig()V@109
+Fill Stack: 14. org.apache.catalina.startup.ContextConfig.configureStart()V@123
+Fill Stack: 15. org.apache.catalina.startup.ContextConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@57
+Fill Stack: 16. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 17. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 18. org.apache.catalina.core.StandardContext.startInternal()V@606
+Fill Stack: 19. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 20. org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V@172
+Fill Stack: 21. org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V@26
+Fill Stack: 22. org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V@40
+Fill Stack: 23. org.apache.catalina.startup.HostConfig.deployDirectory(Lorg/apache/catalina/util/ContextName;Ljava/io/File;Ljava/lang/String;)V@460
+Fill Stack: 24. org.apache.catalina.startup.HostConfig.deployDirectories(Ljava/io/File;[Ljava/lang/String;)V@97
+Fill Stack: 25. org.apache.catalina.startup.HostConfig.deployApps()V@37
+Fill Stack: 26. org.apache.catalina.startup.HostConfig.start()V@236
+Fill Stack: 27. org.apache.catalina.startup.HostConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@125
+Fill Stack: 28. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 29. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 30. org.apache.catalina.util.LifecycleBase.setStateInternal(Lorg/apache/catalina/LifecycleState;Ljava/lang/Object;Z)V@140
+Fill Stack: 31. org.apache.catalina.util.LifecycleBase.setState(Lorg/apache/catalina/LifecycleState;)V@4
+Fill Stack: 32. org.apache.catalina.core.ContainerBase.startInternal()V@237
+Fill Stack: 33. org.apache.catalina.core.StandardHost.startInternal()V@142
+Fill Stack: 34. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 35. org.apache.catalina.core.ContainerBase.startInternal()V@200
+Fill Stack: 36. org.apache.catalina.core.StandardEngine.startInternal()V@41
+Fill Stack: 37. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 38. org.apache.catalina.core.StandardService.startInternal()V@63
+Fill Stack: 39. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 40. org.apache.catalina.core.StandardServer.startInternal()V@45
+Fill Stack: 41. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 42. org.apache.catalina.startup.Catalina.start()V@37
+Fill Stack: 43. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 44. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 45. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 46. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 47. org.apache.catalina.startup.Bootstrap.start()V@37
+Fill Stack: 48. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@135
+Fill Stack: -1. org.apache.tomcat.util.digester.Rule.begin(Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V@UNKNOWN
+recovery time: 0ms, result: 0
+Jun 29, 2015 2:14:07 AM org.apache.tomcat.util.digester.Digester startElement
+SEVERE: Begin event threw exception
+java.lang.IllegalArgumentException: <login-config> element is limited to 1 occurrence
+	at org.apache.catalina.startup.SetLoginConfig.begin(WebRuleSet.java:676)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1282)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1363)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1543)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1730)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1255)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:885)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:344)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5103)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:812)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:787)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:607)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1055)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1322)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:379)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:324)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:774)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1033)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:443)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:727)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:620)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:449)
+
+Fill Stack: 0. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement()Z@430
+Fill Stack: 1. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next()I@435
+Fill Stack: 2. com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next()I@4
+Fill Stack: 3. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Z)Z@238
+Fill Stack: 4. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Z)Z@123
+Fill Stack: 5. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@29
+Fill Stack: 6. com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@76
+Fill Stack: 7. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Lorg/xml/sax/InputSource;)V@43
+Fill Stack: 8. com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Lorg/xml/sax/InputSource;)V@53
+Fill Stack: 9. org.apache.tomcat.util.digester.Digester.parse(Lorg/xml/sax/InputSource;)Ljava/lang/Object;@9
+Fill Stack: 10. org.apache.catalina.startup.ContextConfig.parseWebXml(Lorg/xml/sax/InputSource;Lorg/apache/catalina/deploy/WebXml;Z)V@104
+Fill Stack: 11. org.apache.catalina.startup.ContextConfig.webConfig()V@109
+Fill Stack: 12. org.apache.catalina.startup.ContextConfig.configureStart()V@123
+Fill Stack: 13. org.apache.catalina.startup.ContextConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@57
+Fill Stack: 14. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 15. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 16. org.apache.catalina.core.StandardContext.startInternal()V@606
+Fill Stack: 17. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 18. org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V@172
+Fill Stack: 19. org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V@26
+Fill Stack: 20. org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V@40
+Fill Stack: 21. org.apache.catalina.startup.HostConfig.deployDirectory(Lorg/apache/catalina/util/ContextName;Ljava/io/File;Ljava/lang/String;)V@460
+Fill Stack: 22. org.apache.catalina.startup.HostConfig.deployDirectories(Ljava/io/File;[Ljava/lang/String;)V@97
+Fill Stack: 23. org.apache.catalina.startup.HostConfig.deployApps()V@37
+Fill Stack: 24. org.apache.catalina.startup.HostConfig.start()V@236
+Fill Stack: 25. org.apache.catalina.startup.HostConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@125
+Fill Stack: 26. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 27. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 28. org.apache.catalina.util.LifecycleBase.setStateInternal(Lorg/apache/catalina/LifecycleState;Ljava/lang/Object;Z)V@140
+Fill Stack: 29. org.apache.catalina.util.LifecycleBase.setState(Lorg/apache/catalina/LifecycleState;)V@4
+Fill Stack: 30. org.apache.catalina.core.ContainerBase.startInternal()V@237
+Fill Stack: 31. org.apache.catalina.core.StandardHost.startInternal()V@142
+Fill Stack: 32. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 33. org.apache.catalina.core.ContainerBase.startInternal()V@200
+Fill Stack: 34. org.apache.catalina.core.StandardEngine.startInternal()V@41
+Fill Stack: 35. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 36. org.apache.catalina.core.StandardService.startInternal()V@63
+Fill Stack: 37. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 38. org.apache.catalina.core.StandardServer.startInternal()V@45
+Fill Stack: 39. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 40. org.apache.catalina.startup.Catalina.start()V@37
+Fill Stack: 41. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 42. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 43. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 44. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 45. org.apache.catalina.startup.Bootstrap.start()V@37
+Fill Stack: 46. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@135
+Fill Stack: -1. com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler.startElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V@UNKNOWN
+recovery time: 0ms, result: 0
+Jun 29, 2015 2:14:07 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at jndi:/localhost/host-manager/WEB-INF/web.xml
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/host-manager/WEB-INF/web.xml; lineNumber: 96; columnNumber: 17; Error at (96, 17) : <login-config> element is limited to 1 occurrence
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2687)
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2713)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1285)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1363)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1543)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1730)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1255)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:885)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:344)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5103)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:812)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:787)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:607)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1055)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1322)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:379)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:324)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:774)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1033)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:443)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:727)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:620)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:449)
+Caused by: java.lang.IllegalArgumentException: <login-config> element is limited to 1 occurrence
+	at org.apache.catalina.startup.SetLoginConfig.begin(WebRuleSet.java:676)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1282)
+	... 48 more
+
+Jun 29, 2015 2:14:07 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 96 column 17
+Jun 29, 2015 2:14:07 AM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+Jun 29, 2015 2:14:07 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Jun 29, 2015 2:14:07 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/host-manager] startup failed due to previous errors
+Jun 29, 2015 2:14:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Fill Stack: 0. org.apache.tomcat.util.digester.Digester.startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V@369
+Fill Stack: 1. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V@297
+Fill Stack: 2. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement()Z@430
+Fill Stack: 3. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next()I@435
+Fill Stack: 4. com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next()I@4
+Fill Stack: 5. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Z)Z@238
+Fill Stack: 6. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Z)Z@123
+Fill Stack: 7. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@29
+Fill Stack: 8. com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@76
+Fill Stack: 9. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Lorg/xml/sax/InputSource;)V@43
+Fill Stack: 10. com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Lorg/xml/sax/InputSource;)V@53
+Fill Stack: 11. org.apache.tomcat.util.digester.Digester.parse(Lorg/xml/sax/InputSource;)Ljava/lang/Object;@9
+Fill Stack: 12. org.apache.catalina.startup.ContextConfig.parseWebXml(Lorg/xml/sax/InputSource;Lorg/apache/catalina/deploy/WebXml;Z)V@104
+Fill Stack: 13. org.apache.catalina.startup.ContextConfig.webConfig()V@58
+Fill Stack: 14. org.apache.catalina.startup.ContextConfig.configureStart()V@123
+Fill Stack: 15. org.apache.catalina.startup.ContextConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@57
+Fill Stack: 16. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 17. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 18. org.apache.catalina.core.StandardContext.startInternal()V@606
+Fill Stack: 19. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 20. org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V@172
+Fill Stack: 21. org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V@26
+Fill Stack: 22. org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V@40
+Fill Stack: 23. org.apache.catalina.startup.HostConfig.deployDirectory(Lorg/apache/catalina/util/ContextName;Ljava/io/File;Ljava/lang/String;)V@460
+Fill Stack: 24. org.apache.catalina.startup.HostConfig.deployDirectories(Ljava/io/File;[Ljava/lang/String;)V@97
+Fill Stack: 25. org.apache.catalina.startup.HostConfig.deployApps()V@37
+Fill Stack: 26. org.apache.catalina.startup.HostConfig.start()V@236
+Fill Stack: 27. org.apache.catalina.startup.HostConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@125
+Fill Stack: 28. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 29. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 30. org.apache.catalina.util.LifecycleBase.setStateInternal(Lorg/apache/catalina/LifecycleState;Ljava/lang/Object;Z)V@140
+Fill Stack: 31. org.apache.catalina.util.LifecycleBase.setState(Lorg/apache/catalina/LifecycleState;)V@4
+Fill Stack: 32. org.apache.catalina.core.ContainerBase.startInternal()V@237
+Fill Stack: 33. org.apache.catalina.core.StandardHost.startInternal()V@142
+Fill Stack: 34. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 35. org.apache.catalina.core.ContainerBase.startInternal()V@200
+Fill Stack: 36. org.apache.catalina.core.StandardEngine.startInternal()V@41
+Fill Stack: 37. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 38. org.apache.catalina.core.StandardService.startInternal()V@63
+Fill Stack: 39. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 40. org.apache.catalina.core.StandardServer.startInternal()V@45
+Fill Stack: 41. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 42. org.apache.catalina.startup.Catalina.start()V@37
+Fill Stack: 43. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 44. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 45. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 46. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 47. org.apache.catalina.startup.Bootstrap.start()V@37
+Fill Stack: 48. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@135
+Fill Stack: -1. org.apache.tomcat.util.digester.Rule.begin(Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V@UNKNOWN
+recovery time: 0ms, result: 0
+Jun 29, 2015 2:14:07 AM org.apache.tomcat.util.digester.Digester startElement
+SEVERE: Begin event threw exception
+java.lang.IllegalArgumentException: <session-config> element is limited to 1 occurrence
+	at org.apache.catalina.startup.SetSessionConfig.begin(WebRuleSet.java:722)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1282)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1363)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1543)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1730)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1241)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:885)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:344)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5103)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:812)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:787)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:607)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1055)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1322)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:379)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:324)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:774)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1033)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:443)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:727)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:620)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:449)
+
+Fill Stack: 0. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement()Z@430
+Fill Stack: 1. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next()I@435
+Fill Stack: 2. com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next()I@4
+Fill Stack: 3. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Z)Z@238
+Fill Stack: 4. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Z)Z@123
+Fill Stack: 5. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@29
+Fill Stack: 6. com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@76
+Fill Stack: 7. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Lorg/xml/sax/InputSource;)V@43
+Fill Stack: 8. com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Lorg/xml/sax/InputSource;)V@53
+Fill Stack: 9. org.apache.tomcat.util.digester.Digester.parse(Lorg/xml/sax/InputSource;)Ljava/lang/Object;@9
+Fill Stack: 10. org.apache.catalina.startup.ContextConfig.parseWebXml(Lorg/xml/sax/InputSource;Lorg/apache/catalina/deploy/WebXml;Z)V@104
+Fill Stack: 11. org.apache.catalina.startup.ContextConfig.webConfig()V@58
+Fill Stack: 12. org.apache.catalina.startup.ContextConfig.configureStart()V@123
+Fill Stack: 13. org.apache.catalina.startup.ContextConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@57
+Fill Stack: 14. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 15. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 16. org.apache.catalina.core.StandardContext.startInternal()V@606
+Fill Stack: 17. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 18. org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V@172
+Fill Stack: 19. org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V@26
+Fill Stack: 20. org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V@40
+Fill Stack: 21. org.apache.catalina.startup.HostConfig.deployDirectory(Lorg/apache/catalina/util/ContextName;Ljava/io/File;Ljava/lang/String;)V@460
+Fill Stack: 22. org.apache.catalina.startup.HostConfig.deployDirectories(Ljava/io/File;[Ljava/lang/String;)V@97
+Fill Stack: 23. org.apache.catalina.startup.HostConfig.deployApps()V@37
+Fill Stack: 24. org.apache.catalina.startup.HostConfig.start()V@236
+Fill Stack: 25. org.apache.catalina.startup.HostConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@125
+Fill Stack: 26. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 27. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 28. org.apache.catalina.util.LifecycleBase.setStateInternal(Lorg/apache/catalina/LifecycleState;Ljava/lang/Object;Z)V@140
+Fill Stack: 29. org.apache.catalina.util.LifecycleBase.setState(Lorg/apache/catalina/LifecycleState;)V@4
+Fill Stack: 30. org.apache.catalina.core.ContainerBase.startInternal()V@237
+Fill Stack: 31. org.apache.catalina.core.StandardHost.startInternal()V@142
+Fill Stack: 32. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 33. org.apache.catalina.core.ContainerBase.startInternal()V@200
+Fill Stack: 34. org.apache.catalina.core.StandardEngine.startInternal()V@41
+Fill Stack: 35. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 36. org.apache.catalina.core.StandardService.startInternal()V@63
+Fill Stack: 37. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 38. org.apache.catalina.core.StandardServer.startInternal()V@45
+Fill Stack: 39. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 40. org.apache.catalina.startup.Catalina.start()V@37
+Fill Stack: 41. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 42. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 43. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 44. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 45. org.apache.catalina.startup.Bootstrap.start()V@37
+Fill Stack: 46. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@135
+Fill Stack: -1. com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler.startElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V@UNKNOWN
+recovery time: 0ms, result: 0
+Jun 29, 2015 2:14:07 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at file:///home/t/Projects/error-transformation-vm/tomcat/51401/apache-tomcat-7.0.17-dev/conf/web.xml
+org.xml.sax.SAXParseException; systemId: file:///home/t/Projects/error-transformation-vm/tomcat/51401/apache-tomcat-7.0.17-dev/conf/web.xml; lineNumber: 468; columnNumber: 21; Error at (468, 21) : <session-config> element is limited to 1 occurrence
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2687)
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2713)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1285)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1363)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1543)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1730)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1241)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:885)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:344)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5103)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:812)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:787)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:607)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1055)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1322)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:379)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:324)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:774)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1033)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:443)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:727)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:620)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:449)
+Caused by: java.lang.IllegalArgumentException: <session-config> element is limited to 1 occurrence
+	at org.apache.catalina.startup.SetSessionConfig.begin(WebRuleSet.java:722)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1282)
+	... 48 more
+
+Jun 29, 2015 2:14:07 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 468 column 21
+Jun 29, 2015 2:14:07 AM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+Jun 29, 2015 2:14:07 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Jun 29, 2015 2:14:07 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+Jun 29, 2015 2:14:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Fill Stack: 0. org.apache.tomcat.util.digester.Digester.startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V@369
+Fill Stack: 1. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V@297
+Fill Stack: 2. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement()Z@430
+Fill Stack: 3. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next()I@435
+Fill Stack: 4. com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next()I@4
+Fill Stack: 5. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Z)Z@238
+Fill Stack: 6. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Z)Z@123
+Fill Stack: 7. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@29
+Fill Stack: 8. com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@76
+Fill Stack: 9. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Lorg/xml/sax/InputSource;)V@43
+Fill Stack: 10. com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Lorg/xml/sax/InputSource;)V@53
+Fill Stack: 11. org.apache.tomcat.util.digester.Digester.parse(Lorg/xml/sax/InputSource;)Ljava/lang/Object;@9
+Fill Stack: 12. org.apache.catalina.startup.ContextConfig.parseWebXml(Lorg/xml/sax/InputSource;Lorg/apache/catalina/deploy/WebXml;Z)V@104
+Fill Stack: 13. org.apache.catalina.startup.ContextConfig.webConfig()V@58
+Fill Stack: 14. org.apache.catalina.startup.ContextConfig.configureStart()V@123
+Fill Stack: 15. org.apache.catalina.startup.ContextConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@57
+Fill Stack: 16. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 17. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 18. org.apache.catalina.core.StandardContext.startInternal()V@606
+Fill Stack: 19. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 20. org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V@172
+Fill Stack: 21. org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V@26
+Fill Stack: 22. org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V@40
+Fill Stack: 23. org.apache.catalina.startup.HostConfig.deployDirectory(Lorg/apache/catalina/util/ContextName;Ljava/io/File;Ljava/lang/String;)V@460
+Fill Stack: 24. org.apache.catalina.startup.HostConfig.deployDirectories(Ljava/io/File;[Ljava/lang/String;)V@97
+Fill Stack: 25. org.apache.catalina.startup.HostConfig.deployApps()V@37
+Fill Stack: 26. org.apache.catalina.startup.HostConfig.start()V@236
+Fill Stack: 27. org.apache.catalina.startup.HostConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@125
+Fill Stack: 28. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 29. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 30. org.apache.catalina.util.LifecycleBase.setStateInternal(Lorg/apache/catalina/LifecycleState;Ljava/lang/Object;Z)V@140
+Fill Stack: 31. org.apache.catalina.util.LifecycleBase.setState(Lorg/apache/catalina/LifecycleState;)V@4
+Fill Stack: 32. org.apache.catalina.core.ContainerBase.startInternal()V@237
+Fill Stack: 33. org.apache.catalina.core.StandardHost.startInternal()V@142
+Fill Stack: 34. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 35. org.apache.catalina.core.ContainerBase.startInternal()V@200
+Fill Stack: 36. org.apache.catalina.core.StandardEngine.startInternal()V@41
+Fill Stack: 37. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 38. org.apache.catalina.core.StandardService.startInternal()V@63
+Fill Stack: 39. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 40. org.apache.catalina.core.StandardServer.startInternal()V@45
+Fill Stack: 41. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 42. org.apache.catalina.startup.Catalina.start()V@37
+Fill Stack: 43. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 44. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 45. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 46. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 47. org.apache.catalina.startup.Bootstrap.start()V@37
+Fill Stack: 48. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@135
+Fill Stack: -1. org.apache.tomcat.util.digester.Rule.begin(Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V@UNKNOWN
+recovery time: 0ms, result: 0
+Jun 29, 2015 2:14:07 AM org.apache.tomcat.util.digester.Digester startElement
+SEVERE: Begin event threw exception
+java.lang.IllegalArgumentException: <session-config> element is limited to 1 occurrence
+	at org.apache.catalina.startup.SetSessionConfig.begin(WebRuleSet.java:722)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1282)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1363)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1543)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1730)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1241)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:885)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:344)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5103)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:812)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:787)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:607)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1055)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1322)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:379)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:324)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:774)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1033)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:443)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:727)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:620)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:449)
+
+Fill Stack: 0. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement()Z@430
+Fill Stack: 1. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next()I@435
+Fill Stack: 2. com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next()I@4
+Fill Stack: 3. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Z)Z@238
+Fill Stack: 4. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Z)Z@123
+Fill Stack: 5. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@29
+Fill Stack: 6. com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@76
+Fill Stack: 7. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Lorg/xml/sax/InputSource;)V@43
+Fill Stack: 8. com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Lorg/xml/sax/InputSource;)V@53
+Fill Stack: 9. org.apache.tomcat.util.digester.Digester.parse(Lorg/xml/sax/InputSource;)Ljava/lang/Object;@9
+Fill Stack: 10. org.apache.catalina.startup.ContextConfig.parseWebXml(Lorg/xml/sax/InputSource;Lorg/apache/catalina/deploy/WebXml;Z)V@104
+Fill Stack: 11. org.apache.catalina.startup.ContextConfig.webConfig()V@58
+Fill Stack: 12. org.apache.catalina.startup.ContextConfig.configureStart()V@123
+Fill Stack: 13. org.apache.catalina.startup.ContextConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@57
+Fill Stack: 14. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 15. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 16. org.apache.catalina.core.StandardContext.startInternal()V@606
+Fill Stack: 17. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 18. org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V@172
+Fill Stack: 19. org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V@26
+Fill Stack: 20. org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V@40
+Fill Stack: 21. org.apache.catalina.startup.HostConfig.deployDirectory(Lorg/apache/catalina/util/ContextName;Ljava/io/File;Ljava/lang/String;)V@460
+Fill Stack: 22. org.apache.catalina.startup.HostConfig.deployDirectories(Ljava/io/File;[Ljava/lang/String;)V@97
+Fill Stack: 23. org.apache.catalina.startup.HostConfig.deployApps()V@37
+Fill Stack: 24. org.apache.catalina.startup.HostConfig.start()V@236
+Fill Stack: 25. org.apache.catalina.startup.HostConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@125
+Fill Stack: 26. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 27. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 28. org.apache.catalina.util.LifecycleBase.setStateInternal(Lorg/apache/catalina/LifecycleState;Ljava/lang/Object;Z)V@140
+Fill Stack: 29. org.apache.catalina.util.LifecycleBase.setState(Lorg/apache/catalina/LifecycleState;)V@4
+Fill Stack: 30. org.apache.catalina.core.ContainerBase.startInternal()V@237
+Fill Stack: 31. org.apache.catalina.core.StandardHost.startInternal()V@142
+Fill Stack: 32. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 33. org.apache.catalina.core.ContainerBase.startInternal()V@200
+Fill Stack: 34. org.apache.catalina.core.StandardEngine.startInternal()V@41
+Fill Stack: 35. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 36. org.apache.catalina.core.StandardService.startInternal()V@63
+Fill Stack: 37. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 38. org.apache.catalina.core.StandardServer.startInternal()V@45
+Fill Stack: 39. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 40. org.apache.catalina.startup.Catalina.start()V@37
+Fill Stack: 41. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 42. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 43. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 44. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 45. org.apache.catalina.startup.Bootstrap.start()V@37
+Fill Stack: 46. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@135
+Fill Stack: -1. com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler.startElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V@UNKNOWN
+recovery time: 0ms, result: 0
+Jun 29, 2015 2:14:07 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at file:///home/t/Projects/error-transformation-vm/tomcat/51401/apache-tomcat-7.0.17-dev/conf/web.xml
+org.xml.sax.SAXParseException; systemId: file:///home/t/Projects/error-transformation-vm/tomcat/51401/apache-tomcat-7.0.17-dev/conf/web.xml; lineNumber: 468; columnNumber: 21; Error at (468, 21) : <session-config> element is limited to 1 occurrence
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2687)
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2713)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1285)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1363)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1543)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1730)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1241)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:885)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:344)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5103)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:812)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:787)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:607)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1055)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1322)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:379)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:324)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:774)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1033)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:443)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:727)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:620)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:449)
+Caused by: java.lang.IllegalArgumentException: <session-config> element is limited to 1 occurrence
+	at org.apache.catalina.startup.SetSessionConfig.begin(WebRuleSet.java:722)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1282)
+	... 48 more
+
+Jun 29, 2015 2:14:07 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 468 column 21
+Fill Stack: 0. org.apache.tomcat.util.digester.Digester.startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V@369
+Fill Stack: 1. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V@297
+Fill Stack: 2. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement()Z@430
+Fill Stack: 3. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next()I@435
+Fill Stack: 4. com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next()I@4
+Fill Stack: 5. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Z)Z@238
+Fill Stack: 6. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Z)Z@123
+Fill Stack: 7. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@29
+Fill Stack: 8. com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@76
+Fill Stack: 9. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Lorg/xml/sax/InputSource;)V@43
+Fill Stack: 10. com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Lorg/xml/sax/InputSource;)V@53
+Fill Stack: 11. org.apache.tomcat.util.digester.Digester.parse(Lorg/xml/sax/InputSource;)Ljava/lang/Object;@9
+Fill Stack: 12. org.apache.catalina.startup.ContextConfig.parseWebXml(Lorg/xml/sax/InputSource;Lorg/apache/catalina/deploy/WebXml;Z)V@104
+Fill Stack: 13. org.apache.catalina.startup.ContextConfig.webConfig()V@109
+Fill Stack: 14. org.apache.catalina.startup.ContextConfig.configureStart()V@123
+Fill Stack: 15. org.apache.catalina.startup.ContextConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@57
+Fill Stack: 16. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 17. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 18. org.apache.catalina.core.StandardContext.startInternal()V@606
+Fill Stack: 19. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 20. org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V@172
+Fill Stack: 21. org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V@26
+Fill Stack: 22. org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V@40
+Fill Stack: 23. org.apache.catalina.startup.HostConfig.deployDirectory(Lorg/apache/catalina/util/ContextName;Ljava/io/File;Ljava/lang/String;)V@460
+Fill Stack: 24. org.apache.catalina.startup.HostConfig.deployDirectories(Ljava/io/File;[Ljava/lang/String;)V@97
+Fill Stack: 25. org.apache.catalina.startup.HostConfig.deployApps()V@37
+Fill Stack: 26. org.apache.catalina.startup.HostConfig.start()V@236
+Fill Stack: 27. org.apache.catalina.startup.HostConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@125
+Fill Stack: 28. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 29. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 30. org.apache.catalina.util.LifecycleBase.setStateInternal(Lorg/apache/catalina/LifecycleState;Ljava/lang/Object;Z)V@140
+Fill Stack: 31. org.apache.catalina.util.LifecycleBase.setState(Lorg/apache/catalina/LifecycleState;)V@4
+Fill Stack: 32. org.apache.catalina.core.ContainerBase.startInternal()V@237
+Fill Stack: 33. org.apache.catalina.core.StandardHost.startInternal()V@142
+Fill Stack: 34. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 35. org.apache.catalina.core.ContainerBase.startInternal()V@200
+Fill Stack: 36. org.apache.catalina.core.StandardEngine.startInternal()V@41
+Fill Stack: 37. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 38. org.apache.catalina.core.StandardService.startInternal()V@63
+Fill Stack: 39. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 40. org.apache.catalina.core.StandardServer.startInternal()V@45
+Fill Stack: 41. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 42. org.apache.catalina.startup.Catalina.start()V@37
+Fill Stack: 43. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 44. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 45. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 46. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 47. org.apache.catalina.startup.Bootstrap.start()V@37
+Fill Stack: 48. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@135
+Fill Stack: -1. org.apache.tomcat.util.digester.Rule.begin(Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V@UNKNOWN
+recovery time: 0ms, result: 0
+Jun 29, 2015 2:14:07 AM org.apache.tomcat.util.digester.Digester startElement
+SEVERE: Begin event threw exception
+java.lang.IllegalArgumentException: <login-config> element is limited to 1 occurrence
+	at org.apache.catalina.startup.SetLoginConfig.begin(WebRuleSet.java:676)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1282)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1363)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1543)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1730)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1255)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:885)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:344)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5103)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:812)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:787)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:607)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1055)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1322)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:379)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:324)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:774)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1033)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:443)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:727)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:620)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:449)
+
+Fill Stack: 0. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement()Z@430
+Fill Stack: 1. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next()I@435
+Fill Stack: 2. com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next()I@4
+Fill Stack: 3. com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Z)Z@238
+Fill Stack: 4. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Z)Z@123
+Fill Stack: 5. com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@29
+Fill Stack: 6. com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Lcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource;)V@76
+Fill Stack: 7. com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Lorg/xml/sax/InputSource;)V@43
+Fill Stack: 8. com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Lorg/xml/sax/InputSource;)V@53
+Fill Stack: 9. org.apache.tomcat.util.digester.Digester.parse(Lorg/xml/sax/InputSource;)Ljava/lang/Object;@9
+Fill Stack: 10. org.apache.catalina.startup.ContextConfig.parseWebXml(Lorg/xml/sax/InputSource;Lorg/apache/catalina/deploy/WebXml;Z)V@104
+Fill Stack: 11. org.apache.catalina.startup.ContextConfig.webConfig()V@109
+Fill Stack: 12. org.apache.catalina.startup.ContextConfig.configureStart()V@123
+Fill Stack: 13. org.apache.catalina.startup.ContextConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@57
+Fill Stack: 14. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 15. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 16. org.apache.catalina.core.StandardContext.startInternal()V@606
+Fill Stack: 17. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 18. org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V@172
+Fill Stack: 19. org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V@26
+Fill Stack: 20. org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V@40
+Fill Stack: 21. org.apache.catalina.startup.HostConfig.deployDirectory(Lorg/apache/catalina/util/ContextName;Ljava/io/File;Ljava/lang/String;)V@460
+Fill Stack: 22. org.apache.catalina.startup.HostConfig.deployDirectories(Ljava/io/File;[Ljava/lang/String;)V@97
+Fill Stack: 23. org.apache.catalina.startup.HostConfig.deployApps()V@37
+Fill Stack: 24. org.apache.catalina.startup.HostConfig.start()V@236
+Fill Stack: 25. org.apache.catalina.startup.HostConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@125
+Fill Stack: 26. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 27. org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@6
+Fill Stack: 28. org.apache.catalina.util.LifecycleBase.setStateInternal(Lorg/apache/catalina/LifecycleState;Ljava/lang/Object;Z)V@140
+Fill Stack: 29. org.apache.catalina.util.LifecycleBase.setState(Lorg/apache/catalina/LifecycleState;)V@4
+Fill Stack: 30. org.apache.catalina.core.ContainerBase.startInternal()V@237
+Fill Stack: 31. org.apache.catalina.core.StandardHost.startInternal()V@142
+Fill Stack: 32. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 33. org.apache.catalina.core.ContainerBase.startInternal()V@200
+Fill Stack: 34. org.apache.catalina.core.StandardEngine.startInternal()V@41
+Fill Stack: 35. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 36. org.apache.catalina.core.StandardService.startInternal()V@63
+Fill Stack: 37. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 38. org.apache.catalina.core.StandardServer.startInternal()V@45
+Fill Stack: 39. org.apache.catalina.util.LifecycleBase.start()V@190
+Fill Stack: 40. org.apache.catalina.startup.Catalina.start()V@37
+Fill Stack: 41. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 42. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 43. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 44. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 45. org.apache.catalina.startup.Bootstrap.start()V@37
+Fill Stack: 46. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@135
+Fill Stack: -1. com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler.startElement(Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/xni/XMLAttributes;Lcom/sun/org/apache/xerces/internal/xni/Augmentations;)V@UNKNOWN
+recovery time: 0ms, result: 0
+Jun 29, 2015 2:14:07 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at jndi:/localhost/examples/WEB-INF/web.xml
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/examples/WEB-INF/web.xml; lineNumber: 247; columnNumber: 19; Error at (247, 19) : <login-config> element is limited to 1 occurrence
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2687)
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2713)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1285)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1363)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1543)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1730)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1255)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:885)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:344)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5103)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:812)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:787)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:607)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1055)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1322)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:89)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:379)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:324)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:774)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1033)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:443)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:727)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:620)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:449)
+Caused by: java.lang.IllegalArgumentException: <login-config> element is limited to 1 occurrence
+	at org.apache.catalina.startup.SetLoginConfig.begin(WebRuleSet.java:676)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1282)
+	... 48 more
+
+Jun 29, 2015 2:14:07 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 247 column 19
+Jun 29, 2015 2:14:07 AM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+Fill Stack: 0. sun.jdbc.odbc.JdbcOdbcDriver.finalize()V@3
+Fill Stack: 1. java.lang.System$2.invokeFinalize(Ljava/lang/Object;)V@1
+Fill Stack: 2. java.lang.ref.Finalizer.runFinalizer(Lsun/misc/JavaLangAccess;)V@46
+Fill Stack: 3. java.lang.ref.Finalizer.access$100(Ljava/lang/ref/Finalizer;Lsun/misc/JavaLangAccess;)V@2
+Fill Stack: 4. java.lang.ref.Finalizer$FinalizerThread.run()V@45
+Fill Stack: -1. sun.jdbc.odbc.JdbcOdbc.getTracer()Lsun/jdbc/odbc/JdbcOdbcTracer;@UNKNOWN
+recovery time: 0ms, result: 0
+Jun 29, 2015 2:14:07 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Jun 29, 2015 2:14:07 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/examples] startup failed due to previous errors
+Jun 29, 2015 2:14:07 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler [http-bio-8080]
+Jun 29, 2015 2:14:07 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler [ajp-bio-8009]
+Jun 29, 2015 2:14:07 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1503 ms
+Fill Stack: 0. java.lang.Integer.<init>(Ljava/lang/String;)V@8
+Fill Stack: 1. sun.net.InetAddressCachePolicy.<clinit>()V@27
+Fill Stack: 2. java.net.InetAddress$Cache.getPolicy()I@10
+Fill Stack: 3. java.net.InetAddress$Cache.put(Ljava/lang/String;[Ljava/net/InetAddress;)Ljava/net/InetAddress$Cache;@1
+Fill Stack: 4. java.net.InetAddress.cacheInitIfNeeded()V@67
+Fill Stack: 5. java.net.InetAddress.getCachedAddresses(Ljava/lang/String;)[Ljava/net/InetAddress;@11
+Fill Stack: 6. java.net.InetAddress.getAllByName0(Ljava/lang/String;Ljava/net/InetAddress;Z)[Ljava/net/InetAddress;@19
+Fill Stack: 7. java.net.InetAddress.getAllByName(Ljava/lang/String;Ljava/net/InetAddress;)[Ljava/net/InetAddress;@343
+Fill Stack: 8. java.net.InetAddress.getAllByName(Ljava/lang/String;)[Ljava/net/InetAddress;@2
+Fill Stack: 9. java.net.InetAddress.getByName(Ljava/lang/String;)Ljava/net/InetAddress;@1
+Fill Stack: 10. org.apache.catalina.core.StandardServer.await()V@76
+Fill Stack: 11. org.apache.catalina.startup.Catalina.await()V@4
+Fill Stack: 12. org.apache.catalina.startup.Catalina.start()V@186
+Fill Stack: 13. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 14. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 15. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 16. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 17. org.apache.catalina.startup.Bootstrap.start()V@37
+Fill Stack: 18. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@135
+Fill Stack: -1. java.lang.Integer.parseInt(Ljava/lang/String;I)I@UNKNOWN
+recovery time: 0ms, result: 0
+Fill Stack: 0. java.lang.Runtime.removeShutdownHook(Ljava/lang/Thread;)Z@22
+Fill Stack: 1. org.apache.catalina.startup.Catalina.stop()V@14
+Fill Stack: 2. org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run()V@14
+Fill Stack: -1. java.lang.ApplicationShutdownHooks.remove(Ljava/lang/Thread;)Z@UNKNOWN
+recovery time: 0ms, result: 0
+Jun 29, 2015 2:14:24 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler [http-bio-8080]
+Jun 29, 2015 2:14:25 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler [ajp-bio-8009]
+Jun 29, 2015 2:14:26 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jun 29, 2015 2:14:26 AM org.apache.catalina.util.LifecycleBase stop
+INFO: The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after stop() had already been called. The second call will be ignored.
+Jun 29, 2015 2:14:26 AM org.apache.catalina.util.LifecycleBase stop
+INFO: The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/manager]] after stop() had already been called. The second call will be ignored.
+Jun 29, 2015 2:14:26 AM org.apache.catalina.util.LifecycleBase stop
+INFO: The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]] after stop() had already been called. The second call will be ignored.
+Jun 29, 2015 2:14:26 AM org.apache.catalina.util.LifecycleBase stop
+INFO: The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/host-manager]] after stop() had already been called. The second call will be ignored.
+Jun 29, 2015 2:14:26 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler [http-bio-8080]
+Jun 29, 2015 2:14:26 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler [ajp-bio-8009]
+Fill Stack: 0. java.lang.Runtime.removeShutdownHook(Ljava/lang/Thread;)Z@22
+Fill Stack: 1. org.apache.catalina.startup.Catalina.stop()V@14
+Fill Stack: 2. org.apache.catalina.startup.Catalina.start()V@190
+Fill Stack: 3. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 4. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 5. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 6. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 7. org.apache.catalina.startup.Bootstrap.start()V@37
+Fill Stack: 8. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@135
+Fill Stack: -1. java.lang.ApplicationShutdownHooks.remove(Ljava/lang/Thread;)Z@UNKNOWN
+recovery time: 0ms, result: 0
+Jun 29, 2015 2:14:26 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler [http-bio-8080]
+Jun 29, 2015 2:14:26 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler [ajp-bio-8009]

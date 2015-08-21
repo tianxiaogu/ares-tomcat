@@ -1,0 +1,61 @@
+Using CATALINA_BASE:   /home/t/Projects/error-transformation/tomcat/49883/apache-tomcat-7.0.3-dev
+Using CATALINA_HOME:   /home/t/Projects/error-transformation/tomcat/49883/apache-tomcat-7.0.3-dev
+Using CATALINA_TMPDIR: /home/t/Projects/error-transformation/tomcat/49883/apache-tomcat-7.0.3-dev/temp
+Using JRE_HOME:        /usr/lib/jvm/java-7-openjdk-amd64/
+Using CLASSPATH:       /home/t/Projects/error-transformation/tomcat/49883/apache-tomcat-7.0.3-dev/bin/bootstrap.jar:/home/t/Projects/error-transformation/tomcat/49883/apache-tomcat-7.0.3-dev/bin/tomcat-juli.jar
+determine_failure_type: (java/lang/ArrayIndexOutOfBoundsException) we found a non-trivial handler, index=0, caught class=java/lang/ArrayIndexOutOfBoundsException
+Using java runtime at: /home/t/Projects/error-transformation/jdk1.7.0_67/jre
+determine_failure_type: (java/lang/ArrayIndexOutOfBoundsException) we found a non-trivial handler, index=0, caught class=java/lang/ArrayIndexOutOfBoundsException
+determine_failure_type: (java/lang/ArrayIndexOutOfBoundsException) we found a non-trivial handler, index=0, caught class=java/lang/ArrayIndexOutOfBoundsException
+determine_failure_type: (java/lang/ArrayIndexOutOfBoundsException) we found a non-trivial handler, index=0, caught class=java/lang/ArrayIndexOutOfBoundsException
+determine_failure_type: (java/lang/ArrayIndexOutOfBoundsException) we found a non-trivial handler, index=0, caught class=java/lang/ArrayIndexOutOfBoundsException
+determine_failure_type: (java/lang/ArrayIndexOutOfBoundsException) we found a non-trivial handler, index=0, caught class=java/lang/ArrayIndexOutOfBoundsException
+determine_failure_type: (java/lang/ArrayIndexOutOfBoundsException) we found a non-trivial handler, index=0, caught class=java/lang/ArrayIndexOutOfBoundsException
+determine_failure_type: (java/lang/ArrayIndexOutOfBoundsException) we found a non-trivial handler, index=0, caught class=java/lang/ArrayIndexOutOfBoundsException
+determine_failure_type: (java/lang/IllegalArgumentException) trivially handled, index=0, caught class=java/lang/Exception
+recover: FailureType: trivially handled, recovery context offset=0
+recover: RecoveryType: no recovery
+determine_failure_type: (java/lang/UnsupportedOperationException) trivially handled, index=21, caught class=java/lang/Throwable
+recover: FailureType: trivially handled, recovery context offset=21
+(java/lang/UnsupportedOperationException) (trivially handled) (early return) (end_index=21, index=5, rettype=void)
+recover: RecoveryType: early return
+recovery time: 0ms
+determine_failure_type: (java/lang/UnsupportedOperationException) trivially handled, index=21, caught class=java/lang/Throwable
+recover: FailureType: trivially handled, recovery context offset=21
+(java/lang/UnsupportedOperationException) (trivially handled) (early return) (end_index=21, index=5, rettype=void)
+recover: RecoveryType: early return
+recovery time: 0ms
+determine_failure_type: (java/lang/UnsupportedOperationException) trivially handled, index=20, caught class=java/lang/Throwable
+recover: FailureType: trivially handled, recovery context offset=20
+(java/lang/UnsupportedOperationException) (trivially handled) (early return) (end_index=20, index=5, rettype=void)
+recover: RecoveryType: early return
+recovery time: 0ms
+determine_failure_type: (java/lang/UnsupportedOperationException) trivially handled, index=23, caught class=java/lang/Throwable
+recover: FailureType: trivially handled, recovery context offset=23
+(java/lang/UnsupportedOperationException) (trivially handled) (early return) (end_index=23, index=5, rettype=void)
+recover: RecoveryType: early return
+recovery time: 0ms
+determine_failure_type: (java/lang/UnsupportedOperationException) trivially handled, index=16, caught class=java/lang/Throwable
+recover: FailureType: trivially handled, recovery context offset=16
+(java/lang/UnsupportedOperationException) (trivially handled) (early return) (end_index=16, index=2, rettype=void)
+recover: RecoveryType: early return
+recovery time: 0ms
+determine_failure_type: (java/lang/UnsupportedOperationException) trivially handled, index=20, caught class=java/lang/Throwable
+recover: FailureType: trivially handled, recovery context offset=20
+(java/lang/UnsupportedOperationException) (trivially handled) (early return) (end_index=20, index=5, rettype=void)
+recover: RecoveryType: early return
+recovery time: 0ms
+determine_failure_type: (java/lang/NumberFormatException) we found a non-trivial handler, index=1, caught class=java/lang/NumberFormatException
+determine_failure_type: (java/lang/IllegalStateException) trivially handled, index=1, caught class=java/lang/Throwable
+recover: FailureType: trivially handled, recovery context offset=1
+recover: RecoveryType: no recovery
+determine_failure_type: (java/lang/IllegalArgumentException) trivially handled, index=0, caught class=java/lang/Exception
+recover: FailureType: trivially handled, recovery context offset=0
+(java/lang/IllegalArgumentException) (trivially handled) (early return) (end_index=0, index=0, rettype=void)
+recover: RecoveryType: early return
+recovery time: 0ms
+determine_failure_type: (java/lang/NullPointerException) trivially handled, index=2, caught class=java/lang/Throwable
+recover: FailureType: trivially handled, recovery context offset=2
+(java/lang/NullPointerException) (trivially handled) (early return) (end_index=2, index=1, rettype=void)
+recover: RecoveryType: early return
+recovery time: 0ms
