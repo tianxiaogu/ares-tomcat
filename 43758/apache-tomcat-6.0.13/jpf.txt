@@ -1,0 +1,334 @@
+Using CATALINA_BASE:   /home/t/Projects/error-transformation-vm/tomcat/43758/apache-tomcat-6.0.13
+Using CATALINA_HOME:   /home/t/Projects/error-transformation-vm/tomcat/43758/apache-tomcat-6.0.13
+Using CATALINA_TMPDIR: /home/t/Projects/error-transformation-vm/tomcat/43758/apache-tomcat-6.0.13/temp
+Using JRE_HOME:       /home/t/Projects/error-transformation-vm/jdk1.7.0_65/
+Jun 29, 2015 1:16:04 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/t/Projects/error-transformation-vm/hotspot/build/linux/linux_amd64_compiler2/fastdebug:/home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jun 29, 2015 1:16:04 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Jun 29, 2015 1:16:04 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 892 ms
+Jun 29, 2015 1:16:04 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jun 29, 2015 1:16:04 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.13
+Jun 29, 2015 1:16:05 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Jun 29, 2015 1:16:05 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Jun 29, 2015 1:16:06 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/97  config=null
+Jun 29, 2015 1:16:06 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1328 ms
+Fill Stack: 0. org.apache.jasper.compiler.ServletWriter.printMultiLn(Ljava/lang/String;)V@6
+Using java runtime at: /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre
+Fill Stack: 1. org.apache.jasper.compiler.Generator$GenerateVisitor.visit(Lorg/apache/jasper/compiler/Node$Scriptlet;)V@19
+Fill Stack: 2. org.apache.jasper.compiler.Node$Scriptlet.accept(Lorg/apache/jasper/compiler/Node$Visitor;)V@2
+Fill Stack: 3. org.apache.jasper.compiler.Node$Nodes.visit(Lorg/apache/jasper/compiler/Node$Visitor;)V@31
+Fill Stack: 4. org.apache.jasper.compiler.Node$Visitor.visitBody(Lorg/apache/jasper/compiler/Node;)V@12
+Fill Stack: 5. org.apache.jasper.compiler.Node$Visitor.visit(Lorg/apache/jasper/compiler/Node$JspRoot;)V@7
+Fill Stack: 6. org.apache.jasper.compiler.Node$JspRoot.accept(Lorg/apache/jasper/compiler/Node$Visitor;)V@2
+Fill Stack: 7. org.apache.jasper.compiler.Node$Nodes.visit(Lorg/apache/jasper/compiler/Node$Visitor;)V@31
+Fill Stack: 8. org.apache.jasper.compiler.Node$Visitor.visitBody(Lorg/apache/jasper/compiler/Node;)V@12
+Fill Stack: 9. org.apache.jasper.compiler.Node$Visitor.visit(Lorg/apache/jasper/compiler/Node$Root;)V@7
+Fill Stack: 10. org.apache.jasper.compiler.Node$Root.accept(Lorg/apache/jasper/compiler/Node$Visitor;)V@2
+Fill Stack: 11. org.apache.jasper.compiler.Node$Nodes.visit(Lorg/apache/jasper/compiler/Node$Visitor;)V@31
+Fill Stack: 12. org.apache.jasper.compiler.Generator.generate(Lorg/apache/jasper/compiler/ServletWriter;Lorg/apache/jasper/compiler/Compiler;Lorg/apache/jasper/compiler/Node$Nodes;)V@180
+Fill Stack: 13. org.apache.jasper.compiler.Compiler.generateJava()[Ljava/lang/String;@538
+Fill Stack: 14. org.apache.jasper.compiler.Compiler.compile(ZZ)V@20
+Fill Stack: 15. org.apache.jasper.compiler.Compiler.compile(Z)V@3
+Fill Stack: 16. org.apache.jasper.compiler.Compiler.compile()V@2
+Fill Stack: 17. org.apache.jasper.JspCompilationContext.compile()V@38
+Fill Stack: 18. org.apache.jasper.servlet.JspServletWrapper.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Z)V@118
+Fill Stack: 19. org.apache.jasper.servlet.JspServlet.serviceJspFile(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/Throwable;Z)V@134
+Fill Stack: 20. org.apache.jasper.servlet.JspServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@436
+Fill Stack: 21. javax.servlet.http.HttpServlet.service(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@30
+Fill Stack: 22. org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@374
+Fill Stack: 23. org.apache.catalina.core.ApplicationFilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@101
+Fill Stack: 24. org.apache.catalina.core.StandardWrapperValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@794
+Fill Stack: 25. org.apache.catalina.core.StandardContextValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@285
+Fill Stack: 26. org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@64
+Fill Stack: 27. org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@6
+Fill Stack: 28. org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@42
+Fill Stack: 29. org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V@157
+Fill Stack: 30. org.apache.coyote.http11.Http11Processor.process(Ljava/net/Socket;)V@432
+Fill Stack: 31. org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Ljava/net/Socket;)Z@82
+Fill Stack: 32. org.apache.tomcat.util.net.JIoEndpoint$Worker.run()V@41
+Fill Stack: 33. java.lang.Thread.run()V@11
+End initialize
+[WARNING] orphan NativePeer method: java.net.URLClassLoader.<init>()V
+[WARNING] orphan NativePeer method: java.net.URLClassLoader.<init>(Ljava/lang/ClassLoader;)V
+************ Create a custom class loader! ***************
+org.apache.catalina.loader.StandardClassLoader@19c42c4b
+**********************************************************
+WARNNING: allocating an object of ClassInfo[name=java.io.OutputStreamWriter] that has been reimplemented by JPF.
+Total actions: 4
+   0: ErrorTransformation: fd=14, rd=1, efd=0, tt=org.apache.jasper.JasperException
+   1: EarlyReturn: fd=14, rd=14, efd=13, at=14
+   2: EarlyReturn: fd=14, rd=13, efd=12, at=13
+   3: EarlyReturn: fd=14, rd=12, efd=11, at=12
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=14, rd=1, efd=0, tt=org.apache.jasper.JasperException
+Recover action ErrorTransformation: fd=14, rd=1, efd=0, tt=org.apache.jasper.JasperException resulted in org.javelus.javaplus.SyncLossException: Cannot find field out in java.io.OutputStreamWriter
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=14, rd=14, efd=13, at=14
+[WARNING] orphan NativePeer method: java.lang.String.init([CII)Ljava/lang/String;
+[WARNING] orphan NativePeer method: java.lang.String.init([III)Ljava/lang/String;
+[WARNING] orphan NativePeer method: java.lang.String.init([BIII)Ljava/lang/String;
+[WARNING] orphan NativePeer method: java.lang.String.init([BIILjava/lang/String;)Ljava/lang/String;
+[WARNING] orphan NativePeer method: java.lang.String.init([BII)Ljava/lang/String;
+[WARNING] orphan NativePeer method: java.lang.String.equals0([C[CI)Z
+[WARNING] orphan NativePeer method: java.lang.String.MJIcompare(Ljava/lang/String;Ljava/lang/String;)I
+Recover action EarlyReturn: fd=14, rd=14, efd=13, at=14 resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=14, rd=13, efd=12, at=13
+Recover action EarlyReturn: fd=14, rd=13, efd=12, at=13 resulted in org.javelus.javaplus.SyncLossException: Cannot find field buf in java.io.OutputStreamWriter
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=14, rd=12, efd=11, at=12
+Recover action EarlyReturn: fd=14, rd=12, efd=11, at=12 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 11.
+-------------------------------------------------------------
+Total results: 3
+   0: EarlyReturn: fd=14, rd=12, efd=11, at=12, rt=EARLY_BREAK, afd=11
+   1: EarlyReturn: fd=14, rd=13, efd=12, at=13, rt=EARLY_BREAK, afd=13
+   2: ErrorTransformation: fd=14, rd=1, efd=0, tt=org.apache.jasper.JasperException, rt=EARLY_BREAK, afd=1
+(java/lang/NullPointerException) (trivially handled) (early return) (end_index=13, final_max_depth=13, index=2, rettype=void)
+recovery time: 1011ms, result: 1
+Fill Stack: 0. org.apache.jasper.compiler.SmapUtil$SmapGenVisitor.doSmapText(Lorg/apache/jasper/compiler/Node;)V@26
+Fill Stack: 1. org.apache.jasper.compiler.SmapUtil$SmapGenVisitor.visit(Lorg/apache/jasper/compiler/Node$Scriptlet;)V@2
+Fill Stack: 2. org.apache.jasper.compiler.Node$Scriptlet.accept(Lorg/apache/jasper/compiler/Node$Visitor;)V@2
+Fill Stack: 3. org.apache.jasper.compiler.Node$Nodes.visit(Lorg/apache/jasper/compiler/Node$Visitor;)V@31
+Fill Stack: 4. org.apache.jasper.compiler.Node$Visitor.visitBody(Lorg/apache/jasper/compiler/Node;)V@12
+Fill Stack: 5. org.apache.jasper.compiler.SmapUtil$SmapGenVisitor.visitBody(Lorg/apache/jasper/compiler/Node;)V@31
+Fill Stack: 6. org.apache.jasper.compiler.Node$Visitor.visit(Lorg/apache/jasper/compiler/Node$JspRoot;)V@7
+Fill Stack: 7. org.apache.jasper.compiler.Node$JspRoot.accept(Lorg/apache/jasper/compiler/Node$Visitor;)V@2
+Fill Stack: 8. org.apache.jasper.compiler.Node$Nodes.visit(Lorg/apache/jasper/compiler/Node$Visitor;)V@31
+Fill Stack: 9. org.apache.jasper.compiler.Node$Visitor.visitBody(Lorg/apache/jasper/compiler/Node;)V@12
+Fill Stack: 10. org.apache.jasper.compiler.SmapUtil$SmapGenVisitor.visitBody(Lorg/apache/jasper/compiler/Node;)V@31
+Fill Stack: 11. org.apache.jasper.compiler.Node$Visitor.visit(Lorg/apache/jasper/compiler/Node$Root;)V@7
+Fill Stack: 12. org.apache.jasper.compiler.Node$Root.accept(Lorg/apache/jasper/compiler/Node$Visitor;)V@2
+Fill Stack: 13. org.apache.jasper.compiler.Node$Nodes.visit(Lorg/apache/jasper/compiler/Node$Visitor;)V@31
+Fill Stack: 14. org.apache.jasper.compiler.SmapUtil.evaluateNodes(Lorg/apache/jasper/compiler/Node$Nodes;Lorg/apache/jasper/compiler/SmapStratum;Ljava/util/HashMap;Z)V@11
+Fill Stack: 15. org.apache.jasper.compiler.SmapUtil.generateSmap(Lorg/apache/jasper/JspCompilationContext;Lorg/apache/jasper/compiler/Node$Nodes;)[Ljava/lang/String;@68
+Fill Stack: 16. org.apache.jasper.compiler.Compiler.generateJava()[Ljava/lang/String;@734
+Fill Stack: 17. org.apache.jasper.compiler.Compiler.compile(ZZ)V@20
+Fill Stack: 18. org.apache.jasper.compiler.Compiler.compile(Z)V@3
+Fill Stack: 19. org.apache.jasper.compiler.Compiler.compile()V@2
+Fill Stack: 20. org.apache.jasper.JspCompilationContext.compile()V@38
+Fill Stack: 21. org.apache.jasper.servlet.JspServletWrapper.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Z)V@118
+Fill Stack: 22. org.apache.jasper.servlet.JspServlet.serviceJspFile(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/Throwable;Z)V@134
+Fill Stack: 23. org.apache.jasper.servlet.JspServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@436
+Fill Stack: 24. javax.servlet.http.HttpServlet.service(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@30
+Fill Stack: 25. org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@374
+Fill Stack: 26. org.apache.catalina.core.ApplicationFilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@101
+Fill Stack: 27. org.apache.catalina.core.StandardWrapperValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@794
+Fill Stack: 28. org.apache.catalina.core.StandardContextValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@285
+Fill Stack: 29. org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@64
+Fill Stack: 30. org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@6
+Fill Stack: 31. org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@42
+Fill Stack: 32. org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V@157
+Fill Stack: 33. org.apache.coyote.http11.Http11Processor.process(Ljava/net/Socket;)V@432
+Fill Stack: 34. org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Ljava/net/Socket;)Z@82
+Fill Stack: 35. org.apache.tomcat.util.net.JIoEndpoint$Worker.run()V@41
+Fill Stack: 36. java.lang.Thread.run()V@11
+WARNNING: allocating an object of ClassInfo[name=java.io.OutputStreamWriter] that has been reimplemented by JPF.
+Total actions: 6
+   0: ErrorTransformation: fd=21, rd=7, efd=6, tt=org.apache.jasper.JasperException
+   1: ErrorTransformation: fd=21, rd=1, efd=0, tt=java.io.IOException
+   2: ErrorTransformation: fd=21, rd=1, efd=0, tt=java.io.FileNotFoundException
+   3: EarlyReturn: fd=21, rd=21, efd=20, at=21
+   4: EarlyReturn: fd=21, rd=20, efd=19, at=20
+   5: EarlyReturn: fd=21, rd=19, efd=18, at=19
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=21, rd=7, efd=6, tt=org.apache.jasper.JasperException
+Recover action ErrorTransformation: fd=21, rd=7, efd=6, tt=org.apache.jasper.JasperException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 6.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=21, rd=1, efd=0, tt=java.io.IOException
+Recover action ErrorTransformation: fd=21, rd=1, efd=0, tt=java.io.IOException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the max step 1001.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=21, rd=1, efd=0, tt=java.io.FileNotFoundException
+Recover action ErrorTransformation: fd=21, rd=1, efd=0, tt=java.io.FileNotFoundException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the max step 1001.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=21, rd=21, efd=20, at=21
+Recover action EarlyReturn: fd=21, rd=21, efd=20, at=21 resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=21, rd=20, efd=19, at=20
+Recover action EarlyReturn: fd=21, rd=20, efd=19, at=20 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 19.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=21, rd=19, efd=18, at=19
+Recover action EarlyReturn: fd=21, rd=19, efd=18, at=19 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 18.
+-------------------------------------------------------------
+Total results: 5
+   0: EarlyReturn: fd=21, rd=20, efd=19, at=20, rt=EARLY_BREAK, afd=19
+   1: EarlyReturn: fd=21, rd=19, efd=18, at=19, rt=EARLY_BREAK, afd=18
+   2: ErrorTransformation: fd=21, rd=7, efd=6, tt=org.apache.jasper.JasperException, rt=EARLY_BREAK, afd=6
+   3: ErrorTransformation: fd=21, rd=1, efd=0, tt=java.io.FileNotFoundException, rt=EARLY_BREAK, afd=4
+   4: ErrorTransformation: fd=21, rd=1, efd=0, tt=java.io.IOException, rt=EARLY_BREAK, afd=4
+(java/lang/NullPointerException) (trivially handled) (early return) (end_index=20, final_max_depth=20, index=1, rettype=void)
+recovery time: 238ms, result: 1
+Fill Stack: 0. java.util.ResourceBundle.getString(Ljava/lang/String;)Ljava/lang/String;@2
+Fill Stack: 1. org.eclipse.jdt.internal.compiler.parser.Parser.readReadableNameTable(Ljava/lang/String;)[Ljava/lang/String;@98
+Fill Stack: 2. org.eclipse.jdt.internal.compiler.parser.Parser.initTables()V@686
+Fill Stack: 3. org.eclipse.jdt.internal.compiler.parser.Parser.<clinit>()V@112
+Fill Stack: 4. org.eclipse.jdt.internal.compiler.Compiler.initializeParser()V@1
+Fill Stack: 5. org.eclipse.jdt.internal.compiler.Compiler.<init>(Lorg/eclipse/jdt/internal/compiler/env/INameEnvironment;Lorg/eclipse/jdt/internal/compiler/IErrorHandlingPolicy;Lorg/eclipse/jdt/internal/compiler/impl/CompilerOptions;Lorg/eclipse/jdt/internal/compiler/ICompilerRequestor;Lorg/eclipse/jdt/internal/compiler/IProblemFactory;Ljava/io/PrintWriter;)V@108
+Fill Stack: 6. org.eclipse.jdt.internal.compiler.Compiler.<init>(Lorg/eclipse/jdt/internal/compiler/env/INameEnvironment;Lorg/eclipse/jdt/internal/compiler/IErrorHandlingPolicy;Ljava/util/Map;Lorg/eclipse/jdt/internal/compiler/ICompilerRequestor;Lorg/eclipse/jdt/internal/compiler/IProblemFactory;Z)V@18
+Fill Stack: 7. org.apache.jasper.compiler.JDTCompiler.generateClass([Ljava/lang/String;)V@828
+Fill Stack: 8. org.apache.jasper.compiler.Compiler.compile(ZZ)V@30
+Fill Stack: 9. org.apache.jasper.compiler.Compiler.compile(Z)V@3
+Fill Stack: 10. org.apache.jasper.compiler.Compiler.compile()V@2
+Fill Stack: 11. org.apache.jasper.JspCompilationContext.compile()V@38
+Fill Stack: 12. org.apache.jasper.servlet.JspServletWrapper.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Z)V@118
+Fill Stack: 13. org.apache.jasper.servlet.JspServlet.serviceJspFile(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/Throwable;Z)V@134
+Fill Stack: 14. org.apache.jasper.servlet.JspServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@436
+Fill Stack: 15. javax.servlet.http.HttpServlet.service(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@30
+Fill Stack: 16. org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@374
+Fill Stack: 17. org.apache.catalina.core.ApplicationFilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@101
+Fill Stack: 18. org.apache.catalina.core.StandardWrapperValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@794
+Fill Stack: 19. org.apache.catalina.core.StandardContextValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@285
+Fill Stack: 20. org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@64
+Fill Stack: 21. org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@6
+Fill Stack: 22. org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@42
+Fill Stack: 23. org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V@157
+Fill Stack: 24. org.apache.coyote.http11.Http11Processor.process(Ljava/net/Socket;)V@432
+Fill Stack: 25. org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Ljava/net/Socket;)Z@82
+Fill Stack: 26. org.apache.tomcat.util.net.JIoEndpoint$Worker.run()V@41
+Fill Stack: 27. java.lang.Thread.run()V@11
+recovery time: 0ms, result: 0
+Fill Stack: 0. java.util.ResourceBundle.getString(Ljava/lang/String;)Ljava/lang/String;@2
+Fill Stack: 1. org.eclipse.jdt.internal.compiler.parser.Parser.readReadableNameTable(Ljava/lang/String;)[Ljava/lang/String;@98
+Fill Stack: 2. org.eclipse.jdt.internal.compiler.parser.Parser.initTables()V@686
+Fill Stack: 3. org.eclipse.jdt.internal.compiler.parser.Parser.<clinit>()V@112
+Fill Stack: 4. org.eclipse.jdt.internal.compiler.Compiler.initializeParser()V@1
+Fill Stack: 5. org.eclipse.jdt.internal.compiler.Compiler.<init>(Lorg/eclipse/jdt/internal/compiler/env/INameEnvironment;Lorg/eclipse/jdt/internal/compiler/IErrorHandlingPolicy;Lorg/eclipse/jdt/internal/compiler/impl/CompilerOptions;Lorg/eclipse/jdt/internal/compiler/ICompilerRequestor;Lorg/eclipse/jdt/internal/compiler/IProblemFactory;Ljava/io/PrintWriter;)V@108
+Fill Stack: 6. org.eclipse.jdt.internal.compiler.Compiler.<init>(Lorg/eclipse/jdt/internal/compiler/env/INameEnvironment;Lorg/eclipse/jdt/internal/compiler/IErrorHandlingPolicy;Ljava/util/Map;Lorg/eclipse/jdt/internal/compiler/ICompilerRequestor;Lorg/eclipse/jdt/internal/compiler/IProblemFactory;Z)V@18
+Fill Stack: 7. org.apache.jasper.compiler.JDTCompiler.generateClass([Ljava/lang/String;)V@828
+Fill Stack: 8. org.apache.jasper.compiler.Compiler.compile(ZZ)V@30
+Fill Stack: 9. org.apache.jasper.compiler.Compiler.compile(Z)V@3
+Fill Stack: 10. org.apache.jasper.compiler.Compiler.compile()V@2
+Fill Stack: 11. org.apache.jasper.JspCompilationContext.compile()V@38
+Fill Stack: 12. org.apache.jasper.servlet.JspServletWrapper.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Z)V@118
+Fill Stack: 13. org.apache.jasper.servlet.JspServlet.serviceJspFile(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/Throwable;Z)V@134
+Fill Stack: 14. org.apache.jasper.servlet.JspServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@436
+Fill Stack: 15. javax.servlet.http.HttpServlet.service(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@30
+Fill Stack: 16. org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@374
+Fill Stack: 17. org.apache.catalina.core.ApplicationFilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@101
+Fill Stack: 18. org.apache.catalina.core.StandardWrapperValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@794
+Fill Stack: 19. org.apache.catalina.core.StandardContextValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@285
+Fill Stack: 20. org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@64
+Fill Stack: 21. org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@6
+Fill Stack: 22. org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@42
+Fill Stack: 23. org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V@157
+Fill Stack: 24. org.apache.coyote.http11.Http11Processor.process(Ljava/net/Socket;)V@432
+Fill Stack: 25. org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Ljava/net/Socket;)Z@82
+Fill Stack: 26. org.apache.tomcat.util.net.JIoEndpoint$Worker.run()V@41
+Fill Stack: 27. java.lang.Thread.run()V@11
+recovery time: 0ms, result: 0
+Fill Stack: 0. java.util.ResourceBundle.getString(Ljava/lang/String;)Ljava/lang/String;@2
+Fill Stack: 1. org.eclipse.jdt.internal.compiler.parser.Parser.readReadableNameTable(Ljava/lang/String;)[Ljava/lang/String;@98
+Fill Stack: 2. org.eclipse.jdt.internal.compiler.parser.Parser.initTables()V@686
+Fill Stack: 3. org.eclipse.jdt.internal.compiler.parser.Parser.<clinit>()V@112
+Fill Stack: 4. org.eclipse.jdt.internal.compiler.Compiler.initializeParser()V@1
+Fill Stack: 5. org.eclipse.jdt.internal.compiler.Compiler.<init>(Lorg/eclipse/jdt/internal/compiler/env/INameEnvironment;Lorg/eclipse/jdt/internal/compiler/IErrorHandlingPolicy;Lorg/eclipse/jdt/internal/compiler/impl/CompilerOptions;Lorg/eclipse/jdt/internal/compiler/ICompilerRequestor;Lorg/eclipse/jdt/internal/compiler/IProblemFactory;Ljava/io/PrintWriter;)V@108
+Fill Stack: 6. org.eclipse.jdt.internal.compiler.Compiler.<init>(Lorg/eclipse/jdt/internal/compiler/env/INameEnvironment;Lorg/eclipse/jdt/internal/compiler/IErrorHandlingPolicy;Ljava/util/Map;Lorg/eclipse/jdt/internal/compiler/ICompilerRequestor;Lorg/eclipse/jdt/internal/compiler/IProblemFactory;Z)V@18
+Fill Stack: 7. org.apache.jasper.compiler.JDTCompiler.generateClass([Ljava/lang/String;)V@828
+Fill Stack: 8. org.apache.jasper.compiler.Compiler.compile(ZZ)V@30
+Fill Stack: 9. org.apache.jasper.compiler.Compiler.compile(Z)V@3
+Fill Stack: 10. org.apache.jasper.compiler.Compiler.compile()V@2
+Fill Stack: 11. org.apache.jasper.JspCompilationContext.compile()V@38
+Fill Stack: 12. org.apache.jasper.servlet.JspServletWrapper.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Z)V@118
+Fill Stack: 13. org.apache.jasper.servlet.JspServlet.serviceJspFile(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/Throwable;Z)V@134
+Fill Stack: 14. org.apache.jasper.servlet.JspServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@436
+Fill Stack: 15. javax.servlet.http.HttpServlet.service(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@30
+Fill Stack: 16. org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@374
+Fill Stack: 17. org.apache.catalina.core.ApplicationFilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@101
+Fill Stack: 18. org.apache.catalina.core.StandardWrapperValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@794
+Fill Stack: 19. org.apache.catalina.core.StandardContextValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@285
+Fill Stack: 20. org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@64
+Fill Stack: 21. org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@6
+Fill Stack: 22. org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@42
+Fill Stack: 23. org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V@157
+Fill Stack: 24. org.apache.coyote.http11.Http11Processor.process(Ljava/net/Socket;)V@432
+Fill Stack: 25. org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Ljava/net/Socket;)Z@82
+Fill Stack: 26. org.apache.tomcat.util.net.JIoEndpoint$Worker.run()V@41
+Fill Stack: 27. java.lang.Thread.run()V@11
+recovery time: 0ms, result: 0
+Fill Stack: 0. org.eclipse.jdt.internal.compiler.parser.Scanner.getNextToken()I@94
+Fill Stack: 1. org.eclipse.jdt.internal.compiler.parser.Parser.parse()V@248
+Fill Stack: 2. org.eclipse.jdt.internal.compiler.parser.Parser.parse(Lorg/eclipse/jdt/internal/compiler/env/ICompilationUnit;Lorg/eclipse/jdt/internal/compiler/CompilationResult;II)Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;@153
+Fill Stack: 3. org.eclipse.jdt.internal.compiler.parser.Parser.parse(Lorg/eclipse/jdt/internal/compiler/env/ICompilationUnit;Lorg/eclipse/jdt/internal/compiler/CompilationResult;)Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;@5
+Fill Stack: 4. org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Lorg/eclipse/jdt/internal/compiler/env/ICompilationUnit;Lorg/eclipse/jdt/internal/compiler/CompilationResult;)Lorg/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;@14
+Fill Stack: 5. org.eclipse.jdt.internal.compiler.Compiler.beginToCompile([Lorg/eclipse/jdt/internal/compiler/env/ICompilationUnit;)V@140
+Fill Stack: 6. org.eclipse.jdt.internal.compiler.Compiler.compile([Lorg/eclipse/jdt/internal/compiler/env/ICompilationUnit;)V@6
+Fill Stack: 7. org.apache.jasper.compiler.JDTCompiler.generateClass([Ljava/lang/String;)V@837
+Fill Stack: 8. org.apache.jasper.compiler.Compiler.compile(ZZ)V@30
+Fill Stack: 9. org.apache.jasper.compiler.Compiler.compile(Z)V@3
+Fill Stack: 10. org.apache.jasper.compiler.Compiler.compile()V@2
+Fill Stack: 11. org.apache.jasper.JspCompilationContext.compile()V@38
+Fill Stack: 12. org.apache.jasper.servlet.JspServletWrapper.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Z)V@118
+Fill Stack: 13. org.apache.jasper.servlet.JspServlet.serviceJspFile(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/Throwable;Z)V@134
+Fill Stack: 14. org.apache.jasper.servlet.JspServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V@436
+Fill Stack: 15. javax.servlet.http.HttpServlet.service(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@30
+Fill Stack: 16. org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@374
+Fill Stack: 17. org.apache.catalina.core.ApplicationFilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V@101
+Fill Stack: 18. org.apache.catalina.core.StandardWrapperValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@794
+Fill Stack: 19. org.apache.catalina.core.StandardContextValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@285
+Fill Stack: 20. org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@64
+Fill Stack: 21. org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@6
+Fill Stack: 22. org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@42
+Fill Stack: 23. org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V@157
+Fill Stack: 24. org.apache.coyote.http11.Http11Processor.process(Ljava/net/Socket;)V@432
+Fill Stack: 25. org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Ljava/net/Socket;)Z@82
+Fill Stack: 26. org.apache.tomcat.util.net.JIoEndpoint$Worker.run()V@41
+Fill Stack: 27. java.lang.Thread.run()V@11
+recovery time: 0ms, result: 0
+Fill Stack: 0. java.lang.Runtime.removeShutdownHook(Ljava/lang/Thread;)Z@22
+Fill Stack: 1. org.apache.catalina.startup.Catalina.stop()V@14
+Fill Stack: 2. org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run()V@14
+Total actions: 2
+   0: EarlyReturn: fd=2, rd=2, efd=1, at=2
+   1: EarlyReturn: fd=2, rd=1, efd=0, at=1
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=2, rd=2, efd=1, at=2
+Recover action EarlyReturn: fd=2, rd=2, efd=1, at=2 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 1.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=2, rd=1, efd=0, at=1
+Recover action EarlyReturn: fd=2, rd=1, efd=0, at=1 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the max step 1001.
+-------------------------------------------------------------
+Total results: 2
+   0: EarlyReturn: fd=2, rd=2, efd=1, at=2, rt=EARLY_BREAK, afd=1
+   1: EarlyReturn: fd=2, rd=1, efd=0, at=1, rt=EARLY_BREAK, afd=1
+(java/lang/IllegalStateException) (trivially handled) (early return) (end_index=1, final_max_depth=1, index=0, rettype=boolean)
+recovery time: 119ms, result: 1
+Jun 29, 2015 1:16:13 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Fill Stack: 0. java.lang.Integer.<init>(Ljava/lang/String;)V@8
+Fill Stack: 1. sun.net.InetAddressCachePolicy.<clinit>()V@27
+Fill Stack: 2. java.net.InetAddress$Cache.getPolicy()I@10
+Fill Stack: 3. java.net.InetAddress$Cache.put(Ljava/lang/String;[Ljava/net/InetAddress;)Ljava/net/InetAddress$Cache;@1
+Fill Stack: 4. java.net.InetAddress.cacheInitIfNeeded()V@67
+Fill Stack: 5. java.net.InetAddress.cacheAddresses(Ljava/lang/String;[Ljava/net/InetAddress;Z)V@11
+Fill Stack: 6. java.net.InetAddress.getAddressesFromNameService(Ljava/lang/String;Ljava/net/InetAddress;)[Ljava/net/InetAddress;@212
+Fill Stack: 7. java.net.InetAddress.getLocalHost()Ljava/net/InetAddress;@90
+Fill Stack: 8. org.apache.jk.common.ChannelSocket.unLockSocket()V@29
+Fill Stack: 9. org.apache.jk.common.ChannelSocket.pause()V@10
+Fill Stack: 10. org.apache.jk.server.JkMain.pause()V@32
+Fill Stack: 11. org.apache.jk.server.JkCoyoteHandler.pause()V@16
+Fill Stack: 12. org.apache.catalina.connector.Connector.pause()V@4
+Fill Stack: 13. org.apache.catalina.core.StandardService.stop()V@42
+Fill Stack: 14. org.apache.catalina.core.StandardServer.stop()V@65
+Fill Stack: 15. org.apache.catalina.startup.Catalina.stop()V@39
+Fill Stack: 16. org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run()V@14
+recovery time: 0ms, result: 0
+Jun 29, 2015 1:16:14 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jun 29, 2015 1:16:14 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080

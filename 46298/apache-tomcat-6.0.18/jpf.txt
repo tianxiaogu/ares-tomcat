@@ -1,0 +1,633 @@
+Using CATALINA_BASE:   /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18
+Using CATALINA_HOME:   /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18
+Using CATALINA_TMPDIR: /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/temp
+Using JRE_HOME:       /home/t/Projects/error-transformation-vm/jdk1.7.0_65/
+Jun 29, 2015 1:35:08 AM org.apache.catalina.startup.Embedded initDirs
+SEVERE: Cannot find specified temporary folder at /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/temp
+Jun 29, 2015 1:35:09 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/t/Projects/error-transformation-vm/hotspot/build/linux/linux_amd64_compiler2/fastdebug:/home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jun 29, 2015 1:35:09 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Jun 29, 2015 1:35:09 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1000 ms
+Jun 29, 2015 1:35:09 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jun 29, 2015 1:35:09 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Fill Stack: 0. org.apache.catalina.realm.JDBCRealm.open()Ljava/sql/Connection;@121
+Using java runtime at: /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre
+Fill Stack: 1. org.apache.catalina.realm.JDBCRealm.start()V@5
+Fill Stack: 2. org.apache.catalina.core.ContainerBase.start()V@204
+Fill Stack: 3. org.apache.catalina.core.StandardEngine.start()V@221
+Fill Stack: 4. org.apache.catalina.core.StandardService.start()V@132
+Fill Stack: 5. org.apache.catalina.core.StandardServer.start()V@88
+Fill Stack: 6. org.apache.catalina.startup.Catalina.start()V@32
+Fill Stack: 7. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 8. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 9. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 10. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 11. org.apache.catalina.startup.Bootstrap.start()V@37
+Fill Stack: 12. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@125
+End initialize
+[WARNING] orphan NativePeer method: java.net.URLClassLoader.<init>()V
+[WARNING] orphan NativePeer method: java.net.URLClassLoader.<init>(Ljava/lang/ClassLoader;)V
+************ Create a custom class loader! ***************
+org.apache.catalina.loader.StandardClassLoader@58c77e26
+**********************************************************
+Total actions: 5
+   0: ErrorTransformation: fd=7, rd=6, efd=5, tt=java.sql.SQLException
+   1: ErrorTransformation: fd=7, rd=1, efd=0, tt=org.apache.catalina.LifecycleException
+   2: EarlyReturn: fd=7, rd=7, efd=6, at=7
+   3: EarlyReturn: fd=7, rd=6, efd=5, at=6
+   4: EarlyReturn: fd=7, rd=5, efd=4, at=5
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=7, rd=6, efd=5, tt=java.sql.SQLException
+Recover action ErrorTransformation: fd=7, rd=6, efd=5, tt=java.sql.SQLException resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=7, rd=1, efd=0, tt=org.apache.catalina.LifecycleException
+Fill Stack: 0. sun.jdbc.odbc.JdbcOdbcDriver.finalize()V@3
+Fill Stack: 1. java.lang.System$2.invokeFinalize(Ljava/lang/Object;)V@1
+Fill Stack: 2. java.lang.ref.Finalizer.runFinalizer(Lsun/misc/JavaLangAccess;)V@46
+Fill Stack: 3. java.lang.ref.Finalizer.access$100(Ljava/lang/ref/Finalizer;Lsun/misc/JavaLangAccess;)V@2
+Fill Stack: 4. java.lang.ref.Finalizer$FinalizerThread.run()V@45
+Recover action ErrorTransformation: fd=7, rd=1, efd=0, tt=org.apache.catalina.LifecycleException resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=7, rd=7, efd=6, at=7
+Recover action EarlyReturn: fd=7, rd=7, efd=6, at=7 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 6.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=7, rd=6, efd=5, at=6
+Recover action EarlyReturn: fd=7, rd=6, efd=5, at=6 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 5.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=7, rd=5, efd=4, at=5
+Recover action EarlyReturn: fd=7, rd=5, efd=4, at=5 resulted in gov.nasa.jpf.vm.UncaughtException: uncaught exception in thread main #0 : java.lang.ClassNotFoundException : "class not found: org.apache.catalina.Container"
+-------------------------------------------------------------
+Total results: 2
+   0: EarlyReturn: fd=7, rd=7, efd=6, at=7, rt=EARLY_BREAK, afd=6
+   1: EarlyReturn: fd=7, rd=6, efd=5, at=6, rt=EARLY_BREAK, afd=5
+(java/lang/NullPointerException) (trivially handled) (early return) (end_index=12, final_max_depth=6, index=0, rettype=void)
+recovery time: 1168ms, result: 1
+Total actions: 2
+   0: EarlyReturn: fd=3, rd=3, efd=2, at=3
+   1: EarlyReturn: fd=3, rd=2, efd=1, at=2
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=3, rd=3, efd=2, at=3
+Recover action EarlyReturn: fd=3, rd=3, efd=2, at=3 resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=3, rd=2, efd=1, at=2
+Recover action EarlyReturn: fd=3, rd=2, efd=1, at=2 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 1.
+-------------------------------------------------------------
+Total results: 1
+   0: EarlyReturn: fd=3, rd=2, efd=1, at=2, rt=EARLY_BREAK, afd=1
+(java/lang/NullPointerException) (trivially handled) (early return) (end_index=2, final_max_depth=2, index=1, rettype=void)
+recovery time: 290ms, result: 1
+Fill Stack: 0. java.lang.Integer.<init>(Ljava/lang/String;)V@8
+Fill Stack: 1. sun.net.InetAddressCachePolicy.<clinit>()V@27
+Fill Stack: 2. java.net.InetAddress$Cache.getPolicy()I@10
+Fill Stack: 3. java.net.InetAddress$Cache.put(Ljava/lang/String;[Ljava/net/InetAddress;)Ljava/net/InetAddress$Cache;@1
+Fill Stack: 4. java.net.InetAddress.cacheInitIfNeeded()V@67
+Fill Stack: 5. java.net.InetAddress.getCachedAddresses(Ljava/lang/String;)[Ljava/net/InetAddress;@11
+Fill Stack: 6. java.net.InetAddress.getAllByName0(Ljava/lang/String;Ljava/net/InetAddress;Z)[Ljava/net/InetAddress;@19
+Fill Stack: 7. java.net.InetAddress.getAllByName(Ljava/lang/String;Ljava/net/InetAddress;)[Ljava/net/InetAddress;@343
+Fill Stack: 8. java.net.InetAddress.getAllByName(Ljava/lang/String;)[Ljava/net/InetAddress;@2
+Fill Stack: 9. com.mysql.jdbc.StandardSocketFactory.connect(Ljava/lang/String;ILjava/util/Properties;)Ljava/net/Socket;@303
+Fill Stack: 10. com.mysql.jdbc.MysqlIO.<init>(Ljava/lang/String;ILjava/util/Properties;Ljava/lang/String;Lcom/mysql/jdbc/MySQLConnection;II)V@461
+Fill Stack: 11. com.mysql.jdbc.ConnectionImpl.coreConnect(Ljava/util/Properties;)V@213
+Fill Stack: 12. com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ZLjava/util/Properties;)V@4
+Fill Stack: 13. com.mysql.jdbc.ConnectionImpl.createNewIO(Z)V@26
+Fill Stack: 14. com.mysql.jdbc.ConnectionImpl.<init>(Ljava/lang/String;ILjava/util/Properties;Ljava/lang/String;Ljava/lang/String;)V@791
+Fill Stack: 15. com.mysql.jdbc.JDBC4Connection.<init>(Ljava/lang/String;ILjava/util/Properties;Ljava/lang/String;Ljava/lang/String;)V@8
+Fill Stack: 16. sun.reflect.NativeConstructorAccessorImpl.newInstance0(Ljava/lang/reflect/Constructor;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 17. sun.reflect.NativeConstructorAccessorImpl.newInstance([Ljava/lang/Object;)Ljava/lang/Object;@72
+Fill Stack: 18. sun.reflect.DelegatingConstructorAccessorImpl.newInstance([Ljava/lang/Object;)Ljava/lang/Object;@5
+Fill Stack: 19. java.lang.reflect.Constructor.newInstance([Ljava/lang/Object;)Ljava/lang/Object;@79
+Fill Stack: 20. com.mysql.jdbc.Util.handleNewInstance(Ljava/lang/reflect/Constructor;[Ljava/lang/Object;Lcom/mysql/jdbc/ExceptionInterceptor;)Ljava/lang/Object;@2
+Fill Stack: 21. com.mysql.jdbc.ConnectionImpl.getInstance(Ljava/lang/String;ILjava/util/Properties;Ljava/lang/String;Ljava/lang/String;)Lcom/mysql/jdbc/Connection;@52
+Fill Stack: 22. com.mysql.jdbc.NonRegisteringDriver.connect(Ljava/lang/String;Ljava/util/Properties;)Ljava/sql/Connection;@89
+Fill Stack: 23. org.apache.catalina.realm.JDBCRealm.open()Ljava/sql/Connection;@108
+Fill Stack: 24. org.apache.catalina.realm.JDBCRealm.start()V@5
+Fill Stack: 25. org.apache.catalina.core.StandardContext.start()V@814
+Fill Stack: 26. org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V@156
+Fill Stack: 27. org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V@26
+Fill Stack: 28. org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V@25
+Fill Stack: 29. org.apache.catalina.startup.HostConfig.deployDirectory(Ljava/lang/String;Ljava/io/File;Ljava/lang/String;)V@160
+Fill Stack: 30. org.apache.catalina.startup.HostConfig.deployDirectories(Ljava/io/File;[Ljava/lang/String;)V@127
+Fill Stack: 31. org.apache.catalina.startup.HostConfig.deployApps()V@34
+Fill Stack: 32. org.apache.catalina.startup.HostConfig.start()V@147
+Fill Stack: 33. org.apache.catalina.startup.HostConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@132
+Fill Stack: 34. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 35. org.apache.catalina.core.ContainerBase.start()V@306
+Fill Stack: 36. org.apache.catalina.core.StandardHost.start()V@314
+Fill Stack: 37. org.apache.catalina.core.ContainerBase.start()V@266
+Fill Stack: 38. org.apache.catalina.core.StandardEngine.start()V@221
+Fill Stack: 39. org.apache.catalina.core.StandardService.start()V@132
+Fill Stack: 40. org.apache.catalina.core.StandardServer.start()V@88
+Fill Stack: 41. org.apache.catalina.startup.Catalina.start()V@32
+Fill Stack: 42. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 43. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 44. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 45. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 46. org.apache.catalina.startup.Bootstrap.start()V@37
+Fill Stack: 47. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@125
+recovery time: 0ms, result: 0
+Fill Stack: 0. com.mysql.jdbc.MysqlIO.quit()V@4
+Fill Stack: 1. com.mysql.jdbc.ConnectionImpl.realClose(ZZZLjava/lang/Throwable;)V@199
+Fill Stack: 2. com.mysql.jdbc.ConnectionImpl.cleanup(Ljava/lang/Throwable;)V@29
+Fill Stack: 3. com.mysql.jdbc.ConnectionImpl.<init>(Ljava/lang/String;ILjava/util/Properties;Ljava/lang/String;Ljava/lang/String;)V@806
+Fill Stack: 4. com.mysql.jdbc.JDBC4Connection.<init>(Ljava/lang/String;ILjava/util/Properties;Ljava/lang/String;Ljava/lang/String;)V@8
+Fill Stack: 5. sun.reflect.NativeConstructorAccessorImpl.newInstance0(Ljava/lang/reflect/Constructor;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 6. sun.reflect.NativeConstructorAccessorImpl.newInstance([Ljava/lang/Object;)Ljava/lang/Object;@72
+Fill Stack: 7. sun.reflect.DelegatingConstructorAccessorImpl.newInstance([Ljava/lang/Object;)Ljava/lang/Object;@5
+Fill Stack: 8. java.lang.reflect.Constructor.newInstance([Ljava/lang/Object;)Ljava/lang/Object;@79
+Fill Stack: 9. com.mysql.jdbc.Util.handleNewInstance(Ljava/lang/reflect/Constructor;[Ljava/lang/Object;Lcom/mysql/jdbc/ExceptionInterceptor;)Ljava/lang/Object;@2
+Fill Stack: 10. com.mysql.jdbc.ConnectionImpl.getInstance(Ljava/lang/String;ILjava/util/Properties;Ljava/lang/String;Ljava/lang/String;)Lcom/mysql/jdbc/Connection;@52
+Fill Stack: 11. com.mysql.jdbc.NonRegisteringDriver.connect(Ljava/lang/String;Ljava/util/Properties;)Ljava/sql/Connection;@89
+Fill Stack: 12. org.apache.catalina.realm.JDBCRealm.open()Ljava/sql/Connection;@108
+Fill Stack: 13. org.apache.catalina.realm.JDBCRealm.start()V@5
+Fill Stack: 14. org.apache.catalina.core.StandardContext.start()V@814
+Fill Stack: 15. org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V@156
+Fill Stack: 16. org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V@26
+Fill Stack: 17. org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V@25
+Fill Stack: 18. org.apache.catalina.startup.HostConfig.deployDirectory(Ljava/lang/String;Ljava/io/File;Ljava/lang/String;)V@160
+Fill Stack: 19. org.apache.catalina.startup.HostConfig.deployDirectories(Ljava/io/File;[Ljava/lang/String;)V@127
+Fill Stack: 20. org.apache.catalina.startup.HostConfig.deployApps()V@34
+Fill Stack: 21. org.apache.catalina.startup.HostConfig.start()V@147
+Fill Stack: 22. org.apache.catalina.startup.HostConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V@132
+Fill Stack: 23. org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V@37
+Fill Stack: 24. org.apache.catalina.core.ContainerBase.start()V@306
+Fill Stack: 25. org.apache.catalina.core.StandardHost.start()V@314
+Fill Stack: 26. org.apache.catalina.core.ContainerBase.start()V@266
+Fill Stack: 27. org.apache.catalina.core.StandardEngine.start()V@221
+Fill Stack: 28. org.apache.catalina.core.StandardService.start()V@132
+Fill Stack: 29. org.apache.catalina.core.StandardServer.start()V@88
+Fill Stack: 30. org.apache.catalina.startup.Catalina.start()V@32
+Fill Stack: 31. sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@0
+Fill Stack: 32. sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@87
+Fill Stack: 33. sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@6
+Fill Stack: 34. java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;@57
+Fill Stack: 35. org.apache.catalina.startup.Bootstrap.start()V@37
+Fill Stack: 36. org.apache.catalina.startup.Bootstrap.main([Ljava/lang/String;)V@125
+Total actions: 3
+   0: ErrorTransformation: fd=2, rd=1, efd=0, tt=java.sql.SQLException
+   1: EarlyReturn: fd=2, rd=2, efd=1, at=2
+   2: EarlyReturn: fd=2, rd=1, efd=0, at=1
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=2, rd=1, efd=0, tt=java.sql.SQLException
+Recover action ErrorTransformation: fd=2, rd=1, efd=0, tt=java.sql.SQLException resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=2, rd=2, efd=1, at=2
+Recover action EarlyReturn: fd=2, rd=2, efd=1, at=2 resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=2, rd=1, efd=0, at=1
+Recover action EarlyReturn: fd=2, rd=1, efd=0, at=1 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 0.
+-------------------------------------------------------------
+Total results: 1
+   0: EarlyReturn: fd=2, rd=1, efd=0, at=1, rt=EARLY_BREAK, afd=0
+(java/lang/NullPointerException) (trivially handled) (early return) (end_index=1, final_max_depth=1, index=1, rettype=void)
+recovery time: 139ms, result: 1
+Jun 29, 2015 1:35:13 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Jun 29, 2015 1:35:13 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Jun 29, 2015 1:35:13 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/78  config=null
+Jun 29, 2015 1:35:13 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3860 ms
+Fill Stack: 0. org.apache.catalina.realm.JDBCRealm.open()Ljava/sql/Connection;@121
+Fill Stack: 1. org.apache.catalina.realm.JDBCRealm.authenticate(Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;@7
+Fill Stack: 2. org.apache.catalina.authenticator.BasicAuthenticator.authenticate(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;Lorg/apache/catalina/deploy/LoginConfig;)Z@326
+Fill Stack: 3. org.apache.catalina.authenticator.AuthenticatorBase.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@559
+Fill Stack: 4. org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@64
+Fill Stack: 5. org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@6
+Fill Stack: 6. org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@42
+Fill Stack: 7. org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V@157
+Fill Stack: 8. org.apache.coyote.http11.Http11Processor.process(Ljava/net/Socket;)V@432
+Fill Stack: 9. org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Ljava/net/Socket;)Z@82
+Fill Stack: 10. org.apache.tomcat.util.net.JIoEndpoint$Worker.run()V@41
+Fill Stack: 11. java.lang.Thread.run()V@11
+Total actions: 6
+   0: ErrorTransformation: fd=8, rd=7, efd=6, tt=java.sql.SQLException
+   1: ErrorTransformation: fd=8, rd=1, efd=0, tt=java.io.IOException
+   2: ErrorTransformation: fd=8, rd=1, efd=0, tt=javax.servlet.ServletException
+   3: EarlyReturn: fd=8, rd=8, efd=7, at=8
+   4: EarlyReturn: fd=8, rd=7, efd=6, at=7
+   5: EarlyReturn: fd=8, rd=6, efd=5, at=6
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=8, rd=7, efd=6, tt=java.sql.SQLException
+Recover action ErrorTransformation: fd=8, rd=7, efd=6, tt=java.sql.SQLException resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=8, rd=1, efd=0, tt=java.io.IOException
+Recover action ErrorTransformation: fd=8, rd=1, efd=0, tt=java.io.IOException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 0.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=8, rd=1, efd=0, tt=javax.servlet.ServletException
+[WARNING] orphan NativePeer method: java.util.ResourceBundle.getClassContext()[Ljava/lang/Class;
+Recover action ErrorTransformation: fd=8, rd=1, efd=0, tt=javax.servlet.ServletException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the max step 1001.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=8, rd=8, efd=7, at=8
+Recover action EarlyReturn: fd=8, rd=8, efd=7, at=8 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 7.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=8, rd=7, efd=6, at=7
+Recover action EarlyReturn: fd=8, rd=7, efd=6, at=7 resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=8, rd=6, efd=5, at=6
+Recover action EarlyReturn: fd=8, rd=6, efd=5, at=6 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 5.
+-------------------------------------------------------------
+Total results: 4
+   0: EarlyReturn: fd=8, rd=8, efd=7, at=8, rt=EARLY_BREAK, afd=7
+   1: EarlyReturn: fd=8, rd=6, efd=5, at=6, rt=EARLY_BREAK, afd=1
+   2: ErrorTransformation: fd=8, rd=1, efd=0, tt=java.io.IOException, rt=EARLY_BREAK, afd=0
+   3: ErrorTransformation: fd=8, rd=1, efd=0, tt=javax.servlet.ServletException, rt=EARLY_BREAK, afd=1
+(java/lang/NullPointerException) (trivially handled) (early return) (end_index=7, final_max_depth=7, index=0, rettype=void)
+recovery time: 409ms, result: 1
+Fill Stack: 0. org.apache.catalina.realm.JDBCRealm.open()Ljava/sql/Connection;@121
+Fill Stack: 1. org.apache.catalina.realm.JDBCRealm.getPassword(Ljava/lang/String;)Ljava/lang/String;@16
+Fill Stack: 2. org.apache.catalina.realm.JDBCRealm.authenticate(Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;@8
+Fill Stack: 3. org.apache.catalina.realm.JDBCRealm.authenticate(Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;@18
+Fill Stack: 4. org.apache.catalina.authenticator.BasicAuthenticator.authenticate(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;Lorg/apache/catalina/deploy/LoginConfig;)Z@326
+Fill Stack: 5. org.apache.catalina.authenticator.AuthenticatorBase.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@559
+Fill Stack: 6. org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@64
+Fill Stack: 7. org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@6
+Fill Stack: 8. org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@42
+Fill Stack: 9. org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V@157
+Fill Stack: 10. org.apache.coyote.http11.Http11Processor.process(Ljava/net/Socket;)V@432
+Fill Stack: 11. org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Ljava/net/Socket;)Z@82
+Fill Stack: 12. org.apache.tomcat.util.net.JIoEndpoint$Worker.run()V@41
+Fill Stack: 13. java.lang.Thread.run()V@11
+Total actions: 6
+   0: ErrorTransformation: fd=10, rd=9, efd=8, tt=java.sql.SQLException
+   1: ErrorTransformation: fd=10, rd=1, efd=0, tt=java.io.IOException
+   2: ErrorTransformation: fd=10, rd=1, efd=0, tt=javax.servlet.ServletException
+   3: EarlyReturn: fd=10, rd=10, efd=9, at=10
+   4: EarlyReturn: fd=10, rd=9, efd=8, at=9
+   5: EarlyReturn: fd=10, rd=8, efd=7, at=8
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=10, rd=9, efd=8, tt=java.sql.SQLException
+Recover action ErrorTransformation: fd=10, rd=9, efd=8, tt=java.sql.SQLException resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=10, rd=1, efd=0, tt=java.io.IOException
+Recover action ErrorTransformation: fd=10, rd=1, efd=0, tt=java.io.IOException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 0.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=10, rd=1, efd=0, tt=javax.servlet.ServletException
+Recover action ErrorTransformation: fd=10, rd=1, efd=0, tt=javax.servlet.ServletException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the max step 1001.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=10, rd=10, efd=9, at=10
+Recover action EarlyReturn: fd=10, rd=10, efd=9, at=10 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 9.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=10, rd=9, efd=8, at=9
+Recover action EarlyReturn: fd=10, rd=9, efd=8, at=9 resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=10, rd=8, efd=7, at=8
+Recover action EarlyReturn: fd=10, rd=8, efd=7, at=8 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 7.
+-------------------------------------------------------------
+Total results: 4
+   0: EarlyReturn: fd=10, rd=10, efd=9, at=10, rt=EARLY_BREAK, afd=9
+   1: EarlyReturn: fd=10, rd=8, efd=7, at=8, rt=EARLY_BREAK, afd=7
+   2: ErrorTransformation: fd=10, rd=1, efd=0, tt=java.io.IOException, rt=EARLY_BREAK, afd=0
+   3: ErrorTransformation: fd=10, rd=1, efd=0, tt=javax.servlet.ServletException, rt=EARLY_BREAK, afd=1
+(java/lang/NullPointerException) (trivially handled) (early return) (end_index=9, final_max_depth=9, index=0, rettype=void)
+recovery time: 74ms, result: 1
+Fill Stack: 0. org.apache.catalina.realm.JDBCRealm.credentials(Ljava/sql/Connection;Ljava/lang/String;)Ljava/sql/PreparedStatement;@114
+Fill Stack: 1. org.apache.catalina.realm.JDBCRealm.getPassword(Ljava/lang/String;)Ljava/lang/String;@26
+Fill Stack: 2. org.apache.catalina.realm.JDBCRealm.authenticate(Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;@8
+Fill Stack: 3. org.apache.catalina.realm.JDBCRealm.authenticate(Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;@18
+Fill Stack: 4. org.apache.catalina.authenticator.BasicAuthenticator.authenticate(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;Lorg/apache/catalina/deploy/LoginConfig;)Z@326
+Fill Stack: 5. org.apache.catalina.authenticator.AuthenticatorBase.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@559
+Fill Stack: 6. org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@64
+Fill Stack: 7. org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@6
+Fill Stack: 8. org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@42
+Fill Stack: 9. org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V@157
+Fill Stack: 10. org.apache.coyote.http11.Http11Processor.process(Ljava/net/Socket;)V@432
+Fill Stack: 11. org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Ljava/net/Socket;)Z@82
+Fill Stack: 12. org.apache.tomcat.util.net.JIoEndpoint$Worker.run()V@41
+Fill Stack: 13. java.lang.Thread.run()V@11
+Push local reference at 4, r=1370, c=org.apache.catalina.realm.JDBCRealm
+Total actions: 6
+   0: ErrorTransformation: fd=10, rd=9, efd=8, tt=java.sql.SQLException
+   1: ErrorTransformation: fd=10, rd=1, efd=0, tt=java.io.IOException
+   2: ErrorTransformation: fd=10, rd=1, efd=0, tt=javax.servlet.ServletException
+   3: EarlyReturn: fd=10, rd=10, efd=9, at=10
+   4: EarlyReturn: fd=10, rd=9, efd=8, at=9
+   5: EarlyReturn: fd=10, rd=8, efd=7, at=8
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=10, rd=9, efd=8, tt=java.sql.SQLException
+Recover action ErrorTransformation: fd=10, rd=9, efd=8, tt=java.sql.SQLException resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=10, rd=1, efd=0, tt=java.io.IOException
+Recover action ErrorTransformation: fd=10, rd=1, efd=0, tt=java.io.IOException resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=10, rd=1, efd=0, tt=javax.servlet.ServletException
+Recover action ErrorTransformation: fd=10, rd=1, efd=0, tt=javax.servlet.ServletException resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=10, rd=10, efd=9, at=10
+Recover action EarlyReturn: fd=10, rd=10, efd=9, at=10 resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=10, rd=9, efd=8, at=9
+Recover action EarlyReturn: fd=10, rd=9, efd=8, at=9 resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=10, rd=8, efd=7, at=8
+Recover action EarlyReturn: fd=10, rd=8, efd=7, at=8 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 7.
+-------------------------------------------------------------
+Total results: 1
+   0: EarlyReturn: fd=10, rd=8, efd=7, at=8, rt=EARLY_BREAK, afd=7
+(java/lang/NullPointerException) (trivially handled) (early return) (end_index=9, final_max_depth=9, index=2, rettype=object)
+recovery time: 19ms, result: 1
+Fill Stack: 0. org.apache.catalina.realm.JDBCRealm.getPassword(Ljava/lang/String;)Ljava/lang/String;@214
+Fill Stack: 1. org.apache.catalina.realm.JDBCRealm.authenticate(Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;@8
+Fill Stack: 2. org.apache.catalina.realm.JDBCRealm.authenticate(Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;@18
+Fill Stack: 3. org.apache.catalina.authenticator.BasicAuthenticator.authenticate(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;Lorg/apache/catalina/deploy/LoginConfig;)Z@326
+Fill Stack: 4. org.apache.catalina.authenticator.AuthenticatorBase.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@559
+Fill Stack: 5. org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@64
+Fill Stack: 6. org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@6
+Fill Stack: 7. org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@42
+Fill Stack: 8. org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V@157
+Fill Stack: 9. org.apache.coyote.http11.Http11Processor.process(Ljava/net/Socket;)V@432
+Fill Stack: 10. org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Ljava/net/Socket;)Z@82
+Fill Stack: 11. org.apache.tomcat.util.net.JIoEndpoint$Worker.run()V@41
+Fill Stack: 12. java.lang.Thread.run()V@11
+Total actions: 6
+   0: ErrorTransformation: fd=9, rd=9, efd=8, tt=java.sql.SQLException
+   1: ErrorTransformation: fd=9, rd=1, efd=0, tt=java.io.IOException
+   2: ErrorTransformation: fd=9, rd=1, efd=0, tt=javax.servlet.ServletException
+   3: EarlyReturn: fd=9, rd=9, efd=8, at=9
+   4: EarlyReturn: fd=9, rd=8, efd=7, at=8
+   5: EarlyReturn: fd=9, rd=7, efd=6, at=7
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=9, rd=9, efd=8, tt=java.sql.SQLException
+Recover action ErrorTransformation: fd=9, rd=9, efd=8, tt=java.sql.SQLException resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=9, rd=1, efd=0, tt=java.io.IOException
+Recover action ErrorTransformation: fd=9, rd=1, efd=0, tt=java.io.IOException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 0.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=9, rd=1, efd=0, tt=javax.servlet.ServletException
+Recover action ErrorTransformation: fd=9, rd=1, efd=0, tt=javax.servlet.ServletException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the max step 1001.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=9, rd=9, efd=8, at=9
+Recover action EarlyReturn: fd=9, rd=9, efd=8, at=9 resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=9, rd=8, efd=7, at=8
+Recover action EarlyReturn: fd=9, rd=8, efd=7, at=8 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 7.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=9, rd=7, efd=6, at=7
+Recover action EarlyReturn: fd=9, rd=7, efd=6, at=7 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 6.
+-------------------------------------------------------------
+Total results: 4
+   0: EarlyReturn: fd=9, rd=8, efd=7, at=8, rt=EARLY_BREAK, afd=7
+   1: EarlyReturn: fd=9, rd=7, efd=6, at=7, rt=EARLY_BREAK, afd=6
+   2: ErrorTransformation: fd=9, rd=1, efd=0, tt=java.io.IOException, rt=EARLY_BREAK, afd=0
+   3: ErrorTransformation: fd=9, rd=1, efd=0, tt=javax.servlet.ServletException, rt=EARLY_BREAK, afd=1
+(java/lang/NullPointerException) (trivially handled) (early return) (end_index=8, final_max_depth=8, index=1, rettype=object)
+recovery time: 37ms, result: 1
+Fill Stack: 0. org.apache.catalina.realm.JDBCRealm.open()Ljava/sql/Connection;@121
+Fill Stack: 1. org.apache.catalina.realm.JDBCRealm.authenticate(Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;@7
+Fill Stack: 2. org.apache.catalina.authenticator.BasicAuthenticator.authenticate(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;Lorg/apache/catalina/deploy/LoginConfig;)Z@326
+Fill Stack: 3. org.apache.catalina.authenticator.AuthenticatorBase.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@559
+Fill Stack: 4. org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@64
+Fill Stack: 5. org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@6
+Fill Stack: 6. org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@42
+Fill Stack: 7. org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V@157
+Fill Stack: 8. org.apache.coyote.http11.Http11Processor.process(Ljava/net/Socket;)V@432
+Fill Stack: 9. org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Ljava/net/Socket;)Z@82
+Fill Stack: 10. org.apache.tomcat.util.net.JIoEndpoint$Worker.run()V@41
+Fill Stack: 11. java.lang.Thread.run()V@11
+Total actions: 6
+   0: ErrorTransformation: fd=8, rd=7, efd=6, tt=java.sql.SQLException
+   1: ErrorTransformation: fd=8, rd=1, efd=0, tt=java.io.IOException
+   2: ErrorTransformation: fd=8, rd=1, efd=0, tt=javax.servlet.ServletException
+   3: EarlyReturn: fd=8, rd=8, efd=7, at=8
+   4: EarlyReturn: fd=8, rd=7, efd=6, at=7
+   5: EarlyReturn: fd=8, rd=6, efd=5, at=6
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=8, rd=7, efd=6, tt=java.sql.SQLException
+Recover action ErrorTransformation: fd=8, rd=7, efd=6, tt=java.sql.SQLException resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=8, rd=1, efd=0, tt=java.io.IOException
+Recover action ErrorTransformation: fd=8, rd=1, efd=0, tt=java.io.IOException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 0.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=8, rd=1, efd=0, tt=javax.servlet.ServletException
+Recover action ErrorTransformation: fd=8, rd=1, efd=0, tt=javax.servlet.ServletException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the max step 1001.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=8, rd=8, efd=7, at=8
+Recover action EarlyReturn: fd=8, rd=8, efd=7, at=8 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 7.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=8, rd=7, efd=6, at=7
+Recover action EarlyReturn: fd=8, rd=7, efd=6, at=7 resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=8, rd=6, efd=5, at=6
+Recover action EarlyReturn: fd=8, rd=6, efd=5, at=6 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 5.
+-------------------------------------------------------------
+Total results: 4
+   0: EarlyReturn: fd=8, rd=8, efd=7, at=8, rt=EARLY_BREAK, afd=7
+   1: EarlyReturn: fd=8, rd=6, efd=5, at=6, rt=EARLY_BREAK, afd=5
+   2: ErrorTransformation: fd=8, rd=1, efd=0, tt=java.io.IOException, rt=EARLY_BREAK, afd=0
+   3: ErrorTransformation: fd=8, rd=1, efd=0, tt=javax.servlet.ServletException, rt=EARLY_BREAK, afd=1
+(java/lang/NullPointerException) (trivially handled) (early return) (end_index=7, final_max_depth=7, index=0, rettype=void)
+recovery time: 127ms, result: 1
+Fill Stack: 0. org.apache.catalina.realm.JDBCRealm.open()Ljava/sql/Connection;@121
+Fill Stack: 1. org.apache.catalina.realm.JDBCRealm.getPassword(Ljava/lang/String;)Ljava/lang/String;@16
+Fill Stack: 2. org.apache.catalina.realm.JDBCRealm.authenticate(Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;@8
+Fill Stack: 3. org.apache.catalina.realm.JDBCRealm.authenticate(Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;@18
+Fill Stack: 4. org.apache.catalina.authenticator.BasicAuthenticator.authenticate(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;Lorg/apache/catalina/deploy/LoginConfig;)Z@326
+Fill Stack: 5. org.apache.catalina.authenticator.AuthenticatorBase.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@559
+Fill Stack: 6. org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@64
+Fill Stack: 7. org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@6
+Fill Stack: 8. org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@42
+Fill Stack: 9. org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V@157
+Fill Stack: 10. org.apache.coyote.http11.Http11Processor.process(Ljava/net/Socket;)V@432
+Fill Stack: 11. org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Ljava/net/Socket;)Z@82
+Fill Stack: 12. org.apache.tomcat.util.net.JIoEndpoint$Worker.run()V@41
+Fill Stack: 13. java.lang.Thread.run()V@11
+Total actions: 6
+   0: ErrorTransformation: fd=10, rd=9, efd=8, tt=java.sql.SQLException
+   1: ErrorTransformation: fd=10, rd=1, efd=0, tt=java.io.IOException
+   2: ErrorTransformation: fd=10, rd=1, efd=0, tt=javax.servlet.ServletException
+   3: EarlyReturn: fd=10, rd=10, efd=9, at=10
+   4: EarlyReturn: fd=10, rd=9, efd=8, at=9
+   5: EarlyReturn: fd=10, rd=8, efd=7, at=8
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=10, rd=9, efd=8, tt=java.sql.SQLException
+Recover action ErrorTransformation: fd=10, rd=9, efd=8, tt=java.sql.SQLException resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=10, rd=1, efd=0, tt=java.io.IOException
+Recover action ErrorTransformation: fd=10, rd=1, efd=0, tt=java.io.IOException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 0.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=10, rd=1, efd=0, tt=javax.servlet.ServletException
+Recover action ErrorTransformation: fd=10, rd=1, efd=0, tt=javax.servlet.ServletException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the max step 1001.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=10, rd=10, efd=9, at=10
+Recover action EarlyReturn: fd=10, rd=10, efd=9, at=10 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 9.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=10, rd=9, efd=8, at=9
+Recover action EarlyReturn: fd=10, rd=9, efd=8, at=9 resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=10, rd=8, efd=7, at=8
+Recover action EarlyReturn: fd=10, rd=8, efd=7, at=8 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 7.
+-------------------------------------------------------------
+Total results: 4
+   0: EarlyReturn: fd=10, rd=10, efd=9, at=10, rt=EARLY_BREAK, afd=9
+   1: EarlyReturn: fd=10, rd=8, efd=7, at=8, rt=EARLY_BREAK, afd=7
+   2: ErrorTransformation: fd=10, rd=1, efd=0, tt=java.io.IOException, rt=EARLY_BREAK, afd=0
+   3: ErrorTransformation: fd=10, rd=1, efd=0, tt=javax.servlet.ServletException, rt=EARLY_BREAK, afd=1
+(java/lang/NullPointerException) (trivially handled) (early return) (end_index=9, final_max_depth=9, index=0, rettype=void)
+recovery time: 49ms, result: 1
+Fill Stack: 0. org.apache.catalina.realm.JDBCRealm.credentials(Ljava/sql/Connection;Ljava/lang/String;)Ljava/sql/PreparedStatement;@114
+Fill Stack: 1. org.apache.catalina.realm.JDBCRealm.getPassword(Ljava/lang/String;)Ljava/lang/String;@26
+Fill Stack: 2. org.apache.catalina.realm.JDBCRealm.authenticate(Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;@8
+Fill Stack: 3. org.apache.catalina.realm.JDBCRealm.authenticate(Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;@18
+Fill Stack: 4. org.apache.catalina.authenticator.BasicAuthenticator.authenticate(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;Lorg/apache/catalina/deploy/LoginConfig;)Z@326
+Fill Stack: 5. org.apache.catalina.authenticator.AuthenticatorBase.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@559
+Fill Stack: 6. org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@64
+Fill Stack: 7. org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@6
+Fill Stack: 8. org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@42
+Fill Stack: 9. org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V@157
+Fill Stack: 10. org.apache.coyote.http11.Http11Processor.process(Ljava/net/Socket;)V@432
+Fill Stack: 11. org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Ljava/net/Socket;)Z@82
+Fill Stack: 12. org.apache.tomcat.util.net.JIoEndpoint$Worker.run()V@41
+Fill Stack: 13. java.lang.Thread.run()V@11
+Push local reference at 4, r=1505, c=org.apache.catalina.realm.JDBCRealm
+Total actions: 6
+   0: ErrorTransformation: fd=10, rd=9, efd=8, tt=java.sql.SQLException
+   1: ErrorTransformation: fd=10, rd=1, efd=0, tt=java.io.IOException
+   2: ErrorTransformation: fd=10, rd=1, efd=0, tt=javax.servlet.ServletException
+   3: EarlyReturn: fd=10, rd=10, efd=9, at=10
+   4: EarlyReturn: fd=10, rd=9, efd=8, at=9
+   5: EarlyReturn: fd=10, rd=8, efd=7, at=8
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=10, rd=9, efd=8, tt=java.sql.SQLException
+Recover action ErrorTransformation: fd=10, rd=9, efd=8, tt=java.sql.SQLException resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=10, rd=1, efd=0, tt=java.io.IOException
+Recover action ErrorTransformation: fd=10, rd=1, efd=0, tt=java.io.IOException resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=10, rd=1, efd=0, tt=javax.servlet.ServletException
+Recover action ErrorTransformation: fd=10, rd=1, efd=0, tt=javax.servlet.ServletException resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=10, rd=10, efd=9, at=10
+Recover action EarlyReturn: fd=10, rd=10, efd=9, at=10 resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=10, rd=9, efd=8, at=9
+Recover action EarlyReturn: fd=10, rd=9, efd=8, at=9 resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=10, rd=8, efd=7, at=8
+Recover action EarlyReturn: fd=10, rd=8, efd=7, at=8 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 7.
+-------------------------------------------------------------
+Total results: 1
+   0: EarlyReturn: fd=10, rd=8, efd=7, at=8, rt=EARLY_BREAK, afd=7
+(java/lang/NullPointerException) (trivially handled) (early return) (end_index=9, final_max_depth=9, index=2, rettype=object)
+recovery time: 25ms, result: 1
+Fill Stack: 0. org.apache.catalina.realm.JDBCRealm.getPassword(Ljava/lang/String;)Ljava/lang/String;@214
+Fill Stack: 1. org.apache.catalina.realm.JDBCRealm.authenticate(Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;@8
+Fill Stack: 2. org.apache.catalina.realm.JDBCRealm.authenticate(Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;@18
+Fill Stack: 3. org.apache.catalina.authenticator.BasicAuthenticator.authenticate(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;Lorg/apache/catalina/deploy/LoginConfig;)Z@326
+Fill Stack: 4. org.apache.catalina.authenticator.AuthenticatorBase.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@559
+Fill Stack: 5. org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@64
+Fill Stack: 6. org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@6
+Fill Stack: 7. org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@42
+Fill Stack: 8. org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V@157
+Fill Stack: 9. org.apache.coyote.http11.Http11Processor.process(Ljava/net/Socket;)V@432
+Fill Stack: 10. org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Ljava/net/Socket;)Z@82
+Fill Stack: 11. org.apache.tomcat.util.net.JIoEndpoint$Worker.run()V@41
+Fill Stack: 12. java.lang.Thread.run()V@11
+Total actions: 6
+   0: ErrorTransformation: fd=9, rd=9, efd=8, tt=java.sql.SQLException
+   1: ErrorTransformation: fd=9, rd=1, efd=0, tt=java.io.IOException
+   2: ErrorTransformation: fd=9, rd=1, efd=0, tt=javax.servlet.ServletException
+   3: EarlyReturn: fd=9, rd=9, efd=8, at=9
+   4: EarlyReturn: fd=9, rd=8, efd=7, at=8
+   5: EarlyReturn: fd=9, rd=7, efd=6, at=7
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=9, rd=9, efd=8, tt=java.sql.SQLException
+Recover action ErrorTransformation: fd=9, rd=9, efd=8, tt=java.sql.SQLException resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=9, rd=1, efd=0, tt=java.io.IOException
+Recover action ErrorTransformation: fd=9, rd=1, efd=0, tt=java.io.IOException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 0.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=9, rd=1, efd=0, tt=javax.servlet.ServletException
+Recover action ErrorTransformation: fd=9, rd=1, efd=0, tt=javax.servlet.ServletException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the max step 1001.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=9, rd=9, efd=8, at=9
+Recover action EarlyReturn: fd=9, rd=9, efd=8, at=9 resulted in org.javelus.javaplus.EarlyFailException: Cascaded exception java.lang.NullPointerException
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=9, rd=8, efd=7, at=8
+Recover action EarlyReturn: fd=9, rd=8, efd=7, at=8 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 7.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=9, rd=7, efd=6, at=7
+Recover action EarlyReturn: fd=9, rd=7, efd=6, at=7 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 6.
+-------------------------------------------------------------
+Total results: 4
+   0: EarlyReturn: fd=9, rd=8, efd=7, at=8, rt=EARLY_BREAK, afd=7
+   1: EarlyReturn: fd=9, rd=7, efd=6, at=7, rt=EARLY_BREAK, afd=6
+   2: ErrorTransformation: fd=9, rd=1, efd=0, tt=java.io.IOException, rt=EARLY_BREAK, afd=0
+   3: ErrorTransformation: fd=9, rd=1, efd=0, tt=javax.servlet.ServletException, rt=EARLY_BREAK, afd=1
+(java/lang/NullPointerException) (trivially handled) (early return) (end_index=8, final_max_depth=8, index=1, rettype=object)
+recovery time: 33ms, result: 1
+Fill Stack: 0. java.lang.Runtime.removeShutdownHook(Ljava/lang/Thread;)Z@22
+Fill Stack: 1. org.apache.catalina.startup.Catalina.stop()V@14
+Fill Stack: 2. org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run()V@14
+Total actions: 2
+   0: EarlyReturn: fd=2, rd=2, efd=1, at=2
+   1: EarlyReturn: fd=2, rd=1, efd=0, at=1
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=2, rd=2, efd=1, at=2
+Recover action EarlyReturn: fd=2, rd=2, efd=1, at=2 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 1.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=2, rd=1, efd=0, at=1
+Recover action EarlyReturn: fd=2, rd=1, efd=0, at=1 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the max step 1001.
+-------------------------------------------------------------
+Total results: 2
+   0: EarlyReturn: fd=2, rd=2, efd=1, at=2, rt=EARLY_BREAK, afd=1
+   1: EarlyReturn: fd=2, rd=1, efd=0, at=1, rt=EARLY_BREAK, afd=1
+(java/lang/IllegalStateException) (trivially handled) (early return) (end_index=1, final_max_depth=1, index=0, rettype=boolean)
+recovery time: 67ms, result: 1
+Jun 29, 2015 1:35:26 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Jun 29, 2015 1:35:27 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jun 29, 2015 1:35:27 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080

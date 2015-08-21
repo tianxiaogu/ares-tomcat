@@ -1,0 +1,642 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (/home/t/Projects/error-transformation-vm/hotspot/src/share/vm/interpreter/interpreterRuntime.cpp:399), pid=16950, tid=139852680333056
+#  assert(Klass::cast(h_exception->klass())->name() == vmSymbols::java_lang_reflect_InvocationTargetException() || rrs->last_checked_exception() == h_exception()) failed: sanity check
+#
+# JRE version: Java(TM) SE Runtime Environment (7.0_65-b17) (build 1.7.0_65-b17)
+# Java VM: OpenJDK 64-Bit Server VM (24.60-b08-internal-fastdebug interpreted mode linux-amd64 compressed oops)
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007f31b8001000):  JavaThread "http-8080-1" daemon [_thread_in_vm, id=16997, stack(0x00007f31fd450000,0x00007f31fd551000)]
+
+Stack: [0x00007f31fd450000,0x00007f31fd551000],  sp=0x00007f31fd54ee40,  free space=1019k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0xe257c8]  VMError::report_and_die()+0x178
+V  [libjvm.so+0x6af97b]  report_vm_error(char const*, int, char const*, char const*)+0x7b
+V  [libjvm.so+0x8b7568]  InterpreterRuntime::recovery_handler_for_exception(JavaThread*, oopDesc*)+0x3c8
+j  org.apache.catalina.realm.JDBCRealm.getPassword(Ljava/lang/String;)Ljava/lang/String;+214
+j  org.apache.catalina.realm.JDBCRealm.authenticate(Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;+8
+j  org.apache.catalina.realm.JDBCRealm.authenticate(Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;+18
+j  org.apache.catalina.authenticator.BasicAuthenticator.authenticate(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;Lorg/apache/catalina/deploy/LoginConfig;)Z+326
+j  org.apache.catalina.authenticator.AuthenticatorBase.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+559
+j  org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+64
+j  org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+6
+j  org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+42
+j  org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V+157
+j  org.apache.coyote.http11.Http11Processor.process(Ljava/net/Socket;)V+432
+j  org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Ljava/net/Socket;)Z+82
+j  org.apache.tomcat.util.net.JIoEndpoint$Worker.run()V+41
+j  java.lang.Thread.run()V+11
+v  ~StubRoutines::call_stub
+V  [libjvm.so+0x8c8b8a]  JavaCalls::call_helper(JavaValue*, methodHandle*, JavaCallArguments*, Thread*)+0x6ca
+V  [libjvm.so+0x8c8f60]  JavaCalls::call_virtual(JavaValue*, Handle, KlassHandle, Symbol*, Symbol*, Thread*)+0x340
+V  [libjvm.so+0x951b80]  thread_entry(JavaThread*, Thread*)+0x100
+V  [libjvm.so+0xdb499c]  JavaThread::thread_main_inner()+0x18c
+V  [libjvm.so+0xdb4c8f]  JavaThread::run()+0x2bf
+V  [libjvm.so+0xbb40a2]  java_start(Thread*)+0xf2
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  org.apache.catalina.realm.JDBCRealm.getPassword(Ljava/lang/String;)Ljava/lang/String;+214
+j  org.apache.catalina.realm.JDBCRealm.authenticate(Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;+8
+j  org.apache.catalina.realm.JDBCRealm.authenticate(Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;+18
+j  org.apache.catalina.authenticator.BasicAuthenticator.authenticate(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;Lorg/apache/catalina/deploy/LoginConfig;)Z+326
+j  org.apache.catalina.authenticator.AuthenticatorBase.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+559
+j  org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+64
+j  org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+6
+j  org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+42
+j  org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V+157
+j  org.apache.coyote.http11.Http11Processor.process(Ljava/net/Socket;)V+432
+j  org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Ljava/net/Socket;)Z+82
+j  org.apache.tomcat.util.net.JIoEndpoint$Worker.run()V+41
+j  java.lang.Thread.run()V+11
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+=>0x00007f31b8001000 JavaThread "http-8080-1" daemon [_thread_in_vm, id=16997, stack(0x00007f31fd450000,0x00007f31fd551000)]
+  0x00007f32085ae000 JavaThread "TP-Monitor" daemon [_thread_blocked, id=16996, stack(0x00007f31fd551000,0x00007f31fd652000)]
+  0x00007f32085ab800 JavaThread "TP-Processor4" daemon [_thread_in_native, id=16995, stack(0x00007f31fd652000,0x00007f31fd753000)]
+  0x00007f32085a9800 JavaThread "TP-Processor3" daemon [_thread_blocked, id=16994, stack(0x00007f31fd753000,0x00007f31fd854000)]
+  0x00007f32085e6000 JavaThread "TP-Processor2" daemon [_thread_blocked, id=16993, stack(0x00007f31fd854000,0x00007f31fd955000)]
+  0x00007f320869a000 JavaThread "TP-Processor1" daemon [_thread_blocked, id=16992, stack(0x00007f31fd955000,0x00007f31fda56000)]
+  0x00007f32088ab800 JavaThread "http-8080-Acceptor-0" daemon [_thread_in_native, id=16991, stack(0x00007f31fda56000,0x00007f31fdb57000)]
+  0x00007f320888e800 JavaThread "ContainerBackgroundProcessor[StandardEngine[Catalina]]" daemon [_thread_blocked, id=16990, stack(0x00007f31fdb57000,0x00007f31fdc58000)]
+  0x00007f320842b000 JavaThread "Abandoned connection cleanup thread" daemon [_thread_blocked, id=16982, stack(0x00007f31fdc58000,0x00007f31fdd59000)]
+  0x00007f3208116000 JavaThread "Service Thread" daemon [_thread_blocked, id=16974, stack(0x00007f320438c000,0x00007f320448d000)]
+  0x00007f3208113000 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=16973, stack(0x00007f320448d000,0x00007f320458e000)]
+  0x00007f320810f800 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=16972, stack(0x00007f320458e000,0x00007f320468f000)]
+  0x00007f320810d000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=16971, stack(0x00007f320468f000,0x00007f3204790000)]
+  0x00007f32080af000 JavaThread "Finalizer" daemon [_thread_blocked, id=16970, stack(0x00007f3204bfc000,0x00007f3204cfd000)]
+  0x00007f32080ac800 JavaThread "Reference Handler" daemon [_thread_blocked, id=16969, stack(0x00007f3204cfd000,0x00007f3204dfe000)]
+  0x00007f320800d800 JavaThread "main" [_thread_in_native, id=16963, stack(0x00007f3210fa1000,0x00007f32110a2000)]
+
+Other Threads:
+  0x00007f32080a3000 VMThread [stack: 0x00007f3204dfe000,0x00007f3204eff000] [id=16968]
+  0x00007f3208122000 WatcherThread [stack: 0x00007f320428b000,0x00007f320438c000] [id=16975]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ PSYoungGen      total 64000K, used 17590K [0x00000000ec000000, 0x00000000f0100000, 0x0000000100000000)
+  eden space 61440K, 24% used [0x00000000ec000000,0x00000000eceb3880,0x00000000efc00000)
+  from space 2560K, 99% used [0x00000000efe80000,0x00000000f00fa020,0x00000000f0100000)
+  to   space 2560K, 0% used [0x00000000efc00000,0x00000000efc00000,0x00000000efe80000)
+ ParOldGen       total 40960K, used 18103K [0x00000000c4000000, 0x00000000c6800000, 0x00000000ec000000)
+  object space 40960K, 44% used [0x00000000c4000000,0x00000000c51adec0,0x00000000c6800000)
+ PSPermGen       total 21504K, used 16281K [0x00000000bee00000, 0x00000000c0300000, 0x00000000c4000000)
+  object space 21504K, 75% used [0x00000000bee00000,0x00000000bfde6568,0x00000000c0300000)
+
+Card table byte_map: [0x00007f320da2d000,0x00007f320dc37000] byte_map_base: 0x00007f320d436000
+
+Polling page: 0x00007f32110c5000
+
+Code Cache  [0x00007f3205000000, 0x00007f3205270000, 0x00007f3208000000)
+ total_blobs=312 nmethods=0 adapters=289 free_code_cache=48012Kb largest_free_block=49164416
+
+Compilation events (0 events):
+No events
+
+GC Heap History (8 events):
+Event: 1.105 GC heap before
+{Heap before GC invocations=1 (full 0):
+ PSYoungGen      total 17920K, used 15360K [0x00000000ec000000, 0x00000000ed400000, 0x0000000100000000)
+  eden space 15360K, 100% used [0x00000000ec000000,0x00000000ecf00000,0x00000000ecf00000)
+  from space 2560K, 0% used [0x00000000ed180000,0x00000000ed180000,0x00000000ed400000)
+  to   space 2560K, 0% used [0x00000000ecf00000,0x00000000ecf00000,0x00000000ed180000)
+ ParOldGen       total 40960K, used 0K [0x00000000c4000000, 0x00000000c6800000, 0x00000000ec000000)
+  object space 40960K, 0% used [0x00000000c4000000,0x00000000c4000000,0x00000000c6800000)
+ PSPermGen       total 21504K, used 7331K [0x00000000bee00000, 0x00000000c0300000, 0x00000000c4000000)
+  object space 21504K, 34% used [0x00000000bee00000,0x00000000bf528c28,0x00000000c0300000)
+Event: 1.124 GC heap after
+Heap after GC invocations=1 (full 0):
+ PSYoungGen      total 17920K, used 2556K [0x00000000ec000000, 0x00000000ee300000, 0x0000000100000000)
+  eden space 15360K, 0% used [0x00000000ec000000,0x00000000ec000000,0x00000000ecf00000)
+  from space 2560K, 99% used [0x00000000ecf00000,0x00000000ed17f370,0x00000000ed180000)
+  to   space 2560K, 0% used [0x00000000ee080000,0x00000000ee080000,0x00000000ee300000)
+ ParOldGen       total 40960K, used 541K [0x00000000c4000000, 0x00000000c6800000, 0x00000000ec000000)
+  object space 40960K, 1% used [0x00000000c4000000,0x00000000c4087728,0x00000000c6800000)
+ PSPermGen       total 21504K, used 7331K [0x00000000bee00000, 0x00000000c0300000, 0x00000000c4000000)
+  object space 21504K, 34% used [0x00000000bee00000,0x00000000bf528c28,0x00000000c0300000)
+}
+Event: 2.183 GC heap before
+{Heap before GC invocations=2 (full 0):
+ PSYoungGen      total 17920K, used 17916K [0x00000000ec000000, 0x00000000ee300000, 0x0000000100000000)
+  eden space 15360K, 100% used [0x00000000ec000000,0x00000000ecf00000,0x00000000ecf00000)
+  from space 2560K, 99% used [0x00000000ecf00000,0x00000000ed17f370,0x00000000ed180000)
+  to   space 2560K, 0% used [0x00000000ee080000,0x00000000ee080000,0x00000000ee300000)
+ ParOldGen       total 40960K, used 541K [0x00000000c4000000, 0x00000000c6800000, 0x00000000ec000000)
+  object space 40960K, 1% used [0x00000000c4000000,0x00000000c4087728,0x00000000c6800000)
+ PSPermGen       total 21504K, used 12151K [0x00000000bee00000, 0x00000000c0300000, 0x00000000c4000000)
+  object space 21504K, 56% used [0x00000000bee00000,0x00000000bf9ddd18,0x00000000c0300000)
+Event: 2.220 GC heap after
+Heap after GC invocations=2 (full 0):
+ PSYoungGen      total 33280K, used 2544K [0x00000000ec000000, 0x00000000ee300000, 0x0000000100000000)
+  eden space 30720K, 0% used [0x00000000ec000000,0x00000000ec000000,0x00000000ede00000)
+  from space 2560K, 99% used [0x00000000ee080000,0x00000000ee2fc050,0x00000000ee300000)
+  to   space 2560K, 0% used [0x00000000ede00000,0x00000000ede00000,0x00000000ee080000)
+ ParOldGen       total 40960K, used 4870K [0x00000000c4000000, 0x00000000c6800000, 0x00000000ec000000)
+  object space 40960K, 11% used [0x00000000c4000000,0x00000000c44c1ab8,0x00000000c6800000)
+ PSPermGen       total 21504K, used 12151K [0x00000000bee00000, 0x00000000c0300000, 0x00000000c4000000)
+  object space 21504K, 56% used [0x00000000bee00000,0x00000000bf9ddd18,0x00000000c0300000)
+}
+Event: 4.162 GC heap before
+{Heap before GC invocations=3 (full 0):
+ PSYoungGen      total 33280K, used 33264K [0x00000000ec000000, 0x00000000ee300000, 0x0000000100000000)
+  eden space 30720K, 100% used [0x00000000ec000000,0x00000000ede00000,0x00000000ede00000)
+  from space 2560K, 99% used [0x00000000ee080000,0x00000000ee2fc050,0x00000000ee300000)
+  to   space 2560K, 0% used [0x00000000ede00000,0x00000000ede00000,0x00000000ee080000)
+ ParOldGen       total 40960K, used 4870K [0x00000000c4000000, 0x00000000c6800000, 0x00000000ec000000)
+  object space 40960K, 11% used [0x00000000c4000000,0x00000000c44c1ab8,0x00000000c6800000)
+ PSPermGen       total 21504K, used 15251K [0x00000000bee00000, 0x00000000c0300000, 0x00000000c4000000)
+  object space 21504K, 70% used [0x00000000bee00000,0x00000000bfce4e00,0x00000000c0300000)
+Event: 4.238 GC heap after
+Heap after GC invocations=3 (full 0):
+ PSYoungGen      total 33280K, used 2544K [0x00000000ec000000, 0x00000000f0100000, 0x0000000100000000)
+  eden space 30720K, 0% used [0x00000000ec000000,0x00000000ec000000,0x00000000ede00000)
+  from space 2560K, 99% used [0x00000000ede00000,0x00000000ee07c020,0x00000000ee080000)
+  to   space 2560K, 0% used [0x00000000efe80000,0x00000000efe80000,0x00000000f0100000)
+ ParOldGen       total 40960K, used 14406K [0x00000000c4000000, 0x00000000c6800000, 0x00000000ec000000)
+  object space 40960K, 35% used [0x00000000c4000000,0x00000000c4e118d0,0x00000000c6800000)
+ PSPermGen       total 21504K, used 15251K [0x00000000bee00000, 0x00000000c0300000, 0x00000000c4000000)
+  object space 21504K, 70% used [0x00000000bee00000,0x00000000bfce4e00,0x00000000c0300000)
+}
+Event: 9.154 GC heap before
+{Heap before GC invocations=4 (full 0):
+ PSYoungGen      total 33280K, used 33264K [0x00000000ec000000, 0x00000000f0100000, 0x0000000100000000)
+  eden space 30720K, 100% used [0x00000000ec000000,0x00000000ede00000,0x00000000ede00000)
+  from space 2560K, 99% used [0x00000000ede00000,0x00000000ee07c020,0x00000000ee080000)
+  to   space 2560K, 0% used [0x00000000efe80000,0x00000000efe80000,0x00000000f0100000)
+ ParOldGen       total 40960K, used 14406K [0x00000000c4000000, 0x00000000c6800000, 0x00000000ec000000)
+  object space 40960K, 35% used [0x00000000c4000000,0x00000000c4e118d0,0x00000000c6800000)
+ PSPermGen       total 21504K, used 16177K [0x00000000bee00000, 0x00000000c0300000, 0x00000000c4000000)
+  object space 21504K, 75% used [0x00000000bee00000,0x00000000bfdcc628,0x00000000c0300000)
+Event: 9.207 GC heap after
+Heap after GC invocations=4 (full 0):
+ PSYoungGen      total 64000K, used 2536K [0x00000000ec000000, 0x00000000f0100000, 0x0000000100000000)
+  eden space 61440K, 0% used [0x00000000ec000000,0x00000000ec000000,0x00000000efc00000)
+  from space 2560K, 99% used [0x00000000efe80000,0x00000000f00fa020,0x00000000f0100000)
+  to   space 2560K, 0% used [0x00000000efc00000,0x00000000efc00000,0x00000000efe80000)
+ ParOldGen       total 40960K, used 18103K [0x00000000c4000000, 0x00000000c6800000, 0x00000000ec000000)
+  object space 40960K, 44% used [0x00000000c4000000,0x00000000c51adec0,0x00000000c6800000)
+ PSPermGen       total 21504K, used 16177K [0x00000000bee00000, 0x00000000c0300000, 0x00000000c4000000)
+  object space 21504K, 75% used [0x00000000bee00000,0x00000000bfdcc628,0x00000000c0300000)
+}
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (10 events):
+Event: 9.865 Thread 0x00007f31b8001000 Threw 0x00000000ecb9a048 at /home/t/Projects/error-transformation-vm/hotspot/src/share/vm/prims/jvm.cpp:1244
+Event: 9.871 Thread 0x00007f31b8001000 Threw 0x00000000ecbb4960 at /home/t/Projects/error-transformation-vm/hotspot/src/share/vm/prims/jvm.cpp:1244
+Event: 9.871 Thread 0x00007f31b8001000 Threw 0x00000000ecbb5770 at /home/t/Projects/error-transformation-vm/hotspot/src/share/vm/prims/jvm.cpp:1244
+Event: 9.871 Thread 0x00007f31b8001000 Threw 0x00000000ecbb5fa0 at /home/t/Projects/error-transformation-vm/hotspot/src/share/vm/prims/jvm.cpp:1244
+Event: 9.875 Thread 0x00007f31b8001000 Threw 0x00000000ecbcbc10 at /home/t/Projects/error-transformation-vm/hotspot/src/share/vm/prims/jvm.cpp:1244
+Event: 9.876 Thread 0x00007f31b8001000 Threw 0x00000000ecbccb48 at /home/t/Projects/error-transformation-vm/hotspot/src/share/vm/prims/jvm.cpp:1244
+Event: 9.876 Thread 0x00007f31b8001000 Threw 0x00000000ecbcd458 at /home/t/Projects/error-transformation-vm/hotspot/src/share/vm/prims/jvm.cpp:1244
+Event: 9.887 Thread 0x00007f31b8001000 Threw 0x00000000ecc06c10 at /home/t/Projects/error-transformation-vm/hotspot/src/share/vm/interpreter/linkResolver.cpp:969
+Event: 9.972 Thread 0x00007f31b8001000 Threw 0x00000000ecd78558 at /home/t/Projects/error-transformation-vm/hotspot/src/share/vm/interpreter/linkResolver.cpp:969
+Event: 10.011 Thread 0x00007f31b8001000 Threw 0x00000000ece48770 at /home/t/Projects/error-transformation-vm/hotspot/src/share/vm/interpreter/linkResolver.cpp:969
+
+Events (10 events):
+Event: 9.871 loading class 0x00007f31a00111a8
+Event: 9.871 loading class 0x00007f31a00111a8 done
+Event: 9.875 loading class 0x00007f31a00112b8
+Event: 9.875 loading class 0x00007f31a00112b8 done
+Event: 9.875 loading class 0x00007f31a0011368
+Event: 9.875 loading class 0x00007f31a0011368 done
+Event: 9.876 loading class 0x00007f31a0011428
+Event: 9.876 loading class 0x00007f31a0011428 done
+Event: 9.942 loading class 0x00007f31a00114c8
+Event: 9.942 loading class 0x00007f31a00114c8 done
+
+
+Dynamic libraries:
+00400000-00408000 r-xp 00000000 08:06 3280615                            /home/t/Projects/error-transformation-vm/hotspot/build/linux/linux_amd64_compiler2/fastdebug/gamma
+00607000-00608000 r--p 00007000 08:06 3280615                            /home/t/Projects/error-transformation-vm/hotspot/build/linux/linux_amd64_compiler2/fastdebug/gamma
+00608000-00609000 rw-p 00008000 08:06 3280615                            /home/t/Projects/error-transformation-vm/hotspot/build/linux/linux_amd64_compiler2/fastdebug/gamma
+00e24000-00e45000 rw-p 00000000 00:00 0                                  [heap]
+bee00000-c0300000 rw-p 00000000 00:00 0 
+c0300000-c4000000 rw-p 00000000 00:00 0 
+c4000000-c6800000 rw-p 00000000 00:00 0 
+c6800000-ec000000 rw-p 00000000 00:00 0 
+ec000000-f0100000 rw-p 00000000 00:00 0 
+f0100000-100000000 rw-p 00000000 00:00 0 
+7f31a0000000-7f31a0055000 rw-p 00000000 00:00 0 
+7f31a0055000-7f31a4000000 ---p 00000000 00:00 0 
+7f31a8000000-7f31a8021000 rw-p 00000000 00:00 0 
+7f31a8021000-7f31ac000000 ---p 00000000 00:00 0 
+7f31ac000000-7f31ac021000 rw-p 00000000 00:00 0 
+7f31ac021000-7f31b0000000 ---p 00000000 00:00 0 
+7f31b0000000-7f31b0021000 rw-p 00000000 00:00 0 
+7f31b0021000-7f31b4000000 ---p 00000000 00:00 0 
+7f31b4000000-7f31b4021000 rw-p 00000000 00:00 0 
+7f31b4021000-7f31b8000000 ---p 00000000 00:00 0 
+7f31b8000000-7f31b8021000 rw-p 00000000 00:00 0 
+7f31b8021000-7f31bc000000 ---p 00000000 00:00 0 
+7f31bc000000-7f31bc021000 rw-p 00000000 00:00 0 
+7f31bc021000-7f31c0000000 ---p 00000000 00:00 0 
+7f31c0000000-7f31c0021000 rw-p 00000000 00:00 0 
+7f31c0021000-7f31c4000000 ---p 00000000 00:00 0 
+7f31c4000000-7f31c4021000 rw-p 00000000 00:00 0 
+7f31c4021000-7f31c8000000 ---p 00000000 00:00 0 
+7f31c8000000-7f31c8021000 rw-p 00000000 00:00 0 
+7f31c8021000-7f31cc000000 ---p 00000000 00:00 0 
+7f31cc000000-7f31cc021000 rw-p 00000000 00:00 0 
+7f31cc021000-7f31d0000000 ---p 00000000 00:00 0 
+7f31d0000000-7f31d0021000 rw-p 00000000 00:00 0 
+7f31d0021000-7f31d4000000 ---p 00000000 00:00 0 
+7f31d4000000-7f31d4021000 rw-p 00000000 00:00 0 
+7f31d4021000-7f31d8000000 ---p 00000000 00:00 0 
+7f31d8000000-7f31d802d000 rw-p 00000000 00:00 0 
+7f31d802d000-7f31dc000000 ---p 00000000 00:00 0 
+7f31dc000000-7f31dc021000 rw-p 00000000 00:00 0 
+7f31dc021000-7f31e0000000 ---p 00000000 00:00 0 
+7f31e0000000-7f31e0021000 rw-p 00000000 00:00 0 
+7f31e0021000-7f31e4000000 ---p 00000000 00:00 0 
+7f31e4000000-7f31e4021000 rw-p 00000000 00:00 0 
+7f31e4021000-7f31e8000000 ---p 00000000 00:00 0 
+7f31e8000000-7f31e8021000 rw-p 00000000 00:00 0 
+7f31e8021000-7f31ec000000 ---p 00000000 00:00 0 
+7f31f0000000-7f31f0021000 rw-p 00000000 00:00 0 
+7f31f0021000-7f31f4000000 ---p 00000000 00:00 0 
+7f31f8000000-7f31f8021000 rw-p 00000000 00:00 0 
+7f31f8021000-7f31fc000000 ---p 00000000 00:00 0 
+7f31fd184000-7f31fd450000 rw-p 00000000 00:00 0 
+7f31fd450000-7f31fd453000 ---p 00000000 00:00 0 
+7f31fd453000-7f31fd551000 rw-p 00000000 00:00 0                          [stack:16997]
+7f31fd551000-7f31fd554000 ---p 00000000 00:00 0 
+7f31fd554000-7f31fd652000 rw-p 00000000 00:00 0                          [stack:16996]
+7f31fd652000-7f31fd655000 ---p 00000000 00:00 0 
+7f31fd655000-7f31fd753000 rw-p 00000000 00:00 0                          [stack:16995]
+7f31fd753000-7f31fd756000 ---p 00000000 00:00 0 
+7f31fd756000-7f31fd854000 rw-p 00000000 00:00 0                          [stack:16994]
+7f31fd854000-7f31fd857000 ---p 00000000 00:00 0 
+7f31fd857000-7f31fd955000 rw-p 00000000 00:00 0                          [stack:16993]
+7f31fd955000-7f31fd958000 ---p 00000000 00:00 0 
+7f31fd958000-7f31fda56000 rw-p 00000000 00:00 0                          [stack:16992]
+7f31fda56000-7f31fda59000 ---p 00000000 00:00 0 
+7f31fda59000-7f31fdb57000 rw-p 00000000 00:00 0                          [stack:16991]
+7f31fdb57000-7f31fdb5a000 ---p 00000000 00:00 0 
+7f31fdb5a000-7f31fdc58000 rw-p 00000000 00:00 0                          [stack:16990]
+7f31fdc58000-7f31fdc5b000 ---p 00000000 00:00 0 
+7f31fdc5b000-7f31fdd59000 rw-p 00000000 00:00 0                          [stack:16982]
+7f31fdd59000-7f31fdd6f000 r-xp 00000000 08:06 4327346                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64/libnet.so
+7f31fdd6f000-7f31fdf6f000 ---p 00016000 08:06 4327346                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64/libnet.so
+7f31fdf6f000-7f31fdf70000 rw-p 00016000 08:06 4327346                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64/libnet.so
+7f31fdf70000-7f3200000000 rw-p 00000000 00:00 0 
+7f3200000000-7f3200022000 rw-p 00000000 00:00 0 
+7f3200022000-7f3204000000 ---p 00000000 00:00 0 
+7f320402d000-7f320402e000 rw-p 00000000 00:00 0 
+7f320402e000-7f3204032000 r--s 0008a000 08:06 4327529                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/jsse.jar
+7f3204032000-7f3204033000 r--s 00000000 08:05 148938                     /D/aotes-workspace/jpf-core/build/jpf-annotations.jar
+7f3204033000-7f320403d000 r--s 00251000 08:06 4327458                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/resources.jar
+7f320403d000-7f3204049000 r--s 00149000 08:06 6947097                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/lib/jasper-jdt.jar
+7f3204049000-7f320407a000 rw-p 00000000 00:00 0 
+7f320407a000-7f320408a000 r-xp 00000000 08:06 4327386                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64/libnio.so
+7f320408a000-7f320428a000 ---p 00010000 08:06 4327386                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64/libnio.so
+7f320428a000-7f320428b000 rw-p 00010000 08:06 4327386                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64/libnio.so
+7f320428b000-7f320428c000 ---p 00000000 00:00 0 
+7f320428c000-7f320438c000 rw-p 00000000 00:00 0                          [stack:16975]
+7f320438c000-7f320438f000 ---p 00000000 00:00 0 
+7f320438f000-7f320448d000 rw-p 00000000 00:00 0                          [stack:16974]
+7f320448d000-7f3204490000 ---p 00000000 00:00 0 
+7f3204490000-7f320458e000 rw-p 00000000 00:00 0                          [stack:16973]
+7f320458e000-7f3204591000 ---p 00000000 00:00 0 
+7f3204591000-7f320468f000 rw-p 00000000 00:00 0                          [stack:16972]
+7f320468f000-7f3204692000 ---p 00000000 00:00 0 
+7f3204692000-7f3204790000 rw-p 00000000 00:00 0                          [stack:16971]
+7f3204790000-7f3204bfc000 r--p 00000000 08:06 8003345                    /usr/lib/locale/locale-archive
+7f3204bfc000-7f3204bff000 ---p 00000000 00:00 0 
+7f3204bff000-7f3204cfd000 rw-p 00000000 00:00 0                          [stack:16970]
+7f3204cfd000-7f3204d00000 ---p 00000000 00:00 0 
+7f3204d00000-7f3204dfe000 rw-p 00000000 00:00 0                          [stack:16969]
+7f3204dfe000-7f3204dff000 ---p 00000000 00:00 0 
+7f3204dff000-7f3205000000 rw-p 00000000 00:00 0                          [stack:16968]
+7f3205000000-7f3205270000 rwxp 00000000 00:00 0 
+7f3205270000-7f32088be000 rw-p 00000000 00:00 0 
+7f32088be000-7f320c000000 ---p 00000000 00:00 0 
+7f320c000000-7f320c004000 r--s 0001b000 08:05 148936                     /D/aotes-workspace/jpf-core/build/jpf-classes.jar
+7f320c004000-7f320c008000 r--s 000f7000 08:06 4326850                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/ext/localedata.jar
+7f320c008000-7f320c00b000 r--s 00009000 08:06 6947096                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/lib/tomcat-i18n-es.jar
+7f320c00b000-7f320c00d000 r--s 00009000 08:06 6947092                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/lib/tomcat-i18n-fr.jar
+7f320c00d000-7f320c00f000 r--s 0000a000 08:06 6947095                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/lib/tomcat-i18n-ja.jar
+7f320c00f000-7f320c019000 r--s 000ac000 08:06 6947087                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/lib/tomcat-coyote.jar
+7f320c019000-7f320c01a000 r--s 00006000 08:06 6947093                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/lib/el-api.jar
+7f320c01a000-7f320c01d000 r--s 0001c000 08:06 6947100                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/lib/catalina-ha.jar
+7f320c01d000-7f320c021000 r--s 00034000 08:06 6947099                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/lib/catalina-tribes.jar
+7f320c021000-7f320c028000 r--s 00076000 08:06 6947102                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/lib/jasper.jar
+7f320c028000-7f320c040000 r--s 00186000 08:05 148937                     /D/aotes-workspace/jpf-core/build/jpf.jar
+7f320c040000-7f320cf3e000 rw-p 00000000 00:00 0 
+7f320cf3e000-7f320d0fd000 r--s 039e5000 08:06 4327516                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/rt.jar
+7f320d0fd000-7f320d4c0000 rw-p 00000000 00:00 0 
+7f320d4c0000-7f320d4c1000 ---p 00000000 00:00 0 
+7f320d4c1000-7f320d5c1000 rw-p 00000000 00:00 0                          [stack:16967]
+7f320d5c1000-7f320d5c2000 ---p 00000000 00:00 0 
+7f320d5c2000-7f320d6c2000 rw-p 00000000 00:00 0                          [stack:16966]
+7f320d6c2000-7f320d6c3000 ---p 00000000 00:00 0 
+7f320d6c3000-7f320d7c3000 rw-p 00000000 00:00 0                          [stack:16965]
+7f320d7c3000-7f320d7c4000 ---p 00000000 00:00 0 
+7f320d7c4000-7f320d8cf000 rw-p 00000000 00:00 0                          [stack:16964]
+7f320d8cf000-7f320d8ed000 rw-p 00000000 00:00 0 
+7f320d8ed000-7f320d901000 rw-p 00000000 00:00 0 
+7f320d901000-7f320da2d000 rw-p 00000000 00:00 0 
+7f320da2d000-7f320da38000 rw-p 00000000 00:00 0 
+7f320da38000-7f320da56000 rw-p 00000000 00:00 0 
+7f320da56000-7f320da6a000 rw-p 00000000 00:00 0 
+7f320da6a000-7f320db96000 rw-p 00000000 00:00 0 
+7f320db96000-7f320dbb7000 rw-p 00000000 00:00 0 
+7f320dbb7000-7f320dc36000 rw-p 00000000 00:00 0 
+7f320dc36000-7f320dc37000 rw-p 00000000 00:00 0 
+7f320dc37000-7f320dc51000 r-xp 00000000 08:06 4327400                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64/libzip.so
+7f320dc51000-7f320de51000 ---p 0001a000 08:06 4327400                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64/libzip.so
+7f320de51000-7f320de52000 rw-p 0001a000 08:06 4327400                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64/libzip.so
+7f320de52000-7f320de5d000 r-xp 00000000 08:06 11276261                   /lib/x86_64-linux-gnu/libnss_files-2.19.so
+7f320de5d000-7f320e05c000 ---p 0000b000 08:06 11276261                   /lib/x86_64-linux-gnu/libnss_files-2.19.so
+7f320e05c000-7f320e05d000 r--p 0000a000 08:06 11276261                   /lib/x86_64-linux-gnu/libnss_files-2.19.so
+7f320e05d000-7f320e05e000 rw-p 0000b000 08:06 11276261                   /lib/x86_64-linux-gnu/libnss_files-2.19.so
+7f320e05e000-7f320e069000 r-xp 00000000 08:06 11276258                   /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+7f320e069000-7f320e268000 ---p 0000b000 08:06 11276258                   /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+7f320e268000-7f320e269000 r--p 0000a000 08:06 11276258                   /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+7f320e269000-7f320e26a000 rw-p 0000b000 08:06 11276258                   /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+7f320e26a000-7f320e281000 r-xp 00000000 08:06 11276233                   /lib/x86_64-linux-gnu/libnsl-2.19.so
+7f320e281000-7f320e480000 ---p 00017000 08:06 11276233                   /lib/x86_64-linux-gnu/libnsl-2.19.so
+7f320e480000-7f320e481000 r--p 00016000 08:06 11276233                   /lib/x86_64-linux-gnu/libnsl-2.19.so
+7f320e481000-7f320e482000 rw-p 00017000 08:06 11276233                   /lib/x86_64-linux-gnu/libnsl-2.19.so
+7f320e482000-7f320e484000 rw-p 00000000 00:00 0 
+7f320e484000-7f320e48d000 r-xp 00000000 08:06 11276199                   /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+7f320e48d000-7f320e68c000 ---p 00009000 08:06 11276199                   /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+7f320e68c000-7f320e68d000 r--p 00008000 08:06 11276199                   /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+7f320e68d000-7f320e68e000 rw-p 00009000 08:06 11276199                   /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+7f320e68e000-7f320e6b7000 r-xp 00000000 08:06 4327383                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64/libjava.so
+7f320e6b7000-7f320e8b7000 ---p 00029000 08:06 4327383                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64/libjava.so
+7f320e8b7000-7f320e8b9000 rw-p 00029000 08:06 4327383                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64/libjava.so
+7f320e8b9000-7f320e8c6000 r-xp 00000000 08:06 4327345                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64/libverify.so
+7f320e8c6000-7f320eac5000 ---p 0000d000 08:06 4327345                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64/libverify.so
+7f320eac5000-7f320eac7000 rw-p 0000c000 08:06 4327345                    /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64/libverify.so
+7f320eac7000-7f320eace000 r-xp 00000000 08:06 11276122                   /lib/x86_64-linux-gnu/librt-2.19.so
+7f320eace000-7f320eccd000 ---p 00007000 08:06 11276122                   /lib/x86_64-linux-gnu/librt-2.19.so
+7f320eccd000-7f320ecce000 r--p 00006000 08:06 11276122                   /lib/x86_64-linux-gnu/librt-2.19.so
+7f320ecce000-7f320eccf000 rw-p 00007000 08:06 11276122                   /lib/x86_64-linux-gnu/librt-2.19.so
+7f320eccf000-7f320edd4000 r-xp 00000000 08:06 11276232                   /lib/x86_64-linux-gnu/libm-2.19.so
+7f320edd4000-7f320efd3000 ---p 00105000 08:06 11276232                   /lib/x86_64-linux-gnu/libm-2.19.so
+7f320efd3000-7f320efd4000 r--p 00104000 08:06 11276232                   /lib/x86_64-linux-gnu/libm-2.19.so
+7f320efd4000-7f320efd5000 rw-p 00105000 08:06 11276232                   /lib/x86_64-linux-gnu/libm-2.19.so
+7f320efd5000-7f320f190000 r-xp 00000000 08:06 11276119                   /lib/x86_64-linux-gnu/libc-2.19.so
+7f320f190000-7f320f390000 ---p 001bb000 08:06 11276119                   /lib/x86_64-linux-gnu/libc-2.19.so
+7f320f390000-7f320f394000 r--p 001bb000 08:06 11276119                   /lib/x86_64-linux-gnu/libc-2.19.so
+7f320f394000-7f320f396000 rw-p 001bf000 08:06 11276119                   /lib/x86_64-linux-gnu/libc-2.19.so
+7f320f396000-7f320f39b000 rw-p 00000000 00:00 0 
+7f320f39b000-7f320f3a4000 r-xp 00000000 08:06 8008378                    /usr/lib/x86_64-linux-gnu/libhiredis.so.0.10
+7f320f3a4000-7f320f5a3000 ---p 00009000 08:06 8008378                    /usr/lib/x86_64-linux-gnu/libhiredis.so.0.10
+7f320f5a3000-7f320f5a4000 r--p 00008000 08:06 8008378                    /usr/lib/x86_64-linux-gnu/libhiredis.so.0.10
+7f320f5a4000-7f320f5a5000 rw-p 00009000 08:06 8008378                    /usr/lib/x86_64-linux-gnu/libhiredis.so.0.10
+7f320f5a5000-7f320f5be000 r-xp 00000000 08:06 11276260                   /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f320f5be000-7f320f7bd000 ---p 00019000 08:06 11276260                   /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f320f7bd000-7f320f7be000 r--p 00018000 08:06 11276260                   /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f320f7be000-7f320f7bf000 rw-p 00019000 08:06 11276260                   /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f320f7bf000-7f320f7c3000 rw-p 00000000 00:00 0 
+7f320f7c3000-7f320f7c6000 r-xp 00000000 08:06 11276161                   /lib/x86_64-linux-gnu/libdl-2.19.so
+7f320f7c6000-7f320f9c5000 ---p 00003000 08:06 11276161                   /lib/x86_64-linux-gnu/libdl-2.19.so
+7f320f9c5000-7f320f9c6000 r--p 00002000 08:06 11276161                   /lib/x86_64-linux-gnu/libdl-2.19.so
+7f320f9c6000-7f320f9c7000 rw-p 00003000 08:06 11276161                   /lib/x86_64-linux-gnu/libdl-2.19.so
+7f320f9c7000-7f3210b37000 r-xp 00000000 08:06 3280609                    /home/t/Projects/error-transformation-vm/hotspot/build/linux/linux_amd64_compiler2/fastdebug/libjvm.so
+7f3210b37000-7f3210d36000 ---p 01170000 08:06 3280609                    /home/t/Projects/error-transformation-vm/hotspot/build/linux/linux_amd64_compiler2/fastdebug/libjvm.so
+7f3210d36000-7f3210de1000 r--p 0116f000 08:06 3280609                    /home/t/Projects/error-transformation-vm/hotspot/build/linux/linux_amd64_compiler2/fastdebug/libjvm.so
+7f3210de1000-7f3210e0d000 rw-p 0121a000 08:06 3280609                    /home/t/Projects/error-transformation-vm/hotspot/build/linux/linux_amd64_compiler2/fastdebug/libjvm.so
+7f3210e0d000-7f3210ea7000 rw-p 00000000 00:00 0 
+7f3210ea7000-7f3210eca000 r-xp 00000000 08:06 11272358                   /lib/x86_64-linux-gnu/ld-2.19.so
+7f3210eca000-7f3210ecc000 r--s 00017000 08:06 6947101                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/lib/jasper-el.jar
+7f3210ecc000-7f3210ecf000 r--s 0000f000 08:06 6947090                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/lib/jsp-api.jar
+7f3210ecf000-7f3210ed3000 r--s 0002d000 08:06 6947089                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/lib/tomcat-dbcp.jar
+7f3210ed3000-7f3210ee1000 r--s 00106000 08:06 6947098                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/lib/catalina.jar
+7f3210ee1000-7f3210eeb000 rw-p 00000000 00:00 0 
+7f3210eeb000-7f3210fa1000 rw-p 00000000 00:00 0 
+7f3210fa1000-7f3210fa4000 ---p 00000000 00:00 0 
+7f3210fa4000-7f32110a7000 rw-p 00000000 00:00 0                          [stack:16963]
+7f32110a7000-7f32110a8000 r--s 0000b000 08:06 6947086                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/lib/catalina-ant.jar
+7f32110a8000-7f32110aa000 r--s 00013000 08:06 6947088                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/lib/servlet-api.jar
+7f32110aa000-7f32110b2000 r--s 000d8000 08:06 6947094                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/lib/mysql-connector-java-5.1.28.jar
+7f32110b2000-7f32110b3000 r--s 00002000 08:06 6947091                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/lib/annotations-api.jar
+7f32110b3000-7f32110b4000 r--s 00004000 08:06 6947066                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/bin/tomcat-juli.jar
+7f32110b4000-7f32110b6000 r--s 00001000 08:06 6947070                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/bin/commons-daemon.jar
+7f32110b6000-7f32110b8000 r--s 00003000 08:06 6947071                    /home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/bin/bootstrap.jar
+7f32110b8000-7f32110bb000 r--s 00029000 08:06 3545284                    /home/t/Projects/ares-jpf/ares-jpf.jar
+7f32110bb000-7f32110c3000 rw-s 00000000 08:06 3015071                    /tmp/hsperfdata_t/16950
+7f32110c3000-7f32110c5000 rw-p 00000000 00:00 0 
+7f32110c5000-7f32110c6000 r--p 00000000 00:00 0 
+7f32110c6000-7f32110c9000 rw-p 00000000 00:00 0 
+7f32110c9000-7f32110ca000 r--p 00022000 08:06 11272358                   /lib/x86_64-linux-gnu/ld-2.19.so
+7f32110ca000-7f32110cb000 rw-p 00023000 08:06 11272358                   /lib/x86_64-linux-gnu/ld-2.19.so
+7f32110cb000-7f32110cc000 rw-p 00000000 00:00 0 
+7fff84f60000-7fff84f82000 rw-p 00000000 00:00 0                          [stack]
+7fff84ffe000-7fff85000000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+VM Arguments:
+jvm_args: -Xint -XX:-UseErrorTransformation -XX:-UseEarlyReturn -XX:+UseJPF -XX:TraceRuntimeRecovery=2056 -Xbootclasspath/a:/home/t/Projects/ares-jpf/ares-jpf.jar:/D/aotes-workspace/jpf-core/build/jpf.jar -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.util.logging.config.file=/home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/conf/logging.properties -Djava.endorsed.dirs=/home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/endorsed -Dcatalina.base=/home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18 -Dcatalina.home=/home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18 -Djava.io.tmpdir=/home/t/Projects/error-transformation-vm/tomcat/46298/apache-tomcat-6.0.18/temp 
+java_command: org.apache.catalina.startup.Bootstrap start
+Launcher Type: gamma
+
+Environment Variables:
+JAVA_HOME=/home/t/Projects/error-transformation-vm/jdk1.7.0_65
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+LD_LIBRARY_PATH=/home/t/Projects/error-transformation-vm/hotspot/build/linux/linux_amd64_compiler2/fastdebug:/home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre/lib/amd64
+LD_PRELOAD=
+SHELL=/bin/bash
+DISPLAY=:0
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0xe26370], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGBUS: [libjvm.so+0xe26370], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGFPE: [libjvm.so+0xbb1ee0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGPIPE: [libjvm.so+0xbb1ee0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGXFSZ: [libjvm.so+0xbb1ee0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGILL: [libjvm.so+0xbb1ee0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGUSR1: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGUSR2: [libjvm.so+0xbb21d0], sa_mask[0]=0x00000000, sa_flags=0x10000004
+SIGHUP: [libjvm.so+0xbb20e0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGINT: [libjvm.so+0xbb20e0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGTERM: [libjvm.so+0xbb20e0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGQUIT: [libjvm.so+0xbb20e0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+
+
+---------------  S Y S T E M  ---------------
+
+OS:jessie/sid
+
+uname:Linux 3.13.0-37-generic #64-Ubuntu SMP Mon Sep 22 21:28:38 UTC 2014 x86_64
+libc:glibc 2.19 NPTL 2.19 
+rlimit: STACK 8192k, CORE 0k, NPROC 30489, NOFILE 4096, AS infinity
+load average:0.98 1.28 1.11
+
+/proc/meminfo:
+MemTotal:        3931964 kB
+MemFree:         1078132 kB
+Buffers:            5780 kB
+Cached:           861800 kB
+SwapCached:            0 kB
+Active:          2058960 kB
+Inactive:         510680 kB
+Active(anon):    1703696 kB
+Inactive(anon):    65684 kB
+Active(file):     355264 kB
+Inactive(file):   444996 kB
+Unevictable:          64 kB
+Mlocked:              64 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:       1702216 kB
+Mapped:           190832 kB
+Shmem:             67320 kB
+Slab:             110308 kB
+SReclaimable:      68012 kB
+SUnreclaim:        42296 kB
+KernelStack:        4984 kB
+PageTables:        44352 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1965980 kB
+Committed_AS:    6051340 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      388612 kB
+VmallocChunk:   34359345148 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    661504 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      169600 kB
+DirectMap2M:     3909632 kB
+
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, ht, tsc, tscinvbit
+
+/proc/cpuinfo:
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+stepping	: 7
+microcode	: 0x14
+cpu MHz		: 2000.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 4984.17
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+stepping	: 7
+microcode	: 0x14
+cpu MHz		: 1800.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 4984.17
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+stepping	: 7
+microcode	: 0x14
+cpu MHz		: 2501.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 4984.17
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+stepping	: 7
+microcode	: 0x14
+cpu MHz		: 2501.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 4984.17
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+
+
+Memory: 4k page, physical 3931964k(1078132k free), swap 0k(0k free)
+
+vm_info: OpenJDK 64-Bit Server VM (24.60-b08-internal-fastdebug) for linux-amd64 JRE (1.7.0), built on Jun 26 2015 02:00:27 by "t" with gcc 4.8.2
+
+time: Fri Jun 26 02:03:58 2015
+elapsed time: 10 seconds
+
