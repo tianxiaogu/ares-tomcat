@@ -1,0 +1,368 @@
+0x7fbfc8091a88 java.lang.System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V
+0x7fbfc895c560 java.lang.ThreadGroup threadTerminated (Ljava/lang/Thread;)V
+0x7fbf654749d8 java.util.concurrent.ThreadPoolExecutor isRunning (I)Z
+0x7fbfc895c538 java.util.concurrent.ThreadPoolExecutor tryTerminate ()V
+0x7fbfc895c530 java.util.HashSet remove (Ljava/lang/Object;)Z
+0x7fbfc895c528 java.util.concurrent.ThreadPoolExecutor processWorkerExit (Ljava/util/concurrent/ThreadPoolExecutor$Worker;Z)V
+0x7fbfc895c520 java.util.concurrent.ThreadPoolExecutor compareAndDecrementWorkerCount (I)Z
+0x7fbf6543da78 sun.misc.Unsafe unpark (Ljava/lang/Object;)V
+0x7fbf65474a38 java.util.concurrent.locks.AbstractQueuedSynchronizer unparkSuccessor (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V
+0x7fbf65474a60 java.util.concurrent.locks.AbstractQueuedSynchronizer setHead (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V
+0x7fbf65474a58 java.util.concurrent.locks.AbstractQueuedSynchronizer$Node predecessor ()Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;
+0x7fbf65474a50 java.util.concurrent.locks.AbstractQueuedSynchronizer acquireQueued (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;I)Z
+0x7fbf65474a30 java.util.concurrent.locks.AbstractQueuedSynchronizer compareAndSetTail (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z
+0x7fbf65474a28 java.util.concurrent.locks.AbstractQueuedSynchronizer compareAndSetHead (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z
+0x7fbf654749a8 java.util.concurrent.locks.AbstractQueuedSynchronizer$Node <init> ()V
+0x7fbf65474a20 java.util.concurrent.locks.AbstractQueuedSynchronizer enq (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;
+0x7fbf65474a18 java.util.concurrent.locks.AbstractQueuedSynchronizer compareAndSetWaitStatus (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;II)Z
+0x7fbfc895c518 java.util.concurrent.locks.AbstractQueuedSynchronizer transferAfterCancelledWait (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z
+0x7fbf600027c8 sun.misc.Unsafe park (ZJ)V
+0x7fbf654749b8 java.util.concurrent.locks.AbstractQueuedSynchronizer fullyRelease (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)I
+0x7fbf654749b0 java.util.concurrent.locks.AbstractQueuedSynchronizer$Node <init> (Ljava/lang/Thread;I)V
+0x7fbf6543dac8 java.util.concurrent.locks.ReentrantLock$NonfairSync tryAcquire (I)Z
+0x7fbf6543dac0 java.util.concurrent.locks.AbstractQueuedSynchronizer acquireInterruptibly (I)V
+0x7fbf6543dab0 java.util.concurrent.locks.ReentrantLock lockInterruptibly ()V
+0x7fbf6543da90 java.util.concurrent.ThreadPoolExecutor getTask ()Ljava/lang/Runnable;
+0x7fbfc9eedd90 org.apache.tomcat.util.net.AbstractEndpoint getMaxThreadsExecutor (Z)I
+0x7fbf653c7878 org.apache.coyote.RequestInfo setStage (I)V
+0x7fbf6404a740 org.apache.coyote.http11.Http11Processor disableKeepAlive ()Z
+0x7fbf6404a738 org.apache.tomcat.util.net.SocketWrapper isKeptAlive ()Z
+0x7fbf67465420 org.apache.tomcat.util.threads.TaskQueue take ()Ljava/lang/Object;
+0x7fbf6404a6d0 java.net.SocketImpl getSocket ()Ljava/net/Socket;
+0x7fbfc8164200 java.util.HashMap$KeyIterator <init> (Ljava/util/HashMap;)V
+0x7fbf653c7850 org.apache.coyote.AsyncStateMachine isAsync ()Z
+0x7fbf6774f9b8 java.net.PlainSocketImpl socketSetOption (IZLjava/lang/Object;)V
+0x7fbfc80fdc08 java.io.OutputStream <init> ()V
+0x7fbf640d0c10 org.apache.coyote.http11.AbstractHttp11Protocol isSSLEnabled ()Z
+0x7fbf67465410 org.apache.tomcat.util.threads.TaskThread getCreationTime ()J
+0x7fbf6404a6c0 java.net.SocketImpl getFileDescriptor ()Ljava/io/FileDescriptor;
+0x7fbf67465408 org.apache.tomcat.util.threads.ThreadPoolExecutor currentThreadShouldBeStopped ()Z
+0x7fbf6404a700 java.net.Socket$3 run ()Ljava/io/OutputStream;
+0x7fbf67465448 java.util.concurrent.ConcurrentLinkedQueue casHead (Ljava/util/concurrent/ConcurrentLinkedQueue$Node;Ljava/util/concurrent/ConcurrentLinkedQueue$Node;)Z
+0x7fbf6404a6f8 java.net.Socket$3 run ()Ljava/lang/Object;
+0x7fbfc9fa1c88 java.util.concurrent.locks.LockSupport setBlocker (Ljava/lang/Thread;Ljava/lang/Object;)V
+0x7fbf67465440 java.util.concurrent.ConcurrentLinkedQueue$Node casItem (Ljava/lang/Object;Ljava/lang/Object;)Z
+0x7fbf6404a6f0 java.net.Socket$3 <init> (Ljava/net/Socket;)V
+0x7fbf67465430 java.util.concurrent.LinkedBlockingQueue take ()Ljava/lang/Object;
+0x7fbf6404a6e0 java.net.Socket getOutputStream ()Ljava/io/OutputStream;
+0x7fbfc9fa1c70 java.util.concurrent.locks.LockSupport park (Ljava/lang/Object;)V
+0x7fbf67465428 org.apache.tomcat.util.threads.TaskQueue take ()Ljava/lang/Runnable;
+0x7fbf6404a6d8 org.apache.coyote.http11.InternalOutputBuffer init (Lorg/apache/tomcat/util/net/SocketWrapper;Lorg/apache/tomcat/util/net/AbstractEndpoint;)V
+0x7fbfc895c558 java.lang.Thread exit ()V
+0x7fbfc8164208 java.util.HashMap$KeyIterator next ()Ljava/lang/Object;
+0x7fbfc9fa5e30 org.apache.tomcat.util.net.AbstractEndpoint getMaxThreads ()I
+0x7fbf6404a730 org.apache.tomcat.util.net.JIoEndpoint getUsePolling ()Z
+0x7fbfc80917d0 java.util.concurrent.locks.ReentrantLock tryLock ()Z
+0x7fbf6543da70 java.util.concurrent.locks.LockSupport unpark (Ljava/lang/Thread;)V
+0x7fbfc8062a10 java.lang.Object <init> ()V
+0x7fbf653c78a0 java.net.Socket isInputShutdown ()Z
+0x7fbfc895c540 java.util.concurrent.ThreadPoolExecutor runStateLessThan (II)Z
+0x7fbfc81641f0 java.util.HashMap newKeyIterator ()Ljava/util/Iterator;
+0x7fbf649a11b8 org.apache.coyote.http11.Http11Processor getInputBuffer ()Lorg/apache/coyote/http11/AbstractInputBuffer;
+0x7fbf6543d890 java.util.concurrent.ConcurrentLinkedQueue checkNotNull (Ljava/lang/Object;)V
+0x7fbfc8255d70 sun.misc.Unsafe compareAndSwapLong (Ljava/lang/Object;JJJ)Z
+0x7fbf653c7870 org.apache.coyote.http11.AbstractHttp11Processor process (Lorg/apache/tomcat/util/net/SocketWrapper;)Lorg/apache/tomcat/util/net/AbstractEndpoint$Handler$SocketState;
+0x7fbf653c7860 org.apache.coyote.http11.AbstractHttp11Processor isComet ()Z
+0x7fbf653c7858 org.apache.coyote.AsyncStateMachine$AsyncState isAsync ()Z
+0x7fbf6774f9c0 java.net.Socket setSoTimeout (I)V
+0x7fbf653c7848 org.apache.coyote.AbstractProcessor isAsync ()Z
+0x7fbf6774f9b0 java.net.AbstractPlainSocketImpl isClosedOrPending ()Z
+0x7fbf6404a750 org.apache.tomcat.util.net.AbstractEndpoint getCurrentThreadsBusy ()I
+0x7fbf653c7840 org.apache.coyote.http11.Http11Processor setSslSupport (Lorg/apache/tomcat/util/net/SSLSupport;)V
+0x7fbfc81d3c58 java.util.HashMap$Entry getKey ()Ljava/lang/Object;
+0x7fbf6774f9a8 java.net.AbstractPlainSocketImpl setOption (ILjava/lang/Object;)V
+0x7fbf67465438 java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject await ()V
+0x7fbf6404a6e8 java.net.Socket isOutputShutdown ()Z
+0x7fbf6404a728 java.io.FileOutputStream <init> (Ljava/io/FileDescriptor;)V
+0x7fbfc8170380 java.util.concurrent.atomic.AtomicInteger compareAndSet (II)Z
+0x7fbfc8091828 java.util.concurrent.locks.AbstractQueuedSynchronizer release (I)Z
+0x7fbf6404a788 org.apache.tomcat.util.net.SocketWrapper getLastAccess ()J
+0x7fbfc80cb820 java.lang.Object hashCode ()I
+0x7fbf653c78b0 java.net.Socket$2 run ()Ljava/lang/Object;
+0x7fbfc9fa1c30 java.util.concurrent.ThreadPoolExecutor beforeExecute (Ljava/lang/Thread;Ljava/lang/Runnable;)V
+0x7fbfc80e8990 java.lang.Throwable fillInStackTrace (I)Ljava/lang/Throwable;
+0x7fbfc81794f0 java.util.concurrent.atomic.AtomicInteger incrementAndGet ()I
+0x7fbf6404a758 java.util.concurrent.ThreadPoolExecutor getActiveCount ()I
+0x7fbf653c7880 org.apache.coyote.http11.Http11Processor setSocketWrapper (Lorg/apache/tomcat/util/net/SocketWrapper;)V
+0x7fbfc8091840 java.util.concurrent.locks.AbstractQueuedSynchronizer setState (I)V
+0x7fbfc80917e0 java.util.concurrent.locks.AbstractQueuedSynchronizer getState ()I
+0x7fbf6404a7a0 org.apache.coyote.http11.InternalInputBuffer fill (Z)Z
+0x7fbf6404a720 java.net.SocketOutputStream <init> (Ljava/net/AbstractPlainSocketImpl;)V
+0x7fbfc8170378 java.util.concurrent.atomic.AtomicInteger get ()I
+0x7fbfc8091820 java.util.concurrent.locks.ReentrantLock unlock ()V
+0x7fbfc80917c0 sun.misc.Unsafe compareAndSwapObject (Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z
+0x7fbf6404a780 org.apache.coyote.http11.Http11Processor setRequestLineReadTimeout ()V
+0x7fbf6404a748 java.util.concurrent.ThreadPoolExecutor getMaximumPoolSize ()I
+0x7fbf6543dad8 java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject addConditionWaiter ()Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;
+0x7fbfc8062a78 java.lang.System getSecurityManager ()Ljava/lang/SecurityManager;
+0x7fbf653c7888 org.apache.coyote.http11.InternalInputBuffer init (Lorg/apache/tomcat/util/net/SocketWrapper;Lorg/apache/tomcat/util/net/AbstractEndpoint;)V
+0x7fbfc80917e8 java.util.concurrent.locks.AbstractQueuedSynchronizer compareAndSetState (II)Z
+0x7fbf6404a7a8 java.net.SocketInputStream read ([BII)I
+0x7fbfc8091830 java.util.concurrent.locks.ReentrantLock$Sync tryRelease (I)Z
+0x7fbf67465418 java.util.concurrent.atomic.AtomicLong longValue ()J
+0x7fbfc826b250 java.util.concurrent.ConcurrentHashMap segmentForHash (I)Ljava/util/concurrent/ConcurrentHashMap$Segment;
+0x7fbf64a4c708 sun.misc.IoTrace socketReadBegin ()Ljava/lang/Object;
+0x7fbfc9fa1c20 java.util.concurrent.ThreadPoolExecutor runStateAtLeast (II)Z
+0x7fbfc80e8980 java.lang.Throwable <init> (Ljava/lang/String;)V
+0x7fbf67805dc0 org.apache.tomcat.util.buf.CharChunk recycle ()V
+0x7fbfc81795a8 java.util.concurrent.atomic.AtomicInteger decrementAndGet ()I
+0x7fbf60071120 java.net.SocketTimeoutException <init> (Ljava/lang/String;)V
+0x7fbf653c78b8 java.net.Socket$2 run ()Ljava/io/InputStream;
+0x7fbfc80e8978 java.lang.Exception <init> (Ljava/lang/String;)V
+0x7fbfc81400b0 java.util.logging.Level intValue ()I
+0x7fbf67805db8 org.apache.tomcat.util.buf.ByteChunk recycle ()V
+0x7fbf653c7898 java.net.Socket isConnected ()Z
+0x7fbfc80e8920 java.util.HashMap hash (Ljava/lang/Object;)I
+0x7fbfc80917f8 java.util.concurrent.locks.AbstractOwnableSynchronizer setExclusiveOwnerThread (Ljava/lang/Thread;)V
+0x7fbf6404a7b8 java.net.SocketInputStream read ([BIII)I
+0x7fbf653c78a8 java.net.Socket$2 <init> (Ljava/net/Socket;)V
+0x7fbfc80844f8 sun.misc.Unsafe getObjectVolatile (Ljava/lang/Object;J)Ljava/lang/Object;
+0x7fbfc81400a0 java.lang.Number <init> ()V
+0x7fbfc9e51f70 java.util.HashMap remove (Ljava/lang/Object;)Ljava/lang/Object;
+0x7fbf6539bab0 java.util.concurrent.ConcurrentLinkedQueue updateHead (Ljava/util/concurrent/ConcurrentLinkedQueue$Node;Ljava/util/concurrent/ConcurrentLinkedQueue$Node;)V
+0x7fbfc80e8970 java.io.IOException <init> (Ljava/lang/String;)V
+0x7fbf653c7838 org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler initSsl (Lorg/apache/tomcat/util/net/SocketWrapper;Lorg/apache/coyote/Processor;)V
+0x7fbfc81d3c50 java.util.HashMap$HashIterator nextEntry ()Ljava/util/HashMap$Entry;
+0x7fbf6774f9a0 java.net.Socket getImpl ()Ljava/net/SocketImpl;
+0x7fbf6539c210 org.apache.coyote.AbstractProtocol$RecycledProcessors poll ()Lorg/apache/coyote/Processor;
+0x7fbf6774fa18 org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor run ()V
+0x7fbf60071128 java.io.InterruptedIOException <init> (Ljava/lang/String;)V
+0x7fbf653c7868 org.apache.coyote.http11.AbstractHttp11Processor isUpgrade ()Z
+0x7fbfc9fa1c08 java.util.concurrent.ThreadPoolExecutor$Worker tryRelease (I)Z
+0x7fbf674653c0 org.apache.coyote.http11.Http11Processor recycleInternal ()V
+0x7fbfc9d342f0 java.util.concurrent.ConcurrentLinkedQueue$Node <init> (Ljava/lang/Object;)V
+0x7fbfc80844e0 java.util.concurrent.ConcurrentHashMap hash (Ljava/lang/Object;)I
+0x7fbfc80917f0 sun.misc.Unsafe compareAndSwapInt (Ljava/lang/Object;JII)Z
+0x7fbf6404a7b0 java.net.AbstractPlainSocketImpl getTimeout ()I
+0x7fbf6774f998 java.net.Socket isClosed ()Z
+0x7fbfc895c568 java.lang.ThreadGroup remove (Ljava/lang/Thread;)V
+0x7fbf649a11e0 org.apache.coyote.http11.Http11Processor getOutputBuffer ()Lorg/apache/coyote/http11/AbstractOutputBuffer;
+0x7fbf200f4580 java.util.concurrent.ThreadPoolExecutor decrementWorkerCount ()V
+0x7fbfc9fa1be8 java.util.concurrent.ThreadPoolExecutor$Worker run ()V
+0x7fbf674653a0 org.apache.coyote.http11.AbstractInputBuffer recycle ()V
+0x7fbf653c7890 java.net.Socket getInputStream ()Ljava/io/InputStream;
+0x7fbf3c012638 java.util.concurrent.ConcurrentHashMap$Segment remove (Ljava/lang/Object;ILjava/lang/Object;)Ljava/lang/Object;
+0x7fbfc80e8928 java.util.HashMap indexFor (II)I
+0x7fbfc8091800 java.util.concurrent.ConcurrentHashMap entryAt ([Ljava/util/concurrent/ConcurrentHashMap$HashEntry;I)Ljava/util/concurrent/ConcurrentHashMap$HashEntry;
+0x7fbf6404a760 java.util.concurrent.ThreadPoolExecutor$Worker isLocked ()Z
+0x7fbfc9f33eb8 org.apache.tomcat.util.net.AbstractEndpoint isSSLEnabled ()Z
+0x7fbfc8140338 java.util.HashMap keySet ()Ljava/util/Set;
+0x7fbfc809d430 java.security.AccessController doPrivileged (Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;
+0x7fbf65474a40 java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject checkInterruptWhileWaiting (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)I
+0x7fbf60064360 java.util.concurrent.ConcurrentLinkedQueue$Node lazySetNext (Ljava/util/concurrent/ConcurrentLinkedQueue$Node;)V
+0x7fbfc8091838 java.util.concurrent.locks.AbstractOwnableSynchronizer getExclusiveOwnerThread ()Ljava/lang/Thread;
+0x7fbfc80917d8 java.util.concurrent.locks.ReentrantLock$Sync nonfairTryAcquire (I)Z
+0x7fbf6404a798 org.apache.coyote.http11.InternalInputBuffer fill ()Z
+0x7fbf6539baa8 java.util.concurrent.ConcurrentLinkedQueue poll ()Ljava/lang/Object;
+0x7fbf6404a708 java.net.AbstractPlainSocketImpl getOutputStream ()Ljava/io/OutputStream;
+0x7fbfc8091818 sun.misc.Unsafe putOrderedObject (Ljava/lang/Object;JLjava/lang/Object;)V
+0x7fbf6404a778 org.apache.tomcat.util.net.AbstractEndpoint isPaused ()Z
+0x7fbfc81641f8 java.util.HashMap$KeyIterator <init> (Ljava/util/HashMap;Ljava/util/HashMap$1;)V
+0x7fbfc8140330 java.util.HashSet iterator ()Ljava/util/Iterator;
+0x7fbfc8140350 java.util.HashMap$KeySet iterator ()Ljava/util/Iterator;
+0x7fbfc836ff50 java.lang.Exception <init> ()V
+0x7fbfc8084410 java.lang.Thread currentThread ()Ljava/lang/Thread;
+0x7fbf653c7800 org.apache.coyote.Request getRequestProcessor ()Lorg/apache/coyote/RequestInfo;
+0x7fbfc81d3c30 java.util.HashMap$HashIterator <init> (Ljava/util/HashMap;)V
+0x7fbfc836ff58 java.lang.Throwable <init> ()V
+0x7fbfc81d3c38 java.util.HashMap$HashIterator hasNext ()Z
+0x7fbf6404a768 java.util.concurrent.ThreadPoolExecutor$Worker isHeldExclusively ()Z
+0x7fbf6404a770 org.apache.coyote.http11.Http11Processor getDisableKeepAlivePercentage ()I
+0x7fbfc813b848 java.lang.System currentTimeMillis ()J
+0x7fbfc8140098 java.lang.Integer <init> (I)V
+0x7fbfc821ed80 java.lang.Integer intValue ()I
+0x7fbf64a4c700 java.net.AbstractPlainSocketImpl isConnectionReset ()Z
+0x7fbfc9fa1f10 java.net.AbstractPlainSocketImpl acquireFD ()Ljava/io/FileDescriptor;
+0x7fbf6774fa38 org.apache.tomcat.util.net.DefaultServerSocketFactory handshake (Ljava/net/Socket;)V
+0x7fbf60071148 org.apache.tomcat.util.threads.LimitLatch countDown ()J
+0x7fbf64a4c710 java.net.SocketInputStream socketRead0 (Ljava/io/FileDescriptor;[BIII)I
+0x7fbfc80e8988 java.lang.Throwable fillInStackTrace ()Ljava/lang/Throwable;
+0x7fbf6774f970 java.net.AbstractPlainSocketImpl releaseFD ()V
+0x7fbf64a4c718 sun.misc.IoTrace socketReadEnd (Ljava/lang/Object;Ljava/net/InetAddress;IIJ)V
+0x7fbf60071130 org.apache.coyote.http11.Http11Processor getLog ()Lorg/apache/juli/logging/Log;
+0x7fbf200f4568 java.util.concurrent.locks.AbstractQueuedSynchronizer shouldParkAfterFailedAcquire (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z
+0x7fbf67465388 org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler release (Lorg/apache/tomcat/util/net/SocketWrapper;Lorg/apache/coyote/Processor;ZZ)V
+0x7fbf200f4570 java.lang.InterruptedException <init> ()V
+0x7fbfc817aaa0 java.util.concurrent.locks.ReentrantLock lock ()V
+0x7fbf67465390 org.apache.coyote.http11.AbstractHttp11Processor recycle (Z)V
+0x7fbf200f4578 java.util.concurrent.locks.AbstractQueuedSynchronizer parkAndCheckInterrupt ()Z
+0x7fbfc9fa1be0 java.lang.Thread run ()V
+0x7fbfc817aaa8 java.util.concurrent.locks.ReentrantLock$NonfairSync lock ()V
+0x7fbf67465398 org.apache.coyote.http11.InternalInputBuffer recycle ()V
+0x7fbf67460ef8 org.apache.coyote.Request recycle ()V
+0x7fbfc9fa1ba8 java.util.concurrent.ThreadPoolExecutor runStateOf (I)I
+0x7fbf67465360 org.apache.coyote.http11.InternalOutputBuffer nextRequest ()V
+0x7fbfc81afe50 java.util.concurrent.locks.AbstractQueuedSynchronizer acquire (I)V
+0x7fbf67460f00 org.apache.tomcat.util.http.MimeHeaders recycle ()V
+0x7fbfc8255d60 java.util.concurrent.atomic.AtomicLong get ()J
+0x7fbf67460f08 org.apache.tomcat.util.http.MimeHeaders clear ()V
+0x7fbf6543d888 java.util.concurrent.ConcurrentLinkedQueue offer (Ljava/lang/Object;)Z
+0x7fbf654749c0 java.util.concurrent.locks.AbstractQueuedSynchronizer isOnSyncQueue (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z
+0x7fbfc9fa5ed0 org.apache.tomcat.util.threads.LimitLatch access$000 (Lorg/apache/tomcat/util/threads/LimitLatch;)Ljava/util/concurrent/atomic/AtomicLong;
+0x7fbfc8255d68 java.util.concurrent.atomic.AtomicLong compareAndSet (JJ)Z
+0x7fbf653c78c0 java.net.AbstractPlainSocketImpl getInputStream ()Ljava/io/InputStream;
+0x7fbf67460e78 org.apache.tomcat.util.buf.MessageBytes recycle ()V
+0x7fbf67460f18 org.apache.tomcat.util.http.Cookies recycle ()V
+0x7fbf6543d898 java.util.concurrent.ConcurrentLinkedQueue$Node casNext (Ljava/util/concurrent/ConcurrentLinkedQueue$Node;Ljava/util/concurrent/ConcurrentLinkedQueue$Node;)Z
+0x7fbfc9fa1b98 java.util.concurrent.ThreadPoolExecutor workerCountOf (I)I
+0x7fbf67465350 org.apache.tomcat.util.http.Parameters recycle ()V
+0x7fbf200f4560 java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject reportInterruptAfterWait (I)V
+0x7fbfc8170468 java.io.FileDescriptor incrementAndGetUseCount ()I
+0x7fbfc8419ad0 java.util.Arrays fill ([Ljava/lang/Object;Ljava/lang/Object;)V
+0x7fbf200f4588 java.util.concurrent.locks.AbstractQueuedSynchronizer addWaiter (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;
+0x7fbf642ef010 java.util.concurrent.ConcurrentHashMap remove (Ljava/lang/Object;)Ljava/lang/Object;
+0x7fbfc9fa1bf0 java.util.concurrent.ThreadPoolExecutor runWorker (Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V
+0x7fbf674653a8 org.apache.coyote.http11.InternalOutputBuffer recycle ()V
+0x7fbf200f4590 java.util.concurrent.locks.AbstractQueuedSynchronizer$Node <init> (Ljava/lang/Thread;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V
+0x7fbfc9fa1bf8 java.util.concurrent.ThreadPoolExecutor$Worker unlock ()V
+0x7fbf674653b0 org.apache.coyote.http11.AbstractOutputBuffer recycle ()V
+0x7fbf674653b8 org.apache.coyote.AsyncStateMachine recycle ()V
+0x7fbfc9fa1c10 java.util.concurrent.ThreadPoolExecutor$Worker lock ()V
+0x7fbf674653c8 org.apache.coyote.AbstractProtocol$RecycledProcessors offer (Lorg/apache/coyote/Processor;)Z
+0x7fbfc9d342f8 sun.misc.Unsafe putObject (Ljava/lang/Object;JLjava/lang/Object;)V
+0x7fbf653c77f0 org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler getProtocol ()Lorg/apache/coyote/AbstractProtocol;
+0x7fbfc9fa1c18 java.util.concurrent.ThreadPoolExecutor$Worker tryAcquire (I)Z
+0x7fbf674653d0 org.apache.coyote.AbstractProtocol getProcessorCache ()I
+0x7fbf60071138 org.apache.tomcat.util.net.JIoEndpoint access$100 ()Lorg/apache/juli/logging/Log;
+0x7fbfc8429780 org.apache.juli.logging.DirectJDKLog isTraceEnabled ()Z
+0x7fbf6774fa30 org.apache.tomcat.util.net.SocketWrapper getSocket ()Ljava/lang/Object;
+0x7fbf60071140 org.apache.tomcat.util.net.AbstractEndpoint countDownConnection ()J
+0x7fbf67465368 org.apache.coyote.http11.AbstractOutputBuffer nextRequest ()V
+0x7fbfc82073f8 java.util.concurrent.locks.AbstractQueuedSynchronizer releaseShared (I)Z
+0x7fbf60071198 java.net.PlainSocketImpl socketClose0 (Z)V
+0x7fbf60071150 org.apache.tomcat.util.threads.LimitLatch$Sync tryReleaseShared (I)Z
+0x7fbfc81d0740 org.apache.juli.logging.DirectJDKLog isDebugEnabled ()Z
+0x7fbf60071158 java.util.concurrent.atomic.AtomicLong decrementAndGet ()J
+0x7fbf67465378 org.apache.coyote.Response recycle ()V
+0x7fbfc8419ac8 java.util.HashMap clear ()V
+0x7fbfc8207408 java.util.concurrent.locks.AbstractQueuedSynchronizer doReleaseShared ()V
+0x7fbf6774fa50 org.apache.coyote.AbstractProtocol$AbstractConnectionHandler process (Lorg/apache/tomcat/util/net/SocketWrapper;Lorg/apache/tomcat/util/net/SocketStatus;)Lorg/apache/tomcat/util/net/AbstractEndpoint$Handler$SocketState;
+0x7fbfc81d0748 java.util.logging.Logger isLoggable (Ljava/util/logging/Level;)Z
+0x7fbf60071160 org.apache.tomcat.util.threads.LimitLatch getCount ()J
+0x7fbf6774fa58 org.apache.tomcat.util.net.SocketWrapper setAsync (Z)V
+0x7fbf60071168 java.net.Socket close ()V
+0x7fbf60071170 java.net.SocksSocketImpl close ()V
+0x7fbf60071178 java.net.AbstractPlainSocketImpl close ()V
+0x7fbfc8239e90 java.util.HashMap removeEntryForKey (Ljava/lang/Object;)Ljava/util/HashMap$Entry;
+0x7fbf60071188 sun.net.ResourceManager afterUdpClose ()V
+0x7fbfc8239e98 java.util.HashMap$Entry recordRemoval (Ljava/util/HashMap;)V
+0x7fbf60071190 java.net.AbstractPlainSocketImpl socketPreClose ()V
+0x7fbf600711a0 java.net.AbstractPlainSocketImpl socketClose ()V
+0x7fbfc8128690 java.lang.Thread interrupted ()Z
+0x7fbf674653f8 org.apache.tomcat.util.threads.ThreadPoolExecutor afterExecute (Ljava/lang/Runnable;Ljava/lang/Throwable;)V
+0x7fbfc8128698 java.lang.Thread isInterrupted (Z)Z
+0x7fbf67465400 org.apache.tomcat.util.threads.ThreadPoolExecutor stopCurrentThreadIfNeeded ()V
+(nil) 0x7fbf3c000fe0 (nil) -2 0 0 0.000000
+0x7fbf3c000fe0 0x7fbf3c01e2d0 0x7fbf674653f8 104 0 1 0.000000
+0x7fbf3c01e2d0 0x7fbf3c01e450 0x7fbf67465400 13 0 2 0.000000
+0x7fbf3c01e450 0x7fbf3c00f380 0x7fbf67465408 1 0 3 0.000000
+0x7fbf3c00f380 0x7fbf3c0085e0 0x7fbf67465410 26 0 4 0.000000
+0x7fbf3c000fe0 0x7fbf3c003b30 0x7fbf6774fa18 95 0 1 0.000000
+0x7fbf3c003b30 0x7fbf3c00b160 0x7fbf6774fa30 24 0 2 0.000000
+0x7fbf3c003b30 0x7fbf3c013970 0x7fbf6774fa38 30 0 2 0.000000
+0x7fbf3c003b30 0x7fbf3c00ad10 0x7fbf6774fa50 130 0 2 0.000000
+0x7fbf3c00ad10 0x7fbf3c005ea0 0x7fbf6774fa30 5 0 3 0.000000
+0x7fbf3c00ad10 0x7fbf3c017d20 0x7fbf6774fa58 32 0 3 0.000000
+0x7fbf3c00ad10 0x7fbf3c00f6c0 0x7fbf6539c210 43 0 3 0.000000
+0x7fbf3c00ad10 0x7fbf3c0032b0 0x7fbf653c7838 59 0 3 0.000000
+0x7fbf3c0032b0 0x7fbf3c002cc0 0x7fbf640d0c10 4 0 4 0.000000
+0x7fbf3c002cc0 0x7fbf3c0145a0 0x7fbfc9f33eb8 4 0 5 0.000000
+0x7fbf3c0032b0 0x7fbf3c00c820 0x7fbf653c7840 48 0 4 0.000000
+0x7fbf3c00ad10 0x7fbf3c00c760 0x7fbf653c7848 87 0 3 0.000000
+0x7fbf3c00c760 0x7fbf3c01e520 0x7fbf653c7850 11 0 4 0.000000
+0x7fbf3c01e520 0x7fbf3c013c00 0x7fbf653c7858 4 0 5 0.000000
+0x7fbf3c00ad10 0x7fbf3c00c530 0x7fbf653c7860 116 0 3 0.000000
+0x7fbf3c00ad10 0x7fbf3c00bff0 0x7fbf67465388 329 0 3 0.000000
+0x7fbf3c00bff0 0x7fbf3c017ec0 0x7fbf67465390 2 0 4 0.000000
+0x7fbf3c017ec0 0x7fbf3c017f00 0x7fbf649a11b8 1 0 5 0.000000
+0x7fbf3c017ec0 0x7fbf3c01d5c0 0x7fbf649a11b8 8 0 5 0.000000
+0x7fbf3c017ec0 0x7fbf3c00f940 0x7fbf67465398 11 0 5 0.000000
+0x7fbf3c00f940 0x7fbf3c00a000 0x7fbf674653a0 1 0 6 0.000000
+0x7fbf3c00a000 0x7fbf3c00f7a0 0x7fbf67460ef8 4 0 7 0.000000
+0x7fbf3c00f7a0 0x7fbf3c00c230 0x7fbf67460e78 81 0 8 0.000000
+0x7fbf3c00c230 0x7fbf3c018ee0 0x7fbf67805db8 9 0 9 0.000000
+0x7fbf3c00c230 0x7fbf3c018f50 0x7fbf67805dc0 16 0 9 0.000000
+0x7fbf3c00f7a0 0x7fbf3c018fd0 0x7fbf67460e78 88 0 8 0.000000
+0x7fbf3c018fd0 0x7fbf3c00bb80 0x7fbf67805db8 9 0 9 0.000000
+0x7fbf3c018fd0 0x7fbf3c00bc10 0x7fbf67805dc0 16 0 9 0.000000
+0x7fbf3c00f7a0 0x7fbf3c014400 0x7fbf67460e78 95 0 8 0.000000
+0x7fbf3c014400 0x7fbf3c0144c0 0x7fbf67805db8 9 0 9 0.000000
+0x7fbf3c014400 0x7fbf3c014520 0x7fbf67805dc0 16 0 9 0.000000
+0x7fbf3c00f7a0 0x7fbf3c00f880 0x7fbf67460f00 26 0 8 0.000000
+0x7fbf3c00f880 0x7fbf3c016200 0x7fbf67460f08 1 0 9 0.000000
+0x7fbf3c00f7a0 0x7fbf3c01bde0 0x7fbf67460e78 33 0 8 0.000000
+0x7fbf3c01bde0 0x7fbf3c01ba40 0x7fbf67805db8 9 0 9 0.000000
+0x7fbf3c01bde0 0x7fbf3c00aba0 0x7fbf67805dc0 16 0 9 0.000000
+0x7fbf3c00f7a0 0x7fbf3c001280 0x7fbf67460e78 116 0 8 0.000000
+0x7fbf3c001280 0x7fbf3c001340 0x7fbf67805db8 9 0 9 0.000000
+0x7fbf3c001280 0x7fbf3c00bd20 0x7fbf67805dc0 16 0 9 0.000000
+0x7fbf3c00f7a0 0x7fbf3c00bda0 0x7fbf67460e78 123 0 8 0.000000
+0x7fbf3c00bda0 0x7fbf3c00be60 0x7fbf67805db8 9 0 9 0.000000
+0x7fbf3c00bda0 0x7fbf3c017b30 0x7fbf67805dc0 16 0 9 0.000000
+0x7fbf3c00f7a0 0x7fbf3c017b90 0x7fbf67460e78 130 0 8 0.000000
+0x7fbf3c017b90 0x7fbf3c017c50 0x7fbf67805db8 9 0 9 0.000000
+0x7fbf3c017b90 0x7fbf3c017ce0 0x7fbf67805dc0 16 0 9 0.000000
+0x7fbf3c00f7a0 0x7fbf3c01b690 0x7fbf67460f18 60 0 8 0.000000
+0x7fbf3c00f7a0 0x7fbf3c0173f0 0x7fbf67465350 67 0 8 0.000000
+0x7fbf3c0173f0 0x7fbf3c01e060 0x7fbf67460e78 26 0 9 0.000000
+0x7fbf3c01e060 0x7fbf3c01e100 0x7fbf67805db8 9 0 10 0.000000
+0x7fbf3c01e060 0x7fbf3c00c3b0 0x7fbf67805dc0 16 0 10 0.000000
+0x7fbf3c00f7a0 0x7fbf3c00c430 0x7fbf67460e78 74 0 8 0.000000
+0x7fbf3c00c430 0x7fbf3c00c4f0 0x7fbf67805db8 9 0 9 0.000000
+0x7fbf3c00c430 0x7fbf3c00c1b0 0x7fbf67805dc0 16 0 9 0.000000
+0x7fbf3c017ec0 0x7fbf3c003bf0 0x7fbf649a11e0 15 0 5 0.000000
+0x7fbf3c017ec0 0x7fbf3c003c70 0x7fbf649a11e0 22 0 5 0.000000
+0x7fbf3c017ec0 0x7fbf3c00adf0 0x7fbf674653a8 25 0 5 0.000000
+0x7fbf3c00adf0 0x7fbf3c00af50 0x7fbf674653b0 1 0 6 0.000000
+0x7fbf3c00af50 0x7fbf3c015320 0x7fbf67465360 1 0 7 0.000000
+0x7fbf3c015320 0x7fbf3c015480 0x7fbf67465368 1 0 8 0.000000
+0x7fbf3c015480 0x7fbf3c008aa0 0x7fbf67465378 31 0 9 0.000000
+0x7fbf3c008aa0 0x7fbf3c00b510 0x7fbf67460f08 61 0 10 0.000000
+0x7fbf3c017ec0 0x7fbf3c00b670 0x7fbf674653b8 39 0 5 0.000000
+0x7fbf3c017ec0 0x7fbf3c014770 0x7fbf674653c0 83 0 5 0.000000
+0x7fbf3c00bff0 0x7fbf3c019a00 0x7fbf674653c8 12 0 4 0.000000
+0x7fbf3c019a00 0x7fbf3c026510 0x7fbf653c77f0 4 0 5 0.000000
+0x7fbf3c019a00 0x7fbf3c026640 0x7fbf674653d0 7 0 5 0.000000
+0x7fbf3c00ad10 0x7fbf3c00c310 0x7fbf653c7868 137 0 3 0.000000
+0x7fbf3c00ad10 0x7fbf3c00c0f0 0x7fbf653c7870 158 0 3 0.000000
+0x7fbf3c00c0f0 0x7fbf3c014c50 0x7fbf653c7800 4 0 4 0.000000
+0x7fbf3c00c0f0 0x7fbf3c009100 0x7fbf653c7878 10 0 4 0.000000
+0x7fbf3c00c0f0 0x7fbf3c01d7f0 0x7fbf653c7880 15 0 4 0.000000
+0x7fbf3c00c0f0 0x7fbf3c011320 0x7fbf649a11b8 19 0 4 0.000000
+0x7fbf3c00c0f0 0x7fbf3c00a260 0x7fbf653c7888 27 0 4 0.000000
+0x7fbf3c00a260 0x7fbf3c011240 0x7fbf6774fa30 2 0 5 0.000000
+0x7fbf3c00c0f0 0x7fbf3c012450 0x7fbf649a11e0 31 0 4 0.000000
+0x7fbf3c00c0f0 0x7fbf3c00f8c0 0x7fbf6404a6d8 39 0 4 0.000000
+0x7fbf3c00f8c0 0x7fbf3c012300 0x7fbf6774fa30 2 0 5 0.000000
+0x7fbf3c00c0f0 0x7fbf3c019c30 0x7fbf653c7878 868 0 4 0.000000
+0x7fbf3c00c0f0 0x7fbf3c009260 0x7fbf6404a730 76 0 4 0.000000
+0x7fbf3c00c0f0 0x7fbf3c00ab00 0x7fbf6404a738 92 0 4 0.000000
+0x7fbf3c00c0f0 0x7fbf3c0050e0 0x7fbf6404a740 99 0 4 0.000000
+0x7fbf3c0050e0 0x7fbf3c01df10 0x7fbfc9fa5e30 6 0 5 0.000000
+0x7fbf3c01df10 0x7fbf3c013ce0 0x7fbfc9eedd90 5 0 6 0.000000
+0x7fbf3c0050e0 0x7fbf3c018bf0 0x7fbf6404a770 35 0 5 0.000000
+0x7fbf3c0050e0 0x7fbf3c005400 0x7fbf6404a750 18 0 5 0.000000
+0x7fbf3c00c0f0 0x7fbf3c026300 0x7fbfc81d0740 301 0 4 0.000000
+0x7fbf3c00c0f0 0x7fbf3c018b00 0x7fbf653c7848 132 0 4 0.000000
+0x7fbf3c018b00 0x7fbf3c0189e0 0x7fbf653c7850 11 0 5 0.000000
+0x7fbf3c0189e0 0x7fbf3c0188f0 0x7fbf653c7858 4 0 6 0.000000
+0x7fbf3c00c0f0 0x7fbf3c01d830 0x7fbf6404a778 149 0 4 0.000000
+0x7fbf3c00c0f0 0x7fbf3c024dd0 0x7fbf6404a780 156 0 4 0.000000
+0x7fbf3c024dd0 0x7fbf3c013b60 0x7fbf6774fa30 76 0 5 0.000000
+0x7fbf3c024dd0 0x7fbf3c014fa0 0x7fbf6404a788 14 0 5 0.000000
+0x7fbf3c024dd0 0x7fbf3c024ce0 0x7fbf6404a798 90 0 5 0.000000
+0x7fbf3c024ce0 0x7fbf3c00e510 0x7fbf6404a7a0 2 0 6 0.000000
+0x7fbf3c024dd0 0x7fbf3c013c40 0x7fbf6404a788 44 0 5 0.000000
+0x7fbf3c003b30 0x7fbf3c026ed0 0x7fbf60071138 143 0 2 0.000000
+0x7fbf3c003b30 0x7fbf3c00b2e0 0x7fbfc8429780 146 0 2 0.000000
+0x7fbf3c003b30 0x7fbf3c00b440 0x7fbf60071140 188 0 2 0.000000
+0x7fbf3c00b440 0x7fbf3c005290 0x7fbf60071148 22 0 3 0.000000
+0x7fbf3c005290 0x7fbf3c026110 0x7fbf60071150 2 0 4 0.000000
+0x7fbf3c026110 0x7fbf3c00ca30 0x7fbfc9fa5ed0 4 0 5 0.000000
+0x7fbf3c005290 0x7fbf3c006060 0x7fbf60071160 10 0 4 0.000000
+0x7fbf3c005290 0x7fbf3c0060e0 0x7fbfc81d0740 17 0 4 0.000000
+0x7fbf3c003b30 0x7fbf3c006160 0x7fbf6774fa30 196 0 2 0.000000
+0x7fbf3c000fe0 0x7fbf3c009b60 0x7fbf67465420 156 0 1 0.000000
+0x7fbf3c009b60 0x7fbf3c009cc0 0x7fbf67465428 1 0 2 0.000000
+0x7fbf3c009cc0 0x7fbf3c009d80 0x7fbf67465408 11 0 3 0.000000
+0x7fbf3c009d80 0x7fbf3c016f10 0x7fbf67465410 26 0 4 0.000000

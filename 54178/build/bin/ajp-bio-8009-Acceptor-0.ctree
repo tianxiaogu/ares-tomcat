@@ -1,0 +1,163 @@
+0x7f4fb3664db0 java.lang.ThreadGroup remove (Ljava/lang/Thread;)V
+0x7f4fb3664da8 java.lang.ThreadGroup threadTerminated (Ljava/lang/Thread;)V
+0x7f4fb3664da0 java.lang.Thread exit ()V
+0x7f4fbe813238 java.lang.Thread sleep (J)V
+0x7f4f940009e8 sun.net.ResourceManager afterUdpClose ()V
+0x7f4f940009d8 java.net.AbstractPlainSocketImpl close ()V
+0x7f4f940009d0 java.net.SocksSocketImpl close ()V
+0x7f5002485490 java.net.Socket isClosed ()Z
+0x7f4f940009c8 java.net.Socket close ()V
+0x7f4f88000928 org.apache.tomcat.util.net.JIoEndpoint closeSocket (Ljava/net/Socket;)V
+0x7f4f940009c0 org.apache.tomcat.util.threads.LimitLatch getCount ()J
+0x7f504c7256e8 java.util.concurrent.locks.AbstractQueuedSynchronizer doReleaseShared ()V
+0x7f4f940009b8 java.util.concurrent.atomic.AtomicLong decrementAndGet ()J
+0x7f4f940009b0 org.apache.tomcat.util.threads.LimitLatch$Sync tryReleaseShared (I)Z
+0x7f4f940009a8 org.apache.tomcat.util.threads.LimitLatch countDown ()J
+0x7f4f940009a0 org.apache.tomcat.util.net.AbstractEndpoint countDownConnection ()J
+0x7f504c7256d8 java.util.concurrent.locks.AbstractQueuedSynchronizer releaseShared (I)Z
+0x7f5002485470 java.net.Socket postAccept ()V
+0x7f4f88000920 org.apache.tomcat.util.net.JIoEndpoint access$000 (Lorg/apache/tomcat/util/net/JIoEndpoint;Ljava/net/Socket;)V
+0x7f504c062d98 java.lang.System getSecurityManager ()Ljava/lang/SecurityManager;
+0x7f4f940e9ac0 java.net.AbstractPlainSocketImpl socketClose ()V
+0x7f4fedcc3620 java.net.ServerSocket isClosed ()Z
+0x7f4feed70768 org.apache.tomcat.util.threads.LimitLatch access$200 (Lorg/apache/tomcat/util/threads/LimitLatch;)J
+0x7f4feed70760 org.apache.tomcat.util.threads.LimitLatch access$100 (Lorg/apache/tomcat/util/threads/LimitLatch;)Z
+0x7f4fed872370 java.net.PlainSocketImpl <init> ()V
+0x7f504d147320 sun.misc.Unsafe compareAndSwapLong (Ljava/lang/Object;JJJ)Z
+0x7f4fed872368 java.net.SocksSocketImpl <init> ()V
+0x7f504d147318 java.util.concurrent.atomic.AtomicLong compareAndSet (JJ)Z
+0x7f504d147310 java.util.concurrent.atomic.AtomicLong get ()J
+0x7f4f940e9ab8 java.net.PlainSocketImpl socketClose0 (Z)V
+0x7f504c062d30 java.lang.Object <init> ()V
+0x7f4feed70758 java.util.concurrent.atomic.AtomicLong incrementAndGet ()J
+0x7f4fa0003060 java.net.Socket setImpl ()V
+0x7f4fa0003058 java.net.ServerSocket implAccept (Ljava/net/Socket;)V
+0x7f504c1289b8 java.lang.Thread isInterrupted (Z)Z
+0x7f4fed872380 java.net.SocketImpl <init> ()V
+0x7f4fa0003088 java.net.AbstractPlainSocketImpl accept (Ljava/net/SocketImpl;)V
+0x7f4feed70728 org.apache.tomcat.util.net.JIoEndpoint$Acceptor run ()V
+0x7f4fedcc35e0 java.net.Inet4Address <init> ()V
+0x7f504c1d0a50 org.apache.juli.logging.DirectJDKLog isDebugEnabled ()Z
+0x7f504c0e3f70 java.lang.ref.Finalizer <init> (Ljava/lang/Object;)V
+0x7f4feed70738 org.apache.tomcat.util.threads.LimitLatch countUpOrAwait ()V
+0x7f5002485468 java.net.AbstractPlainSocketImpl releaseFD ()V
+0x7f4feed70770 org.apache.tomcat.util.net.DefaultServerSocketFactory acceptSocket (Ljava/net/ServerSocket;)Ljava/net/Socket;
+0x7f4fedcc35f8 java.net.InetAddress holder ()Ljava/net/InetAddress$InetAddressHolder;
+0x7f504c1289b0 java.lang.Thread interrupted ()Z
+0x7f4fed872378 java.net.AbstractPlainSocketImpl <init> ()V
+0x7f4fa0003080 java.net.SocketImpl setSocket (Ljava/net/Socket;)V
+0x7f4feed70750 org.apache.tomcat.util.threads.LimitLatch access$000 (Lorg/apache/tomcat/util/threads/LimitLatch;)Ljava/util/concurrent/atomic/AtomicLong;
+0x7f504c1403c0 java.util.logging.Level intValue ()I
+0x7f4fa0003050 java.net.Socket <init> (Ljava/net/SocketImpl;)V
+0x7f504c084730 java.lang.Thread currentThread ()Ljava/lang/Thread;
+0x7f504c170758 java.io.FileDescriptor <init> ()V
+0x7f4fedcc3628 java.net.ServerSocket isBound ()Z
+0x7f4feed70730 org.apache.tomcat.util.net.AbstractEndpoint countUpOrAwaitConnection ()V
+0x7f504c0e3f68 java.lang.ref.Finalizer register (Ljava/lang/Object;)V
+0x7f4f940e9ab0 java.net.AbstractPlainSocketImpl socketPreClose ()V
+0x7f4fa0003030 java.net.ServerSocket accept ()Ljava/net/Socket;
+0x7f504c0df4b0 java.lang.ref.Reference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V
+0x7f4feed41d90 java.lang.Thread run ()V
+0x7f4feed70740 java.util.concurrent.locks.AbstractQueuedSynchronizer acquireSharedInterruptibly (I)V
+0x7f504c0e3f78 java.lang.ref.FinalReference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V
+0x7f504c1403b0 java.lang.Number <init> ()V
+0x7f4fedcc3648 java.net.ServerSocket getImpl ()Ljava/net/SocketImpl;
+0x7f4feed70748 org.apache.tomcat.util.threads.LimitLatch$Sync tryAcquireShared (I)I
+0x7f504c0e3f80 java.lang.ref.Finalizer add ()V
+0x7f504c1d0a58 java.util.logging.Logger isLoggable (Ljava/util/logging/Level;)Z
+0x7f4fedcc35e8 java.net.InetAddress <init> ()V
+0x7f4fedcc35f0 java.net.InetAddress$InetAddressHolder <init> ()V
+0x7f504c091da8 java.lang.System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V
+0x7f504c170760 java.util.concurrent.atomic.AtomicInteger <init> ()V
+0x7f4fa0003090 java.net.AbstractPlainSocketImpl acquireFD ()Ljava/io/FileDescriptor;
+0x7f4fa0003098 java.net.PlainSocketImpl socketAccept (Ljava/net/SocketImpl;)V
+(nil) 0x7f4f98000f40 (nil) -2 0 0 0.000000
+0x7f4f98000f40 0x7f4f980012a0 0x7f4feed41d90 -2 0 1 0.000000
+0x7f4f980012a0 0x7f4f980013e0 0x7f4feed70728 11 0 2 0.000000
+0x7f4f980013e0 0x7f4f98006a40 0x7f4f940009a0 191 0 3 0.000000
+0x7f4f98006a40 0x7f4f98006bf0 0x7f4f940009a8 22 0 4 0.000000
+0x7f4f98006bf0 0x7f4f98006dc0 0x7f504c7256d8 5 0 5 0.000000
+0x7f4f98006dc0 0x7f4f98006f20 0x7f4f940009b0 2 0 6 0.000000
+0x7f4f98006f20 0x7f4f98007100 0x7f4f940009b8 7 0 7 0.000000
+0x7f4f98007100 0x7f4f98007190 0x7f504d147310 1 0 8 0.000000
+0x7f4f98007100 0x7f4f98007210 0x7f504d147318 12 0 8 0.000000
+0x7f4f98007210 0x7f4f98007290 0x7f504d147320 9 0 9 0.000000
+0x7f4f98006f20 0x7f4f98006fa0 0x7f4feed70750 4 0 7 0.000000
+0x7f4f98006bf0 0x7f4f980075d0 0x7f4f940009c0 10 0 5 0.000000
+0x7f4f980075d0 0x7f4f98007650 0x7f504d147310 4 0 6 0.000000
+0x7f4f98006bf0 0x7f4f980076d0 0x7f504c1d0a50 17 0 5 0.000000
+0x7f4f980076d0 0x7f4f98007750 0x7f504c1d0a58 7 0 6 0.000000
+0x7f4f98007750 0x7f4f980077f0 0x7f504c1403c0 1 0 7 0.000000
+0x7f4f980013e0 0x7f4f980088a0 0x7f4fbe813238 42 0 3 0.000000
+0x7f4f980013e0 0x7f4f98007980 0x7f4f88000920 200 0 3 0.000000
+0x7f4f98007980 0x7f4f98007ae0 0x7f4f88000928 2 0 4 0.000000
+0x7f4f98007ae0 0x7f4f98007c20 0x7f4f940009c8 1 0 5 0.000000
+0x7f4f98007c20 0x7f4f98007f00 0x7f4f940009d0 28 0 6 0.000000
+0x7f4f98007f00 0x7f4f98008060 0x7f4f940009d8 20 0 7 0.000000
+0x7f4f98008060 0x7f4f98008270 0x7f4f940009e8 21 0 8 0.000000
+0x7f4f98008270 0x7f4f980082f0 0x7f504c062d98 0 0 9 0.000000
+0x7f4f98008060 0x7f4f98008440 0x7f4f940e9ab0 47 0 8 0.000000
+0x7f4f98008440 0x7f4f98008590 0x7f4f940e9ab8 2 0 9 0.000000
+0x7f4f98008060 0x7f4f980086e0 0x7f4f940e9ac0 51 0 8 0.000000
+0x7f4f980086e0 0x7f4f98008760 0x7f4f940e9ab8 2 0 9 0.000000
+0x7f4f98007c20 0x7f4f98007da0 0x7f5002485490 8 0 6 0.000000
+0x7f4f980013e0 0x7f4f98001790 0x7f4feed70730 76 0 3 0.000000
+0x7f4f98001790 0x7f4f98001900 0x7f4feed70738 19 0 4 0.000000
+0x7f4f98001900 0x7f4f98001ef0 0x7f4feed70740 60 0 5 0.000000
+0x7f4f98001ef0 0x7f4f98002050 0x7f504c1289b0 0 0 6 0.000000
+0x7f4f98002050 0x7f4f98002190 0x7f504c084730 0 0 7 0.000000
+0x7f4f98001ef0 0x7f4f98002490 0x7f4feed70748 16 0 6 0.000000
+0x7f4f98002490 0x7f4f98002670 0x7f4feed70750 4 0 7 0.000000
+0x7f4f98002490 0x7f4f980027d0 0x7f4feed70758 7 0 7 0.000000
+0x7f4f980027d0 0x7f4f98002940 0x7f504d147310 1 0 8 0.000000
+0x7f4f980027d0 0x7f4f98002aa0 0x7f504d147318 12 0 8 0.000000
+0x7f4f98002aa0 0x7f4f98002bf0 0x7f504d147320 9 0 9 0.000000
+0x7f4f98002490 0x7f4f98002d70 0x7f4feed70760 15 0 7 0.000000
+0x7f4f98001900 0x7f4f98001ab0 0x7f504c1d0a50 3 0 5 0.000000
+0x7f4f98001ab0 0x7f4f98001c10 0x7f504c1d0a58 7 0 6 0.000000
+0x7f4f98001c10 0x7f4f98001d80 0x7f504c1403c0 1 0 7 0.000000
+0x7f4f980013e0 0x7f4f98003070 0x7f4feed70770 95 0 3 0.000000
+0x7f4f98003070 0x7f4f980031b0 0x7f4fa0003030 1 0 4 0.000000
+0x7f4f980031b0 0x7f4f98003340 0x7f4fedcc3620 1 0 5 0.000000
+0x7f4f980031b0 0x7f4f980036c0 0x7f4fa0003050 42 0 5 0.000000
+0x7f4f980036c0 0x7f4f98003870 0x7f504c062d30 1 0 6 0.000000
+0x7f4f980036c0 0x7f4f980038f0 0x7f504c062d30 29 0 6 0.000000
+0x7f4f980031b0 0x7f4f980022d0 0x7f4fedcc3628 18 0 5 0.000000
+0x7f4f980031b0 0x7f4f98003a30 0x7f4fa0003058 48 0 5 0.000000
+0x7f4f98003a30 0x7f4f98003c60 0x7f4fa0003060 10 0 6 0.000000
+0x7f4f98003c60 0x7f4f98004ec0 0x7f4fa0003080 48 0 7 0.000000
+0x7f4f98003c60 0x7f4f98003e00 0x7f4fed872368 30 0 7 0.000000
+0x7f4f98003e00 0x7f4f98003f80 0x7f4fed872370 1 0 8 0.000000
+0x7f4f98003f80 0x7f4f980040d0 0x7f4fed872378 1 0 9 0.000000
+0x7f4f980040d0 0x7f4f98004280 0x7f4fed872380 1 0 10 0.000000
+0x7f4f98004280 0x7f4f98004300 0x7f504c062d30 1 0 11 0.000000
+0x7f4f98004300 0x7f4f98004590 0x7f504c0e3f68 0 0 12 0.000000
+0x7f4f98004590 0x7f4f980046e0 0x7f504c0e3f70 5 0 13 0.000000
+0x7f4f980046e0 0x7f4f980048a0 0x7f504c0e3f78 5 0 14 0.000000
+0x7f4f980048a0 0x7f4f98004a50 0x7f504c0df4b0 3 0 15 0.000000
+0x7f4f98004a50 0x7f4f98004af0 0x7f504c062d30 1 0 16 0.000000
+0x7f4f980046e0 0x7f4f98004c40 0x7f504c0e3f80 19 0 14 0.000000
+0x7f4f980040d0 0x7f4f98004d00 0x7f504c062d30 29 0 10 0.000000
+0x7f4f98003a30 0x7f4f98005000 0x7f4fedcc35e8 38 0 6 0.000000
+0x7f4f98005000 0x7f4f98005090 0x7f504c062d30 1 0 7 0.000000
+0x7f4f98005000 0x7f4f980051f0 0x7f4fedcc35f0 14 0 7 0.000000
+0x7f4f980051f0 0x7f4f98005270 0x7f504c062d30 1 0 8 0.000000
+0x7f4f98003a30 0x7f4f980053c0 0x7f504c170758 49 0 6 0.000000
+0x7f4f980053c0 0x7f4f98005450 0x7f504c062d30 1 0 7 0.000000
+0x7f4f980053c0 0x7f4f980055b0 0x7f504c170760 14 0 7 0.000000
+0x7f4f980055b0 0x7f4f980056f0 0x7f504c1403b0 1 0 8 0.000000
+0x7f4f980056f0 0x7f4f98005770 0x7f504c062d30 1 0 9 0.000000
+0x7f4f98003a30 0x7f4f980058b0 0x7f4fedcc3648 56 0 6 0.000000
+0x7f4f98003a30 0x7f4f98005a10 0x7f4fa0003088 60 0 6 0.000000
+0x7f4f98005a10 0x7f4f98005b90 0x7f4fa0003090 1 0 7 0.000000
+0x7f4f98005a10 0x7f4f98005d10 0x7f4fa0003098 7 0 7 0.000000
+0x7f4f98005d10 0x7f4f98003490 0x7f4fedcc35e0 -1 0 8 0.000000
+0x7f4f98003490 0x7f4f98003530 0x7f4fedcc35e8 1 0 9 0.000000
+0x7f4f98003530 0x7f4f980035c0 0x7f504c062d30 1 0 10 0.000000
+0x7f4f98003530 0x7f4f980061a0 0x7f4fedcc35f0 14 0 10 0.000000
+0x7f4f980061a0 0x7f4f98006220 0x7f504c062d30 1 0 11 0.000000
+0x7f4f98003490 0x7f4f98006380 0x7f4fedcc35f8 5 0 9 0.000000
+0x7f4f98003490 0x7f4f98006480 0x7f4fedcc35f8 21 0 9 0.000000
+0x7f4f98003490 0x7f4f98006400 0x7f4fedcc35f8 13 0 9 0.000000
+0x7f4f98005a10 0x7f4f980065d0 0x7f5002485468 11 0 7 0.000000
+0x7f4f98003a30 0x7f4f980067a0 0x7f504c062d98 63 0 6 0.000000

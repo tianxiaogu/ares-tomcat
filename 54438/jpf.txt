@@ -1,0 +1,491 @@
+Fill Stack: 0. java.lang.Integer.<init>(Ljava/lang/String;)V@8
+Using java runtime at: /home/t/Projects/error-transformation-vm/jdk1.7.0_65/jre
+Fill Stack: 1. sun.net.InetAddressCachePolicy.<clinit>()V@27
+Fill Stack: 2. java.net.InetAddress$Cache.getPolicy()I@10
+Fill Stack: 3. java.net.InetAddress$Cache.put(Ljava/lang/String;[Ljava/net/InetAddress;)Ljava/net/InetAddress$Cache;@1
+Fill Stack: 4. java.net.InetAddress.cacheInitIfNeeded()V@67
+Fill Stack: 5. java.net.InetAddress.getCachedAddresses(Ljava/lang/String;)[Ljava/net/InetAddress;@11
+Fill Stack: 6. java.net.InetAddress.getAllByName0(Ljava/lang/String;Ljava/net/InetAddress;Z)[Ljava/net/InetAddress;@19
+Fill Stack: 7. java.net.InetAddress.getAllByName(Ljava/lang/String;Ljava/net/InetAddress;)[Ljava/net/InetAddress;@343
+Fill Stack: 8. java.net.InetAddress.getAllByName(Ljava/lang/String;)[Ljava/net/InetAddress;@2
+Fill Stack: 9. java.net.InetAddress.getByName(Ljava/lang/String;)Ljava/net/InetAddress;@1
+Fill Stack: 10. org.apache.catalina.startup.TomcatBaseTest.setUp()V@74
+Fill Stack: 11. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.setUp()V@1
+Fill Stack: 12. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.main([Ljava/lang/String;)V@9
+Fill Stack: -1. java.lang.Integer.parseInt(Ljava/lang/String;I)I@UNKNOWN
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.generics.parser.SignatureParser.current()C@34
+Fill Stack: 1. sun.reflect.generics.parser.SignatureParser.parseZeroOrMoreThrowsSignatures()[Lsun/reflect/generics/tree/FieldTypeSignature;@10
+Fill Stack: 2. sun.reflect.generics.parser.SignatureParser.parseMethodTypeSignature()Lsun/reflect/generics/tree/MethodTypeSignature;@34
+Fill Stack: 3. sun.reflect.generics.parser.SignatureParser.parseMethodSig(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@9
+Fill Stack: 4. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@4
+Fill Stack: 5. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/Tree;@2
+Fill Stack: 6. sun.reflect.generics.repository.AbstractRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@7
+Fill Stack: 7. sun.reflect.generics.repository.GenericDeclRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 8. sun.reflect.generics.repository.ConstructorRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 9. sun.reflect.generics.repository.MethodRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 10. sun.reflect.generics.repository.MethodRepository.make(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/MethodRepository;@6
+Fill Stack: 11. java.lang.reflect.Method.getGenericInfo()Lsun/reflect/generics/repository/MethodRepository;@16
+Fill Stack: 12. java.lang.reflect.Method.getGenericReturnType()Ljava/lang/reflect/Type;@8
+Fill Stack: 13. com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.makeCompositeMapping(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MXBeanMappingFactory;)Lcom/sun/jmx/mbeanserver/MXBeanMapping;@341
+Fill Stack: 14. com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.makeMapping(Ljava/lang/reflect/Type;Lcom/sun/jmx/mbeanserver/MXBeanMappingFactory;)Lcom/sun/jmx/mbeanserver/MXBeanMapping;@89
+Fill Stack: 15. com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.mappingForType(Ljava/lang/reflect/Type;Lcom/sun/jmx/mbeanserver/MXBeanMappingFactory;)Lcom/sun/jmx/mbeanserver/MXBeanMapping;@67
+Fill Stack: 16. com.sun.jmx.mbeanserver.ConvertingMethod.<init>(Ljava/lang/reflect/Method;)V@20
+Fill Stack: 17. com.sun.jmx.mbeanserver.ConvertingMethod.from(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@5
+Fill Stack: 18. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@1
+Fill Stack: 19. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Ljava/lang/Object;@2
+Fill Stack: 20. com.sun.jmx.mbeanserver.MBeanAnalyzer.initMaps(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@61
+Fill Stack: 21. com.sun.jmx.mbeanserver.MBeanAnalyzer.<init>(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@58
+Fill Stack: 22. com.sun.jmx.mbeanserver.MBeanAnalyzer.analyzer(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@6
+Fill Stack: 23. com.sun.jmx.mbeanserver.MXBeanIntrospector.getAnalyzer(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@2
+Fill Stack: 24. com.sun.jmx.mbeanserver.MBeanIntrospector.getPerInterface(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/PerInterface;@45
+Fill Stack: 25. com.sun.jmx.mbeanserver.MBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@90
+Fill Stack: 26. com.sun.jmx.mbeanserver.MXBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@3
+Fill Stack: 27. javax.management.StandardMBean.construct(Ljava/lang/Object;Ljava/lang/Class;ZZ)V@56
+Fill Stack: 28. javax.management.StandardMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;Z)V@9
+Fill Stack: 29. javax.management.StandardEmitterMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;ZLjavax/management/NotificationEmitter;)V@4
+Fill Stack: 30. java.lang.management.ManagementFactory$2.run()Ljava/lang/Void;@54
+Fill Stack: 31. java.lang.management.ManagementFactory$2.run()Ljava/lang/Object;@1
+Fill Stack: 32. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;@0
+Fill Stack: 33. java.lang.management.ManagementFactory.addMXBean(Ljavax/management/MBeanServer;Ljava/lang/management/PlatformManagedObject;)V@9
+Fill Stack: 34. java.lang.management.ManagementFactory.getPlatformMBeanServer()Ljavax/management/MBeanServer;@120
+Fill Stack: 35. org.apache.tomcat.util.modeler.Registry.getMBeanServer()Ljavax/management/MBeanServer;@80
+Fill Stack: 36. org.apache.catalina.util.LifecycleMBeanBase.initInternal()V@13
+Fill Stack: 37. org.apache.catalina.core.StandardServer.initInternal()V@1
+Fill Stack: 38. org.apache.catalina.util.LifecycleBase.init()V@29
+Fill Stack: 39. org.apache.catalina.util.LifecycleBase.start()V@142
+Fill Stack: 40. org.apache.catalina.startup.Tomcat.start()V@14
+Fill Stack: 41. org.apache.catalina.startup.TomcatBaseTest$TomcatWithFastSessionIDs.start()V@159
+Fill Stack: 42. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.doTest(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZLjava/lang/String;ZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V@45
+Fill Stack: 43. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.testNoUser()V@55
+Fill Stack: 44. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.main([Ljava/lang/String;)V@13
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.generics.parser.SignatureParser.current()C@34
+Fill Stack: 1. sun.reflect.generics.parser.SignatureParser.parseSuperInterfaces()[Lsun/reflect/generics/tree/ClassTypeSignature;@10
+Fill Stack: 2. sun.reflect.generics.parser.SignatureParser.parseClassSignature()Lsun/reflect/generics/tree/ClassSignature;@30
+Fill Stack: 3. sun.reflect.generics.parser.SignatureParser.parseClassSig(Ljava/lang/String;)Lsun/reflect/generics/tree/ClassSignature;@9
+Fill Stack: 4. sun.reflect.generics.repository.ClassRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/ClassSignature;@4
+Fill Stack: 5. sun.reflect.generics.repository.ClassRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/Tree;@2
+Fill Stack: 6. sun.reflect.generics.repository.AbstractRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@7
+Fill Stack: 7. sun.reflect.generics.repository.GenericDeclRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 8. sun.reflect.generics.repository.ClassRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 9. sun.reflect.generics.repository.ClassRepository.make(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/ClassRepository;@6
+Fill Stack: 10. java.lang.Class.getGenericInfo()Lsun/reflect/generics/repository/ClassRepository;@16
+Fill Stack: 11. java.lang.Class.getTypeParameters()[Ljava/lang/reflect/TypeVariable;@8
+Fill Stack: 12. sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.validateConstructorArguments()V@4
+Fill Stack: 13. sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.<init>(Ljava/lang/Class;[Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)V@35
+Fill Stack: 14. sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.make(Ljava/lang/Class;[Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)Lsun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl;@7
+Fill Stack: 15. sun.reflect.generics.factory.CoreReflectionFactory.makeParameterizedType(Ljava/lang/reflect/Type;[Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)Ljava/lang/reflect/ParameterizedType;@6
+Fill Stack: 16. sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Lsun/reflect/generics/tree/ClassTypeSignature;)V@264
+Fill Stack: 17. sun.reflect.generics.tree.ClassTypeSignature.accept(Lsun/reflect/generics/visitor/TypeTreeVisitor;)V@2
+Fill Stack: 18. sun.reflect.generics.repository.MethodRepository.getReturnType()Ljava/lang/reflect/Type;@23
+Fill Stack: 19. java.lang.reflect.Method.getGenericReturnType()Ljava/lang/reflect/Type;@11
+Fill Stack: 20. com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.makeCompositeMapping(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MXBeanMappingFactory;)Lcom/sun/jmx/mbeanserver/MXBeanMapping;@341
+Fill Stack: 21. com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.makeMapping(Ljava/lang/reflect/Type;Lcom/sun/jmx/mbeanserver/MXBeanMappingFactory;)Lcom/sun/jmx/mbeanserver/MXBeanMapping;@89
+Fill Stack: 22. com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.mappingForType(Ljava/lang/reflect/Type;Lcom/sun/jmx/mbeanserver/MXBeanMappingFactory;)Lcom/sun/jmx/mbeanserver/MXBeanMapping;@67
+Fill Stack: 23. com.sun.jmx.mbeanserver.ConvertingMethod.<init>(Ljava/lang/reflect/Method;)V@20
+Fill Stack: 24. com.sun.jmx.mbeanserver.ConvertingMethod.from(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@5
+Fill Stack: 25. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@1
+Fill Stack: 26. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Ljava/lang/Object;@2
+Fill Stack: 27. com.sun.jmx.mbeanserver.MBeanAnalyzer.initMaps(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@61
+Fill Stack: 28. com.sun.jmx.mbeanserver.MBeanAnalyzer.<init>(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@58
+Fill Stack: 29. com.sun.jmx.mbeanserver.MBeanAnalyzer.analyzer(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@6
+Fill Stack: 30. com.sun.jmx.mbeanserver.MXBeanIntrospector.getAnalyzer(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@2
+Fill Stack: 31. com.sun.jmx.mbeanserver.MBeanIntrospector.getPerInterface(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/PerInterface;@45
+Fill Stack: 32. com.sun.jmx.mbeanserver.MBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@90
+Fill Stack: 33. com.sun.jmx.mbeanserver.MXBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@3
+Fill Stack: 34. javax.management.StandardMBean.construct(Ljava/lang/Object;Ljava/lang/Class;ZZ)V@56
+Fill Stack: 35. javax.management.StandardMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;Z)V@9
+Fill Stack: 36. javax.management.StandardEmitterMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;ZLjavax/management/NotificationEmitter;)V@4
+Fill Stack: 37. java.lang.management.ManagementFactory$2.run()Ljava/lang/Void;@54
+Fill Stack: 38. java.lang.management.ManagementFactory$2.run()Ljava/lang/Object;@1
+Fill Stack: 39. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;@0
+Fill Stack: 40. java.lang.management.ManagementFactory.addMXBean(Ljavax/management/MBeanServer;Ljava/lang/management/PlatformManagedObject;)V@9
+Fill Stack: 41. java.lang.management.ManagementFactory.getPlatformMBeanServer()Ljavax/management/MBeanServer;@120
+Fill Stack: 42. org.apache.tomcat.util.modeler.Registry.getMBeanServer()Ljavax/management/MBeanServer;@80
+Fill Stack: 43. org.apache.catalina.util.LifecycleMBeanBase.initInternal()V@13
+Fill Stack: 44. org.apache.catalina.core.StandardServer.initInternal()V@1
+Fill Stack: 45. org.apache.catalina.util.LifecycleBase.init()V@29
+Fill Stack: 46. org.apache.catalina.util.LifecycleBase.start()V@142
+Fill Stack: 47. org.apache.catalina.startup.Tomcat.start()V@14
+Fill Stack: 48. org.apache.catalina.startup.TomcatBaseTest$TomcatWithFastSessionIDs.start()V@159
+Fill Stack: 49. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.doTest(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZLjava/lang/String;ZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V@45
+Fill Stack: 50. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.testNoUser()V@55
+Fill Stack: 51. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.main([Ljava/lang/String;)V@13
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.generics.parser.SignatureParser.current()C@34
+Fill Stack: 1. sun.reflect.generics.parser.SignatureParser.parseZeroOrMoreThrowsSignatures()[Lsun/reflect/generics/tree/FieldTypeSignature;@10
+Fill Stack: 2. sun.reflect.generics.parser.SignatureParser.parseMethodTypeSignature()Lsun/reflect/generics/tree/MethodTypeSignature;@34
+Fill Stack: 3. sun.reflect.generics.parser.SignatureParser.parseMethodSig(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@9
+Fill Stack: 4. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@4
+Fill Stack: 5. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/Tree;@2
+Fill Stack: 6. sun.reflect.generics.repository.AbstractRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@7
+Fill Stack: 7. sun.reflect.generics.repository.GenericDeclRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 8. sun.reflect.generics.repository.ConstructorRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 9. sun.reflect.generics.repository.MethodRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 10. sun.reflect.generics.repository.MethodRepository.make(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/MethodRepository;@6
+Fill Stack: 11. java.lang.reflect.Method.getGenericInfo()Lsun/reflect/generics/repository/MethodRepository;@16
+Fill Stack: 12. java.lang.reflect.Method.getGenericReturnType()Ljava/lang/reflect/Type;@8
+Fill Stack: 13. com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.makeCompositeMapping(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MXBeanMappingFactory;)Lcom/sun/jmx/mbeanserver/MXBeanMapping;@341
+Fill Stack: 14. com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.makeMapping(Ljava/lang/reflect/Type;Lcom/sun/jmx/mbeanserver/MXBeanMappingFactory;)Lcom/sun/jmx/mbeanserver/MXBeanMapping;@89
+Fill Stack: 15. com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.mappingForType(Ljava/lang/reflect/Type;Lcom/sun/jmx/mbeanserver/MXBeanMappingFactory;)Lcom/sun/jmx/mbeanserver/MXBeanMapping;@67
+Fill Stack: 16. com.sun.jmx.mbeanserver.ConvertingMethod.<init>(Ljava/lang/reflect/Method;)V@20
+Fill Stack: 17. com.sun.jmx.mbeanserver.ConvertingMethod.from(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@5
+Fill Stack: 18. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@1
+Fill Stack: 19. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Ljava/lang/Object;@2
+Fill Stack: 20. com.sun.jmx.mbeanserver.MBeanAnalyzer.initMaps(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@61
+Fill Stack: 21. com.sun.jmx.mbeanserver.MBeanAnalyzer.<init>(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@58
+Fill Stack: 22. com.sun.jmx.mbeanserver.MBeanAnalyzer.analyzer(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@6
+Fill Stack: 23. com.sun.jmx.mbeanserver.MXBeanIntrospector.getAnalyzer(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@2
+Fill Stack: 24. com.sun.jmx.mbeanserver.MBeanIntrospector.getPerInterface(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/PerInterface;@45
+Fill Stack: 25. com.sun.jmx.mbeanserver.MBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@90
+Fill Stack: 26. com.sun.jmx.mbeanserver.MXBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@3
+Fill Stack: 27. javax.management.StandardMBean.construct(Ljava/lang/Object;Ljava/lang/Class;ZZ)V@56
+Fill Stack: 28. javax.management.StandardMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;Z)V@9
+Fill Stack: 29. javax.management.StandardEmitterMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;ZLjavax/management/NotificationEmitter;)V@4
+Fill Stack: 30. java.lang.management.ManagementFactory$2.run()Ljava/lang/Void;@54
+Fill Stack: 31. java.lang.management.ManagementFactory$2.run()Ljava/lang/Object;@1
+Fill Stack: 32. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;@0
+Fill Stack: 33. java.lang.management.ManagementFactory.addMXBean(Ljavax/management/MBeanServer;Ljava/lang/management/PlatformManagedObject;)V@9
+Fill Stack: 34. java.lang.management.ManagementFactory.getPlatformMBeanServer()Ljavax/management/MBeanServer;@120
+Fill Stack: 35. org.apache.tomcat.util.modeler.Registry.getMBeanServer()Ljavax/management/MBeanServer;@80
+Fill Stack: 36. org.apache.catalina.util.LifecycleMBeanBase.initInternal()V@13
+Fill Stack: 37. org.apache.catalina.core.StandardServer.initInternal()V@1
+Fill Stack: 38. org.apache.catalina.util.LifecycleBase.init()V@29
+Fill Stack: 39. org.apache.catalina.util.LifecycleBase.start()V@142
+Fill Stack: 40. org.apache.catalina.startup.Tomcat.start()V@14
+Fill Stack: 41. org.apache.catalina.startup.TomcatBaseTest$TomcatWithFastSessionIDs.start()V@159
+Fill Stack: 42. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.doTest(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZLjava/lang/String;ZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V@45
+Fill Stack: 43. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.testNoUser()V@55
+Fill Stack: 44. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.main([Ljava/lang/String;)V@13
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.generics.parser.SignatureParser.current()C@34
+Fill Stack: 1. sun.reflect.generics.parser.SignatureParser.parseZeroOrMoreThrowsSignatures()[Lsun/reflect/generics/tree/FieldTypeSignature;@10
+Fill Stack: 2. sun.reflect.generics.parser.SignatureParser.parseMethodTypeSignature()Lsun/reflect/generics/tree/MethodTypeSignature;@34
+Fill Stack: 3. sun.reflect.generics.parser.SignatureParser.parseMethodSig(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@9
+Fill Stack: 4. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@4
+Fill Stack: 5. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/Tree;@2
+Fill Stack: 6. sun.reflect.generics.repository.AbstractRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@7
+Fill Stack: 7. sun.reflect.generics.repository.GenericDeclRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 8. sun.reflect.generics.repository.ConstructorRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 9. sun.reflect.generics.repository.MethodRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 10. sun.reflect.generics.repository.MethodRepository.make(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/MethodRepository;@6
+Fill Stack: 11. java.lang.reflect.Method.getGenericInfo()Lsun/reflect/generics/repository/MethodRepository;@16
+Fill Stack: 12. java.lang.reflect.Method.getGenericReturnType()Ljava/lang/reflect/Type;@8
+Fill Stack: 13. com.sun.jmx.mbeanserver.ConvertingMethod.<init>(Ljava/lang/reflect/Method;)V@16
+Fill Stack: 14. com.sun.jmx.mbeanserver.ConvertingMethod.from(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@5
+Fill Stack: 15. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@1
+Fill Stack: 16. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Ljava/lang/Object;@2
+Fill Stack: 17. com.sun.jmx.mbeanserver.MBeanAnalyzer.initMaps(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@61
+Fill Stack: 18. com.sun.jmx.mbeanserver.MBeanAnalyzer.<init>(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@58
+Fill Stack: 19. com.sun.jmx.mbeanserver.MBeanAnalyzer.analyzer(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@6
+Fill Stack: 20. com.sun.jmx.mbeanserver.MXBeanIntrospector.getAnalyzer(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@2
+Fill Stack: 21. com.sun.jmx.mbeanserver.MBeanIntrospector.getPerInterface(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/PerInterface;@45
+Fill Stack: 22. com.sun.jmx.mbeanserver.MBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@90
+Fill Stack: 23. com.sun.jmx.mbeanserver.MXBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@3
+Fill Stack: 24. javax.management.StandardMBean.construct(Ljava/lang/Object;Ljava/lang/Class;ZZ)V@56
+Fill Stack: 25. javax.management.StandardMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;Z)V@9
+Fill Stack: 26. java.lang.management.ManagementFactory$2.run()Ljava/lang/Void;@71
+Fill Stack: 27. java.lang.management.ManagementFactory$2.run()Ljava/lang/Object;@1
+Fill Stack: 28. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;@0
+Fill Stack: 29. java.lang.management.ManagementFactory.addMXBean(Ljavax/management/MBeanServer;Ljava/lang/management/PlatformManagedObject;)V@9
+Fill Stack: 30. java.lang.management.ManagementFactory.getPlatformMBeanServer()Ljavax/management/MBeanServer;@120
+Fill Stack: 31. org.apache.tomcat.util.modeler.Registry.getMBeanServer()Ljavax/management/MBeanServer;@80
+Fill Stack: 32. org.apache.catalina.util.LifecycleMBeanBase.initInternal()V@13
+Fill Stack: 33. org.apache.catalina.core.StandardServer.initInternal()V@1
+Fill Stack: 34. org.apache.catalina.util.LifecycleBase.init()V@29
+Fill Stack: 35. org.apache.catalina.util.LifecycleBase.start()V@142
+Fill Stack: 36. org.apache.catalina.startup.Tomcat.start()V@14
+Fill Stack: 37. org.apache.catalina.startup.TomcatBaseTest$TomcatWithFastSessionIDs.start()V@159
+Fill Stack: 38. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.doTest(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZLjava/lang/String;ZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V@45
+Fill Stack: 39. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.testNoUser()V@55
+Fill Stack: 40. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.main([Ljava/lang/String;)V@13
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.generics.parser.SignatureParser.current()C@34
+Fill Stack: 1. sun.reflect.generics.parser.SignatureParser.parseSuperInterfaces()[Lsun/reflect/generics/tree/ClassTypeSignature;@10
+Fill Stack: 2. sun.reflect.generics.parser.SignatureParser.parseClassSignature()Lsun/reflect/generics/tree/ClassSignature;@30
+Fill Stack: 3. sun.reflect.generics.parser.SignatureParser.parseClassSig(Ljava/lang/String;)Lsun/reflect/generics/tree/ClassSignature;@9
+Fill Stack: 4. sun.reflect.generics.repository.ClassRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/ClassSignature;@4
+Fill Stack: 5. sun.reflect.generics.repository.ClassRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/Tree;@2
+Fill Stack: 6. sun.reflect.generics.repository.AbstractRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@7
+Fill Stack: 7. sun.reflect.generics.repository.GenericDeclRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 8. sun.reflect.generics.repository.ClassRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 9. sun.reflect.generics.repository.ClassRepository.make(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/ClassRepository;@6
+Fill Stack: 10. java.lang.Class.getGenericInfo()Lsun/reflect/generics/repository/ClassRepository;@16
+Fill Stack: 11. java.lang.Class.getTypeParameters()[Ljava/lang/reflect/TypeVariable;@8
+Fill Stack: 12. sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.validateConstructorArguments()V@4
+Fill Stack: 13. sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.<init>(Ljava/lang/Class;[Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)V@35
+Fill Stack: 14. sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.make(Ljava/lang/Class;[Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)Lsun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl;@7
+Fill Stack: 15. sun.reflect.generics.factory.CoreReflectionFactory.makeParameterizedType(Ljava/lang/reflect/Type;[Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)Ljava/lang/reflect/ParameterizedType;@6
+Fill Stack: 16. sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Lsun/reflect/generics/tree/ClassTypeSignature;)V@264
+Fill Stack: 17. sun.reflect.generics.tree.ClassTypeSignature.accept(Lsun/reflect/generics/visitor/TypeTreeVisitor;)V@2
+Fill Stack: 18. sun.reflect.generics.repository.MethodRepository.getReturnType()Ljava/lang/reflect/Type;@23
+Fill Stack: 19. java.lang.reflect.Method.getGenericReturnType()Ljava/lang/reflect/Type;@11
+Fill Stack: 20. com.sun.jmx.mbeanserver.ConvertingMethod.<init>(Ljava/lang/reflect/Method;)V@16
+Fill Stack: 21. com.sun.jmx.mbeanserver.ConvertingMethod.from(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@5
+Fill Stack: 22. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@1
+Fill Stack: 23. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Ljava/lang/Object;@2
+Fill Stack: 24. com.sun.jmx.mbeanserver.MBeanAnalyzer.initMaps(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@61
+Fill Stack: 25. com.sun.jmx.mbeanserver.MBeanAnalyzer.<init>(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@58
+Fill Stack: 26. com.sun.jmx.mbeanserver.MBeanAnalyzer.analyzer(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@6
+Fill Stack: 27. com.sun.jmx.mbeanserver.MXBeanIntrospector.getAnalyzer(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@2
+Fill Stack: 28. com.sun.jmx.mbeanserver.MBeanIntrospector.getPerInterface(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/PerInterface;@45
+Fill Stack: 29. com.sun.jmx.mbeanserver.MBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@90
+Fill Stack: 30. com.sun.jmx.mbeanserver.MXBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@3
+Fill Stack: 31. javax.management.StandardMBean.construct(Ljava/lang/Object;Ljava/lang/Class;ZZ)V@56
+Fill Stack: 32. javax.management.StandardMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;Z)V@9
+Fill Stack: 33. java.lang.management.ManagementFactory$2.run()Ljava/lang/Void;@71
+Fill Stack: 34. java.lang.management.ManagementFactory$2.run()Ljava/lang/Object;@1
+Fill Stack: 35. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;@0
+Fill Stack: 36. java.lang.management.ManagementFactory.addMXBean(Ljavax/management/MBeanServer;Ljava/lang/management/PlatformManagedObject;)V@9
+Fill Stack: 37. java.lang.management.ManagementFactory.getPlatformMBeanServer()Ljavax/management/MBeanServer;@120
+Fill Stack: 38. org.apache.tomcat.util.modeler.Registry.getMBeanServer()Ljavax/management/MBeanServer;@80
+Fill Stack: 39. org.apache.catalina.util.LifecycleMBeanBase.initInternal()V@13
+Fill Stack: 40. org.apache.catalina.core.StandardServer.initInternal()V@1
+Fill Stack: 41. org.apache.catalina.util.LifecycleBase.init()V@29
+Fill Stack: 42. org.apache.catalina.util.LifecycleBase.start()V@142
+Fill Stack: 43. org.apache.catalina.startup.Tomcat.start()V@14
+Fill Stack: 44. org.apache.catalina.startup.TomcatBaseTest$TomcatWithFastSessionIDs.start()V@159
+Fill Stack: 45. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.doTest(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZLjava/lang/String;ZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V@45
+Fill Stack: 46. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.testNoUser()V@55
+Fill Stack: 47. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.main([Ljava/lang/String;)V@13
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.generics.parser.SignatureParser.current()C@34
+Fill Stack: 1. sun.reflect.generics.parser.SignatureParser.parseZeroOrMoreThrowsSignatures()[Lsun/reflect/generics/tree/FieldTypeSignature;@10
+Fill Stack: 2. sun.reflect.generics.parser.SignatureParser.parseMethodTypeSignature()Lsun/reflect/generics/tree/MethodTypeSignature;@34
+Fill Stack: 3. sun.reflect.generics.parser.SignatureParser.parseMethodSig(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@9
+Fill Stack: 4. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@4
+Fill Stack: 5. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/Tree;@2
+Fill Stack: 6. sun.reflect.generics.repository.AbstractRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@7
+Fill Stack: 7. sun.reflect.generics.repository.GenericDeclRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 8. sun.reflect.generics.repository.ConstructorRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 9. sun.reflect.generics.repository.MethodRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 10. sun.reflect.generics.repository.MethodRepository.make(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/MethodRepository;@6
+Fill Stack: 11. java.lang.reflect.Method.getGenericInfo()Lsun/reflect/generics/repository/MethodRepository;@16
+Fill Stack: 12. java.lang.reflect.Method.getGenericReturnType()Ljava/lang/reflect/Type;@8
+Fill Stack: 13. com.sun.jmx.mbeanserver.ConvertingMethod.<init>(Ljava/lang/reflect/Method;)V@16
+Fill Stack: 14. com.sun.jmx.mbeanserver.ConvertingMethod.from(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@5
+Fill Stack: 15. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@1
+Fill Stack: 16. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Ljava/lang/Object;@2
+Fill Stack: 17. com.sun.jmx.mbeanserver.MBeanAnalyzer.initMaps(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@61
+Fill Stack: 18. com.sun.jmx.mbeanserver.MBeanAnalyzer.<init>(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@58
+Fill Stack: 19. com.sun.jmx.mbeanserver.MBeanAnalyzer.analyzer(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@6
+Fill Stack: 20. com.sun.jmx.mbeanserver.MXBeanIntrospector.getAnalyzer(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@2
+Fill Stack: 21. com.sun.jmx.mbeanserver.MBeanIntrospector.getPerInterface(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/PerInterface;@45
+Fill Stack: 22. com.sun.jmx.mbeanserver.MBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@90
+Fill Stack: 23. com.sun.jmx.mbeanserver.MXBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@3
+Fill Stack: 24. javax.management.StandardMBean.construct(Ljava/lang/Object;Ljava/lang/Class;ZZ)V@56
+Fill Stack: 25. javax.management.StandardMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;Z)V@9
+Fill Stack: 26. java.lang.management.ManagementFactory$2.run()Ljava/lang/Void;@71
+Fill Stack: 27. java.lang.management.ManagementFactory$2.run()Ljava/lang/Object;@1
+Fill Stack: 28. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;@0
+Fill Stack: 29. java.lang.management.ManagementFactory.addMXBean(Ljavax/management/MBeanServer;Ljava/lang/management/PlatformManagedObject;)V@9
+Fill Stack: 30. java.lang.management.ManagementFactory.getPlatformMBeanServer()Ljavax/management/MBeanServer;@120
+Fill Stack: 31. org.apache.tomcat.util.modeler.Registry.getMBeanServer()Ljavax/management/MBeanServer;@80
+Fill Stack: 32. org.apache.catalina.util.LifecycleMBeanBase.initInternal()V@13
+Fill Stack: 33. org.apache.catalina.core.StandardServer.initInternal()V@1
+Fill Stack: 34. org.apache.catalina.util.LifecycleBase.init()V@29
+Fill Stack: 35. org.apache.catalina.util.LifecycleBase.start()V@142
+Fill Stack: 36. org.apache.catalina.startup.Tomcat.start()V@14
+Fill Stack: 37. org.apache.catalina.startup.TomcatBaseTest$TomcatWithFastSessionIDs.start()V@159
+Fill Stack: 38. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.doTest(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZLjava/lang/String;ZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V@45
+Fill Stack: 39. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.testNoUser()V@55
+Fill Stack: 40. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.main([Ljava/lang/String;)V@13
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.generics.parser.SignatureParser.current()C@34
+Fill Stack: 1. sun.reflect.generics.parser.SignatureParser.parseZeroOrMoreThrowsSignatures()[Lsun/reflect/generics/tree/FieldTypeSignature;@10
+Fill Stack: 2. sun.reflect.generics.parser.SignatureParser.parseMethodTypeSignature()Lsun/reflect/generics/tree/MethodTypeSignature;@34
+Fill Stack: 3. sun.reflect.generics.parser.SignatureParser.parseMethodSig(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@9
+Fill Stack: 4. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@4
+Fill Stack: 5. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/Tree;@2
+Fill Stack: 6. sun.reflect.generics.repository.AbstractRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@7
+Fill Stack: 7. sun.reflect.generics.repository.GenericDeclRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 8. sun.reflect.generics.repository.ConstructorRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 9. sun.reflect.generics.repository.MethodRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 10. sun.reflect.generics.repository.MethodRepository.make(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/MethodRepository;@6
+Fill Stack: 11. java.lang.reflect.Method.getGenericInfo()Lsun/reflect/generics/repository/MethodRepository;@16
+Fill Stack: 12. java.lang.reflect.Method.getGenericReturnType()Ljava/lang/reflect/Type;@8
+Fill Stack: 13. com.sun.jmx.mbeanserver.ConvertingMethod.<init>(Ljava/lang/reflect/Method;)V@16
+Fill Stack: 14. com.sun.jmx.mbeanserver.ConvertingMethod.from(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@5
+Fill Stack: 15. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@1
+Fill Stack: 16. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Ljava/lang/Object;@2
+Fill Stack: 17. com.sun.jmx.mbeanserver.MBeanAnalyzer.initMaps(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@61
+Fill Stack: 18. com.sun.jmx.mbeanserver.MBeanAnalyzer.<init>(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@58
+Fill Stack: 19. com.sun.jmx.mbeanserver.MBeanAnalyzer.analyzer(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@6
+Fill Stack: 20. com.sun.jmx.mbeanserver.MXBeanIntrospector.getAnalyzer(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@2
+Fill Stack: 21. com.sun.jmx.mbeanserver.MBeanIntrospector.getPerInterface(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/PerInterface;@45
+Fill Stack: 22. com.sun.jmx.mbeanserver.MBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@90
+Fill Stack: 23. com.sun.jmx.mbeanserver.MXBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@3
+Fill Stack: 24. javax.management.StandardMBean.construct(Ljava/lang/Object;Ljava/lang/Class;ZZ)V@56
+Fill Stack: 25. javax.management.StandardMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;Z)V@9
+Fill Stack: 26. java.lang.management.ManagementFactory$2.run()Ljava/lang/Void;@71
+Fill Stack: 27. java.lang.management.ManagementFactory$2.run()Ljava/lang/Object;@1
+Fill Stack: 28. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;@0
+Fill Stack: 29. java.lang.management.ManagementFactory.addMXBean(Ljavax/management/MBeanServer;Ljava/lang/management/PlatformManagedObject;)V@9
+Fill Stack: 30. java.lang.management.ManagementFactory.getPlatformMBeanServer()Ljavax/management/MBeanServer;@120
+Fill Stack: 31. org.apache.tomcat.util.modeler.Registry.getMBeanServer()Ljavax/management/MBeanServer;@80
+Fill Stack: 32. org.apache.catalina.util.LifecycleMBeanBase.initInternal()V@13
+Fill Stack: 33. org.apache.catalina.core.StandardServer.initInternal()V@1
+Fill Stack: 34. org.apache.catalina.util.LifecycleBase.init()V@29
+Fill Stack: 35. org.apache.catalina.util.LifecycleBase.start()V@142
+Fill Stack: 36. org.apache.catalina.startup.Tomcat.start()V@14
+Fill Stack: 37. org.apache.catalina.startup.TomcatBaseTest$TomcatWithFastSessionIDs.start()V@159
+Fill Stack: 38. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.doTest(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZLjava/lang/String;ZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V@45
+Fill Stack: 39. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.testNoUser()V@55
+Fill Stack: 40. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.main([Ljava/lang/String;)V@13
+recovery time: 0ms, result: 0
+Fill Stack: 0. sun.reflect.generics.parser.SignatureParser.current()C@34
+Fill Stack: 1. sun.reflect.generics.parser.SignatureParser.parseZeroOrMoreThrowsSignatures()[Lsun/reflect/generics/tree/FieldTypeSignature;@10
+Fill Stack: 2. sun.reflect.generics.parser.SignatureParser.parseMethodTypeSignature()Lsun/reflect/generics/tree/MethodTypeSignature;@34
+Fill Stack: 3. sun.reflect.generics.parser.SignatureParser.parseMethodSig(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@9
+Fill Stack: 4. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/MethodTypeSignature;@4
+Fill Stack: 5. sun.reflect.generics.repository.ConstructorRepository.parse(Ljava/lang/String;)Lsun/reflect/generics/tree/Tree;@2
+Fill Stack: 6. sun.reflect.generics.repository.AbstractRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@7
+Fill Stack: 7. sun.reflect.generics.repository.GenericDeclRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 8. sun.reflect.generics.repository.ConstructorRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 9. sun.reflect.generics.repository.MethodRepository.<init>(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V@3
+Fill Stack: 10. sun.reflect.generics.repository.MethodRepository.make(Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/MethodRepository;@6
+Fill Stack: 11. java.lang.reflect.Method.getGenericInfo()Lsun/reflect/generics/repository/MethodRepository;@16
+Fill Stack: 12. java.lang.reflect.Method.getGenericReturnType()Ljava/lang/reflect/Type;@8
+Fill Stack: 13. com.sun.jmx.mbeanserver.ConvertingMethod.<init>(Ljava/lang/reflect/Method;)V@16
+Fill Stack: 14. com.sun.jmx.mbeanserver.ConvertingMethod.from(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@5
+Fill Stack: 15. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Lcom/sun/jmx/mbeanserver/ConvertingMethod;@1
+Fill Stack: 16. com.sun.jmx.mbeanserver.MXBeanIntrospector.mFrom(Ljava/lang/reflect/Method;)Ljava/lang/Object;@2
+Fill Stack: 17. com.sun.jmx.mbeanserver.MBeanAnalyzer.initMaps(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@61
+Fill Stack: 18. com.sun.jmx.mbeanserver.MBeanAnalyzer.<init>(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)V@58
+Fill Stack: 19. com.sun.jmx.mbeanserver.MBeanAnalyzer.analyzer(Ljava/lang/Class;Lcom/sun/jmx/mbeanserver/MBeanIntrospector;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@6
+Fill Stack: 20. com.sun.jmx.mbeanserver.MXBeanIntrospector.getAnalyzer(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/MBeanAnalyzer;@2
+Fill Stack: 21. com.sun.jmx.mbeanserver.MBeanIntrospector.getPerInterface(Ljava/lang/Class;)Lcom/sun/jmx/mbeanserver/PerInterface;@45
+Fill Stack: 22. com.sun.jmx.mbeanserver.MBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@90
+Fill Stack: 23. com.sun.jmx.mbeanserver.MXBeanSupport.<init>(Ljava/lang/Object;Ljava/lang/Class;)V@3
+Fill Stack: 24. javax.management.StandardMBean.construct(Ljava/lang/Object;Ljava/lang/Class;ZZ)V@56
+Fill Stack: 25. javax.management.StandardMBean.<init>(Ljava/lang/Object;Ljava/lang/Class;Z)V@9
+Fill Stack: 26. java.lang.management.ManagementFactory$2.run()Ljava/lang/Void;@71
+Fill Stack: 27. java.lang.management.ManagementFactory$2.run()Ljava/lang/Object;@1
+Fill Stack: 28. java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;@0
+Fill Stack: 29. java.lang.management.ManagementFactory.addMXBean(Ljavax/management/MBeanServer;Ljava/lang/management/PlatformManagedObject;)V@9
+Fill Stack: 30. java.lang.management.ManagementFactory.getPlatformMBeanServer()Ljavax/management/MBeanServer;@120
+Fill Stack: 31. org.apache.tomcat.util.modeler.Registry.getMBeanServer()Ljavax/management/MBeanServer;@80
+Fill Stack: 32. org.apache.catalina.util.LifecycleMBeanBase.initInternal()V@13
+Fill Stack: 33. org.apache.catalina.core.StandardServer.initInternal()V@1
+Fill Stack: 34. org.apache.catalina.util.LifecycleBase.init()V@29
+Fill Stack: 35. org.apache.catalina.util.LifecycleBase.start()V@142
+Fill Stack: 36. org.apache.catalina.startup.Tomcat.start()V@14
+Fill Stack: 37. org.apache.catalina.startup.TomcatBaseTest$TomcatWithFastSessionIDs.start()V@159
+Fill Stack: 38. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.doTest(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZLjava/lang/String;ZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V@45
+Fill Stack: 39. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.testNoUser()V@55
+Fill Stack: 40. org.apache.catalina.authenticator.TestDigestAuthenticatorNoUser.main([Ljava/lang/String;)V@13
+recovery time: 0ms, result: 0
+Jun 29, 2015 2:43:39 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-127.0.0.1-auto-1"]
+Jun 29, 2015 2:43:40 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Jun 29, 2015 2:43:40 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/@VERSION@
+Jun 29, 2015 2:43:40 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-127.0.0.1-auto-1-46182"]
+Fill Stack: 0. org.apache.catalina.realm.RealmBase.authenticate(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;@10
+Fill Stack: 1. org.apache.catalina.authenticator.DigestAuthenticator$DigestInfo.authenticate(Lorg/apache/catalina/Realm;)Ljava/security/Principal;@101
+Fill Stack: 2. org.apache.catalina.authenticator.DigestAuthenticator.authenticate(Lorg/apache/catalina/connector/Request;Ljavax/servlet/http/HttpServletResponse;Lorg/apache/catalina/deploy/LoginConfig;)Z@151
+Fill Stack: 3. org.apache.catalina.authenticator.AuthenticatorBase.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@706
+Fill Stack: 4. org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@142
+Fill Stack: 5. org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@6
+Fill Stack: 6. org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@71
+Fill Stack: 7. org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V@197
+Fill Stack: 8. org.apache.coyote.http11.AbstractHttp11Processor.process(Lorg/apache/tomcat/util/net/SocketWrapper;)Lorg/apache/tomcat/util/net/AbstractEndpoint$Handler$SocketState;@481
+Fill Stack: 9. org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(Lorg/apache/tomcat/util/net/SocketWrapper;Lorg/apache/tomcat/util/net/SocketStatus;)Lorg/apache/tomcat/util/net/AbstractEndpoint$Handler$SocketState;@124
+Fill Stack: 10. org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run()V@130
+Fill Stack: 11. java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V@95
+Fill Stack: 12. java.util.concurrent.ThreadPoolExecutor$Worker.run()V@5
+Fill Stack: 13. java.lang.Thread.run()V@11
+Fill Stack: -1. java.lang.String.toLowerCase(Ljava/util/Locale;)Ljava/lang/String;@UNKNOWN
+End initialize
+Total actions: 5
+   0: ErrorTransformation: fd=5, rd=1, efd=0, tt=java.io.IOException
+   1: ErrorTransformation: fd=5, rd=1, efd=0, tt=javax.servlet.ServletException
+   2: EarlyReturn: fd=5, rd=5, efd=4, at=5
+   3: EarlyReturn: fd=5, rd=4, efd=3, at=4
+   4: EarlyReturn: fd=5, rd=3, efd=2, at=3
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=5, rd=1, efd=0, tt=java.io.IOException
+Recover action ErrorTransformation: fd=5, rd=1, efd=0, tt=java.io.IOException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the max step 1001.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=5, rd=1, efd=0, tt=javax.servlet.ServletException
+Recover action ErrorTransformation: fd=5, rd=1, efd=0, tt=javax.servlet.ServletException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the max step 1001.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=5, rd=5, efd=4, at=5
+Recover action EarlyReturn: fd=5, rd=5, efd=4, at=5 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 4.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=5, rd=4, efd=3, at=4
+Recover action EarlyReturn: fd=5, rd=4, efd=3, at=4 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 3.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=5, rd=3, efd=2, at=3
+Recover action EarlyReturn: fd=5, rd=3, efd=2, at=3 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the max step 1001.
+-------------------------------------------------------------
+Total results: 5
+   0: EarlyReturn: fd=5, rd=5, efd=4, at=5, rt=EARLY_BREAK, afd=4
+   1: EarlyReturn: fd=5, rd=4, efd=3, at=4, rt=EARLY_BREAK, afd=3
+   2: EarlyReturn: fd=5, rd=3, efd=2, at=3, rt=EARLY_BREAK, afd=3
+   3: ErrorTransformation: fd=5, rd=1, efd=0, tt=java.io.IOException, rt=EARLY_BREAK, afd=1
+   4: ErrorTransformation: fd=5, rd=1, efd=0, tt=javax.servlet.ServletException, rt=EARLY_BREAK, afd=1
+(java/lang/NullPointerException) (trivially handled) (early return) (end_index=4, final_max_depth=4, index=0, rettype=object)
+recovery time: 1224ms, result: 1
+401
+960
+<html><head><title>Apache Tomcat/@VERSION@ - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 401 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>This request requires HTTP authentication ().</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/@VERSION@</h3></body></html>
+Fill Stack: 0. org.apache.catalina.realm.RealmBase.authenticate(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/security/Principal;@10
+Fill Stack: 1. org.apache.catalina.authenticator.DigestAuthenticator$DigestInfo.authenticate(Lorg/apache/catalina/Realm;)Ljava/security/Principal;@101
+Fill Stack: 2. org.apache.catalina.authenticator.DigestAuthenticator.authenticate(Lorg/apache/catalina/connector/Request;Ljavax/servlet/http/HttpServletResponse;Lorg/apache/catalina/deploy/LoginConfig;)Z@151
+Fill Stack: 3. org.apache.catalina.authenticator.AuthenticatorBase.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@706
+Fill Stack: 4. org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@142
+Fill Stack: 5. org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@6
+Fill Stack: 6. org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V@71
+Fill Stack: 7. org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V@197
+Fill Stack: 8. org.apache.coyote.http11.AbstractHttp11Processor.process(Lorg/apache/tomcat/util/net/SocketWrapper;)Lorg/apache/tomcat/util/net/AbstractEndpoint$Handler$SocketState;@481
+Fill Stack: 9. org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(Lorg/apache/tomcat/util/net/SocketWrapper;Lorg/apache/tomcat/util/net/SocketStatus;)Lorg/apache/tomcat/util/net/AbstractEndpoint$Handler$SocketState;@124
+Fill Stack: 10. org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run()V@130
+Fill Stack: 11. java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V@95
+Fill Stack: 12. java.util.concurrent.ThreadPoolExecutor$Worker.run()V@5
+Fill Stack: 13. java.lang.Thread.run()V@11
+Fill Stack: -1. java.lang.String.toLowerCase(Ljava/util/Locale;)Ljava/lang/String;@UNKNOWN
+Total actions: 5
+   0: ErrorTransformation: fd=5, rd=1, efd=0, tt=java.io.IOException
+   1: ErrorTransformation: fd=5, rd=1, efd=0, tt=javax.servlet.ServletException
+   2: EarlyReturn: fd=5, rd=5, efd=4, at=5
+   3: EarlyReturn: fd=5, rd=4, efd=3, at=4
+   4: EarlyReturn: fd=5, rd=3, efd=2, at=3
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=5, rd=1, efd=0, tt=java.io.IOException
+Recover action ErrorTransformation: fd=5, rd=1, efd=0, tt=java.io.IOException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the max step 1001.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action ErrorTransformation: fd=5, rd=1, efd=0, tt=javax.servlet.ServletException
+Recover action ErrorTransformation: fd=5, rd=1, efd=0, tt=javax.servlet.ServletException resulted in org.javelus.javaplus.EarlyBreakException: We have reach the max step 1001.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=5, rd=5, efd=4, at=5
+Recover action EarlyReturn: fd=5, rd=5, efd=4, at=5 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 4.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=5, rd=4, efd=3, at=4
+Recover action EarlyReturn: fd=5, rd=4, efd=3, at=4 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the expected final depth 3.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Using recover action EarlyReturn: fd=5, rd=3, efd=2, at=3
+Recover action EarlyReturn: fd=5, rd=3, efd=2, at=3 resulted in org.javelus.javaplus.EarlyBreakException: We have reach the max step 1001.
+-------------------------------------------------------------
+Total results: 5
+   0: EarlyReturn: fd=5, rd=5, efd=4, at=5, rt=EARLY_BREAK, afd=4
+   1: EarlyReturn: fd=5, rd=4, efd=3, at=4, rt=EARLY_BREAK, afd=3
+   2: EarlyReturn: fd=5, rd=3, efd=2, at=3, rt=EARLY_BREAK, afd=3
+   3: ErrorTransformation: fd=5, rd=1, efd=0, tt=java.io.IOException, rt=EARLY_BREAK, afd=1
+   4: ErrorTransformation: fd=5, rd=1, efd=0, tt=javax.servlet.ServletException, rt=EARLY_BREAK, afd=1
+(java/lang/NullPointerException) (trivially handled) (early return) (end_index=4, final_max_depth=4, index=0, rettype=object)
+recovery time: 79ms, result: 1
+401
+960
+<html><head><title>Apache Tomcat/@VERSION@ - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 401 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>This request requires HTTP authentication ().</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/@VERSION@</h3></body></html>

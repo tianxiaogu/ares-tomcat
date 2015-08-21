@@ -1,0 +1,28 @@
+0x7f3860008840 java.lang.ThreadGroup remove (Ljava/lang/Thread;)V
+0x7f3860008838 java.lang.ThreadGroup threadTerminated (Ljava/lang/Thread;)V
+0x7f38ba83f928 java.util.concurrent.ConcurrentLinkedQueue$Itr hasNext ()Z
+0x7f38babd54f0 java.lang.Thread run ()V
+0x7f38bac29688 org.apache.tomcat.util.net.JIoEndpoint$AsyncTimeout run ()V
+0x7f392c062d30 java.lang.Object <init> ()V
+0x7f38ba83f920 java.util.concurrent.ConcurrentLinkedQueue first ()Ljava/util/concurrent/ConcurrentLinkedQueue$Node;
+0x7f388a7bf220 java.lang.Thread sleep (J)V
+0x7f3860008830 java.lang.Thread exit ()V
+0x7f392c13bb68 java.lang.System currentTimeMillis ()J
+0x7f38ba83f908 java.util.concurrent.ConcurrentLinkedQueue iterator ()Ljava/util/Iterator;
+0x7f392c091da8 java.lang.System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V
+0x7f38ba83f910 java.util.concurrent.ConcurrentLinkedQueue$Itr <init> (Ljava/util/concurrent/ConcurrentLinkedQueue;)V
+0x7f38ba83f918 java.util.concurrent.ConcurrentLinkedQueue$Itr advance ()Ljava/lang/Object;
+0x7f38a4542740 java.util.concurrent.ConcurrentLinkedQueue updateHead (Ljava/util/concurrent/ConcurrentLinkedQueue$Node;Ljava/util/concurrent/ConcurrentLinkedQueue$Node;)V
+(nil) 0x7f3868000f20 (nil) -2 0 0 0.000000
+0x7f3868000f20 0x7f38680012a0 0x7f38babd54f0 -2 0 1 0.000000
+0x7f38680012a0 0x7f38680013e0 0x7f38bac29688 11 0 2 0.000000
+0x7f38680013e0 0x7f3868001620 0x7f388a7bf220 13 0 3 0.000000
+0x7f38680013e0 0x7f3868001760 0x7f392c13bb68 20 0 3 0.000000
+0x7f38680013e0 0x7f3868001960 0x7f38ba83f908 31 0 3 0.000000
+0x7f3868001960 0x7f3868001ae0 0x7f38ba83f910 5 0 4 0.000000
+0x7f3868001ae0 0x7f3868001c20 0x7f392c062d30 6 0 5 0.000000
+0x7f3868001ae0 0x7f3868001ce0 0x7f38ba83f918 10 0 5 0.000000
+0x7f3868001ce0 0x7f3868002050 0x7f38ba83f920 24 0 6 0.000000
+0x7f3868002050 0x7f3868002280 0x7f38a4542740 38 0 7 0.000000
+0x7f38680013e0 0x7f3868002350 0x7f38ba83f928 36 0 3 0.000000
+0x7f38680013e0 0x7f3868002530 0x7f388a7bf220 124 0 3 0.000000

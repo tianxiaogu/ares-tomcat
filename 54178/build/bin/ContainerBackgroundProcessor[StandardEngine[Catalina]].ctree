@@ -1,0 +1,1782 @@
+0x7f4fb3664db0 java.lang.ThreadGroup remove (Ljava/lang/Thread;)V
+0x7f4fb3664da0 java.lang.Thread exit ()V
+0x7f4f940014e0 org.apache.jasper.compiler.JspRuntimeContext checkUnload ()V
+0x7f504c0e8c08 java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+0x7f4ffa10dc10 org.apache.catalina.core.NamingContextListener lifecycleEvent (Lorg/apache/catalina/LifecycleEvent;)V
+0x7f4fd8a1a120 org.apache.catalina.startup.TldConfig lifecycleEvent (Lorg/apache/catalina/LifecycleEvent;)V
+0x7f4fd80273f0 org.apache.catalina.core.StandardHost$MemoryLeakTrackingListener lifecycleEvent (Lorg/apache/catalina/LifecycleEvent;)V
+0x7f4fd80273e8 org.apache.catalina.startup.ContextConfig lifecycleEvent (Lorg/apache/catalina/LifecycleEvent;)V
+0x7f4fc985c3c0 org.apache.catalina.loader.WebappClassLoader closeJARs (Z)V
+0x7f4fc985c3b8 org.apache.catalina.loader.WebappLoader closeJARs (Z)V
+0x7f4feed41e28 org.apache.catalina.core.StandardHost isDeployXML ()Z
+0x7f4feed41e20 org.apache.catalina.startup.HostConfig setCopyXML (Z)V
+0x7f4feed41e18 org.apache.catalina.core.StandardHost isCopyXML ()Z
+0x7f4fc99029e8 org.apache.catalina.startup.HostConfig deployDirectories (Ljava/io/File;[Ljava/lang/String;)V
+0x7f504c128918 java.util.Locale getLanguage ()Ljava/lang/String;
+0x7f504c084800 java.util.concurrent.ConcurrentHashMap hash (Ljava/lang/Object;)I
+0x7f4fe0003608 org.apache.catalina.core.StandardHost isUnpackWARs ()Z
+0x7f4fe003e7d8 org.apache.catalina.startup.HostConfig deploymentExists (Ljava/lang/String;)Z
+0x7f4f917dfea8 org.apache.catalina.core.StandardWrapper getServlet ()Ljavax/servlet/Servlet;
+0x7f4fe003e7c8 org.apache.catalina.util.ContextName getName ()Ljava/lang/String;
+0x7f504c0847c0 java.lang.String replace (CC)Ljava/lang/String;
+0x7f504c762508 java.lang.StringBuilder <init> (Ljava/lang/String;)V
+0x7f504c13bb78 java.io.ExpiringCache$Entry val ()Ljava/lang/String;
+0x7f504c13bb70 java.io.ExpiringCache$Entry timestamp ()J
+0x7f504c13bb68 java.lang.System currentTimeMillis ()J
+0x7f504c13bb38 java.io.UnixFileSystem canonicalize (Ljava/lang/String;)Ljava/lang/String;
+0x7f504c13bb30 java.io.File getPrefixLength ()I
+0x7f504c0e16e0 java.lang.String regionMatches (ZILjava/lang/String;II)Z
+0x7f504c13bb28 java.io.UnixFileSystem isAbsolute (Ljava/io/File;)Z
+0x7f504c13bb20 java.io.UnixFileSystem resolve (Ljava/io/File;)Ljava/lang/String;
+0x7f4fe003e7b8 org.apache.catalina.util.ContextName getBaseName ()Ljava/lang/String;
+0x7f504c0ff518 java.lang.String indexOf (Ljava/lang/String;I)I
+0x7f4f940014f0 org.apache.jasper.compiler.JspRuntimeContext checkCompile ()V
+0x7f504c0ff510 java.lang.String indexOf (Ljava/lang/String;)I
+0x7f4ff9fa9190 java.util.regex.Pattern$Single isSatisfiedBy (I)Z
+0x7f504c12ff78 java.lang.ClassLoader checkPackageAccess (Ljava/lang/Class;Ljava/security/ProtectionDomain;)V
+0x7f4fed4be448 java.util.regex.Matcher find ()Z
+0x7f4fe003e7b0 java.util.regex.Matcher replaceAll (Ljava/lang/String;)Ljava/lang/String;
+0x7f504c0e8bd0 java.lang.Math max (II)I
+0x7f4ff9fa9158 java.util.regex.Matcher <init> (Ljava/util/regex/Pattern;Ljava/lang/CharSequence;)V
+0x7f4ff9fa9100 java.util.regex.Pattern$Node study (Ljava/util/regex/Pattern$TreeInfo;)Z
+0x7f504c128920 sun.util.locale.BaseLocale getLanguage ()Ljava/lang/String;
+0x7f4ff9fa90e0 java.util.regex.Pattern$TreeInfo <init> ()V
+0x7f4ff9f61688 java.util.regex.Pattern$Node <init> ()V
+0x7f4ff9f81260 java.util.regex.Pattern$CharProperty <init> (Ljava/util/regex/Pattern$1;)V
+0x7f4ff9fa9168 java.util.regex.Matcher getTextLength ()I
+0x7f4ff9f81258 java.util.regex.Pattern$BmpCharProperty <init> ()V
+0x7f4ff9fa9160 java.util.regex.Matcher reset ()Ljava/util/regex/Matcher;
+0x7f4ff9f81250 java.util.regex.Pattern$BmpCharProperty <init> (Ljava/util/regex/Pattern$1;)V
+0x7f4f940014d8 org.apache.jasper.servlet.JspServlet periodicEvent ()V
+0x7f4ff9f61708 java.util.regex.Pattern$Single <init> (I)V
+0x7f4f940014d0 org.apache.catalina.core.StandardWrapper backgroundProcess ()V
+0x7f504c0ff4f0 java.lang.CharacterDataLatin1 toUpperCase (I)I
+0x7f4ff9f61700 java.util.regex.Pattern newSingle (I)Ljava/util/regex/Pattern$CharProperty;
+0x7f4f940014c0 org.apache.catalina.loader.WebappLoader backgroundProcess ()V
+0x7f504c0ff4e0 java.lang.Character toUpperCase (C)C
+0x7f4ff9f616f0 java.util.regex.Pattern append (II)V
+0x7f4ff9f616e8 java.util.regex.Pattern atom ()Ljava/util/regex/Pattern$Node;
+0x7f4ff9f616e0 java.util.regex.Pattern peek ()I
+0x7f4ff9f616c8 java.util.regex.Pattern RemoveQEQuoting ()V
+0x7f4ff9fa9178 java.util.regex.Matcher search (I)Z
+0x7f4ff9f81268 java.util.regex.Pattern$CharProperty <init> ()V
+0x7f504c854508 java.lang.Character isHighSurrogate (C)Z
+0x7f504c12bce8 java.io.File getCanonicalPath ()Ljava/lang/String;
+0x7f4ff9fa9188 java.util.regex.Pattern$BmpCharProperty match (Ljava/util/regex/Matcher;ILjava/lang/CharSequence;)Z
+0x7f504c854518 java.lang.Character codePointAtImpl ([CII)I
+0x7f4ff9fa9180 java.util.regex.Pattern$Start match (Ljava/util/regex/Matcher;ILjava/lang/CharSequence;)Z
+0x7f4ff9f81270 java.util.regex.Pattern closure (Ljava/util/regex/Pattern$Node;)Ljava/util/regex/Pattern$Node;
+0x7f504c854510 java.lang.String codePointAt (I)I
+0x7f4ff9f616b0 java.util.regex.Pattern has (I)Z
+0x7f504c0ff498 java.lang.Character charCount (I)I
+0x7f4ff9f616a8 java.util.regex.Pattern compile ()V
+0x7f4ff9f616a0 java.util.regex.Pattern <init> (Ljava/lang/String;I)V
+0x7f4f88000950 java.lang.InterruptedException <init> (Ljava/lang/String;)V
+0x7f4ff9f61698 java.util.regex.Pattern compile (Ljava/lang/String;)Ljava/util/regex/Pattern;
+0x7f4fe003e7a8 java.lang.String replaceAll (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+0x7f4fe003e7c0 org.apache.catalina.startup.HostConfig validateContextPath (Ljava/io/File;Ljava/lang/String;)Z
+0x7f504c0e3b10 java.lang.String startsWith (Ljava/lang/String;)Z
+0x7f4fe003e7a0 org.apache.catalina.util.ContextName <init> (Ljava/lang/String;)V
+0x7f4ff9fa9150 java.util.regex.Pattern matcher (Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+0x7f504c73bea8 java.util.HashSet contains (Ljava/lang/Object;)Z
+0x7f504c09d768 java.lang.String endsWith (Ljava/lang/String;)Z
+0x7f504c091e38 java.lang.CharacterDataLatin1 toLowerCase (I)I
+0x7f504c091e30 java.lang.CharacterData of (I)Ljava/lang/CharacterData;
+0x7f504c091e28 java.lang.Character toLowerCase (I)I
+0x7f504c091e20 java.lang.Character toLowerCase (C)C
+0x7f504c0ff520 java.lang.String indexOf ([CII[CIII)I
+0x7f504c091e18 java.lang.String toLowerCase (Ljava/util/Locale;)Ljava/lang/String;
+0x7f504c12fff0 java.util.HashMap$Entry recordAccess (Ljava/util/HashMap;)V
+0x7f504c0cc248 java.lang.AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder;
+0x7f504c0cc240 java.lang.StringBuilder append (C)Ljava/lang/StringBuilder;
+0x7f4ff9f616b8 java.util.regex.Pattern isSupplementary (I)Z
+0x7f504c091da0 java.util.Arrays copyOf ([CI)[C
+0x7f504c062d40 java.lang.AbstractStringBuilder <init> (I)V
+0x7f504c062d38 java.lang.StringBuilder <init> ()V
+0x7f504c1a9510 java.io.UnixFileSystem resolve (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+0x7f504c127750 java.lang.String equalsIgnoreCase (Ljava/lang/String;)Z
+0x7f4fe003e798 org.apache.catalina.startup.HostConfig deployWARs (Ljava/io/File;[Ljava/lang/String;)V
+0x7f504c0e8c98 java.lang.Exception <init> (Ljava/lang/String;)V
+0x7f504c1d0728 java.util.ArrayList$Itr <init> (Ljava/util/ArrayList;)V
+0x7f4fe003e790 org.apache.catalina.core.StandardHost getStartStopExecutor ()Ljava/util/concurrent/ExecutorService;
+0x7f4fe003e788 org.apache.catalina.startup.HostConfig deployDescriptors (Ljava/io/File;[Ljava/lang/String;)V
+0x7f4fe003e780 org.apache.catalina.core.StandardHost getDeployIgnorePattern ()Ljava/util/regex/Pattern;
+0x7f504c084768 java.lang.StringCoding$StringDecoder requestedCharsetName ()Ljava/lang/String;
+0x7f504c0847a8 java.lang.StringCoding safeTrim ([CILjava/nio/charset/Charset;Z)[C
+0x7f504c0847a0 java.lang.StringCoding access$100 ([CILjava/nio/charset/Charset;Z)[C
+0x7f504c084790 sun.nio.cs.UTF_8$Decoder decode ([BII[C)I
+0x7f504c084770 java.lang.StringCoding$StringDecoder decode ([BII)[C
+0x7f4ff9fa90f0 java.util.regex.Pattern$CharProperty study (Ljava/util/regex/Pattern$TreeInfo;)Z
+0x7f4fe0038470 java.lang.StringCoding$StringDecoder <init> (Ljava/nio/charset/Charset;Ljava/lang/String;)V
+0x7f4ff9fa90e8 java.util.regex.Pattern$TreeInfo reset ()V
+0x7f4fe0038468 java.lang.StringCoding$StringDecoder <init> (Ljava/nio/charset/Charset;Ljava/lang/String;Ljava/lang/StringCoding$1;)V
+0x7f504c13bb40 java.io.ExpiringCache get (Ljava/lang/String;)Ljava/lang/String;
+0x7f504c1af888 java.lang.ThreadLocal$ThreadLocalMap getEntryAfterMiss (Ljava/lang/ThreadLocal;ILjava/lang/ThreadLocal$ThreadLocalMap$Entry;)Ljava/lang/ThreadLocal$ThreadLocalMap$Entry;
+0x7f504c062db0 java.lang.String checkBounds ([BII)V
+0x7f504c062da8 java.lang.String <init> ([BIILjava/lang/String;)V
+0x7f504c062cf8 java.lang.String <init> ([BLjava/lang/String;)V
+0x7f4fe0038478 org.apache.catalina.startup.HostConfig configBase ()Ljava/io/File;
+0x7f4fe0038450 org.apache.catalina.startup.HostConfig appBase ()Ljava/io/File;
+0x7f4fe003e770 org.apache.catalina.startup.HostConfig deployApps ()V
+0x7f4fb3664e88 org.apache.catalina.core.StandardHost getUndeployOldVersions ()Z
+0x7f504c0ce5f0 java.util.HashMap get (Ljava/lang/Object;)Ljava/lang/Object;
+0x7f504c0e4028 java.io.UnixFileSystem getLastModifiedTime (Ljava/io/File;)J
+0x7f504c084760 java.lang.ref.SoftReference get ()Ljava/lang/Object;
+0x7f504dfaa778 java.nio.charset.CharsetDecoder onUnmappableCharacter (Ljava/nio/charset/CodingErrorAction;)Ljava/nio/charset/CharsetDecoder;
+0x7f4fb3664e78 java.util.concurrent.ConcurrentHashMap$HashIterator nextEntry ()Ljava/util/concurrent/ConcurrentHashMap$HashEntry;
+0x7f504c140658 java.util.HashMap$KeySet <init> (Ljava/util/HashMap;)V
+0x7f504dfaa770 java.nio.charset.CharsetDecoder implOnMalformedInput (Ljava/nio/charset/CodingErrorAction;)V
+0x7f4fb3664e70 java.util.concurrent.ConcurrentHashMap$ValueIterator next ()Ljava/lang/Object;
+0x7f504c062da0 java.nio.charset.Charset lookup (Ljava/lang/String;)Ljava/nio/charset/Charset;
+0x7f504dfaa768 java.nio.charset.CharsetDecoder onMalformedInput (Ljava/nio/charset/CodingErrorAction;)Ljava/nio/charset/CharsetDecoder;
+0x7f4fb3664e68 java.util.concurrent.ConcurrentHashMap$HashIterator hasNext ()Z
+0x7f504c062d98 java.lang.System getSecurityManager ()Ljava/lang/SecurityManager;
+0x7f504dfaa760 java.nio.charset.CharsetDecoder implReplaceWith (Ljava/lang/String;)V
+0x7f4fb3664e60 java.util.concurrent.ConcurrentHashMap$HashIterator advance ()V
+0x7f504c062d90 java.lang.String equals (Ljava/lang/Object;)Z
+0x7f504dfaa758 java.nio.charset.CharsetDecoder replaceWith (Ljava/lang/String;)Ljava/nio/charset/CharsetDecoder;
+0x7f4fb3664e58 java.util.concurrent.ConcurrentHashMap$HashIterator <init> (Ljava/util/concurrent/ConcurrentHashMap;)V
+0x7f504dfaa750 java.nio.charset.CharsetDecoder <init> (Ljava/nio/charset/Charset;FFLjava/lang/String;)V
+0x7f4fb3664e50 java.util.concurrent.ConcurrentHashMap$ValueIterator <init> (Ljava/util/concurrent/ConcurrentHashMap;)V
+0x7f504c0ff4c8 java.lang.String substring (II)Ljava/lang/String;
+0x7f4ff9f616d8 java.util.regex.Pattern sequence (Ljava/util/regex/Pattern$Node;)Ljava/util/regex/Pattern$Node;
+0x7f504c0cc2c8 java.io.UnixFileSystem normalize (Ljava/lang/String;)Ljava/lang/String;
+0x7f504dfaa748 java.nio.charset.CharsetDecoder <init> (Ljava/nio/charset/Charset;FF)V
+0x7f4fb3664e48 java.util.concurrent.ConcurrentHashMap$Values iterator ()Ljava/util/Iterator;
+0x7f4ff9f616d0 java.util.regex.Pattern expr (Ljava/util/regex/Pattern$Node;)Ljava/util/regex/Pattern$Node;
+0x7f504c0cc2c0 java.io.File <init> (Ljava/lang/String;)V
+0x7f504c0cc250 java.lang.Class getComponentType ()Ljava/lang/Class;
+0x7f504c084778 java.nio.charset.CharsetDecoder maxCharsPerByte ()F
+0x7f504c0dd230 java.lang.Object getClass ()Ljava/lang/Class;
+0x7f504c084818 sun.misc.Unsafe getObjectVolatile (Ljava/lang/Object;J)Ljava/lang/Object;
+0x7f504c1403c0 java.util.logging.Level intValue ()I
+0x7f504c0e8cb0 java.lang.Throwable fillInStackTrace (I)Ljava/lang/Throwable;
+0x7f504c0e4000 java.io.File getPath ()Ljava/lang/String;
+0x7f504c091b88 java.lang.String indexOf (II)I
+0x7f504c09d6e0 java.lang.String getChars (II[CI)V
+0x7f4fe0003680 java.lang.StringCoding$StringEncoder <init> (Ljava/nio/charset/Charset;Ljava/lang/String;Ljava/lang/StringCoding$1;)V
+0x7f4fe003e778 org.apache.catalina.startup.HostConfig filterAppPaths ([Ljava/lang/String;)[Ljava/lang/String;
+0x7f4fc91ec0a0 java.util.concurrent.ConcurrentHashMap segmentAt ([Ljava/util/concurrent/ConcurrentHashMap$Segment;I)Ljava/util/concurrent/ConcurrentHashMap$Segment;
+0x7f504c17ad70 java.util.HashMap$ValueIterator <init> (Ljava/util/HashMap;Ljava/util/HashMap$1;)V
+0x7f504dfaa740 sun.nio.cs.UTF_8$Decoder <init> (Ljava/nio/charset/Charset;)V
+0x7f4fb3664e40 java.util.concurrent.ConcurrentHashMap size ()I
+0x7f504c062d70 java.lang.String hashCode ()I
+0x7f504dfaa738 sun.nio.cs.UTF_8$Decoder <init> (Ljava/nio/charset/Charset;Lsun/nio/cs/UTF_8$1;)V
+0x7f4fb3664e38 java.util.concurrent.ConcurrentHashMap$Values size ()I
+0x7f504dfaa730 sun.nio.cs.UTF_8 newDecoder ()Ljava/nio/charset/CharsetDecoder;
+0x7f4fb3664e30 java.util.concurrent.ConcurrentHashMap$Values <init> (Ljava/util/concurrent/ConcurrentHashMap;)V
+0x7f4feed41e08 org.apache.catalina.startup.HostConfig lifecycleEvent (Lorg/apache/catalina/LifecycleEvent;)V
+0x7f504c1d0a58 java.util.logging.Logger isLoggable (Ljava/util/logging/Level;)Z
+0x7f504c17ac00 java.lang.ThreadLocal$ThreadLocalMap$Entry <init> (Ljava/lang/ThreadLocal;Ljava/lang/Object;)V
+0x7f4fbe813228 org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor run ()V
+0x7f4ffa0159b8 java.io.OutputStream flush ()V
+0x7f4fb3664e18 org.apache.catalina.startup.HostConfig check ()V
+0x7f5003e5bc88 java.util.concurrent.locks.ReentrantReadWriteLock$NonfairSync readerShouldBlock ()Z
+0x7f504c13bb58 java.util.LinkedHashMap$Entry recordAccess (Ljava/util/HashMap;)V
+0x7f4ff9fd8d40 sun.nio.cs.StreamEncoder flush ()V
+0x7f504c0fdf60 java.util.HashMap$Entry getValue ()Ljava/lang/Object;
+0x7f4fb3664e10 java.io.BufferedWriter ensureOpen ()V
+0x7f5003e5bc80 java.util.concurrent.locks.ReentrantReadWriteLock readLock ()Ljava/util/concurrent/locks/Lock;
+0x7f4ff9fd8d38 java.io.OutputStreamWriter flush ()V
+0x7f4fb3664e08 java.io.BufferedWriter flushBuffer ()V
+0x7f504c1b0188 java.io.File <init> (Ljava/io/File;Ljava/lang/String;)V
+0x7f4fb3664e00 java.io.BufferedWriter flush ()V
+0x7f504c062d30 java.lang.Object <init> ()V
+0x7f4ff9f616c0 java.lang.Character isSurrogate (C)Z
+0x7f504c091da8 java.lang.System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V
+0x7f4ff9fd8d30 java.io.PrintWriter flush ()V
+0x7f504c1d0720 java.util.ArrayList$Itr <init> (Ljava/util/ArrayList;Ljava/util/ArrayList$1;)V
+0x7f504c5ee198 java.lang.reflect.Array newArray (Ljava/lang/Class;I)Ljava/lang/Object;
+0x7f504c17ac10 java.lang.ThreadLocal$ThreadLocalMap cleanSomeSlots (II)Z
+0x7f504c7256d0 java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock unlock ()V
+0x7f4fed352510 java.io.File isFile ()Z
+0x7f4fb3664df8 org.apache.catalina.valves.AccessLogValve getEnabled ()Z
+0x7f504c17ad78 java.util.HashMap$ValueIterator <init> (Ljava/util/HashMap;)V
+0x7f504c0e8950 java.nio.Buffer position ()I
+0x7f504c17ad68 java.util.HashMap newValueIterator ()Ljava/util/Iterator;
+0x7f504c65d878 java.util.HashMap$KeyIterator <init> (Ljava/util/HashMap;Ljava/util/HashMap$1;)V
+0x7f4fb3664dd8 org.apache.catalina.valves.ValveBase backgroundProcess ()V
+0x7f504c1b0160 java.util.concurrent.locks.ReentrantReadWriteLock$Sync exclusiveCount (I)I
+0x7f4fb3664e28 java.util.concurrent.ConcurrentHashMap values ()Ljava/util/Collection;
+0x7f504c13bb50 java.util.LinkedHashMap get (Ljava/lang/Object;)Ljava/lang/Object;
+0x7f504c1af898 java.lang.ThreadLocal initialValue ()Ljava/lang/Object;
+0x7f504c1ae8a0 java.util.HashMap size ()I
+0x7f504c0e3a70 sun.nio.cs.UTF_8$Encoder isLegalReplacement ([B)Z
+0x7f4feec72210 org.apache.catalina.core.ContainerBase findChildren ()[Lorg/apache/catalina/Container;
+0x7f4ffa10dc20 java.util.EventObject getSource ()Ljava/lang/Object;
+0x7f504c65d888 java.util.HashMap$KeyIterator next ()Ljava/lang/Object;
+0x7f4fb3664de8 org.apache.catalina.core.ContainerBase getBackgroundProcessorDelay ()I
+0x7f504c09d770 java.lang.String startsWith (Ljava/lang/String;I)Z
+0x7f504c725698 java.util.concurrent.locks.ReentrantReadWriteLock readLock ()Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;
+0x7f504c084788 java.lang.StringCoding scale (IF)I
+0x7f4ffa0d3290 org.apache.catalina.LifecycleState isAvailable ()Z
+0x7f4ffa0d3288 org.apache.catalina.util.LifecycleBase getState ()Lorg/apache/catalina/LifecycleState;
+0x7f4fbe813230 org.apache.catalina.core.ContainerBase access$100 (Lorg/apache/catalina/core/ContainerBase;)Z
+0x7f504c65d880 java.util.HashMap$KeyIterator <init> (Ljava/util/HashMap;)V
+0x7f4fb3664de0 org.apache.catalina.connector.MapperListener lifecycleEvent (Lorg/apache/catalina/LifecycleEvent;)V
+0x7f504c1d3f48 java.util.HashMap$HashIterator hasNext ()Z
+0x7f504c7256a0 java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock lock ()V
+0x7f4feed41d90 java.lang.Thread run ()V
+0x7f4fbe813238 java.lang.Thread sleep (J)V
+0x7f504d1473b8 java.util.HashMap$ValueIterator next ()Ljava/lang/Object;
+0x7f504c7256e0 java.util.concurrent.locks.ReentrantReadWriteLock$Sync tryReleaseShared (I)Z
+0x7f504c0ce678 java.lang.StringCoding$StringEncoder requestedCharsetName ()Ljava/lang/String;
+0x7f504c0e8c40 java.util.HashMap hash (Ljava/lang/Object;)I
+0x7f504c1d3f40 java.util.HashMap$HashIterator <init> (Ljava/util/HashMap;)V
+0x7f4fb3664e20 org.apache.catalina.core.StandardHost getAutoDeploy ()Z
+0x7f5003e5bc90 java.util.concurrent.locks.AbstractQueuedSynchronizer apparentlyFirstQueuedIsExclusive ()Z
+0x7f504c13bb48 java.io.ExpiringCache entryFor (Ljava/lang/String;)Ljava/io/ExpiringCache$Entry;
+0x7f504c1af890 java.lang.ThreadLocal setInitialValue ()Ljava/lang/Object;
+0x7f504c13bb60 java.util.LinkedHashMap access$000 (Ljava/util/LinkedHashMap;)Z
+0x7f504c0dd188 java.nio.charset.Charset forName (Ljava/lang/String;)Ljava/nio/charset/Charset;
+0x7f504c1b0350 sun.nio.cs.StreamEncoder ensureOpen ()V
+0x7f504c16d850 java.lang.Thread setContextClassLoader (Ljava/lang/ClassLoader;)V
+0x7f4fe0003610 org.apache.catalina.startup.HostConfig setUnpackWARs (Z)V
+0x7f4fe003e7e0 java.util.concurrent.ConcurrentHashMap containsKey (Ljava/lang/Object;)Z
+0x7f504c1b0330 java.io.PrintWriter ensureOpen ()V
+0x7f504c7256a8 java.util.concurrent.locks.AbstractQueuedSynchronizer acquireShared (I)V
+0x7f4fda7cc580 org.apache.catalina.loader.WebappLoader getClassLoader ()Ljava/lang/ClassLoader;
+0x7f504c084798 java.lang.Math min (II)I
+0x7f504c1d0718 java.util.ArrayList iterator ()Ljava/util/Iterator;
+0x7f504c5ee190 java.lang.reflect.Array newInstance (Ljava/lang/Class;I)Ljava/lang/Object;
+0x7f4fb3664df0 org.apache.catalina.valves.AccessLogValve backgroundProcess ()V
+0x7f504c16d808 java.lang.Thread getContextClassLoader ()Ljava/lang/ClassLoader;
+0x7f504c1b0408 java.util.HashMap values ()Ljava/util/Collection;
+0x7f504c1406a8 java.util.LinkedHashMap$LinkedHashIterator nextEntry ()Ljava/util/LinkedHashMap$Entry;
+0x7f504c0e4020 java.io.File lastModified ()J
+0x7f4feec72188 org.apache.catalina.core.ContainerBase getRealmInternal ()Lorg/apache/catalina/Realm;
+0x7f504c7256e8 java.util.concurrent.locks.AbstractQueuedSynchronizer doReleaseShared ()V
+0x7f504c0847d8 java.lang.String lastIndexOf (I)I
+0x7f4ffa10dc08 org.apache.catalina.LifecycleEvent <init> (Lorg/apache/catalina/Lifecycle;Ljava/lang/String;Ljava/lang/Object;)V
+0x7f504c0fdf08 java.util.ArrayList <init> ()V
+0x7f4fb3664db8 org.apache.catalina.core.ContainerBase getMappingObject ()Ljava/lang/Object;
+0x7f504c0fdf10 java.util.AbstractList <init> ()V
+0x7f4fb3664dc0 org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor processChildren (Lorg/apache/catalina/Container;Ljava/lang/ClassLoader;)V
+0x7f504c062cf0 java.lang.String getBytes (Ljava/lang/String;)[B
+0x7f4fb3664dc8 org.apache.catalina.core.ContainerBase backgroundProcess ()V
+0x7f504c17ac18 java.lang.ThreadLocal$ThreadLocalMap nextIndex (II)I
+0x7f4f9169d460 org.apache.catalina.core.StandardPipeline getFirst ()Lorg/apache/catalina/Valve;
+0x7f504c7256d8 java.util.concurrent.locks.AbstractQueuedSynchronizer releaseShared (I)Z
+0x7f504c65d870 java.util.HashMap newKeyIterator ()Ljava/util/Iterator;
+0x7f4fb3664dd0 org.apache.catalina.realm.RealmBase backgroundProcess ()V
+0x7f504c062d00 java.nio.charset.Charset isSupported (Ljava/lang/String;)Z
+0x7f4ff9fd8d48 sun.nio.cs.StreamEncoder implFlush ()V
+0x7f4fe0003658 org.apache.catalina.valves.ValveBase getNext ()Lorg/apache/catalina/Valve;
+0x7f4ffa10dbf8 org.apache.catalina.util.LifecycleBase fireLifecycleEvent (Ljava/lang/String;Ljava/lang/Object;)V
+0x7f4ffa10dc00 org.apache.catalina.util.LifecycleSupport fireLifecycleEvent (Ljava/lang/String;Ljava/lang/Object;)V
+0x7f504c17ad60 java.util.HashMap$Values iterator ()Ljava/util/Iterator;
+0x7f504c171908 java.lang.ThreadLocal set (Ljava/lang/Object;)V
+0x7f504d57d3c8 java.util.HashMap$Values size ()I
+0x7f4fd8c73528 org.apache.catalina.core.ContainerBase getLoader ()Lorg/apache/catalina/Loader;
+0x7f504c0e8758 java.nio.charset.CharsetEncoder <init> (Ljava/nio/charset/Charset;FF)V
+0x7f4f940014c8 org.apache.catalina.session.ManagerBase backgroundProcess ()V
+0x7f504c0ff4e8 java.lang.Character toUpperCase (I)I
+0x7f4ff9f616f8 java.util.regex.Pattern next ()I
+0x7f4fed72fd18 org.apache.catalina.startup.EngineConfig lifecycleEvent (Lorg/apache/catalina/LifecycleEvent;)V
+0x7f504c1d3f18 java.util.AbstractSet <init> ()V
+0x7f4ffa10dc18 org.apache.catalina.LifecycleEvent getLifecycle ()Lorg/apache/catalina/Lifecycle;
+0x7f4ffa10dc30 org.apache.catalina.LifecycleEvent getType ()Ljava/lang/String;
+0x7f4fe0003600 org.apache.catalina.startup.HostConfig setDeployXML (Z)V
+0x7f4fe003e7d0 org.apache.catalina.startup.HostConfig isServiced (Ljava/lang/String;)Z
+0x7f504c091b98 java.lang.String charAt (I)C
+0x7f504c140650 java.util.HashMap$KeySet <init> (Ljava/util/HashMap;Ljava/util/HashMap$1;)V
+0x7f4fe0003690 java.lang.StringCoding set (Ljava/lang/ThreadLocal;Ljava/lang/Object;)V
+0x7f504e41c918 java.util.ArrayList contains (Ljava/lang/Object;)Z
+0x7f504e41c920 java.util.ArrayList indexOf (Ljava/lang/Object;)I
+0x7f4ff9f81348 java.util.regex.Pattern$Start <init> (Ljava/util/regex/Pattern$Node;)V
+0x7f504c0ce650 java.io.File exists ()Z
+0x7f504dfaa780 java.nio.charset.CharsetDecoder implOnUnmappableCharacter (Ljava/nio/charset/CodingErrorAction;)V
+0x7f4fb3664e80 org.apache.catalina.startup.HostConfig checkResources (Lorg/apache/catalina/startup/HostConfig$DeployedApplication;)V
+0x7f504c140660 java.util.HashMap$KeySet iterator ()Ljava/util/Iterator;
+0x7f4fd6fb8e10 java.util.HashMap$KeySet size ()I
+0x7f504c140698 java.util.LinkedHashMap$LinkedHashIterator hasNext ()Z
+0x7f504c09d738 java.util.HashMap getEntry (Ljava/lang/Object;)Ljava/util/HashMap$Entry;
+0x7f504c140668 java.util.LinkedHashMap newKeyIterator ()Ljava/util/Iterator;
+0x7f504c09d710 java.lang.AbstractStringBuilder expandCapacity (I)V
+0x7f504c5eea50 java.util.EventObject <init> (Ljava/lang/Object;)V
+0x7f504c140670 java.util.LinkedHashMap$KeyIterator <init> (Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap$1;)V
+0x7f504c09d718 java.lang.StringBuilder toString ()Ljava/lang/String;
+0x7f504c140678 java.util.LinkedHashMap$KeyIterator <init> (Ljava/util/LinkedHashMap;)V
+0x7f504c062dc8 java.lang.ThreadLocal get ()Ljava/lang/Object;
+0x7f504c09d720 java.lang.String <init> ([CII)V
+0x7f504c140680 java.util.LinkedHashMap$LinkedHashIterator <init> (Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap$1;)V
+0x7f504c09d730 java.util.HashMap containsKey (Ljava/lang/Object;)Z
+0x7f504c140690 java.util.LinkedHashMap access$100 (Ljava/util/LinkedHashMap;)Ljava/util/LinkedHashMap$Entry;
+0x7f504c1406a0 java.util.LinkedHashMap$KeyIterator next ()Ljava/lang/Object;
+0x7f504c0e8ca0 java.lang.Throwable <init> (Ljava/lang/String;)V
+0x7f504c1d0730 java.util.ArrayList$Itr hasNext ()Z
+0x7f504c091b78 java.lang.String length ()I
+0x7f504c09d6d0 java.lang.AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+0x7f4fe0003670 java.lang.ThreadLocal$ThreadLocalMap setThreshold (I)V
+0x7f504c084730 java.lang.Thread currentThread ()Ljava/lang/Thread;
+0x7f504c0dd1e8 java.nio.charset.Charset atBugLevel (Ljava/lang/String;)Z
+0x7f504c0ce5b0 java.io.UnixFileSystem prefixLength (Ljava/lang/String;)I
+0x7f504c140648 java.util.HashMap keySet ()Ljava/util/Set;
+0x7f4fe0003688 java.lang.StringCoding$StringEncoder <init> (Ljava/nio/charset/Charset;Ljava/lang/String;)V
+0x7f504c1d0a50 org.apache.juli.logging.DirectJDKLog isDebugEnabled ()Z
+0x7f4ffa015980 sun.nio.cs.StreamEncoder implFlushBuffer ()V
+0x7f504c7256b8 java.util.concurrent.locks.ReentrantReadWriteLock$Sync sharedCount (I)I
+0x7f504c17abf8 java.lang.ThreadLocal$ThreadLocalMap set (Ljava/lang/ThreadLocal;Ljava/lang/Object;)V
+0x7f504c0ce658 java.io.File isInvalid ()Z
+0x7f504c0e8ca8 java.lang.Throwable fillInStackTrace ()Ljava/lang/Throwable;
+0x7f504c1d0738 java.util.ArrayList access$100 (Ljava/util/ArrayList;)I
+0x7f504c0e3ff8 java.util.AbstractCollection <init> ()V
+0x7f504c091b80 java.lang.String indexOf (I)I
+0x7f504c09d6d8 java.lang.AbstractStringBuilder ensureCapacityInternal (I)V
+0x7f504c140638 java.util.AbstractCollection toArray ([Ljava/lang/Object;)[Ljava/lang/Object;
+0x7f4fe0003678 java.lang.StringCoding lookupCharset (Ljava/lang/String;)Ljava/nio/charset/Charset;
+0x7f504c091b00 java.util.concurrent.locks.AbstractQueuedSynchronizer getState ()I
+0x7f504c0ce660 java.io.UnixFileSystem getBooleanAttributes (Ljava/io/File;)I
+0x7f504c091b08 java.util.concurrent.locks.AbstractQueuedSynchronizer compareAndSetState (II)Z
+0x7f504c0ce668 java.io.UnixFileSystem getBooleanAttributes0 (Ljava/io/File;)I
+0x7f504c091b10 sun.misc.Unsafe compareAndSwapInt (Ljava/lang/Object;JII)Z
+0x7f504c0ce670 java.lang.StringCoding encode (Ljava/lang/String;[CII)[B
+0x7f504c084738 java.lang.ThreadLocal getMap (Ljava/lang/Thread;)Ljava/lang/ThreadLocal$ThreadLocalMap;
+0x7f504c09d6c0 java.lang.CharacterDataLatin1 getProperties (I)I
+0x7f504c140620 java.io.File list ()[Ljava/lang/String;
+0x7f4fe0003660 java.lang.ThreadLocal createMap (Ljava/lang/Thread;Ljava/lang/Object;)V
+0x7f504c09d6c8 java.lang.StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+0x7f504c140628 java.io.UnixFileSystem list (Ljava/io/File;)[Ljava/lang/String;
+0x7f4fe0003668 java.lang.ThreadLocal$ThreadLocalMap <init> (Ljava/lang/ThreadLocal;Ljava/lang/Object;)V
+0x7f504f01c2f0 java.lang.String toString ()Ljava/lang/String;
+0x7f504c084750 java.lang.ThreadLocal access$400 (Ljava/lang/ThreadLocal;)I
+0x7f504c17ac08 java.lang.ref.WeakReference <init> (Ljava/lang/Object;)V
+0x7f504c0df4a8 java.lang.ref.Reference <init> (Ljava/lang/Object;)V
+0x7f504c0df4b0 java.lang.ref.Reference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V
+0x7f504c0ce698 java.lang.StringCoding access$300 ([BILjava/nio/charset/Charset;Z)[B
+0x7f504c0ce6a0 java.lang.StringCoding safeTrim ([BILjava/nio/charset/Charset;Z)[B
+0x7f504c0e8750 sun.nio.cs.UTF_8$Encoder <init> (Ljava/nio/charset/Charset;)V
+0x7f504c0ce6a8 java.util.Arrays copyOf ([BI)[B
+0x7f504c0cbb40 java.lang.Object hashCode ()I
+0x7f504c0e8760 java.nio.charset.CharsetEncoder <init> (Ljava/nio/charset/Charset;FF[B)V
+0x7f504c140688 java.util.LinkedHashMap$LinkedHashIterator <init> (Ljava/util/LinkedHashMap;)V
+0x7f504c09d728 java.util.Arrays copyOfRange ([CII)[C
+0x7f504c0e8768 java.nio.charset.CharsetEncoder replaceWith ([B)Ljava/nio/charset/CharsetEncoder;
+0x7f504c0e3a78 java.nio.charset.CharsetEncoder implReplaceWith ([B)V
+0x7f504c0e3a80 java.nio.charset.CharsetEncoder onMalformedInput (Ljava/nio/charset/CodingErrorAction;)Ljava/nio/charset/CharsetEncoder;
+0x7f4fec7507d8 org.apache.catalina.core.ThreadLocalLeakPreventionListener lifecycleEvent (Lorg/apache/catalina/LifecycleEvent;)V
+0x7f504c0e3a88 java.nio.charset.CharsetEncoder implOnMalformedInput (Ljava/nio/charset/CodingErrorAction;)V
+0x7f504c0e8740 sun.nio.cs.UTF_8 newEncoder ()Ljava/nio/charset/CharsetEncoder;
+0x7f504c0e3a90 java.nio.charset.CharsetEncoder onUnmappableCharacter (Ljava/nio/charset/CodingErrorAction;)Ljava/nio/charset/CharsetEncoder;
+0x7f504c0e8748 sun.nio.cs.UTF_8$Encoder <init> (Ljava/nio/charset/Charset;Lsun/nio/cs/UTF_8$1;)V
+0x7f504c0e3a98 java.nio.charset.CharsetEncoder implOnUnmappableCharacter (Ljava/nio/charset/CodingErrorAction;)V
+0x7f504c0df450 java.lang.Class getClassLoader0 ()Ljava/lang/ClassLoader;
+0x7f504c12ff88 java.util.HashSet add (Ljava/lang/Object;)Z
+0x7f504c0df4a0 java.lang.ref.SoftReference <init> (Ljava/lang/Object;)V
+0x7f504c7256b0 java.util.concurrent.locks.ReentrantReadWriteLock$Sync tryAcquireShared (I)I
+0x7f504c17abf0 java.lang.ThreadLocal$ThreadLocalMap access$100 (Ljava/lang/ThreadLocal$ThreadLocalMap;Ljava/lang/ThreadLocal;Ljava/lang/Object;)V
+0x7f504c084758 java.lang.ref.Reference get ()Ljava/lang/Object;
+0x7f504c091b20 java.util.concurrent.ConcurrentHashMap entryAt ([Ljava/util/concurrent/ConcurrentHashMap$HashEntry;I)Ljava/util/concurrent/ConcurrentHashMap$HashEntry;
+0x7f504c0e8c48 java.util.HashMap indexFor (II)I
+0x7f504c0ce680 java.lang.StringCoding$StringEncoder encode ([CII)[B
+0x7f504c0ce688 java.nio.charset.CharsetEncoder maxBytesPerChar ()F
+0x7f504c084780 java.lang.StringCoding access$000 (IF)I
+0x7f504c0ce690 sun.nio.cs.UTF_8$Encoder encode ([CII[B)I
+0x7f504c062db8 java.lang.StringCoding decode (Ljava/lang/String;[BII)[C
+0x7f504c0dd140 java.io.File getName ()Ljava/lang/String;
+0x7f504c0847e0 java.lang.String lastIndexOf (II)I
+0x7f4fc8717e70 org.apache.catalina.core.StandardContext getNamingResources ()Lorg/apache/catalina/deploy/NamingResources;
+0x7f504c062dc0 java.lang.StringCoding deref (Ljava/lang/ThreadLocal;)Ljava/lang/Object;
+0x7f504c0dd148 java.lang.String substring (I)Ljava/lang/String;
+0x7f4fec7507a0 java.lang.Long longValue ()J
+0x7f4fb3664da8 java.lang.ThreadGroup threadTerminated (Ljava/lang/Thread;)V
+0x7f504c1b0130 java.io.File isDirectory ()Z
+0x7f504f01c2e0 org.apache.juli.logging.DirectJDKLog isTraceEnabled ()Z
+0x7f504c1d3f60 java.util.HashMap$HashIterator nextEntry ()Ljava/util/HashMap$Entry;
+0x7f504c084740 java.lang.ThreadLocal$ThreadLocalMap access$000 (Ljava/lang/ThreadLocal$ThreadLocalMap;Ljava/lang/ThreadLocal;)Ljava/lang/ThreadLocal$ThreadLocalMap$Entry;
+0x7f504c1d3f68 java.util.HashMap$Entry getKey ()Ljava/lang/Object;
+0x7f504c084748 java.lang.ThreadLocal$ThreadLocalMap getEntry (Ljava/lang/ThreadLocal;)Ljava/lang/ThreadLocal$ThreadLocalMap$Entry;
+(nil) 0x7f4fac000f60 (nil) -2 0 0 0.000000
+0x7f4fac000f60 0x7f4fac000c50 0x7f4feed41d90 -2 0 1 0.000000
+0x7f4fac000c50 0x7f4fac0013f0 0x7f4fbe813228 11 0 2 0.000000
+0x7f4fac0013f0 0x7f4fac001920 0x7f4fb3664db8 43 0 3 0.000000
+0x7f4fac0013f0 0x7f4fac001600 0x7f4fbe813230 4 0 3 0.000000
+0x7f4fac0013f0 0x7f4fac001a60 0x7f504c084730 50 0 3 0.000000
+0x7f4fac0013f0 0x7f4fac001bb0 0x7f504c16d808 53 0 3 0.000000
+0x7f4fac001bb0 0x7f4fac001d20 0x7f504c062d98 9 0 4 0.000000
+0x7f4fac0013f0 0x7f4fac001e90 0x7f4fd8c73528 58 0 3 0.000000
+0x7f4fac0013f0 0x7f4fac001740 0x7f4fbe813238 22 0 3 0.000000
+0x7f4fac001740 0x7f4fac0d6520 0x7f4f88000950 -1 0 4 0.000000
+0x7f4fac0d6520 0x7f4fac0d6660 0x7f504c0e8c98 2 0 5 0.000000
+0x7f4fac0d6660 0x7f4fac0d67a0 0x7f504c0e8ca0 2 0 6 0.000000
+0x7f4fac0d67a0 0x7f4fac0d6800 0x7f504c062d30 1 0 7 0.000000
+0x7f4fac0d67a0 0x7f4fac0d6940 0x7f504c0e8ca8 24 0 7 0.000000
+0x7f4fac0d6940 0x7f4fac0d6ab0 0x7f504c0e8cb0 16 0 8 0.000000
+0x7f4fac0013f0 0x7f4fac0017c0 0x7f4fbe813230 33 0 3 0.000000
+0x7f4fac0013f0 0x7f4fac002050 0x7f4fb3664dc0 81 0 3 0.000000
+0x7f4fac002050 0x7f4fac0021b0 0x7f4fd8c73528 1 0 4 0.000000
+0x7f4fac002050 0x7f4fac0038b0 0x7f4feec72210 81 0 4 0.000000
+0x7f4fac0038b0 0x7f4fac007070 0x7f504c1b0408 22 0 5 0.000000
+0x7f4fac0038b0 0x7f4fac007280 0x7f504c140638 26 0 5 0.000000
+0x7f4fac007280 0x7f4fac007510 0x7f504d57d3c8 1 0 6 0.000000
+0x7f4fac007280 0x7f4fac007660 0x7f504c17ad60 34 0 6 0.000000
+0x7f4fac007660 0x7f4fac007790 0x7f504c17ad68 4 0 7 0.000000
+0x7f4fac007790 0x7f4fac007900 0x7f504c17ad70 6 0 8 0.000000
+0x7f4fac007900 0x7f4fac0079b0 0x7f504c17ad78 2 0 9 0.000000
+0x7f4fac0079b0 0x7f4fac007bf0 0x7f504c1d3f40 7 0 10 0.000000
+0x7f4fac007bf0 0x7f4fac007cd0 0x7f504c062d30 6 0 11 0.000000
+0x7f4fac007280 0x7f4fac007ed0 0x7f504d1473b8 114 0 6 0.000000
+0x7f4fac007ed0 0x7f4fac008120 0x7f504c1d3f60 1 0 7 0.000000
+0x7f4fac007280 0x7f4fac007e20 0x7f504c1d3f48 51 0 6 0.000000
+0x7f4fac007280 0x7f4fac008250 0x7f504c1d3f48 128 0 6 0.000000
+0x7f4fac0038b0 0x7f4fac006f70 0x7f504c1ae8a0 11 0 5 0.000000
+0x7f4fac002050 0x7f4fac0023f0 0x7f4fb3664dc8 27 0 4 0.000000
+0x7f4fac0023f0 0x7f4fac002700 0x7f4ffa0d3288 1 0 5 0.000000
+0x7f4fac0023f0 0x7f4fac0027b0 0x7f4ffa0d3290 4 0 5 0.000000
+0x7f4fac0023f0 0x7f4fac0029c0 0x7f4feec72188 156 0 5 0.000000
+0x7f4fac0029c0 0x7f4fac002b60 0x7f5003e5bc80 4 0 6 0.000000
+0x7f4fac002b60 0x7f4fac002cf0 0x7f504c725698 1 0 7 0.000000
+0x7f4fac0029c0 0x7f4fac002e60 0x7f504c7256a0 11 0 6 0.000000
+0x7f4fac002e60 0x7f4fac002fc0 0x7f504c7256a8 5 0 7 0.000000
+0x7f4fac002fc0 0x7f4fac003130 0x7f504c7256b0 2 0 8 0.000000
+0x7f4fac003130 0x7f4fac003300 0x7f504c084730 0 0 9 0.000000
+0x7f4fac003130 0x7f4fac003460 0x7f504c091b00 5 0 9 0.000000
+0x7f4fac003130 0x7f4fac0035d0 0x7f504c1b0160 10 0 9 0.000000
+0x7f4fac003130 0x7f4fac003740 0x7f504c7256b8 27 0 9 0.000000
+0x7f4fac003130 0x7f4fac002330 0x7f5003e5bc88 33 0 9 0.000000
+0x7f4fac002330 0x7f4fac003ae0 0x7f5003e5bc90 1 0 10 0.000000
+0x7f4fac003130 0x7f4fac003c70 0x7f504c091b08 52 0 9 0.000000
+0x7f4fac003c70 0x7f4fac003dc0 0x7f504c091b10 9 0 10 0.000000
+0x7f4fac0023f0 0x7f4fac004840 0x7f4fb3664dd0 165 0 5 0.000000
+0x7f4fac0023f0 0x7f4fac0049b0 0x7f4f9169d460 203 0 5 0.000000
+0x7f4fac0023f0 0x7f4fac004b10 0x7f4fb3664dd8 214 0 5 0.000000
+0x7f4fac0023f0 0x7f4fac004c70 0x7f4fe0003658 249 0 5 0.000000
+0x7f4fac0023f0 0x7f4fac004de0 0x7f4ffa10dbf8 262 0 5 0.000000
+0x7f4fac004de0 0x7f4fac004f50 0x7f4ffa10dc00 6 0 6 0.000000
+0x7f4fac004f50 0x7f4fac005120 0x7f4ffa10dc08 10 0 7 0.000000
+0x7f4fac005120 0x7f4fac005280 0x7f504c5eea50 2 0 8 0.000000
+0x7f4fac005280 0x7f4fac0053d0 0x7f504c062d30 1 0 9 0.000000
+0x7f4fac004f50 0x7f4fac005540 0x7f4fed72fd18 37 0 7 0.000000
+0x7f4fac005540 0x7f4fac005720 0x7f4ffa10dc18 2 0 8 0.000000
+0x7f4fac005720 0x7f4fac005860 0x7f4ffa10dc20 1 0 9 0.000000
+0x7f4fac005540 0x7f4fac0059b0 0x7f4ffa10dc30 45 0 8 0.000000
+0x7f4fac005540 0x7f4fac005b70 0x7f504c062d90 50 0 8 0.000000
+0x7f4fac005540 0x7f4fac005c80 0x7f4ffa10dc30 64 0 8 0.000000
+0x7f4fac005540 0x7f4fac005d00 0x7f504c062d90 69 0 8 0.000000
+0x7f4fac002050 0x7f4fac006900 0x7f504c084730 32 0 4 0.000000
+0x7f4fac002050 0x7f4fac006a50 0x7f504c16d850 36 0 4 0.000000
+0x7f4fac006a50 0x7f4fac006af0 0x7f504c062d98 0 0 5 0.000000
+0x7f4fac002050 0x7f4fac0083c0 0x7f4fb3664de8 101 0 4 0.000000
+0x7f4fac002050 0x7f4fac008440 0x7f4fb3664dc0 115 0 4 0.000000
+0x7f4fac008440 0x7f4fac0085a0 0x7f4fd8c73528 1 0 5 0.000000
+0x7f4fac0085a0 0x7f4fac008640 0x7f4fd8c73528 23 0 6 0.000000
+0x7f4fac008440 0x7f4fac093c00 0x7f4feec72210 81 0 5 0.000000
+0x7f4fac093c00 0x7f4fac093d40 0x7f504c1b0408 22 0 6 0.000000
+0x7f4fac093c00 0x7f4fac093de0 0x7f504c140638 26 0 6 0.000000
+0x7f4fac093de0 0x7f4fac093f70 0x7f504d57d3c8 1 0 7 0.000000
+0x7f4fac093de0 0x7f4fac093ff0 0x7f504c17ad60 34 0 7 0.000000
+0x7f4fac093ff0 0x7f4fac094070 0x7f504c17ad68 4 0 8 0.000000
+0x7f4fac094070 0x7f4fac0940f0 0x7f504c17ad70 6 0 9 0.000000
+0x7f4fac0940f0 0x7f4fac094170 0x7f504c17ad78 2 0 10 0.000000
+0x7f4fac094170 0x7f4fac0941f0 0x7f504c1d3f40 7 0 11 0.000000
+0x7f4fac0941f0 0x7f4fac0942d0 0x7f504c062d30 6 0 12 0.000000
+0x7f4fac093de0 0x7f4fac0943d0 0x7f504d1473b8 114 0 7 0.000000
+0x7f4fac0943d0 0x7f4fac094450 0x7f504c1d3f60 1 0 8 0.000000
+0x7f4fac093de0 0x7f4fac094350 0x7f504c1d3f48 51 0 7 0.000000
+0x7f4fac093de0 0x7f4fac094580 0x7f504c1d3f48 128 0 7 0.000000
+0x7f4fac093c00 0x7f4fac093cc0 0x7f504c1ae8a0 11 0 6 0.000000
+0x7f4fac008440 0x7f4fac0086e0 0x7f4fb3664dc8 27 0 5 0.000000
+0x7f4fac0086e0 0x7f4fac008960 0x7f4ffa0d3288 1 0 6 0.000000
+0x7f4fac0086e0 0x7f4fac0089e0 0x7f4ffa0d3290 4 0 6 0.000000
+0x7f4fac0086e0 0x7f4fac008a60 0x7f4feec72188 156 0 6 0.000000
+0x7f4fac008a60 0x7f4fac008ac0 0x7f5003e5bc80 4 0 7 0.000000
+0x7f4fac008ac0 0x7f4fac008b40 0x7f504c725698 1 0 8 0.000000
+0x7f4fac008a60 0x7f4fac008bc0 0x7f504c7256a0 11 0 7 0.000000
+0x7f4fac008bc0 0x7f4fac008c40 0x7f504c7256a8 5 0 8 0.000000
+0x7f4fac008c40 0x7f4fac008cc0 0x7f504c7256b0 2 0 9 0.000000
+0x7f4fac008cc0 0x7f4fac008e90 0x7f504c084730 0 0 10 0.000000
+0x7f4fac008cc0 0x7f4fac008f10 0x7f504c091b00 5 0 10 0.000000
+0x7f4fac008cc0 0x7f4fac008f90 0x7f504c1b0160 10 0 10 0.000000
+0x7f4fac008cc0 0x7f4fac009010 0x7f504c7256b8 27 0 10 0.000000
+0x7f4fac008cc0 0x7f4fac009090 0x7f5003e5bc88 33 0 10 0.000000
+0x7f4fac009090 0x7f4fac009110 0x7f5003e5bc90 1 0 11 0.000000
+0x7f4fac008cc0 0x7f4fac0091c0 0x7f504c091b08 52 0 10 0.000000
+0x7f4fac0091c0 0x7f4fac009240 0x7f504c091b10 9 0 11 0.000000
+0x7f4fac0086e0 0x7f4fac009850 0x7f4f9169d460 203 0 6 0.000000
+0x7f4fac0086e0 0x7f4fac0099c0 0x7f4fb3664df0 214 0 6 0.000000
+0x7f4fac0099c0 0x7f4fac009a70 0x7f4ffa0d3288 1 0 7 0.000000
+0x7f4fac0099c0 0x7f4fac009af0 0x7f4ffa0d3290 4 0 7 0.000000
+0x7f4fac0099c0 0x7f4fac009c50 0x7f4fb3664df8 11 0 7 0.000000
+0x7f4fac0099c0 0x7f4fac009d90 0x7f4ff9fd8d30 35 0 7 0.000000
+0x7f4fac009d90 0x7f4fac009f00 0x7f504c1b0330 8 0 8 0.000000
+0x7f4fac009d90 0x7f4fac00a060 0x7f4fb3664e00 15 0 8 0.000000
+0x7f4fac00a060 0x7f4fac00a4d0 0x7f4ff9fd8d38 15 0 9 0.000000
+0x7f4fac00a4d0 0x7f4fac00a620 0x7f4ff9fd8d40 4 0 10 0.000000
+0x7f4fac00a620 0x7f4fac00a8f0 0x7f4ff9fd8d48 12 0 11 0.000000
+0x7f4fac00a8f0 0x7f4fac00aa50 0x7f4ffa015980 1 0 12 0.000000
+0x7f4fac00aa50 0x7f4fac00ab90 0x7f504c0e8950 4 0 13 0.000000
+0x7f4fac00a8f0 0x7f4fac00acd0 0x7f4ffa0159b8 15 0 12 0.000000
+0x7f4fac00a620 0x7f4fac00a790 0x7f504c1b0350 8 0 11 0.000000
+0x7f4fac00a060 0x7f4fac00a1d0 0x7f4fb3664e08 8 0 9 0.000000
+0x7f4fac00a1d0 0x7f4fac00a370 0x7f4fb3664e10 8 0 10 0.000000
+0x7f4fac0086e0 0x7f4fac00ad50 0x7f4fe0003658 249 0 6 0.000000
+0x7f4fac0086e0 0x7f4fac00aed0 0x7f4ffa10dbf8 262 0 6 0.000000
+0x7f4fac00aed0 0x7f4fac00af50 0x7f4ffa10dc00 6 0 7 0.000000
+0x7f4fac00af50 0x7f4fac00b020 0x7f4ffa10dc08 10 0 8 0.000000
+0x7f4fac00b020 0x7f4fac00b0c0 0x7f504c5eea50 2 0 9 0.000000
+0x7f4fac00b0c0 0x7f4fac00b150 0x7f504c062d30 1 0 10 0.000000
+0x7f4fac00af50 0x7f4fac00b2c0 0x7f4feed41e08 37 0 8 0.000000
+0x7f4fac00b2c0 0x7f4fac00b450 0x7f4ffa10dc30 1 0 9 0.000000
+0x7f4fac00b2c0 0x7f4fac092cc0 0x7f4fe0003610 76 0 9 0.000000
+0x7f4fac00b2c0 0x7f4fac00b4d0 0x7f504c062d90 6 0 9 0.000000
+0x7f4fac00b2c0 0x7f4fac00b6c0 0x7f4fb3664e18 13 0 9 0.000000
+0x7f4fac00b6c0 0x7f4fac00b8b0 0x7f4fb3664e20 4 0 10 0.000000
+0x7f4fac00b6c0 0x7f4fac00ebd0 0x7f4fb3664e80 59 0 10 0.000000
+0x7f4fac00ebd0 0x7f4fac00f040 0x7f504c140648 4 0 11 0.000000
+0x7f4fac00f040 0x7f4fac00f200 0x7f504c140650 20 0 12 0.000000
+0x7f4fac00f200 0x7f4fac00f350 0x7f504c140658 2 0 13 0.000000
+0x7f4fac00f350 0x7f4fac00f490 0x7f504c1d3f18 6 0 14 0.000000
+0x7f4fac00f490 0x7f4fac00f510 0x7f504c0e3ff8 1 0 15 0.000000
+0x7f4fac00f510 0x7f4fac00f590 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac00ebd0 0x7f4fac00f610 0x7f504c140638 11 0 11 0.000000
+0x7f4fac00f610 0x7f4fac00f870 0x7f4fd6fb8e10 1 0 12 0.000000
+0x7f4fac00f610 0x7f4fac00f8f0 0x7f504c0dd230 16 0 12 0.000000
+0x7f4fac00f610 0x7f4fac00f970 0x7f504c0cc250 19 0 12 0.000000
+0x7f4fac00f610 0x7f4fac00f9f0 0x7f504c5ee190 23 0 12 0.000000
+0x7f4fac00f9f0 0x7f4fac00fa70 0x7f504c5ee198 2 0 13 0.000000
+0x7f4fac00f610 0x7f4fac00fbc0 0x7f504c140660 34 0 12 0.000000
+0x7f4fac00fbc0 0x7f4fac00fdb0 0x7f504c140668 4 0 13 0.000000
+0x7f4fac00fdb0 0x7f4fac00ff70 0x7f504c140670 6 0 14 0.000000
+0x7f4fac00ff70 0x7f4fac0100d0 0x7f504c140678 2 0 15 0.000000
+0x7f4fac0100d0 0x7f4fac010250 0x7f504c140680 8 0 16 0.000000
+0x7f4fac010250 0x7f4fac0103c0 0x7f504c140688 2 0 17 0.000000
+0x7f4fac0103c0 0x7f4fac010420 0x7f504c062d30 6 0 18 0.000000
+0x7f4fac0103c0 0x7f4fac0105a0 0x7f504c140690 14 0 18 0.000000
+0x7f4fac00f610 0x7f4fac010950 0x7f504c1406a0 114 0 12 0.000000
+0x7f4fac010950 0x7f4fac010b00 0x7f504c1406a8 1 0 13 0.000000
+0x7f4fac010b00 0x7f4fac010be0 0x7f504c140690 30 0 14 0.000000
+0x7f4fac00f610 0x7f4fac010750 0x7f504c140698 51 0 12 0.000000
+0x7f4fac010750 0x7f4fac0107e0 0x7f504c140690 8 0 13 0.000000
+0x7f4fac00f610 0x7f4fac010ed0 0x7f504c140698 128 0 12 0.000000
+0x7f4fac010ed0 0x7f4fac010f60 0x7f504c140690 8 0 13 0.000000
+0x7f4fac00ebd0 0x7f4fac01fff0 0x7f504c140648 217 0 11 0.000000
+0x7f4fac01fff0 0x7f4fac020090 0x7f504c140650 20 0 12 0.000000
+0x7f4fac020090 0x7f4fac020110 0x7f504c140658 2 0 13 0.000000
+0x7f4fac020110 0x7f4fac020190 0x7f504c1d3f18 6 0 14 0.000000
+0x7f4fac020190 0x7f4fac020210 0x7f504c0e3ff8 1 0 15 0.000000
+0x7f4fac020210 0x7f4fac020290 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac00ebd0 0x7f4fac020310 0x7f504c140638 224 0 11 0.000000
+0x7f4fac020310 0x7f4fac0204a0 0x7f4fd6fb8e10 1 0 12 0.000000
+0x7f4fac020310 0x7f4fac020520 0x7f504c0dd230 16 0 12 0.000000
+0x7f4fac020310 0x7f4fac0205a0 0x7f504c0cc250 19 0 12 0.000000
+0x7f4fac020310 0x7f4fac020620 0x7f504c5ee190 23 0 12 0.000000
+0x7f4fac020620 0x7f4fac0206a0 0x7f504c5ee198 2 0 13 0.000000
+0x7f4fac020310 0x7f4fac020720 0x7f504c140660 34 0 12 0.000000
+0x7f4fac020720 0x7f4fac020890 0x7f504c65d870 4 0 13 0.000000
+0x7f4fac020890 0x7f4fac020a00 0x7f504c65d878 6 0 14 0.000000
+0x7f4fac020a00 0x7f4fac020ab0 0x7f504c65d880 2 0 15 0.000000
+0x7f4fac020ab0 0x7f4fac020bd0 0x7f504c1d3f40 7 0 16 0.000000
+0x7f4fac020bd0 0x7f4fac020c30 0x7f504c062d30 6 0 17 0.000000
+0x7f4fac020310 0x7f4fac020d60 0x7f504c65d888 114 0 12 0.000000
+0x7f4fac020d60 0x7f4fac020ea0 0x7f504c1d3f60 1 0 13 0.000000
+0x7f4fac020310 0x7f4fac020cb0 0x7f504c1d3f48 51 0 12 0.000000
+0x7f4fac020310 0x7f4fac020ff0 0x7f504c1d3f48 128 0 12 0.000000
+0x7f4fac00ebd0 0x7f4fac0110a0 0x7f504c0cc2c0 35 0 11 0.000000
+0x7f4fac0110a0 0x7f4fac011160 0x7f504c062d30 1 0 12 0.000000
+0x7f4fac0110a0 0x7f4fac0112c0 0x7f504c0cc2c8 26 0 12 0.000000
+0x7f4fac0112c0 0x7f4fac011500 0x7f504c091b78 1 0 13 0.000000
+0x7f4fac0112c0 0x7f4fac011640 0x7f504c091b98 19 0 13 0.000000
+0x7f4fac0110a0 0x7f4fac0117b0 0x7f504c0ce5b0 40 0 12 0.000000
+0x7f4fac0117b0 0x7f4fac011850 0x7f504c091b78 1 0 13 0.000000
+0x7f4fac0117b0 0x7f4fac0118d0 0x7f504c091b98 11 0 13 0.000000
+0x7f4fac00ebd0 0x7f4fac011a40 0x7f504c1d0a50 43 0 11 0.000000
+0x7f4fac011a40 0x7f4fac011ba0 0x7f504c1d0a58 7 0 12 0.000000
+0x7f4fac011ba0 0x7f4fac011d10 0x7f504c1403c0 1 0 13 0.000000
+0x7f4fac00ebd0 0x7f4fac021070 0x7f504c0cc2c0 248 0 11 0.000000
+0x7f4fac021070 0x7f4fac021130 0x7f504c062d30 1 0 12 0.000000
+0x7f4fac021070 0x7f4fac0211b0 0x7f504c0cc2c8 26 0 12 0.000000
+0x7f4fac0211b0 0x7f4fac0212b0 0x7f504c091b78 1 0 13 0.000000
+0x7f4fac0211b0 0x7f4fac021330 0x7f504c091b98 19 0 13 0.000000
+0x7f4fac021070 0x7f4fac0213d0 0x7f504c0ce5b0 40 0 12 0.000000
+0x7f4fac0213d0 0x7f4fac021470 0x7f504c091b78 1 0 13 0.000000
+0x7f4fac0213d0 0x7f4fac0214f0 0x7f504c091b98 11 0 13 0.000000
+0x7f4fac00ebd0 0x7f4fac021590 0x7f504c1d0a50 256 0 11 0.000000
+0x7f4fac021590 0x7f4fac021610 0x7f504c1d0a58 7 0 12 0.000000
+0x7f4fac021610 0x7f4fac0216b0 0x7f504c1403c0 1 0 13 0.000000
+0x7f4fac00ebd0 0x7f4fac011e50 0x7f504c0ce650 93 0 11 0.000000
+0x7f4fac011e50 0x7f4fac011f10 0x7f504c062d98 0 0 12 0.000000
+0x7f4fac011e50 0x7f4fac0124d0 0x7f504c0ce660 29 0 12 0.000000
+0x7f4fac0124d0 0x7f4fac012600 0x7f504c0ce668 2 0 13 0.000000
+0x7f4fac012600 0x7f4fac012880 0x7f504c062cf0 -1 0 14 0.000000
+0x7f4fac012880 0x7f4fac012a00 0x7f504c0ce670 23 0 15 0.000000
+0x7f4fac012a00 0x7f4fac014250 0x7f4fe0003678 59 0 16 0.000000
+0x7f4fac014250 0x7f4fac014400 0x7f504c062d00 1 0 17 0.000000
+0x7f4fac014400 0x7f4fac014570 0x7f504c062da0 1 0 18 0.000000
+0x7f4fac014570 0x7f4fac014630 0x7f504c062d90 26 0 19 0.000000
+0x7f4fac014250 0x7f4fac014830 0x7f504c0dd188 8 0 17 0.000000
+0x7f4fac014830 0x7f4fac0148c0 0x7f504c062da0 1 0 18 0.000000
+0x7f4fac0148c0 0x7f4fac014980 0x7f504c062d90 26 0 19 0.000000
+0x7f4fac012a00 0x7f4fac012ca0 0x7f504c062dc0 3 0 16 0.000000
+0x7f4fac012ca0 0x7f4fac012d50 0x7f504c062dc8 1 0 17 0.000000
+0x7f4fac012d50 0x7f4fac012e70 0x7f504c084730 0 0 18 0.000000
+0x7f4fac012d50 0x7f4fac012f10 0x7f504c084738 6 0 18 0.000000
+0x7f4fac012d50 0x7f4fac013080 0x7f504c1af890 30 0 18 0.000000
+0x7f4fac013080 0x7f4fac013210 0x7f504c1af898 1 0 19 0.000000
+0x7f4fac013080 0x7f4fac013350 0x7f504c084730 5 0 19 0.000000
+0x7f4fac013080 0x7f4fac0133d0 0x7f504c084738 11 0 19 0.000000
+0x7f4fac013080 0x7f4fac013470 0x7f4fe0003660 31 0 19 0.000000
+0x7f4fac013470 0x7f4fac0136c0 0x7f4fe0003668 7 0 20 0.000000
+0x7f4fac0136c0 0x7f4fac013790 0x7f504c062d30 1 0 21 0.000000
+0x7f4fac0136c0 0x7f4fac013a60 0x7f504c17ac00 37 0 21 0.000000
+0x7f4fac013a60 0x7f4fac013b10 0x7f504c17ac08 2 0 22 0.000000
+0x7f4fac013b10 0x7f4fac013c80 0x7f504c0df4a8 2 0 23 0.000000
+0x7f4fac013c80 0x7f4fac013ef0 0x7f504c0df4b0 3 0 24 0.000000
+0x7f4fac013ef0 0x7f4fac013f90 0x7f504c062d30 1 0 25 0.000000
+0x7f4fac0136c0 0x7f4fac013830 0x7f504c084750 19 0 21 0.000000
+0x7f4fac0136c0 0x7f4fac0140e0 0x7f4fe0003670 49 0 21 0.000000
+0x7f4fac012ca0 0x7f4fac01c860 0x7f504c084760 15 0 17 0.000000
+0x7f4fac01c860 0x7f4fac01c900 0x7f504c084758 1 0 18 0.000000
+0x7f4fac012a00 0x7f4fac014ba0 0x7f4fe0003680 78 0 16 0.000000
+0x7f4fac014ba0 0x7f4fac014d10 0x7f4fe0003688 3 0 17 0.000000
+0x7f4fac014d10 0x7f4fac014de0 0x7f504c062d30 1 0 18 0.000000
+0x7f4fac014d10 0x7f4fac016190 0x7f504c0e3a90 28 0 18 0.000000
+0x7f4fac016190 0x7f4fac016320 0x7f504c0e3a98 21 0 19 0.000000
+0x7f4fac014d10 0x7f4fac0163a0 0x7f504c0dd230 36 0 18 0.000000
+0x7f4fac014d10 0x7f4fac0164f0 0x7f504c0df450 39 0 18 0.000000
+0x7f4fac014d10 0x7f4fac014f30 0x7f504c0e8740 16 0 18 0.000000
+0x7f4fac014f30 0x7f4fac0150a0 0x7f504c0e8748 6 0 19 0.000000
+0x7f4fac0150a0 0x7f4fac015200 0x7f504c0e8750 2 0 20 0.000000
+0x7f4fac015200 0x7f4fac015360 0x7f504c0e8758 6 0 21 0.000000
+0x7f4fac015360 0x7f4fac0154c0 0x7f504c0e8760 12 0 22 0.000000
+0x7f4fac0154c0 0x7f4fac015610 0x7f504c062d30 1 0 23 0.000000
+0x7f4fac0154c0 0x7f4fac015760 0x7f504c0dd1e8 67 0 23 0.000000
+0x7f4fac015760 0x7f4fac015820 0x7f504c062d90 40 0 24 0.000000
+0x7f4fac0154c0 0x7f4fac015a10 0x7f504c0e8768 108 0 23 0.000000
+0x7f4fac015a10 0x7f4fac015bf0 0x7f504c0e3a70 53 0 24 0.000000
+0x7f4fac015a10 0x7f4fac015d60 0x7f504c0e3a78 76 0 24 0.000000
+0x7f4fac014d10 0x7f4fac015e90 0x7f504c0e3a80 22 0 18 0.000000
+0x7f4fac015e90 0x7f4fac016010 0x7f504c0e3a88 21 0 19 0.000000
+0x7f4fac012a00 0x7f4fac01c980 0x7f504c0ce678 32 0 16 0.000000
+0x7f4fac012a00 0x7f4fac01ca00 0x7f504c062d90 35 0 16 0.000000
+0x7f4fac012a00 0x7f4fac0166c0 0x7f4fe0003690 108 0 16 0.000000
+0x7f4fac0166c0 0x7f4fac016770 0x7f504c0df4a0 6 0 17 0.000000
+0x7f4fac016770 0x7f4fac0168b0 0x7f504c0df4a8 2 0 18 0.000000
+0x7f4fac0168b0 0x7f4fac016930 0x7f504c0df4b0 3 0 19 0.000000
+0x7f4fac016930 0x7f4fac0169d0 0x7f504c062d30 1 0 20 0.000000
+0x7f4fac0166c0 0x7f4fac016a70 0x7f504c171908 9 0 17 0.000000
+0x7f4fac016a70 0x7f4fac016bd0 0x7f504c084730 0 0 18 0.000000
+0x7f4fac016a70 0x7f4fac016de0 0x7f504c17abf0 17 0 18 0.000000
+0x7f4fac016de0 0x7f4fac016f50 0x7f504c17abf8 3 0 19 0.000000
+0x7f4fac016f50 0x7f4fac0170c0 0x7f504c084750 10 0 20 0.000000
+0x7f4fac016f50 0x7f4fac017170 0x7f504c084758 33 0 20 0.000000
+0x7f4fac016a70 0x7f4fac016c50 0x7f504c084738 6 0 18 0.000000
+0x7f4fac0124d0 0x7f4fac0185c0 0x7f504c0dd140 7 0 13 0.000000
+0x7f4fac0185c0 0x7f4fac018740 0x7f504c0847d8 7 0 14 0.000000
+0x7f4fac018740 0x7f4fac018880 0x7f504c0847e0 9 0 15 0.000000
+0x7f4fac018880 0x7f4fac0188e0 0x7f504c084798 16 0 16 0.000000
+0x7f4fac0185c0 0x7f4fac018a20 0x7f504c0dd148 38 0 14 0.000000
+0x7f4fac018a20 0x7f4fac018bb0 0x7f504c09d720 52 0 15 0.000000
+0x7f4fac018bb0 0x7f4fac018ca0 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac018bb0 0x7f4fac018de0 0x7f504c09d728 60 0 16 0.000000
+0x7f4fac018de0 0x7f4fac018e40 0x7f504c084798 54 0 17 0.000000
+0x7f4fac018de0 0x7f4fac018ec0 0x7f504c091da8 57 0 17 0.000000
+0x7f4fac0124d0 0x7f4fac018f40 0x7f504c091b78 12 0 13 0.000000
+0x7f4fac0124d0 0x7f4fac018fc0 0x7f504c091b98 20 0 13 0.000000
+0x7f4fac011e50 0x7f4fac012050 0x7f504c0ce658 17 0 12 0.000000
+0x7f4fac012050 0x7f4fac0121d0 0x7f504c091b80 13 0 13 0.000000
+0x7f4fac0121d0 0x7f4fac012310 0x7f504c091b88 3 0 14 0.000000
+0x7f4fac00ebd0 0x7f4fac0191d0 0x7f504c13bb50 106 0 11 0.000000
+0x7f4fac0191d0 0x7f4fac019390 0x7f504c09d738 2 0 12 0.000000
+0x7f4fac019390 0x7f4fac019560 0x7f504c0e8c40 19 0 13 0.000000
+0x7f4fac019560 0x7f4fac019700 0x7f504c062d70 27 0 14 0.000000
+0x7f4fac019390 0x7f4fac019890 0x7f504c0e8c48 33 0 13 0.000000
+0x7f4fac0191d0 0x7f4fac019a10 0x7f504c13bb58 17 0 12 0.000000
+0x7f4fac019a10 0x7f4fac019c10 0x7f504c13bb60 6 0 13 0.000000
+0x7f4fac00ebd0 0x7f4fac021820 0x7f504c0ce5f0 311 0 11 0.000000
+0x7f4fac021820 0x7f4fac0218c0 0x7f504c09d738 11 0 12 0.000000
+0x7f4fac0218c0 0x7f4fac0219d0 0x7f504c0e8c40 19 0 13 0.000000
+0x7f4fac0219d0 0x7f4fac021aa0 0x7f504c062d70 27 0 14 0.000000
+0x7f4fac0218c0 0x7f4fac021b70 0x7f504c0e8c48 33 0 13 0.000000
+0x7f4fac00ebd0 0x7f4fac019da0 0x7f4fec7507a0 112 0 11 0.000000
+0x7f4fac00ebd0 0x7f4fac021dd0 0x7f4fec7507a0 317 0 11 0.000000
+0x7f4fac00ebd0 0x7f4fac019ee0 0x7f504c1b0130 119 0 11 0.000000
+0x7f4fac019ee0 0x7f4fac019fa0 0x7f504c062d98 0 0 12 0.000000
+0x7f4fac019ee0 0x7f4fac01a0e0 0x7f504c0ce660 29 0 12 0.000000
+0x7f4fac01a0e0 0x7f4fac01a140 0x7f504c0ce668 2 0 13 0.000000
+0x7f4fac01a140 0x7f4fac01a1c0 0x7f504c062cf0 -1 0 14 0.000000
+0x7f4fac01a1c0 0x7f4fac01a260 0x7f504c0ce670 23 0 15 0.000000
+0x7f4fac01a260 0x7f4fac00e7e0 0x7f504c0ce680 116 0 16 0.000000
+0x7f4fac00e7e0 0x7f4fac00e9b0 0x7f504c0ce688 5 0 17 0.000000
+0x7f4fac00e7e0 0x7f4fac00ea30 0x7f504c084780 8 0 17 0.000000
+0x7f4fac00ea30 0x7f4fac01b790 0x7f504c084788 2 0 18 0.000000
+0x7f4fac00e7e0 0x7f4fac01b7f0 0x7f504c0ce690 48 0 17 0.000000
+0x7f4fac01b7f0 0x7f4fac01bb30 0x7f504c084798 14 0 18 0.000000
+0x7f4fac00e7e0 0x7f4fac01bbb0 0x7f504c0ce698 67 0 17 0.000000
+0x7f4fac01bbb0 0x7f4fac01bc30 0x7f504c0ce6a0 4 0 18 0.000000
+0x7f4fac01bc30 0x7f4fac01bcc0 0x7f504c0ce6a8 20 0 19 0.000000
+0x7f4fac01bcc0 0x7f4fac01bd50 0x7f504c084798 11 0 20 0.000000
+0x7f4fac01bcc0 0x7f4fac01bdd0 0x7f504c091da8 14 0 20 0.000000
+0x7f4fac01a260 0x7f4fac01a3b0 0x7f504c062dc0 3 0 16 0.000000
+0x7f4fac01a3b0 0x7f4fac01a440 0x7f504c062dc8 1 0 17 0.000000
+0x7f4fac01a440 0x7f4fac01a4a0 0x7f504c084730 0 0 18 0.000000
+0x7f4fac01a440 0x7f4fac01a520 0x7f504c084738 6 0 18 0.000000
+0x7f4fac01a3b0 0x7f4fac01a9c0 0x7f504c084760 15 0 17 0.000000
+0x7f4fac01a9c0 0x7f4fac00e500 0x7f504c084758 1 0 18 0.000000
+0x7f4fac01a260 0x7f4fac00e650 0x7f504c0ce678 32 0 16 0.000000
+0x7f4fac01a260 0x7f4fac00e6d0 0x7f504c062d90 35 0 16 0.000000
+0x7f4fac01a0e0 0x7f4fac01bec0 0x7f504c0dd140 7 0 13 0.000000
+0x7f4fac01bec0 0x7f4fac01bf80 0x7f504c0847d8 7 0 14 0.000000
+0x7f4fac01bf80 0x7f4fac01c000 0x7f504c0847e0 9 0 15 0.000000
+0x7f4fac01c000 0x7f4fac01c060 0x7f504c084798 16 0 16 0.000000
+0x7f4fac01bec0 0x7f4fac01c0e0 0x7f504c0dd148 38 0 14 0.000000
+0x7f4fac01c0e0 0x7f4fac01c1b0 0x7f504c09d720 52 0 15 0.000000
+0x7f4fac01c1b0 0x7f4fac01c2a0 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac01c1b0 0x7f4fac01c320 0x7f504c09d728 60 0 16 0.000000
+0x7f4fac01c320 0x7f4fac01c400 0x7f504c084798 54 0 17 0.000000
+0x7f4fac01c320 0x7f4fac01c480 0x7f504c091da8 57 0 17 0.000000
+0x7f4fac01a0e0 0x7f4fac01c500 0x7f504c091b78 12 0 13 0.000000
+0x7f4fac01a0e0 0x7f4fac01c580 0x7f504c091b98 20 0 13 0.000000
+0x7f4fac019ee0 0x7f4fac01a020 0x7f504c0ce658 17 0 12 0.000000
+0x7f4fac00ebd0 0x7f4fac021e50 0x7f504c0ce650 324 0 11 0.000000
+0x7f4fac021e50 0x7f4fac021f10 0x7f504c062d98 0 0 12 0.000000
+0x7f4fac021e50 0x7f4fac022160 0x7f504c0ce660 29 0 12 0.000000
+0x7f4fac022160 0x7f4fac022230 0x7f504c0ce668 2 0 13 0.000000
+0x7f4fac022230 0x7f4fac0222b0 0x7f504c062cf0 -1 0 14 0.000000
+0x7f4fac0222b0 0x7f4fac022350 0x7f504c0ce670 23 0 15 0.000000
+0x7f4fac022350 0x7f4fac022bd0 0x7f504c0ce680 116 0 16 0.000000
+0x7f4fac022bd0 0x7f4fac022da0 0x7f504c0ce688 5 0 17 0.000000
+0x7f4fac022bd0 0x7f4fac022e20 0x7f504c084780 8 0 17 0.000000
+0x7f4fac022e20 0x7f4fac022ea0 0x7f504c084788 2 0 18 0.000000
+0x7f4fac022bd0 0x7f4fac022f20 0x7f504c0ce690 48 0 17 0.000000
+0x7f4fac022f20 0x7f4fac023260 0x7f504c084798 14 0 18 0.000000
+0x7f4fac022bd0 0x7f4fac0232e0 0x7f504c0ce698 67 0 17 0.000000
+0x7f4fac0232e0 0x7f4fac023360 0x7f504c0ce6a0 4 0 18 0.000000
+0x7f4fac023360 0x7f4fac0233f0 0x7f504c0ce6a8 20 0 19 0.000000
+0x7f4fac0233f0 0x7f4fac023480 0x7f504c084798 11 0 20 0.000000
+0x7f4fac0233f0 0x7f4fac023500 0x7f504c091da8 14 0 20 0.000000
+0x7f4fac022350 0x7f4fac0224a0 0x7f504c062dc0 3 0 16 0.000000
+0x7f4fac0224a0 0x7f4fac022530 0x7f504c062dc8 1 0 17 0.000000
+0x7f4fac022530 0x7f4fac0225e0 0x7f504c084730 0 0 18 0.000000
+0x7f4fac022530 0x7f4fac022660 0x7f504c084738 6 0 18 0.000000
+0x7f4fac0224a0 0x7f4fac022920 0x7f504c084760 15 0 17 0.000000
+0x7f4fac022920 0x7f4fac0229c0 0x7f504c084758 1 0 18 0.000000
+0x7f4fac022350 0x7f4fac022a40 0x7f504c0ce678 32 0 16 0.000000
+0x7f4fac022350 0x7f4fac022ac0 0x7f504c062d90 35 0 16 0.000000
+0x7f4fac022160 0x7f4fac023600 0x7f504c0dd140 7 0 13 0.000000
+0x7f4fac023600 0x7f4fac0236c0 0x7f504c0847d8 7 0 14 0.000000
+0x7f4fac0236c0 0x7f4fac023740 0x7f504c0847e0 9 0 15 0.000000
+0x7f4fac023740 0x7f4fac023810 0x7f504c084798 16 0 16 0.000000
+0x7f4fac023600 0x7f4fac023890 0x7f504c0dd148 38 0 14 0.000000
+0x7f4fac023890 0x7f4fac023960 0x7f504c09d720 52 0 15 0.000000
+0x7f4fac023960 0x7f4fac023a50 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac023960 0x7f4fac023ad0 0x7f504c09d728 60 0 16 0.000000
+0x7f4fac023ad0 0x7f4fac023b30 0x7f504c084798 54 0 17 0.000000
+0x7f4fac023ad0 0x7f4fac023bb0 0x7f504c091da8 57 0 17 0.000000
+0x7f4fac022160 0x7f4fac023c30 0x7f504c091b78 12 0 13 0.000000
+0x7f4fac022160 0x7f4fac023cb0 0x7f504c091b98 20 0 13 0.000000
+0x7f4fac021e50 0x7f4fac021f90 0x7f504c0ce658 17 0 12 0.000000
+0x7f4fac021f90 0x7f4fac021ff0 0x7f504c091b80 13 0 13 0.000000
+0x7f4fac021ff0 0x7f4fac022070 0x7f504c091b88 3 0 14 0.000000
+0x7f4fac00ebd0 0x7f4fac01d840 0x7f504c0e4020 127 0 11 0.000000
+0x7f4fac01d840 0x7f4fac01d8f0 0x7f504c062d98 0 0 12 0.000000
+0x7f4fac01d840 0x7f4fac01db00 0x7f504c0e4028 29 0 12 0.000000
+0x7f4fac01db00 0x7f4fac01db80 0x7f504c062cf0 -1 0 13 0.000000
+0x7f4fac01db80 0x7f4fac01dc20 0x7f504c0ce670 23 0 14 0.000000
+0x7f4fac01dc20 0x7f4fac01e4a0 0x7f504c0ce680 116 0 15 0.000000
+0x7f4fac01e4a0 0x7f4fac01e670 0x7f504c0ce688 5 0 16 0.000000
+0x7f4fac01e4a0 0x7f4fac01e6f0 0x7f504c084780 8 0 16 0.000000
+0x7f4fac01e6f0 0x7f4fac01e770 0x7f504c084788 2 0 17 0.000000
+0x7f4fac01e4a0 0x7f4fac01e7f0 0x7f504c0ce690 48 0 16 0.000000
+0x7f4fac01e7f0 0x7f4fac01eb30 0x7f504c084798 14 0 17 0.000000
+0x7f4fac01e4a0 0x7f4fac01ebb0 0x7f504c0ce698 67 0 16 0.000000
+0x7f4fac01ebb0 0x7f4fac01ec30 0x7f504c0ce6a0 4 0 17 0.000000
+0x7f4fac01ec30 0x7f4fac01ecc0 0x7f504c0ce6a8 20 0 18 0.000000
+0x7f4fac01ecc0 0x7f4fac01ed50 0x7f504c084798 11 0 19 0.000000
+0x7f4fac01ecc0 0x7f4fac01edd0 0x7f504c091da8 14 0 19 0.000000
+0x7f4fac01dc20 0x7f4fac01dd70 0x7f504c062dc0 3 0 15 0.000000
+0x7f4fac01dd70 0x7f4fac01de00 0x7f504c062dc8 1 0 16 0.000000
+0x7f4fac01de00 0x7f4fac01deb0 0x7f504c084730 0 0 17 0.000000
+0x7f4fac01de00 0x7f4fac01df30 0x7f504c084738 6 0 17 0.000000
+0x7f4fac01dd70 0x7f4fac01e1f0 0x7f504c084760 15 0 16 0.000000
+0x7f4fac01e1f0 0x7f4fac01e290 0x7f504c084758 1 0 17 0.000000
+0x7f4fac01dc20 0x7f4fac01e310 0x7f504c0ce678 32 0 15 0.000000
+0x7f4fac01dc20 0x7f4fac01e390 0x7f504c062d90 35 0 15 0.000000
+0x7f4fac00ebd0 0x7f4fac023d50 0x7f504c0e4020 339 0 11 0.000000
+0x7f4fac023d50 0x7f4fac023e00 0x7f504c062d98 0 0 12 0.000000
+0x7f4fac023d50 0x7f4fac023f40 0x7f504c0e4028 29 0 12 0.000000
+0x7f4fac023f40 0x7f4fac023fc0 0x7f504c062cf0 -1 0 13 0.000000
+0x7f4fac023fc0 0x7f4fac024060 0x7f504c0ce670 23 0 14 0.000000
+0x7f4fac024060 0x7f4fac0248e0 0x7f504c0ce680 116 0 15 0.000000
+0x7f4fac0248e0 0x7f4fac024ab0 0x7f504c0ce688 5 0 16 0.000000
+0x7f4fac0248e0 0x7f4fac024b30 0x7f504c084780 8 0 16 0.000000
+0x7f4fac024b30 0x7f4fac024bb0 0x7f504c084788 2 0 17 0.000000
+0x7f4fac0248e0 0x7f4fac024c30 0x7f504c0ce690 48 0 16 0.000000
+0x7f4fac024c30 0x7f4fac024f70 0x7f504c084798 14 0 17 0.000000
+0x7f4fac0248e0 0x7f4fac024ff0 0x7f504c0ce698 67 0 16 0.000000
+0x7f4fac024ff0 0x7f4fac025070 0x7f504c0ce6a0 4 0 17 0.000000
+0x7f4fac025070 0x7f4fac025100 0x7f504c0ce6a8 20 0 18 0.000000
+0x7f4fac025100 0x7f4fac025190 0x7f504c084798 11 0 19 0.000000
+0x7f4fac025100 0x7f4fac025210 0x7f504c091da8 14 0 19 0.000000
+0x7f4fac024060 0x7f4fac0241b0 0x7f504c062dc0 3 0 15 0.000000
+0x7f4fac0241b0 0x7f4fac024240 0x7f504c062dc8 1 0 16 0.000000
+0x7f4fac024240 0x7f4fac0242f0 0x7f504c084730 0 0 17 0.000000
+0x7f4fac024240 0x7f4fac024370 0x7f504c084738 6 0 17 0.000000
+0x7f4fac0241b0 0x7f4fac024630 0x7f504c084760 15 0 16 0.000000
+0x7f4fac024630 0x7f4fac0246d0 0x7f504c084758 1 0 17 0.000000
+0x7f4fac024060 0x7f4fac024750 0x7f504c0ce678 32 0 15 0.000000
+0x7f4fac024060 0x7f4fac0247d0 0x7f504c062d90 35 0 15 0.000000
+0x7f4fac00b6c0 0x7f4fac00ba50 0x7f4fb3664e28 16 0 10 0.000000
+0x7f4fac00ba50 0x7f4fac00bd30 0x7f4fb3664e30 19 0 11 0.000000
+0x7f4fac00bd30 0x7f4fac00be60 0x7f504c0e3ff8 6 0 12 0.000000
+0x7f4fac00be60 0x7f4fac00bee0 0x7f504c062d30 1 0 13 0.000000
+0x7f4fac00b6c0 0x7f4fac00bf60 0x7f504c140638 25 0 10 0.000000
+0x7f4fac00bf60 0x7f4fac00c200 0x7f4fb3664e38 1 0 11 0.000000
+0x7f4fac00c200 0x7f4fac00c320 0x7f4fb3664e40 4 0 12 0.000000
+0x7f4fac00c320 0x7f4fac00c6f0 0x7f4fc91ec0a0 65 0 13 0.000000
+0x7f4fac00c6f0 0x7f4fac00c860 0x7f504c084818 24 0 14 0.000000
+0x7f4fac00bf60 0x7f4fac00c9c0 0x7f504c0dd230 16 0 11 0.000000
+0x7f4fac00bf60 0x7f4fac00cb20 0x7f504c0cc250 19 0 11 0.000000
+0x7f4fac00bf60 0x7f4fac00ccc0 0x7f504c5ee190 23 0 11 0.000000
+0x7f4fac00ccc0 0x7f4fac00ce20 0x7f504c5ee198 2 0 12 0.000000
+0x7f4fac00bf60 0x7f4fac00cfb0 0x7f4fb3664e48 34 0 11 0.000000
+0x7f4fac00cfb0 0x7f4fac00d310 0x7f4fb3664e50 8 0 12 0.000000
+0x7f4fac00d310 0x7f4fac00d470 0x7f4fb3664e58 7 0 13 0.000000
+0x7f4fac00d470 0x7f4fac00d4f0 0x7f504c062d30 6 0 14 0.000000
+0x7f4fac00d470 0x7f4fac00d650 0x7f4fb3664e60 26 0 14 0.000000
+0x7f4fac00d650 0x7f4fac00d770 0x7f4fc91ec0a0 61 0 15 0.000000
+0x7f4fac00d770 0x7f4fac00d810 0x7f504c084818 24 0 16 0.000000
+0x7f4fac00d650 0x7f4fac00d980 0x7f504c091b20 23 0 15 0.000000
+0x7f4fac00d980 0x7f4fac00da00 0x7f504c084818 22 0 16 0.000000
+0x7f4fac00bf60 0x7f4fac00dd60 0x7f4fb3664e70 114 0 11 0.000000
+0x7f4fac00dd60 0x7f4fac00df30 0x7f4fb3664e78 1 0 12 0.000000
+0x7f4fac00df30 0x7f4fac00dfe0 0x7f4fb3664e60 35 0 13 0.000000
+0x7f4fac00dfe0 0x7f4fac00e220 0x7f4fc91ec0a0 61 0 14 0.000000
+0x7f4fac00e220 0x7f4fac00e2c0 0x7f504c084818 24 0 15 0.000000
+0x7f4fac00dfe0 0x7f4fac00e100 0x7f504c091b20 23 0 14 0.000000
+0x7f4fac00e100 0x7f4fac00e1a0 0x7f504c084818 22 0 15 0.000000
+0x7f4fac00bf60 0x7f4fac00db60 0x7f4fb3664e68 51 0 11 0.000000
+0x7f4fac00bf60 0x7f4fac00e340 0x7f4fb3664e68 128 0 11 0.000000
+0x7f4fac00b6c0 0x7f4fac037d80 0x7f4fb3664e88 72 0 10 0.000000
+0x7f4fac00b6c0 0x7f4fac037ee0 0x7f4fe003e770 85 0 10 0.000000
+0x7f4fac037ee0 0x7f4fac037fe0 0x7f4fe0038450 1 0 11 0.000000
+0x7f4fac037ee0 0x7f4fac039dd0 0x7f504c140620 22 0 11 0.000000
+0x7f4fac039dd0 0x7f4fac039e80 0x7f504c062d98 0 0 12 0.000000
+0x7f4fac039dd0 0x7f4fac039fc0 0x7f504c140628 29 0 12 0.000000
+0x7f4fac039fc0 0x7f4fac03a040 0x7f504c062cf0 -1 0 13 0.000000
+0x7f4fac03a040 0x7f4fac03a0e0 0x7f504c0ce670 23 0 14 0.000000
+0x7f4fac03a0e0 0x7f4fac03a960 0x7f504c0ce680 116 0 15 0.000000
+0x7f4fac03a960 0x7f4fac03ab30 0x7f504c0ce688 5 0 16 0.000000
+0x7f4fac03a960 0x7f4fac03abb0 0x7f504c084780 8 0 16 0.000000
+0x7f4fac03abb0 0x7f4fac03ac30 0x7f504c084788 2 0 17 0.000000
+0x7f4fac03a960 0x7f4fac03acb0 0x7f504c0ce690 48 0 16 0.000000
+0x7f4fac03acb0 0x7f4fac03aff0 0x7f504c084798 14 0 17 0.000000
+0x7f4fac03a960 0x7f4fac03b070 0x7f504c0ce698 67 0 16 0.000000
+0x7f4fac03b070 0x7f4fac03b0f0 0x7f504c0ce6a0 4 0 17 0.000000
+0x7f4fac03b0f0 0x7f4fac03b180 0x7f504c0ce6a8 20 0 18 0.000000
+0x7f4fac03b180 0x7f4fac03b210 0x7f504c084798 11 0 19 0.000000
+0x7f4fac03b180 0x7f4fac03b290 0x7f504c091da8 14 0 19 0.000000
+0x7f4fac03a0e0 0x7f4fac03a230 0x7f504c062dc0 3 0 15 0.000000
+0x7f4fac03a230 0x7f4fac03a2c0 0x7f504c062dc8 1 0 16 0.000000
+0x7f4fac03a2c0 0x7f4fac03a370 0x7f504c084730 0 0 17 0.000000
+0x7f4fac03a2c0 0x7f4fac03a3f0 0x7f504c084738 6 0 17 0.000000
+0x7f4fac03a230 0x7f4fac03a6b0 0x7f504c084760 15 0 16 0.000000
+0x7f4fac03a6b0 0x7f4fac03a750 0x7f504c084758 1 0 17 0.000000
+0x7f4fac03a0e0 0x7f4fac03a7d0 0x7f504c0ce678 32 0 15 0.000000
+0x7f4fac03a0e0 0x7f4fac03a850 0x7f504c062d90 35 0 15 0.000000
+0x7f4fac037ee0 0x7f4fac03b400 0x7f4fe003e788 25 0 11 0.000000
+0x7f4fac03b400 0x7f4fac03b6f0 0x7f4fe003e790 9 0 12 0.000000
+0x7f4fac03b400 0x7f4fac03b830 0x7f504c0fdf08 19 0 12 0.000000
+0x7f4fac03b830 0x7f4fac03b980 0x7f504c0fdf10 1 0 13 0.000000
+0x7f4fac03b980 0x7f4fac03ba00 0x7f504c0e3ff8 1 0 14 0.000000
+0x7f4fac03ba00 0x7f4fac03ba80 0x7f504c062d30 1 0 15 0.000000
+0x7f4fac03b400 0x7f4fac03bbf0 0x7f504c1d0718 140 0 12 0.000000
+0x7f4fac03bbf0 0x7f4fac03bd60 0x7f504c1d0720 6 0 13 0.000000
+0x7f4fac03bd60 0x7f4fac03be10 0x7f504c1d0728 2 0 14 0.000000
+0x7f4fac03be10 0x7f4fac03bf60 0x7f504c062d30 6 0 15 0.000000
+0x7f4fac03b400 0x7f4fac03c010 0x7f504c1d0730 149 0 12 0.000000
+0x7f4fac03c010 0x7f4fac03c210 0x7f504c1d0738 8 0 13 0.000000
+0x7f4fac037ee0 0x7f4fac038130 0x7f4fe0038478 6 0 11 0.000000
+0x7f4fac037ee0 0x7f4fac03c380 0x7f4fe003e798 31 0 11 0.000000
+0x7f4fac03c380 0x7f4fac03c660 0x7f4fe003e790 9 0 12 0.000000
+0x7f4fac03c380 0x7f4fac03c6e0 0x7f504c0fdf08 19 0 12 0.000000
+0x7f4fac03c6e0 0x7f4fac03c760 0x7f504c0fdf10 1 0 13 0.000000
+0x7f4fac03c760 0x7f4fac03c7e0 0x7f504c0e3ff8 1 0 14 0.000000
+0x7f4fac03c7e0 0x7f4fac03c860 0x7f504c062d30 1 0 15 0.000000
+0x7f4fac03c380 0x7f4fac064da0 0x7f4fe003e7c8 193 0 12 0.000000
+0x7f4fac03c380 0x7f4fac03ca20 0x7f504c127750 40 0 12 0.000000
+0x7f4fac03ca20 0x7f4fac06eeb0 0x7f504c0e16e0 36 0 13 0.000000
+0x7f4fac06eeb0 0x7f4fac06f1b0 0x7f504c0ff4e0 107 0 14 0.000000
+0x7f4fac06f1b0 0x7f4fac06f2f0 0x7f504c0ff4e8 1 0 15 0.000000
+0x7f4fac06f2f0 0x7f4fac06f370 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac06eeb0 0x7f4fac06f6e0 0x7f504c0ff4e0 114 0 14 0.000000
+0x7f4fac06f6e0 0x7f4fac06f760 0x7f504c0ff4e8 1 0 15 0.000000
+0x7f4fac06f760 0x7f4fac06f7e0 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac06eeb0 0x7f4fac06fa80 0x7f504c091e20 131 0 14 0.000000
+0x7f4fac06fa80 0x7f4fac06fb00 0x7f504c091e28 1 0 15 0.000000
+0x7f4fac06fb00 0x7f4fac06fb80 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac06eeb0 0x7f4fac06fe00 0x7f504c091e20 136 0 14 0.000000
+0x7f4fac06fe00 0x7f4fac06fe80 0x7f504c091e28 1 0 15 0.000000
+0x7f4fac06fe80 0x7f4fac06ff00 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac03c380 0x7f4fac065010 0x7f4fe003e7c8 205 0 12 0.000000
+0x7f4fac03c380 0x7f4fac065170 0x7f4fe003e7d8 208 0 12 0.000000
+0x7f4fac065170 0x7f4fac0652f0 0x7f4fe003e7e0 5 0 13 0.000000
+0x7f4fac0652f0 0x7f4fac065550 0x7f504c084800 2 0 14 0.000000
+0x7f4fac065550 0x7f4fac065660 0x7f504c062d70 27 0 15 0.000000
+0x7f4fac0652f0 0x7f4fac0657b0 0x7f504c084818 79 0 14 0.000000
+0x7f4fac0652f0 0x7f4fac065730 0x7f504c084818 39 0 14 0.000000
+0x7f4fac0652f0 0x7f4fac065830 0x7f504c062d90 117 0 14 0.000000
+0x7f4fac03c380 0x7f4fac03cae0 0x7f504c127750 55 0 12 0.000000
+0x7f4fac03cae0 0x7f4fac070b00 0x7f504c0e16e0 36 0 13 0.000000
+0x7f4fac070b00 0x7f4fac070c90 0x7f504c0ff4e0 107 0 14 0.000000
+0x7f4fac070c90 0x7f4fac070d10 0x7f504c0ff4e8 1 0 15 0.000000
+0x7f4fac070d10 0x7f4fac070d90 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac070b00 0x7f4fac071030 0x7f504c0ff4e0 114 0 14 0.000000
+0x7f4fac071030 0x7f4fac0710b0 0x7f504c0ff4e8 1 0 15 0.000000
+0x7f4fac0710b0 0x7f4fac071130 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac070b00 0x7f4fac0713d0 0x7f504c091e20 131 0 14 0.000000
+0x7f4fac0713d0 0x7f4fac071450 0x7f504c091e28 1 0 15 0.000000
+0x7f4fac071450 0x7f4fac0714d0 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac070b00 0x7f4fac071750 0x7f504c091e20 136 0 14 0.000000
+0x7f4fac071750 0x7f4fac0717d0 0x7f504c091e28 1 0 15 0.000000
+0x7f4fac0717d0 0x7f4fac071850 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac03c380 0x7f4fac03cc70 0x7f504c1b0188 73 0 12 0.000000
+0x7f4fac03cc70 0x7f4fac03cdc0 0x7f504c062d30 1 0 13 0.000000
+0x7f4fac03cc70 0x7f4fac03cf50 0x7f504c0cc2c8 75 0 13 0.000000
+0x7f4fac03cf50 0x7f4fac03d050 0x7f504c091b78 1 0 14 0.000000
+0x7f4fac03cf50 0x7f4fac03d0d0 0x7f504c091b98 19 0 14 0.000000
+0x7f4fac03cc70 0x7f4fac03d270 0x7f504c1a9510 78 0 13 0.000000
+0x7f4fac03d270 0x7f4fac03d3a0 0x7f504c062d90 3 0 14 0.000000
+0x7f4fac03d270 0x7f4fac03d550 0x7f504c062d90 54 0 14 0.000000
+0x7f4fac03d270 0x7f4fac03d4b0 0x7f504c091b98 13 0 14 0.000000
+0x7f4fac03d270 0x7f4fac03d730 0x7f504c062d38 83 0 14 0.000000
+0x7f4fac03d730 0x7f4fac03d880 0x7f504c062d40 3 0 15 0.000000
+0x7f4fac03d880 0x7f4fac03d900 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac03d270 0x7f4fac03da70 0x7f504c09d6c8 87 0 14 0.000000
+0x7f4fac03da70 0x7f4fac03dbe0 0x7f504c09d6d0 2 0 15 0.000000
+0x7f4fac03dbe0 0x7f4fac03dca0 0x7f504c091b78 8 0 16 0.000000
+0x7f4fac03dbe0 0x7f4fac03e320 0x7f504c09d6e0 33 0 16 0.000000
+0x7f4fac03e320 0x7f4fac03e380 0x7f504c091da8 58 0 17 0.000000
+0x7f4fac03dbe0 0x7f4fac03ddf0 0x7f504c09d6d8 19 0 16 0.000000
+0x7f4fac03ddf0 0x7f4fac03df40 0x7f504c09d710 12 0 17 0.000000
+0x7f4fac03df40 0x7f4fac03e0d0 0x7f504c091da0 43 0 18 0.000000
+0x7f4fac03e0d0 0x7f4fac03e160 0x7f504c084798 11 0 19 0.000000
+0x7f4fac03e0d0 0x7f4fac03e1e0 0x7f504c091da8 14 0 19 0.000000
+0x7f4fac03d270 0x7f4fac03e4e0 0x7f504c0cc240 92 0 14 0.000000
+0x7f4fac03e4e0 0x7f4fac03e640 0x7f504c0cc248 2 0 15 0.000000
+0x7f4fac03e640 0x7f4fac03e6e0 0x7f504c09d6d8 7 0 16 0.000000
+0x7f4fac03e6e0 0x7f4fac03e760 0x7f504c09d710 12 0 17 0.000000
+0x7f4fac03e760 0x7f4fac03e830 0x7f504c091da0 43 0 18 0.000000
+0x7f4fac03e830 0x7f4fac03e8c0 0x7f504c084798 11 0 19 0.000000
+0x7f4fac03e830 0x7f4fac03e940 0x7f504c091da8 14 0 19 0.000000
+0x7f4fac03d270 0x7f4fac03e9c0 0x7f504c09d6c8 96 0 14 0.000000
+0x7f4fac03e9c0 0x7f4fac03ea40 0x7f504c09d6d0 2 0 15 0.000000
+0x7f4fac03ea40 0x7f4fac03eb00 0x7f504c091b78 8 0 16 0.000000
+0x7f4fac03ea40 0x7f4fac03ec00 0x7f504c09d6e0 33 0 16 0.000000
+0x7f4fac03ec00 0x7f4fac03ece0 0x7f504c091da8 58 0 17 0.000000
+0x7f4fac03ea40 0x7f4fac03eb80 0x7f504c09d6d8 19 0 16 0.000000
+0x7f4fac03d270 0x7f4fac03ee30 0x7f504c09d718 99 0 14 0.000000
+0x7f4fac03ee30 0x7f4fac03eec0 0x7f504c09d720 13 0 15 0.000000
+0x7f4fac03eec0 0x7f4fac03efb0 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac03eec0 0x7f4fac03f030 0x7f504c09d728 60 0 16 0.000000
+0x7f4fac03f030 0x7f4fac03f110 0x7f504c084798 54 0 17 0.000000
+0x7f4fac03f030 0x7f4fac03f190 0x7f504c091da8 57 0 17 0.000000
+0x7f4fac03cc70 0x7f4fac03ce40 0x7f504c062d90 31 0 13 0.000000
+0x7f4fac03cc70 0x7f4fac03f210 0x7f504c0ce5b0 106 0 13 0.000000
+0x7f4fac03f210 0x7f4fac03f2b0 0x7f504c091b78 1 0 14 0.000000
+0x7f4fac03f210 0x7f4fac03f330 0x7f504c091b98 11 0 14 0.000000
+0x7f4fac03c380 0x7f4fac03f520 0x7f504c091e18 85 0 12 0.000000
+0x7f4fac03f520 0x7f4fac06c8d0 0x7f504c09d720 427 0 13 0.000000
+0x7f4fac06c8d0 0x7f4fac06c9c0 0x7f504c062d30 1 0 14 0.000000
+0x7f4fac06c8d0 0x7f4fac06ca40 0x7f504c09d728 60 0 14 0.000000
+0x7f4fac06ca40 0x7f4fac06cb20 0x7f504c084798 54 0 15 0.000000
+0x7f4fac06ca40 0x7f4fac06cba0 0x7f504c091da8 57 0 15 0.000000
+0x7f4fac03f520 0x7f4fac06c240 0x7f504c091e28 235 0 13 0.000000
+0x7f4fac06c240 0x7f4fac06c2c0 0x7f504c091e30 1 0 14 0.000000
+0x7f4fac03f520 0x7f4fac03f970 0x7f504c091e20 82 0 13 0.000000
+0x7f4fac03f970 0x7f4fac03fab0 0x7f504c091e28 1 0 14 0.000000
+0x7f4fac03fab0 0x7f4fac03fc10 0x7f504c091e30 1 0 15 0.000000
+0x7f4fac03f520 0x7f4fac06bf30 0x7f504c091da8 116 0 13 0.000000
+0x7f4fac03f520 0x7f4fac06c070 0x7f504c128918 120 0 13 0.000000
+0x7f4fac06c070 0x7f4fac06c1c0 0x7f504c128920 4 0 14 0.000000
+0x7f4fac03c380 0x7f4fac0418b0 0x7f504c09d768 90 0 12 0.000000
+0x7f4fac0418b0 0x7f4fac041a00 0x7f504c09d770 13 0 13 0.000000
+0x7f4fac03c380 0x7f4fac0727e0 0x7f504c1d0718 251 0 12 0.000000
+0x7f4fac0727e0 0x7f4fac072860 0x7f504c1d0720 6 0 13 0.000000
+0x7f4fac072860 0x7f4fac0728e0 0x7f504c1d0728 2 0 14 0.000000
+0x7f4fac0728e0 0x7f4fac072980 0x7f504c062d30 6 0 15 0.000000
+0x7f4fac03c380 0x7f4fac041bb0 0x7f4fed352510 98 0 12 0.000000
+0x7f4fac041bb0 0x7f4fac041c70 0x7f504c062d98 0 0 13 0.000000
+0x7f4fac041bb0 0x7f4fac041f20 0x7f504c0ce660 29 0 13 0.000000
+0x7f4fac041f20 0x7f4fac041ff0 0x7f504c0ce668 2 0 14 0.000000
+0x7f4fac041ff0 0x7f4fac042070 0x7f504c062cf0 -1 0 15 0.000000
+0x7f4fac042070 0x7f4fac042110 0x7f504c0ce670 23 0 16 0.000000
+0x7f4fac042110 0x7f4fac042990 0x7f504c0ce680 116 0 17 0.000000
+0x7f4fac042990 0x7f4fac051040 0x7f504c0ce688 5 0 18 0.000000
+0x7f4fac042990 0x7f4fac0510c0 0x7f504c084780 8 0 18 0.000000
+0x7f4fac0510c0 0x7f4fac051140 0x7f504c084788 2 0 19 0.000000
+0x7f4fac042990 0x7f4fac0511c0 0x7f504c0ce690 48 0 18 0.000000
+0x7f4fac0511c0 0x7f4fac051500 0x7f504c084798 14 0 19 0.000000
+0x7f4fac042990 0x7f4fac051580 0x7f504c0ce698 67 0 18 0.000000
+0x7f4fac051580 0x7f4fac051600 0x7f504c0ce6a0 4 0 19 0.000000
+0x7f4fac051600 0x7f4fac051690 0x7f504c0ce6a8 20 0 20 0.000000
+0x7f4fac051690 0x7f4fac051720 0x7f504c084798 11 0 21 0.000000
+0x7f4fac051690 0x7f4fac0517a0 0x7f504c091da8 14 0 21 0.000000
+0x7f4fac042110 0x7f4fac042260 0x7f504c062dc0 3 0 17 0.000000
+0x7f4fac042260 0x7f4fac0422f0 0x7f504c062dc8 1 0 18 0.000000
+0x7f4fac0422f0 0x7f4fac0423a0 0x7f504c084730 0 0 19 0.000000
+0x7f4fac0422f0 0x7f4fac042420 0x7f504c084738 6 0 19 0.000000
+0x7f4fac042260 0x7f4fac0426e0 0x7f504c084760 15 0 18 0.000000
+0x7f4fac0426e0 0x7f4fac042780 0x7f504c084758 1 0 19 0.000000
+0x7f4fac042110 0x7f4fac042800 0x7f504c0ce678 32 0 17 0.000000
+0x7f4fac042110 0x7f4fac042880 0x7f504c062d90 35 0 17 0.000000
+0x7f4fac041f20 0x7f4fac051820 0x7f504c0dd140 7 0 14 0.000000
+0x7f4fac051820 0x7f4fac0518e0 0x7f504c0847d8 7 0 15 0.000000
+0x7f4fac0518e0 0x7f4fac051960 0x7f504c0847e0 9 0 16 0.000000
+0x7f4fac051960 0x7f4fac051a30 0x7f504c084798 16 0 17 0.000000
+0x7f4fac051820 0x7f4fac051ab0 0x7f504c0dd148 38 0 15 0.000000
+0x7f4fac051ab0 0x7f4fac051b80 0x7f504c09d720 52 0 16 0.000000
+0x7f4fac051b80 0x7f4fac051c70 0x7f504c062d30 1 0 17 0.000000
+0x7f4fac051b80 0x7f4fac051cf0 0x7f504c09d728 60 0 17 0.000000
+0x7f4fac051cf0 0x7f4fac051d50 0x7f504c084798 54 0 18 0.000000
+0x7f4fac051cf0 0x7f4fac051dd0 0x7f504c091da8 57 0 18 0.000000
+0x7f4fac041f20 0x7f4fac051e50 0x7f504c091b78 12 0 14 0.000000
+0x7f4fac041f20 0x7f4fac051ed0 0x7f504c091b98 20 0 14 0.000000
+0x7f4fac041bb0 0x7f4fac041cf0 0x7f504c0ce658 17 0 13 0.000000
+0x7f4fac041cf0 0x7f4fac041db0 0x7f504c091b80 13 0 14 0.000000
+0x7f4fac041db0 0x7f4fac041e30 0x7f504c091b88 3 0 15 0.000000
+0x7f4fac03c380 0x7f4fac072a00 0x7f504c1d0730 260 0 12 0.000000
+0x7f4fac072a00 0x7f4fac072a90 0x7f504c1d0738 8 0 13 0.000000
+0x7f4fac03c380 0x7f4fac0520b0 0x7f504c73bea8 112 0 12 0.000000
+0x7f4fac0520b0 0x7f4fac0521f0 0x7f504c09d730 5 0 13 0.000000
+0x7f4fac0521f0 0x7f4fac052270 0x7f504c09d738 2 0 14 0.000000
+0x7f4fac03c380 0x7f4fac052450 0x7f4fe003e7a0 128 0 12 0.000000
+0x7f4fac052450 0x7f4fac0526d0 0x7f504c062d30 1 0 13 0.000000
+0x7f4fac052450 0x7f4fac052810 0x7f504c0e3b10 9 0 13 0.000000
+0x7f4fac052810 0x7f4fac052890 0x7f504c09d770 3 0 14 0.000000
+0x7f4fac052450 0x7f4fac052a70 0x7f4fe003e7a8 26 0 13 0.000000
+0x7f4fac052a70 0x7f4fac052be0 0x7f4ff9f61698 1 0 14 0.000000
+0x7f4fac052be0 0x7f4fac052d30 0x7f4ff9f616a0 6 0 15 0.000000
+0x7f4fac052d30 0x7f4fac052e50 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac052d30 0x7f4fac052ed0 0x7f504c091b78 55 0 16 0.000000
+0x7f4fac052d30 0x7f4fac053020 0x7f4ff9f616a8 62 0 16 0.000000
+0x7f4fac053020 0x7f4fac054320 0x7f4ff9f616d0 202 0 17 0.000000
+0x7f4fac054320 0x7f4fac0545a0 0x7f4ff9f616d8 9 0 18 0.000000
+0x7f4fac0545a0 0x7f4fac054a00 0x7f4ff9f616e0 8 0 19 0.000000
+0x7f4fac054a00 0x7f4fac054aa0 0x7f4ff9f616b0 12 0 20 0.000000
+0x7f4fac0545a0 0x7f4fac054c00 0x7f4ff9f616e8 498 0 19 0.000000
+0x7f4fac054c00 0x7f4fac054f60 0x7f4ff9f616e0 7 0 20 0.000000
+0x7f4fac054f60 0x7f4fac055000 0x7f4ff9f616b0 12 0 21 0.000000
+0x7f4fac054c00 0x7f4fac055150 0x7f4ff9f616f0 326 0 20 0.000000
+0x7f4fac054c00 0x7f4fac055200 0x7f4ff9f616b8 334 0 20 0.000000
+0x7f4fac055200 0x7f4fac055290 0x7f4ff9f616c0 8 0 21 0.000000
+0x7f4fac054c00 0x7f4fac0553f0 0x7f4ff9f616f8 343 0 20 0.000000
+0x7f4fac0553f0 0x7f4fac0554a0 0x7f4ff9f616b0 19 0 21 0.000000
+0x7f4fac054c00 0x7f4fac055610 0x7f4ff9f61700 363 0 20 0.000000
+0x7f4fac055610 0x7f4fac055740 0x7f4ff9f616b0 2 0 21 0.000000
+0x7f4fac055610 0x7f4fac0557c0 0x7f4ff9f616b8 74 0 21 0.000000
+0x7f4fac0557c0 0x7f4fac055850 0x7f4ff9f616c0 8 0 22 0.000000
+0x7f4fac055610 0x7f4fac0559b0 0x7f4ff9f61708 94 0 21 0.000000
+0x7f4fac0559b0 0x7f4fac055b20 0x7f4ff9f81250 2 0 22 0.000000
+0x7f4fac055b20 0x7f4fac055c80 0x7f4ff9f81258 1 0 23 0.000000
+0x7f4fac055c80 0x7f4fac055de0 0x7f4ff9f81260 2 0 24 0.000000
+0x7f4fac055de0 0x7f4fac055f30 0x7f4ff9f81268 1 0 25 0.000000
+0x7f4fac055f30 0x7f4fac056080 0x7f4ff9f61688 1 0 26 0.000000
+0x7f4fac056080 0x7f4fac056100 0x7f504c062d30 1 0 27 0.000000
+0x7f4fac0545a0 0x7f4fac056280 0x7f4ff9f81270 506 0 19 0.000000
+0x7f4fac056280 0x7f4fac056610 0x7f4ff9f616e0 1 0 20 0.000000
+0x7f4fac056610 0x7f4fac0566b0 0x7f4ff9f616b0 12 0 21 0.000000
+0x7f4fac054320 0x7f4fac056730 0x7f4ff9f616e0 121 0 18 0.000000
+0x7f4fac056730 0x7f4fac0567d0 0x7f4ff9f616b0 12 0 19 0.000000
+0x7f4fac053020 0x7f4fac053480 0x7f4ff9f616b0 4 0 17 0.000000
+0x7f4fac053020 0x7f4fac053500 0x7f504c091b78 39 0 17 0.000000
+0x7f4fac053020 0x7f4fac053640 0x7f504c854510 79 0 17 0.000000
+0x7f4fac053640 0x7f4fac0537b0 0x7f504c854518 32 0 18 0.000000
+0x7f4fac0537b0 0x7f4fac053930 0x7f504c854508 8 0 19 0.000000
+0x7f4fac053020 0x7f4fac053a90 0x7f4ff9f616b8 84 0 17 0.000000
+0x7f4fac053a90 0x7f4fac053be0 0x7f4ff9f616c0 8 0 18 0.000000
+0x7f4fac053020 0x7f4fac053d30 0x7f504c0ff498 107 0 17 0.000000
+0x7f4fac053020 0x7f4fac053db0 0x7f4ff9f616b0 123 0 17 0.000000
+0x7f4fac053020 0x7f4fac053f00 0x7f4ff9f616c8 130 0 17 0.000000
+0x7f4fac053020 0x7f4fac0541a0 0x7f4ff9f616b0 158 0 17 0.000000
+0x7f4fac053020 0x7f4fac056930 0x7f4ff9f81348 374 0 17 0.000000
+0x7f4fac056930 0x7f4fac0569e0 0x7f4ff9f61688 1 0 18 0.000000
+0x7f4fac0569e0 0x7f4fac056a60 0x7f504c062d30 1 0 19 0.000000
+0x7f4fac056930 0x7f4fac056ef0 0x7f4ff9fa90f0 22 0 18 0.000000
+0x7f4fac056ef0 0x7f4fac057070 0x7f4ff9fa9100 25 0 19 0.000000
+0x7f4fac057070 0x7f4fac057100 0x7f4ff9fa9100 12 0 20 0.000000
+0x7f4fac056930 0x7f4fac056bb0 0x7f4ff9fa90e0 13 0 18 0.000000
+0x7f4fac056bb0 0x7f4fac056c30 0x7f504c062d30 1 0 19 0.000000
+0x7f4fac052a70 0x7f4fac057ba0 0x7f4fe003e7b0 9 0 14 0.000000
+0x7f4fac057ba0 0x7f4fac057c00 0x7f4ff9fa9160 1 0 15 0.000000
+0x7f4fac057c00 0x7f4fac057d10 0x7f4ff9fa9168 75 0 16 0.000000
+0x7f4fac057d10 0x7f4fac057d90 0x7f504c091b78 4 0 17 0.000000
+0x7f4fac057ba0 0x7f4fac057ee0 0x7f4fed4be448 6 0 15 0.000000
+0x7f4fac057ee0 0x7f4fac0580a0 0x7f4ff9fa9178 65 0 16 0.000000
+0x7f4fac0580a0 0x7f4fac0582d0 0x7f4ff9fa9180 86 0 17 0.000000
+0x7f4fac0582d0 0x7f4fac0584f0 0x7f4ff9fa9188 44 0 18 0.000000
+0x7f4fac0584f0 0x7f4fac0585c0 0x7f504c091b98 11 0 19 0.000000
+0x7f4fac0584f0 0x7f4fac058730 0x7f4ff9fa9190 16 0 19 0.000000
+0x7f4fac057ba0 0x7f4fac0588f0 0x7f504f01c2f0 53 0 15 0.000000
+0x7f4fac052a70 0x7f4fac057280 0x7f4ff9fa9150 5 0 14 0.000000
+0x7f4fac057280 0x7f4fac057430 0x7f4ff9fa9158 38 0 15 0.000000
+0x7f4fac057430 0x7f4fac057540 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac057430 0x7f4fac057680 0x7f504c0e8bd0 55 0 16 0.000000
+0x7f4fac057430 0x7f4fac0577e0 0x7f4ff9fa9160 79 0 16 0.000000
+0x7f4fac0577e0 0x7f4fac0579c0 0x7f4ff9fa9168 75 0 17 0.000000
+0x7f4fac0579c0 0x7f4fac057a40 0x7f504c091b78 4 0 18 0.000000
+0x7f4fac052450 0x7f4fac058970 0x7f504c0e3b10 33 0 13 0.000000
+0x7f4fac058970 0x7f4fac0589f0 0x7f504c09d770 3 0 14 0.000000
+0x7f4fac052450 0x7f4fac05b6e0 0x7f504c062d90 175 0 13 0.000000
+0x7f4fac052450 0x7f4fac058ae0 0x7f504c062d90 42 0 13 0.000000
+0x7f4fac052450 0x7f4fac05b7f0 0x7f504c062d38 195 0 13 0.000000
+0x7f4fac05b7f0 0x7f4fac05b870 0x7f504c062d40 3 0 14 0.000000
+0x7f4fac05b870 0x7f4fac05b8f0 0x7f504c062d30 1 0 15 0.000000
+0x7f4fac052450 0x7f4fac05b970 0x7f504c09d6c8 200 0 13 0.000000
+0x7f4fac05b970 0x7f4fac05b9f0 0x7f504c09d6d0 2 0 14 0.000000
+0x7f4fac05b9f0 0x7f4fac05bab0 0x7f504c091b78 8 0 15 0.000000
+0x7f4fac05b9f0 0x7f4fac05bbb0 0x7f504c09d6e0 33 0 15 0.000000
+0x7f4fac05bbb0 0x7f4fac05bc10 0x7f504c091da8 58 0 16 0.000000
+0x7f4fac05b9f0 0x7f4fac05bb30 0x7f504c09d6d8 19 0 15 0.000000
+0x7f4fac052450 0x7f4fac058bf0 0x7f504c091e18 72 0 13 0.000000
+0x7f4fac058bf0 0x7f4fac058f80 0x7f504c091e20 82 0 14 0.000000
+0x7f4fac058f80 0x7f4fac059000 0x7f504c091e28 1 0 15 0.000000
+0x7f4fac059000 0x7f4fac059080 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac052450 0x7f4fac05bc90 0x7f4fe003e7a8 208 0 13 0.000000
+0x7f4fac05bc90 0x7f4fac05bd10 0x7f4ff9f61698 1 0 14 0.000000
+0x7f4fac05bd10 0x7f4fac05bd90 0x7f4ff9f616a0 6 0 15 0.000000
+0x7f4fac05bd90 0x7f4fac05beb0 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac05bd90 0x7f4fac05bf30 0x7f504c091b78 55 0 16 0.000000
+0x7f4fac05bd90 0x7f4fac05bfb0 0x7f4ff9f616a8 62 0 16 0.000000
+0x7f4fac05bfb0 0x7f4fac05cb80 0x7f4ff9f616d0 202 0 17 0.000000
+0x7f4fac05cb80 0x7f4fac05cd00 0x7f4ff9f616d8 9 0 18 0.000000
+0x7f4fac05cd00 0x7f4fac05d090 0x7f4ff9f616e0 8 0 19 0.000000
+0x7f4fac05d090 0x7f4fac05d130 0x7f4ff9f616b0 12 0 20 0.000000
+0x7f4fac05cd00 0x7f4fac05d1b0 0x7f4ff9f616e8 498 0 19 0.000000
+0x7f4fac05d1b0 0x7f4fac05d510 0x7f4ff9f616e0 7 0 20 0.000000
+0x7f4fac05d510 0x7f4fac05d5b0 0x7f4ff9f616b0 12 0 21 0.000000
+0x7f4fac05d1b0 0x7f4fac05d630 0x7f4ff9f616f0 326 0 20 0.000000
+0x7f4fac05d1b0 0x7f4fac05d6e0 0x7f4ff9f616b8 334 0 20 0.000000
+0x7f4fac05d6e0 0x7f4fac05d770 0x7f4ff9f616c0 8 0 21 0.000000
+0x7f4fac05d1b0 0x7f4fac05d800 0x7f4ff9f616f8 343 0 20 0.000000
+0x7f4fac05d800 0x7f4fac05d8b0 0x7f4ff9f616b0 19 0 21 0.000000
+0x7f4fac05d1b0 0x7f4fac05d930 0x7f4ff9f61700 363 0 20 0.000000
+0x7f4fac05d930 0x7f4fac05da60 0x7f4ff9f616b0 2 0 21 0.000000
+0x7f4fac05d930 0x7f4fac05dae0 0x7f4ff9f616b8 74 0 21 0.000000
+0x7f4fac05dae0 0x7f4fac05db70 0x7f4ff9f616c0 8 0 22 0.000000
+0x7f4fac05d930 0x7f4fac05dc00 0x7f4ff9f61708 94 0 21 0.000000
+0x7f4fac05dc00 0x7f4fac05dc80 0x7f4ff9f81250 2 0 22 0.000000
+0x7f4fac05dc80 0x7f4fac05dd00 0x7f4ff9f81258 1 0 23 0.000000
+0x7f4fac05dd00 0x7f4fac05dd80 0x7f4ff9f81260 2 0 24 0.000000
+0x7f4fac05dd80 0x7f4fac05de00 0x7f4ff9f81268 1 0 25 0.000000
+0x7f4fac05de00 0x7f4fac05de80 0x7f4ff9f61688 1 0 26 0.000000
+0x7f4fac05de80 0x7f4fac05df00 0x7f504c062d30 1 0 27 0.000000
+0x7f4fac05cd00 0x7f4fac05df80 0x7f4ff9f81270 506 0 19 0.000000
+0x7f4fac05df80 0x7f4fac05e310 0x7f4ff9f616e0 1 0 20 0.000000
+0x7f4fac05e310 0x7f4fac05e3b0 0x7f4ff9f616b0 12 0 21 0.000000
+0x7f4fac05cb80 0x7f4fac05e430 0x7f4ff9f616e0 121 0 18 0.000000
+0x7f4fac05e430 0x7f4fac05e4d0 0x7f4ff9f616b0 12 0 19 0.000000
+0x7f4fac05bfb0 0x7f4fac05c340 0x7f4ff9f616b0 4 0 17 0.000000
+0x7f4fac05bfb0 0x7f4fac05c3c0 0x7f504c091b78 39 0 17 0.000000
+0x7f4fac05bfb0 0x7f4fac05c440 0x7f504c854510 79 0 17 0.000000
+0x7f4fac05c440 0x7f4fac05c4f0 0x7f504c854518 32 0 18 0.000000
+0x7f4fac05c4f0 0x7f4fac05c5b0 0x7f504c854508 8 0 19 0.000000
+0x7f4fac05bfb0 0x7f4fac05c640 0x7f4ff9f616b8 84 0 17 0.000000
+0x7f4fac05c640 0x7f4fac05c6d0 0x7f4ff9f616c0 8 0 18 0.000000
+0x7f4fac05bfb0 0x7f4fac05c760 0x7f504c0ff498 107 0 17 0.000000
+0x7f4fac05bfb0 0x7f4fac05c7e0 0x7f4ff9f616b0 123 0 17 0.000000
+0x7f4fac05bfb0 0x7f4fac05c860 0x7f4ff9f616c8 130 0 17 0.000000
+0x7f4fac05bfb0 0x7f4fac05cb00 0x7f4ff9f616b0 158 0 17 0.000000
+0x7f4fac05bfb0 0x7f4fac05e550 0x7f4ff9f81348 374 0 17 0.000000
+0x7f4fac05e550 0x7f4fac05e600 0x7f4ff9f61688 1 0 18 0.000000
+0x7f4fac05e600 0x7f4fac05e680 0x7f504c062d30 1 0 19 0.000000
+0x7f4fac05e550 0x7f4fac05e890 0x7f4ff9fa90f0 22 0 18 0.000000
+0x7f4fac05e890 0x7f4fac05e930 0x7f4ff9fa9100 25 0 19 0.000000
+0x7f4fac05e930 0x7f4fac05e9c0 0x7f4ff9fa9100 12 0 20 0.000000
+0x7f4fac05e550 0x7f4fac05e700 0x7f4ff9fa90e0 13 0 18 0.000000
+0x7f4fac05e700 0x7f4fac05e780 0x7f504c062d30 1 0 19 0.000000
+0x7f4fac05bc90 0x7f4fac05ef30 0x7f4fe003e7b0 9 0 14 0.000000
+0x7f4fac05ef30 0x7f4fac05f010 0x7f4ff9fa9160 1 0 15 0.000000
+0x7f4fac05f010 0x7f4fac05f120 0x7f4ff9fa9168 75 0 16 0.000000
+0x7f4fac05f120 0x7f4fac05f1a0 0x7f504c091b78 4 0 17 0.000000
+0x7f4fac05ef30 0x7f4fac05f220 0x7f4fed4be448 6 0 15 0.000000
+0x7f4fac05f220 0x7f4fac05f310 0x7f4ff9fa9178 65 0 16 0.000000
+0x7f4fac05f310 0x7f4fac05f450 0x7f4ff9fa9180 86 0 17 0.000000
+0x7f4fac05f450 0x7f4fac05f570 0x7f4ff9fa9188 44 0 18 0.000000
+0x7f4fac05f570 0x7f4fac05f640 0x7f504c091b98 11 0 19 0.000000
+0x7f4fac05f570 0x7f4fac05f6e0 0x7f4ff9fa9190 16 0 19 0.000000
+0x7f4fac05ef30 0x7f4fac05f760 0x7f504f01c2f0 53 0 15 0.000000
+0x7f4fac05bc90 0x7f4fac05ea50 0x7f4ff9fa9150 5 0 14 0.000000
+0x7f4fac05ea50 0x7f4fac05eb10 0x7f4ff9fa9158 38 0 15 0.000000
+0x7f4fac05eb10 0x7f4fac05ec20 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac05eb10 0x7f4fac05eca0 0x7f504c0e8bd0 55 0 16 0.000000
+0x7f4fac05eb10 0x7f4fac05ed20 0x7f4ff9fa9160 79 0 16 0.000000
+0x7f4fac05ed20 0x7f4fac05ee30 0x7f4ff9fa9168 75 0 17 0.000000
+0x7f4fac05ee30 0x7f4fac05eeb0 0x7f504c091b78 4 0 18 0.000000
+0x7f4fac052450 0x7f4fac05aa40 0x7f504c09d768 77 0 13 0.000000
+0x7f4fac05aa40 0x7f4fac05aad0 0x7f504c09d770 13 0 14 0.000000
+0x7f4fac052450 0x7f4fac05fde0 0x7f504c09d718 214 0 13 0.000000
+0x7f4fac05fde0 0x7f4fac05fe70 0x7f504c09d720 13 0 14 0.000000
+0x7f4fac05fe70 0x7f4fac05ff60 0x7f504c062d30 1 0 15 0.000000
+0x7f4fac05fe70 0x7f4fac05ffe0 0x7f504c09d728 60 0 15 0.000000
+0x7f4fac05ffe0 0x7f4fac0600c0 0x7f504c084798 54 0 16 0.000000
+0x7f4fac05ffe0 0x7f4fac060140 0x7f504c091da8 57 0 16 0.000000
+0x7f4fac052450 0x7f4fac05abc0 0x7f504c091b78 101 0 13 0.000000
+0x7f4fac052450 0x7f4fac05ad80 0x7f504c0ff4c8 106 0 13 0.000000
+0x7f4fac05ad80 0x7f4fac05ae80 0x7f504c09d720 75 0 14 0.000000
+0x7f4fac05ae80 0x7f4fac05af70 0x7f504c062d30 1 0 15 0.000000
+0x7f4fac05ae80 0x7f4fac05ac60 0x7f504c09d728 60 0 15 0.000000
+0x7f4fac05ac60 0x7f4fac05b070 0x7f504c084798 54 0 16 0.000000
+0x7f4fac05ac60 0x7f4fac05b0d0 0x7f504c091da8 57 0 16 0.000000
+0x7f4fac052450 0x7f4fac05b290 0x7f504c0ff510 121 0 13 0.000000
+0x7f4fac05b290 0x7f4fac05b3d0 0x7f504c0ff518 3 0 14 0.000000
+0x7f4fac05b3d0 0x7f4fac05b530 0x7f504c0ff520 21 0 15 0.000000
+0x7f4fac03c380 0x7f4fac060290 0x7f4fe003e7b8 137 0 12 0.000000
+0x7f4fac03c380 0x7f4fac060400 0x7f4fe003e7c0 140 0 12 0.000000
+0x7f4fac060400 0x7f4fac062640 0x7f504c0847c0 58 0 13 0.000000
+0x7f4fac060400 0x7f4fac0627a0 0x7f504c09d6c8 61 0 13 0.000000
+0x7f4fac0627a0 0x7f4fac062820 0x7f504c09d6d0 2 0 14 0.000000
+0x7f4fac062820 0x7f4fac0628e0 0x7f504c091b78 8 0 15 0.000000
+0x7f4fac062820 0x7f4fac062c40 0x7f504c09d6e0 33 0 15 0.000000
+0x7f4fac062c40 0x7f4fac062ca0 0x7f504c091da8 58 0 16 0.000000
+0x7f4fac062820 0x7f4fac062960 0x7f504c09d6d8 19 0 15 0.000000
+0x7f4fac062960 0x7f4fac0629e0 0x7f504c09d710 12 0 16 0.000000
+0x7f4fac0629e0 0x7f4fac062ab0 0x7f504c091da0 43 0 17 0.000000
+0x7f4fac062ab0 0x7f4fac062b40 0x7f504c084798 11 0 18 0.000000
+0x7f4fac062ab0 0x7f4fac062bc0 0x7f504c091da8 14 0 18 0.000000
+0x7f4fac060400 0x7f4fac060610 0x7f504c12bce8 4 0 13 0.000000
+0x7f4fac060610 0x7f4fac0606b0 0x7f504c0ce658 1 0 14 0.000000
+0x7f4fac060610 0x7f4fac060850 0x7f504c13bb20 24 0 14 0.000000
+0x7f4fac060850 0x7f4fac0609c0 0x7f504c13bb28 2 0 15 0.000000
+0x7f4fac0609c0 0x7f4fac060b00 0x7f504c13bb30 1 0 16 0.000000
+0x7f4fac060850 0x7f4fac060c40 0x7f504c0e4000 9 0 15 0.000000
+0x7f4fac060610 0x7f4fac060da0 0x7f504c13bb38 27 0 14 0.000000
+0x7f4fac060da0 0x7f4fac0610a0 0x7f504c13bb40 17 0 15 0.000000
+0x7f4fac0610a0 0x7f4fac061230 0x7f504c13bb48 24 0 16 0.000000
+0x7f4fac061230 0x7f4fac061310 0x7f504c13bb50 5 0 17 0.000000
+0x7f4fac061310 0x7f4fac0613b0 0x7f504c09d738 2 0 18 0.000000
+0x7f4fac0613b0 0x7f4fac0614c0 0x7f504c0e8c40 19 0 19 0.000000
+0x7f4fac0614c0 0x7f4fac061590 0x7f504c062d70 27 0 20 0.000000
+0x7f4fac0613b0 0x7f4fac0616e0 0x7f504c062d90 68 0 19 0.000000
+0x7f4fac0613b0 0x7f4fac061660 0x7f504c0e8c48 33 0 19 0.000000
+0x7f4fac061310 0x7f4fac0617f0 0x7f504c13bb58 17 0 18 0.000000
+0x7f4fac0617f0 0x7f4fac0618a0 0x7f504c13bb60 6 0 19 0.000000
+0x7f4fac061230 0x7f4fac0619e0 0x7f504c13bb68 18 0 17 0.000000
+0x7f4fac061230 0x7f4fac061b30 0x7f504c13bb70 22 0 17 0.000000
+0x7f4fac0610a0 0x7f4fac061c80 0x7f504c13bb78 33 0 16 0.000000
+0x7f4fac060400 0x7f4fac062d20 0x7f504c09d718 70 0 13 0.000000
+0x7f4fac062d20 0x7f4fac062db0 0x7f504c09d720 13 0 14 0.000000
+0x7f4fac062db0 0x7f4fac062ea0 0x7f504c062d30 1 0 15 0.000000
+0x7f4fac062db0 0x7f4fac062f20 0x7f504c09d728 60 0 15 0.000000
+0x7f4fac062f20 0x7f4fac063000 0x7f504c084798 54 0 16 0.000000
+0x7f4fac062f20 0x7f4fac063080 0x7f504c091da8 57 0 16 0.000000
+0x7f4fac060400 0x7f4fac061dd0 0x7f504c762508 15 0 13 0.000000
+0x7f4fac061dd0 0x7f4fac061ee0 0x7f504c062d40 8 0 14 0.000000
+0x7f4fac061ee0 0x7f4fac061f60 0x7f504c062d30 1 0 15 0.000000
+0x7f4fac061dd0 0x7f4fac061e60 0x7f504c091b78 2 0 14 0.000000
+0x7f4fac061dd0 0x7f4fac061fe0 0x7f504c09d6c8 13 0 14 0.000000
+0x7f4fac061fe0 0x7f4fac062060 0x7f504c09d6d0 2 0 15 0.000000
+0x7f4fac062060 0x7f4fac062120 0x7f504c091b78 8 0 16 0.000000
+0x7f4fac062060 0x7f4fac062220 0x7f504c09d6e0 33 0 16 0.000000
+0x7f4fac062220 0x7f4fac062300 0x7f504c091da8 58 0 17 0.000000
+0x7f4fac062060 0x7f4fac0621a0 0x7f504c09d6d8 19 0 16 0.000000
+0x7f4fac060400 0x7f4fac063620 0x7f504c12bce8 76 0 13 0.000000
+0x7f4fac063620 0x7f4fac0636c0 0x7f504c0ce658 1 0 14 0.000000
+0x7f4fac0636c0 0x7f4fac063780 0x7f504c091b80 13 0 15 0.000000
+0x7f4fac063780 0x7f4fac063800 0x7f504c091b88 3 0 16 0.000000
+0x7f4fac063620 0x7f4fac0638f0 0x7f504c13bb20 24 0 14 0.000000
+0x7f4fac0638f0 0x7f4fac063990 0x7f504c13bb28 2 0 15 0.000000
+0x7f4fac063990 0x7f4fac063a10 0x7f504c13bb30 1 0 16 0.000000
+0x7f4fac0638f0 0x7f4fac063a90 0x7f504c0e4000 9 0 15 0.000000
+0x7f4fac063620 0x7f4fac063b10 0x7f504c13bb38 27 0 14 0.000000
+0x7f4fac063b10 0x7f4fac063d40 0x7f504c13bb40 17 0 15 0.000000
+0x7f4fac063d40 0x7f4fac063df0 0x7f504c13bb48 24 0 16 0.000000
+0x7f4fac063df0 0x7f4fac063ed0 0x7f504c13bb50 5 0 17 0.000000
+0x7f4fac063ed0 0x7f4fac063f70 0x7f504c09d738 2 0 18 0.000000
+0x7f4fac063f70 0x7f4fac064080 0x7f504c0e8c40 19 0 19 0.000000
+0x7f4fac064080 0x7f4fac064150 0x7f504c062d70 27 0 20 0.000000
+0x7f4fac063f70 0x7f4fac0642a0 0x7f504c062d90 68 0 19 0.000000
+0x7f4fac063f70 0x7f4fac064220 0x7f504c0e8c48 33 0 19 0.000000
+0x7f4fac063ed0 0x7f4fac0643b0 0x7f504c13bb58 17 0 18 0.000000
+0x7f4fac0643b0 0x7f4fac064460 0x7f504c13bb60 6 0 19 0.000000
+0x7f4fac063df0 0x7f4fac0644e0 0x7f504c13bb68 18 0 17 0.000000
+0x7f4fac063df0 0x7f4fac064560 0x7f504c13bb70 22 0 17 0.000000
+0x7f4fac063d40 0x7f4fac0645e0 0x7f504c13bb78 33 0 16 0.000000
+0x7f4fac060400 0x7f4fac062380 0x7f504c09d768 24 0 13 0.000000
+0x7f4fac062380 0x7f4fac062410 0x7f504c09d770 13 0 14 0.000000
+0x7f4fac060400 0x7f4fac064660 0x7f504c09d768 86 0 13 0.000000
+0x7f4fac064660 0x7f4fac0646f0 0x7f504c09d770 13 0 14 0.000000
+0x7f4fac060400 0x7f4fac0647e0 0x7f504c09d718 110 0 13 0.000000
+0x7f4fac0647e0 0x7f4fac064870 0x7f504c09d720 13 0 14 0.000000
+0x7f4fac064870 0x7f4fac064960 0x7f504c062d30 1 0 15 0.000000
+0x7f4fac064870 0x7f4fac0649e0 0x7f504c09d728 60 0 15 0.000000
+0x7f4fac0649e0 0x7f4fac064ac0 0x7f504c084798 54 0 16 0.000000
+0x7f4fac0649e0 0x7f4fac064b40 0x7f504c091da8 57 0 16 0.000000
+0x7f4fac060400 0x7f4fac064bc0 0x7f504c062d90 113 0 13 0.000000
+0x7f4fac037ee0 0x7f4fac038350 0x7f504c140620 12 0 11 0.000000
+0x7f4fac038350 0x7f4fac038400 0x7f504c062d98 0 0 12 0.000000
+0x7f4fac038350 0x7f4fac038620 0x7f504c140628 29 0 12 0.000000
+0x7f4fac038620 0x7f4fac0386a0 0x7f504c062cf0 -1 0 13 0.000000
+0x7f4fac0386a0 0x7f4fac038740 0x7f504c0ce670 23 0 14 0.000000
+0x7f4fac038740 0x7f4fac038fc0 0x7f504c0ce680 116 0 15 0.000000
+0x7f4fac038fc0 0x7f4fac039190 0x7f504c0ce688 5 0 16 0.000000
+0x7f4fac038fc0 0x7f4fac039210 0x7f504c084780 8 0 16 0.000000
+0x7f4fac039210 0x7f4fac039290 0x7f504c084788 2 0 17 0.000000
+0x7f4fac038fc0 0x7f4fac039310 0x7f504c0ce690 48 0 16 0.000000
+0x7f4fac039310 0x7f4fac039650 0x7f504c084798 14 0 17 0.000000
+0x7f4fac038fc0 0x7f4fac0396d0 0x7f504c0ce698 67 0 16 0.000000
+0x7f4fac0396d0 0x7f4fac039750 0x7f504c0ce6a0 4 0 17 0.000000
+0x7f4fac039750 0x7f4fac0397e0 0x7f504c0ce6a8 20 0 18 0.000000
+0x7f4fac0397e0 0x7f4fac039870 0x7f504c084798 11 0 19 0.000000
+0x7f4fac0397e0 0x7f4fac0398f0 0x7f504c091da8 14 0 19 0.000000
+0x7f4fac038740 0x7f4fac038890 0x7f504c062dc0 3 0 15 0.000000
+0x7f4fac038890 0x7f4fac038920 0x7f504c062dc8 1 0 16 0.000000
+0x7f4fac038920 0x7f4fac0389d0 0x7f504c084730 0 0 17 0.000000
+0x7f4fac038920 0x7f4fac038a50 0x7f504c084738 6 0 17 0.000000
+0x7f4fac038890 0x7f4fac038d10 0x7f504c084760 15 0 16 0.000000
+0x7f4fac038d10 0x7f4fac038db0 0x7f504c084758 1 0 17 0.000000
+0x7f4fac038740 0x7f4fac038e30 0x7f504c0ce678 32 0 15 0.000000
+0x7f4fac038740 0x7f4fac038eb0 0x7f504c062d90 35 0 15 0.000000
+0x7f4fac037ee0 0x7f4fac039ad0 0x7f4fe003e778 15 0 11 0.000000
+0x7f4fac039ad0 0x7f4fac039d50 0x7f4fe003e780 4 0 12 0.000000
+0x7f4fac037ee0 0x7f4fac072c00 0x7f4fc99029e8 37 0 11 0.000000
+0x7f4fac072c00 0x7f4fac084730 0x7f4fe003e7c8 114 0 12 0.000000
+0x7f4fac072c00 0x7f4fac0847b0 0x7f4fe003e7d8 117 0 12 0.000000
+0x7f4fac0847b0 0x7f4fac084850 0x7f4fe003e7e0 5 0 13 0.000000
+0x7f4fac084850 0x7f4fac0849d0 0x7f504c084800 2 0 14 0.000000
+0x7f4fac0849d0 0x7f4fac084ae0 0x7f504c062d70 27 0 15 0.000000
+0x7f4fac084850 0x7f4fac084c30 0x7f504c084818 79 0 14 0.000000
+0x7f4fac084850 0x7f4fac084bb0 0x7f504c084818 39 0 14 0.000000
+0x7f4fac084850 0x7f4fac084cb0 0x7f504c062d90 117 0 14 0.000000
+0x7f4fac072c00 0x7f4fac072e20 0x7f4fe003e790 9 0 12 0.000000
+0x7f4fac072c00 0x7f4fac072ea0 0x7f504c0fdf08 19 0 12 0.000000
+0x7f4fac072ea0 0x7f4fac072f20 0x7f504c0fdf10 1 0 13 0.000000
+0x7f4fac072f20 0x7f4fac072fa0 0x7f504c0e3ff8 1 0 14 0.000000
+0x7f4fac072fa0 0x7f4fac073020 0x7f504c062d30 1 0 15 0.000000
+0x7f4fac072c00 0x7f4fac0730a0 0x7f504c127750 40 0 12 0.000000
+0x7f4fac0730a0 0x7f4fac08bf20 0x7f504c0e16e0 36 0 13 0.000000
+0x7f4fac08bf20 0x7f4fac08c0b0 0x7f504c0ff4e0 107 0 14 0.000000
+0x7f4fac08c0b0 0x7f4fac08c130 0x7f504c0ff4e8 1 0 15 0.000000
+0x7f4fac08c130 0x7f4fac08c1b0 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac08bf20 0x7f4fac08c450 0x7f504c0ff4e0 114 0 14 0.000000
+0x7f4fac08c450 0x7f4fac08c4d0 0x7f504c0ff4e8 1 0 15 0.000000
+0x7f4fac08c4d0 0x7f4fac08c550 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac08bf20 0x7f4fac08c7f0 0x7f504c091e20 131 0 14 0.000000
+0x7f4fac08c7f0 0x7f4fac08c870 0x7f504c091e28 1 0 15 0.000000
+0x7f4fac08c870 0x7f4fac08c8f0 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac08bf20 0x7f4fac08cb70 0x7f504c091e20 136 0 14 0.000000
+0x7f4fac08cb70 0x7f4fac08cbf0 0x7f504c091e28 1 0 15 0.000000
+0x7f4fac08cbf0 0x7f4fac08cc70 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac072c00 0x7f4fac092100 0x7f504c1d0718 160 0 12 0.000000
+0x7f4fac092100 0x7f4fac092180 0x7f504c1d0720 6 0 13 0.000000
+0x7f4fac092180 0x7f4fac092200 0x7f504c1d0728 2 0 14 0.000000
+0x7f4fac092200 0x7f4fac0922a0 0x7f504c062d30 6 0 15 0.000000
+0x7f4fac072c00 0x7f4fac073160 0x7f504c127750 55 0 12 0.000000
+0x7f4fac073160 0x7f4fac08e900 0x7f504c0e16e0 36 0 13 0.000000
+0x7f4fac08e900 0x7f4fac08ea90 0x7f504c0ff4e0 107 0 14 0.000000
+0x7f4fac08ea90 0x7f4fac08eb10 0x7f504c0ff4e8 1 0 15 0.000000
+0x7f4fac08eb10 0x7f4fac08eb90 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac08e900 0x7f4fac08ee30 0x7f504c0ff4e0 114 0 14 0.000000
+0x7f4fac08ee30 0x7f4fac08eeb0 0x7f504c0ff4e8 1 0 15 0.000000
+0x7f4fac08eeb0 0x7f4fac08ef30 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac08e900 0x7f4fac08f1d0 0x7f504c091e20 131 0 14 0.000000
+0x7f4fac08f1d0 0x7f4fac08f250 0x7f504c091e28 1 0 15 0.000000
+0x7f4fac08f250 0x7f4fac08f2d0 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac08e900 0x7f4fac08f550 0x7f504c091e20 136 0 14 0.000000
+0x7f4fac08f550 0x7f4fac08f5d0 0x7f504c091e28 1 0 15 0.000000
+0x7f4fac08f5d0 0x7f4fac08f650 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac072c00 0x7f4fac092320 0x7f504c1d0730 169 0 12 0.000000
+0x7f4fac092320 0x7f4fac0923b0 0x7f504c1d0738 8 0 13 0.000000
+0x7f4fac072c00 0x7f4fac073220 0x7f504c1b0188 73 0 12 0.000000
+0x7f4fac073220 0x7f4fac073370 0x7f504c062d30 1 0 13 0.000000
+0x7f4fac073220 0x7f4fac073500 0x7f504c0cc2c8 75 0 13 0.000000
+0x7f4fac073500 0x7f4fac073600 0x7f504c091b78 1 0 14 0.000000
+0x7f4fac073500 0x7f4fac073680 0x7f504c091b98 19 0 14 0.000000
+0x7f4fac073220 0x7f4fac073720 0x7f504c1a9510 78 0 13 0.000000
+0x7f4fac073720 0x7f4fac073850 0x7f504c062d90 3 0 14 0.000000
+0x7f4fac073720 0x7f4fac073a00 0x7f504c062d90 54 0 14 0.000000
+0x7f4fac073720 0x7f4fac073960 0x7f504c091b98 13 0 14 0.000000
+0x7f4fac073720 0x7f4fac073b10 0x7f504c062d38 83 0 14 0.000000
+0x7f4fac073b10 0x7f4fac073b90 0x7f504c062d40 3 0 15 0.000000
+0x7f4fac073b90 0x7f4fac073c10 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac073720 0x7f4fac073c90 0x7f504c09d6c8 87 0 14 0.000000
+0x7f4fac073c90 0x7f4fac073d10 0x7f504c09d6d0 2 0 15 0.000000
+0x7f4fac073d10 0x7f4fac073dd0 0x7f504c091b78 8 0 16 0.000000
+0x7f4fac073d10 0x7f4fac074130 0x7f504c09d6e0 33 0 16 0.000000
+0x7f4fac074130 0x7f4fac074210 0x7f504c091da8 58 0 17 0.000000
+0x7f4fac073d10 0x7f4fac073e50 0x7f504c09d6d8 19 0 16 0.000000
+0x7f4fac073e50 0x7f4fac073ed0 0x7f504c09d710 12 0 17 0.000000
+0x7f4fac073ed0 0x7f4fac073fa0 0x7f504c091da0 43 0 18 0.000000
+0x7f4fac073fa0 0x7f4fac074030 0x7f504c084798 11 0 19 0.000000
+0x7f4fac073fa0 0x7f4fac0740b0 0x7f504c091da8 14 0 19 0.000000
+0x7f4fac073720 0x7f4fac074290 0x7f504c0cc240 92 0 14 0.000000
+0x7f4fac074290 0x7f4fac074310 0x7f504c0cc248 2 0 15 0.000000
+0x7f4fac074310 0x7f4fac0743b0 0x7f504c09d6d8 7 0 16 0.000000
+0x7f4fac0743b0 0x7f4fac074430 0x7f504c09d710 12 0 17 0.000000
+0x7f4fac074430 0x7f4fac074500 0x7f504c091da0 43 0 18 0.000000
+0x7f4fac074500 0x7f4fac074590 0x7f504c084798 11 0 19 0.000000
+0x7f4fac074500 0x7f4fac074610 0x7f504c091da8 14 0 19 0.000000
+0x7f4fac073720 0x7f4fac074690 0x7f504c09d6c8 96 0 14 0.000000
+0x7f4fac074690 0x7f4fac074710 0x7f504c09d6d0 2 0 15 0.000000
+0x7f4fac074710 0x7f4fac0747d0 0x7f504c091b78 8 0 16 0.000000
+0x7f4fac074710 0x7f4fac0748d0 0x7f504c09d6e0 33 0 16 0.000000
+0x7f4fac0748d0 0x7f4fac0749b0 0x7f504c091da8 58 0 17 0.000000
+0x7f4fac074710 0x7f4fac074850 0x7f504c09d6d8 19 0 16 0.000000
+0x7f4fac073720 0x7f4fac074a30 0x7f504c09d718 99 0 14 0.000000
+0x7f4fac074a30 0x7f4fac074ac0 0x7f504c09d720 13 0 15 0.000000
+0x7f4fac074ac0 0x7f4fac074bb0 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac074ac0 0x7f4fac074c30 0x7f504c09d728 60 0 16 0.000000
+0x7f4fac074c30 0x7f4fac074d10 0x7f504c084798 54 0 17 0.000000
+0x7f4fac074c30 0x7f4fac074d90 0x7f504c091da8 57 0 17 0.000000
+0x7f4fac073220 0x7f4fac0733f0 0x7f504c062d90 31 0 13 0.000000
+0x7f4fac073220 0x7f4fac074e10 0x7f504c0ce5b0 106 0 13 0.000000
+0x7f4fac074e10 0x7f4fac074eb0 0x7f504c091b78 1 0 14 0.000000
+0x7f4fac074e10 0x7f4fac074f30 0x7f504c091b98 11 0 14 0.000000
+0x7f4fac072c00 0x7f4fac074fd0 0x7f504c1b0130 80 0 12 0.000000
+0x7f4fac074fd0 0x7f4fac075090 0x7f504c062d98 0 0 13 0.000000
+0x7f4fac074fd0 0x7f4fac075340 0x7f504c0ce660 29 0 13 0.000000
+0x7f4fac075340 0x7f4fac075410 0x7f504c0ce668 2 0 14 0.000000
+0x7f4fac075410 0x7f4fac075490 0x7f504c062cf0 -1 0 15 0.000000
+0x7f4fac075490 0x7f4fac075530 0x7f504c0ce670 23 0 16 0.000000
+0x7f4fac075530 0x7f4fac075db0 0x7f504c0ce680 116 0 17 0.000000
+0x7f4fac075db0 0x7f4fac075f80 0x7f504c0ce688 5 0 18 0.000000
+0x7f4fac075db0 0x7f4fac076000 0x7f504c084780 8 0 18 0.000000
+0x7f4fac076000 0x7f4fac076080 0x7f504c084788 2 0 19 0.000000
+0x7f4fac075db0 0x7f4fac076100 0x7f504c0ce690 48 0 18 0.000000
+0x7f4fac076100 0x7f4fac076440 0x7f504c084798 14 0 19 0.000000
+0x7f4fac075db0 0x7f4fac0764c0 0x7f504c0ce698 67 0 18 0.000000
+0x7f4fac0764c0 0x7f4fac076540 0x7f504c0ce6a0 4 0 19 0.000000
+0x7f4fac076540 0x7f4fac0765d0 0x7f504c0ce6a8 20 0 20 0.000000
+0x7f4fac0765d0 0x7f4fac076660 0x7f504c084798 11 0 21 0.000000
+0x7f4fac0765d0 0x7f4fac0766e0 0x7f504c091da8 14 0 21 0.000000
+0x7f4fac075530 0x7f4fac075680 0x7f504c062dc0 3 0 17 0.000000
+0x7f4fac075680 0x7f4fac075710 0x7f504c062dc8 1 0 18 0.000000
+0x7f4fac075710 0x7f4fac0757c0 0x7f504c084730 0 0 19 0.000000
+0x7f4fac075710 0x7f4fac075840 0x7f504c084738 6 0 19 0.000000
+0x7f4fac075680 0x7f4fac075b00 0x7f504c084760 15 0 18 0.000000
+0x7f4fac075b00 0x7f4fac075ba0 0x7f504c084758 1 0 19 0.000000
+0x7f4fac075530 0x7f4fac075c20 0x7f504c0ce678 32 0 17 0.000000
+0x7f4fac075530 0x7f4fac075ca0 0x7f504c062d90 35 0 17 0.000000
+0x7f4fac075340 0x7f4fac0767e0 0x7f504c0dd140 7 0 14 0.000000
+0x7f4fac0767e0 0x7f4fac0768a0 0x7f504c0847d8 7 0 15 0.000000
+0x7f4fac0768a0 0x7f4fac076920 0x7f504c0847e0 9 0 16 0.000000
+0x7f4fac076920 0x7f4fac0769f0 0x7f504c084798 16 0 17 0.000000
+0x7f4fac0767e0 0x7f4fac076a70 0x7f504c0dd148 38 0 15 0.000000
+0x7f4fac076a70 0x7f4fac076b40 0x7f504c09d720 52 0 16 0.000000
+0x7f4fac076b40 0x7f4fac076c30 0x7f504c062d30 1 0 17 0.000000
+0x7f4fac076b40 0x7f4fac076cb0 0x7f504c09d728 60 0 17 0.000000
+0x7f4fac076cb0 0x7f4fac076d10 0x7f504c084798 54 0 18 0.000000
+0x7f4fac076cb0 0x7f4fac076d90 0x7f504c091da8 57 0 18 0.000000
+0x7f4fac075340 0x7f4fac076e10 0x7f504c091b78 12 0 14 0.000000
+0x7f4fac075340 0x7f4fac076e90 0x7f504c091b98 20 0 14 0.000000
+0x7f4fac074fd0 0x7f4fac075110 0x7f504c0ce658 17 0 13 0.000000
+0x7f4fac075110 0x7f4fac0751d0 0x7f504c091b80 13 0 14 0.000000
+0x7f4fac0751d0 0x7f4fac075250 0x7f504c091b88 3 0 15 0.000000
+0x7f4fac072c00 0x7f4fac077430 0x7f4fe003e7a0 94 0 12 0.000000
+0x7f4fac077430 0x7f4fac0776b0 0x7f504c062d30 1 0 13 0.000000
+0x7f4fac077430 0x7f4fac077730 0x7f504c0e3b10 9 0 13 0.000000
+0x7f4fac077730 0x7f4fac0777b0 0x7f504c09d770 3 0 14 0.000000
+0x7f4fac077430 0x7f4fac0778a0 0x7f4fe003e7a8 26 0 13 0.000000
+0x7f4fac0778a0 0x7f4fac077920 0x7f4ff9f61698 1 0 14 0.000000
+0x7f4fac077920 0x7f4fac0779a0 0x7f4ff9f616a0 6 0 15 0.000000
+0x7f4fac0779a0 0x7f4fac077ac0 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac0779a0 0x7f4fac077b40 0x7f504c091b78 55 0 16 0.000000
+0x7f4fac0779a0 0x7f4fac077bc0 0x7f4ff9f616a8 62 0 16 0.000000
+0x7f4fac077bc0 0x7f4fac078710 0x7f4ff9f616d0 202 0 17 0.000000
+0x7f4fac078710 0x7f4fac078890 0x7f4ff9f616d8 9 0 18 0.000000
+0x7f4fac078890 0x7f4fac078c20 0x7f4ff9f616e0 8 0 19 0.000000
+0x7f4fac078c20 0x7f4fac078cc0 0x7f4ff9f616b0 12 0 20 0.000000
+0x7f4fac078890 0x7f4fac078d40 0x7f4ff9f616e8 498 0 19 0.000000
+0x7f4fac078d40 0x7f4fac0790a0 0x7f4ff9f616e0 7 0 20 0.000000
+0x7f4fac0790a0 0x7f4fac079140 0x7f4ff9f616b0 12 0 21 0.000000
+0x7f4fac078d40 0x7f4fac0791c0 0x7f4ff9f616f0 326 0 20 0.000000
+0x7f4fac078d40 0x7f4fac079270 0x7f4ff9f616b8 334 0 20 0.000000
+0x7f4fac079270 0x7f4fac079300 0x7f4ff9f616c0 8 0 21 0.000000
+0x7f4fac078d40 0x7f4fac079390 0x7f4ff9f616f8 343 0 20 0.000000
+0x7f4fac079390 0x7f4fac079440 0x7f4ff9f616b0 19 0 21 0.000000
+0x7f4fac078d40 0x7f4fac0794c0 0x7f4ff9f61700 363 0 20 0.000000
+0x7f4fac0794c0 0x7f4fac0795f0 0x7f4ff9f616b0 2 0 21 0.000000
+0x7f4fac0794c0 0x7f4fac079670 0x7f4ff9f616b8 74 0 21 0.000000
+0x7f4fac079670 0x7f4fac079700 0x7f4ff9f616c0 8 0 22 0.000000
+0x7f4fac0794c0 0x7f4fac079790 0x7f4ff9f61708 94 0 21 0.000000
+0x7f4fac079790 0x7f4fac079810 0x7f4ff9f81250 2 0 22 0.000000
+0x7f4fac079810 0x7f4fac079890 0x7f4ff9f81258 1 0 23 0.000000
+0x7f4fac079890 0x7f4fac079910 0x7f4ff9f81260 2 0 24 0.000000
+0x7f4fac079910 0x7f4fac079990 0x7f4ff9f81268 1 0 25 0.000000
+0x7f4fac079990 0x7f4fac079a10 0x7f4ff9f61688 1 0 26 0.000000
+0x7f4fac079a10 0x7f4fac079a90 0x7f504c062d30 1 0 27 0.000000
+0x7f4fac078890 0x7f4fac079b10 0x7f4ff9f81270 506 0 19 0.000000
+0x7f4fac079b10 0x7f4fac079ea0 0x7f4ff9f616e0 1 0 20 0.000000
+0x7f4fac079ea0 0x7f4fac079f40 0x7f4ff9f616b0 12 0 21 0.000000
+0x7f4fac078710 0x7f4fac079fc0 0x7f4ff9f616e0 121 0 18 0.000000
+0x7f4fac079fc0 0x7f4fac07a060 0x7f4ff9f616b0 12 0 19 0.000000
+0x7f4fac077bc0 0x7f4fac077f50 0x7f4ff9f616b0 4 0 17 0.000000
+0x7f4fac077bc0 0x7f4fac077170 0x7f504c091b78 39 0 17 0.000000
+0x7f4fac077bc0 0x7f4fac077fd0 0x7f504c854510 79 0 17 0.000000
+0x7f4fac077fd0 0x7f4fac078080 0x7f504c854518 32 0 18 0.000000
+0x7f4fac078080 0x7f4fac078140 0x7f504c854508 8 0 19 0.000000
+0x7f4fac077bc0 0x7f4fac0781d0 0x7f4ff9f616b8 84 0 17 0.000000
+0x7f4fac0781d0 0x7f4fac078260 0x7f4ff9f616c0 8 0 18 0.000000
+0x7f4fac077bc0 0x7f4fac0782f0 0x7f504c0ff498 107 0 17 0.000000
+0x7f4fac077bc0 0x7f4fac078370 0x7f4ff9f616b0 123 0 17 0.000000
+0x7f4fac077bc0 0x7f4fac0783f0 0x7f4ff9f616c8 130 0 17 0.000000
+0x7f4fac077bc0 0x7f4fac078690 0x7f4ff9f616b0 158 0 17 0.000000
+0x7f4fac077bc0 0x7f4fac07a0e0 0x7f4ff9f81348 374 0 17 0.000000
+0x7f4fac07a0e0 0x7f4fac07a190 0x7f4ff9f61688 1 0 18 0.000000
+0x7f4fac07a190 0x7f4fac07a210 0x7f504c062d30 1 0 19 0.000000
+0x7f4fac07a0e0 0x7f4fac07a420 0x7f4ff9fa90f0 22 0 18 0.000000
+0x7f4fac07a420 0x7f4fac07a4c0 0x7f4ff9fa9100 25 0 19 0.000000
+0x7f4fac07a4c0 0x7f4fac07a550 0x7f4ff9fa9100 12 0 20 0.000000
+0x7f4fac07a0e0 0x7f4fac07a290 0x7f4ff9fa90e0 13 0 18 0.000000
+0x7f4fac07a290 0x7f4fac07a310 0x7f504c062d30 1 0 19 0.000000
+0x7f4fac0778a0 0x7f4fac07aac0 0x7f4fe003e7b0 9 0 14 0.000000
+0x7f4fac07aac0 0x7f4fac07aba0 0x7f4ff9fa9160 1 0 15 0.000000
+0x7f4fac07aba0 0x7f4fac07acb0 0x7f4ff9fa9168 75 0 16 0.000000
+0x7f4fac07acb0 0x7f4fac07ad30 0x7f504c091b78 4 0 17 0.000000
+0x7f4fac07aac0 0x7f4fac07adb0 0x7f4fed4be448 6 0 15 0.000000
+0x7f4fac07adb0 0x7f4fac07aea0 0x7f4ff9fa9178 65 0 16 0.000000
+0x7f4fac07aea0 0x7f4fac07afe0 0x7f4ff9fa9180 86 0 17 0.000000
+0x7f4fac07afe0 0x7f4fac07b100 0x7f4ff9fa9188 44 0 18 0.000000
+0x7f4fac07b100 0x7f4fac07b1d0 0x7f504c091b98 11 0 19 0.000000
+0x7f4fac07b100 0x7f4fac07b270 0x7f4ff9fa9190 16 0 19 0.000000
+0x7f4fac07aac0 0x7f4fac07b2f0 0x7f504f01c2f0 53 0 15 0.000000
+0x7f4fac0778a0 0x7f4fac07a5e0 0x7f4ff9fa9150 5 0 14 0.000000
+0x7f4fac07a5e0 0x7f4fac07a6a0 0x7f4ff9fa9158 38 0 15 0.000000
+0x7f4fac07a6a0 0x7f4fac07a7b0 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac07a6a0 0x7f4fac07a830 0x7f504c0e8bd0 55 0 16 0.000000
+0x7f4fac07a6a0 0x7f4fac07a8b0 0x7f4ff9fa9160 79 0 16 0.000000
+0x7f4fac07a8b0 0x7f4fac07a9c0 0x7f4ff9fa9168 75 0 17 0.000000
+0x7f4fac07a9c0 0x7f4fac07aa40 0x7f504c091b78 4 0 18 0.000000
+0x7f4fac077430 0x7f4fac07b370 0x7f504c0e3b10 33 0 13 0.000000
+0x7f4fac07b370 0x7f4fac07b3f0 0x7f504c09d770 3 0 14 0.000000
+0x7f4fac077430 0x7f4fac07f960 0x7f504c062d90 175 0 13 0.000000
+0x7f4fac077430 0x7f4fac07b4e0 0x7f504c062d90 42 0 13 0.000000
+0x7f4fac077430 0x7f4fac07fa70 0x7f504c062d38 195 0 13 0.000000
+0x7f4fac07fa70 0x7f4fac07faf0 0x7f504c062d40 3 0 14 0.000000
+0x7f4fac07faf0 0x7f4fac07fb70 0x7f504c062d30 1 0 15 0.000000
+0x7f4fac077430 0x7f4fac07fbf0 0x7f504c09d6c8 200 0 13 0.000000
+0x7f4fac07fbf0 0x7f4fac07fc70 0x7f504c09d6d0 2 0 14 0.000000
+0x7f4fac07fc70 0x7f4fac07fd30 0x7f504c091b78 8 0 15 0.000000
+0x7f4fac07fc70 0x7f4fac07fe30 0x7f504c09d6e0 33 0 15 0.000000
+0x7f4fac07fe30 0x7f4fac07ff10 0x7f504c091da8 58 0 16 0.000000
+0x7f4fac07fc70 0x7f4fac07fdb0 0x7f504c09d6d8 19 0 15 0.000000
+0x7f4fac077430 0x7f4fac07b5f0 0x7f504c091e18 72 0 13 0.000000
+0x7f4fac07b5f0 0x7f4fac085a40 0x7f504c09d720 427 0 14 0.000000
+0x7f4fac085a40 0x7f4fac085b30 0x7f504c062d30 1 0 15 0.000000
+0x7f4fac085a40 0x7f4fac085bb0 0x7f504c09d728 60 0 15 0.000000
+0x7f4fac085bb0 0x7f4fac085c90 0x7f504c084798 54 0 16 0.000000
+0x7f4fac085bb0 0x7f4fac085d10 0x7f504c091da8 57 0 16 0.000000
+0x7f4fac07b5f0 0x7f4fac0853b0 0x7f504c091e28 235 0 14 0.000000
+0x7f4fac0853b0 0x7f4fac085430 0x7f504c091e30 1 0 15 0.000000
+0x7f4fac07b5f0 0x7f4fac07b980 0x7f504c091e20 82 0 14 0.000000
+0x7f4fac07b980 0x7f4fac07ba00 0x7f504c091e28 1 0 15 0.000000
+0x7f4fac07ba00 0x7f4fac07ba80 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac07b5f0 0x7f4fac085230 0x7f504c091da8 116 0 14 0.000000
+0x7f4fac07b5f0 0x7f4fac0852b0 0x7f504c128918 120 0 14 0.000000
+0x7f4fac0852b0 0x7f4fac085330 0x7f504c128920 4 0 15 0.000000
+0x7f4fac077430 0x7f4fac07ff90 0x7f4fe003e7a8 208 0 13 0.000000
+0x7f4fac07ff90 0x7f4fac080010 0x7f4ff9f61698 1 0 14 0.000000
+0x7f4fac080010 0x7f4fac080090 0x7f4ff9f616a0 6 0 15 0.000000
+0x7f4fac080090 0x7f4fac0801b0 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac080090 0x7f4fac080230 0x7f504c091b78 55 0 16 0.000000
+0x7f4fac080090 0x7f4fac0802b0 0x7f4ff9f616a8 62 0 16 0.000000
+0x7f4fac0802b0 0x7f4fac080e80 0x7f4ff9f616d0 202 0 17 0.000000
+0x7f4fac080e80 0x7f4fac081000 0x7f4ff9f616d8 9 0 18 0.000000
+0x7f4fac081000 0x7f4fac081390 0x7f4ff9f616e0 8 0 19 0.000000
+0x7f4fac081390 0x7f4fac081430 0x7f4ff9f616b0 12 0 20 0.000000
+0x7f4fac081000 0x7f4fac0814b0 0x7f4ff9f616e8 498 0 19 0.000000
+0x7f4fac0814b0 0x7f4fac081810 0x7f4ff9f616e0 7 0 20 0.000000
+0x7f4fac081810 0x7f4fac0818b0 0x7f4ff9f616b0 12 0 21 0.000000
+0x7f4fac0814b0 0x7f4fac081930 0x7f4ff9f616f0 326 0 20 0.000000
+0x7f4fac0814b0 0x7f4fac0819e0 0x7f4ff9f616b8 334 0 20 0.000000
+0x7f4fac0819e0 0x7f4fac081a70 0x7f4ff9f616c0 8 0 21 0.000000
+0x7f4fac0814b0 0x7f4fac081b00 0x7f4ff9f616f8 343 0 20 0.000000
+0x7f4fac081b00 0x7f4fac081bb0 0x7f4ff9f616b0 19 0 21 0.000000
+0x7f4fac0814b0 0x7f4fac081c30 0x7f4ff9f61700 363 0 20 0.000000
+0x7f4fac081c30 0x7f4fac081d60 0x7f4ff9f616b0 2 0 21 0.000000
+0x7f4fac081c30 0x7f4fac081de0 0x7f4ff9f616b8 74 0 21 0.000000
+0x7f4fac081de0 0x7f4fac081e70 0x7f4ff9f616c0 8 0 22 0.000000
+0x7f4fac081c30 0x7f4fac081f00 0x7f4ff9f61708 94 0 21 0.000000
+0x7f4fac081f00 0x7f4fac081f80 0x7f4ff9f81250 2 0 22 0.000000
+0x7f4fac081f80 0x7f4fac082000 0x7f4ff9f81258 1 0 23 0.000000
+0x7f4fac082000 0x7f4fac082080 0x7f4ff9f81260 2 0 24 0.000000
+0x7f4fac082080 0x7f4fac082100 0x7f4ff9f81268 1 0 25 0.000000
+0x7f4fac082100 0x7f4fac082180 0x7f4ff9f61688 1 0 26 0.000000
+0x7f4fac082180 0x7f4fac082200 0x7f504c062d30 1 0 27 0.000000
+0x7f4fac081000 0x7f4fac082280 0x7f4ff9f81270 506 0 19 0.000000
+0x7f4fac082280 0x7f4fac082610 0x7f4ff9f616e0 1 0 20 0.000000
+0x7f4fac082610 0x7f4fac0826b0 0x7f4ff9f616b0 12 0 21 0.000000
+0x7f4fac080e80 0x7f4fac082730 0x7f4ff9f616e0 121 0 18 0.000000
+0x7f4fac082730 0x7f4fac0827d0 0x7f4ff9f616b0 12 0 19 0.000000
+0x7f4fac0802b0 0x7f4fac080640 0x7f4ff9f616b0 4 0 17 0.000000
+0x7f4fac0802b0 0x7f4fac0806c0 0x7f504c091b78 39 0 17 0.000000
+0x7f4fac0802b0 0x7f4fac080740 0x7f504c854510 79 0 17 0.000000
+0x7f4fac080740 0x7f4fac0807f0 0x7f504c854518 32 0 18 0.000000
+0x7f4fac0807f0 0x7f4fac0808b0 0x7f504c854508 8 0 19 0.000000
+0x7f4fac0802b0 0x7f4fac080940 0x7f4ff9f616b8 84 0 17 0.000000
+0x7f4fac080940 0x7f4fac0809d0 0x7f4ff9f616c0 8 0 18 0.000000
+0x7f4fac0802b0 0x7f4fac080a60 0x7f504c0ff498 107 0 17 0.000000
+0x7f4fac0802b0 0x7f4fac080ae0 0x7f4ff9f616b0 123 0 17 0.000000
+0x7f4fac0802b0 0x7f4fac080b60 0x7f4ff9f616c8 130 0 17 0.000000
+0x7f4fac0802b0 0x7f4fac080e00 0x7f4ff9f616b0 158 0 17 0.000000
+0x7f4fac0802b0 0x7f4fac082850 0x7f4ff9f81348 374 0 17 0.000000
+0x7f4fac082850 0x7f4fac082900 0x7f4ff9f61688 1 0 18 0.000000
+0x7f4fac082900 0x7f4fac082980 0x7f504c062d30 1 0 19 0.000000
+0x7f4fac082850 0x7f4fac082b90 0x7f4ff9fa90f0 22 0 18 0.000000
+0x7f4fac082b90 0x7f4fac082c30 0x7f4ff9fa9100 25 0 19 0.000000
+0x7f4fac082c30 0x7f4fac082cc0 0x7f4ff9fa9100 12 0 20 0.000000
+0x7f4fac082850 0x7f4fac082a00 0x7f4ff9fa90e0 13 0 18 0.000000
+0x7f4fac082a00 0x7f4fac082a80 0x7f504c062d30 1 0 19 0.000000
+0x7f4fac07ff90 0x7f4fac083230 0x7f4fe003e7b0 9 0 14 0.000000
+0x7f4fac083230 0x7f4fac083310 0x7f4ff9fa9160 1 0 15 0.000000
+0x7f4fac083310 0x7f4fac083420 0x7f4ff9fa9168 75 0 16 0.000000
+0x7f4fac083420 0x7f4fac0834a0 0x7f504c091b78 4 0 17 0.000000
+0x7f4fac083230 0x7f4fac083520 0x7f4fed4be448 6 0 15 0.000000
+0x7f4fac083520 0x7f4fac083610 0x7f4ff9fa9178 65 0 16 0.000000
+0x7f4fac083610 0x7f4fac083750 0x7f4ff9fa9180 86 0 17 0.000000
+0x7f4fac083750 0x7f4fac083870 0x7f4ff9fa9188 44 0 18 0.000000
+0x7f4fac083870 0x7f4fac083940 0x7f504c091b98 11 0 19 0.000000
+0x7f4fac083870 0x7f4fac0839e0 0x7f4ff9fa9190 16 0 19 0.000000
+0x7f4fac083230 0x7f4fac083a60 0x7f504f01c2f0 53 0 15 0.000000
+0x7f4fac07ff90 0x7f4fac082d50 0x7f4ff9fa9150 5 0 14 0.000000
+0x7f4fac082d50 0x7f4fac082e10 0x7f4ff9fa9158 38 0 15 0.000000
+0x7f4fac082e10 0x7f4fac082f20 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac082e10 0x7f4fac082fa0 0x7f504c0e8bd0 55 0 16 0.000000
+0x7f4fac082e10 0x7f4fac083020 0x7f4ff9fa9160 79 0 16 0.000000
+0x7f4fac083020 0x7f4fac083130 0x7f4ff9fa9168 75 0 17 0.000000
+0x7f4fac083130 0x7f4fac0831b0 0x7f504c091b78 4 0 18 0.000000
+0x7f4fac077430 0x7f4fac07d4c0 0x7f504c09d768 77 0 13 0.000000
+0x7f4fac07d4c0 0x7f4fac07d550 0x7f504c09d770 13 0 14 0.000000
+0x7f4fac077430 0x7f4fac0840e0 0x7f504c09d718 214 0 13 0.000000
+0x7f4fac0840e0 0x7f4fac084170 0x7f504c09d720 13 0 14 0.000000
+0x7f4fac084170 0x7f4fac084260 0x7f504c062d30 1 0 15 0.000000
+0x7f4fac084170 0x7f4fac0842e0 0x7f504c09d728 60 0 15 0.000000
+0x7f4fac0842e0 0x7f4fac0843c0 0x7f504c084798 54 0 16 0.000000
+0x7f4fac0842e0 0x7f4fac084440 0x7f504c091da8 57 0 16 0.000000
+0x7f4fac077430 0x7f4fac07d640 0x7f504c091e18 87 0 13 0.000000
+0x7f4fac07d640 0x7f4fac086670 0x7f504c09d720 427 0 14 0.000000
+0x7f4fac086670 0x7f4fac086760 0x7f504c062d30 1 0 15 0.000000
+0x7f4fac086670 0x7f4fac0867e0 0x7f504c09d728 60 0 15 0.000000
+0x7f4fac0867e0 0x7f4fac0868c0 0x7f504c084798 54 0 16 0.000000
+0x7f4fac0867e0 0x7f4fac086940 0x7f504c091da8 57 0 16 0.000000
+0x7f4fac07d640 0x7f4fac085fe0 0x7f504c091e28 235 0 14 0.000000
+0x7f4fac085fe0 0x7f4fac086060 0x7f504c091e30 1 0 15 0.000000
+0x7f4fac07d640 0x7f4fac07d9d0 0x7f504c091e20 82 0 14 0.000000
+0x7f4fac07d9d0 0x7f4fac07da50 0x7f504c091e28 1 0 15 0.000000
+0x7f4fac07da50 0x7f4fac07dad0 0x7f504c091e30 1 0 16 0.000000
+0x7f4fac07d640 0x7f4fac085ec0 0x7f504c091da8 116 0 14 0.000000
+0x7f4fac07d640 0x7f4fac085f40 0x7f504c128918 120 0 14 0.000000
+0x7f4fac085f40 0x7f4fac085000 0x7f504c128920 4 0 15 0.000000
+0x7f4fac077430 0x7f4fac07f510 0x7f504c09d768 92 0 13 0.000000
+0x7f4fac07f510 0x7f4fac07f5a0 0x7f504c09d770 13 0 14 0.000000
+0x7f4fac077430 0x7f4fac07f690 0x7f504c0ff510 121 0 13 0.000000
+0x7f4fac07f690 0x7f4fac07f710 0x7f504c0ff518 3 0 14 0.000000
+0x7f4fac07f710 0x7f4fac07f7b0 0x7f504c0ff520 21 0 15 0.000000
+0x7f4fac072c00 0x7f4fac0844c0 0x7f4fe003e7c8 102 0 12 0.000000
+0x7f4fac072c00 0x7f4fac084540 0x7f4fe003e7d0 105 0 12 0.000000
+0x7f4fac084540 0x7f4fac0845c0 0x7f504e41c918 5 0 13 0.000000
+0x7f4fac0845c0 0x7f4fac084640 0x7f504e41c920 2 0 14 0.000000
+0x7f4fac00b2c0 0x7f4fac092430 0x7f4ffa10dc18 18 0 9 0.000000
+0x7f4fac092430 0x7f4fac0924b0 0x7f4ffa10dc20 1 0 10 0.000000
+0x7f4fac00b2c0 0x7f4fac092d40 0x7f4ffa10dc30 113 0 9 0.000000
+0x7f4fac00b2c0 0x7f4fac092600 0x7f4feed41e18 45 0 9 0.000000
+0x7f4fac00b2c0 0x7f4fac092dc0 0x7f504c062d90 118 0 9 0.000000
+0x7f4fac00b2c0 0x7f4fac092760 0x7f4feed41e20 48 0 9 0.000000
+0x7f4fac00b2c0 0x7f4fac0928b0 0x7f4feed41e28 59 0 9 0.000000
+0x7f4fac00b2c0 0x7f4fac092ed0 0x7f4ffa10dc30 132 0 9 0.000000
+0x7f4fac00b2c0 0x7f4fac092a10 0x7f4fe0003600 62 0 9 0.000000
+0x7f4fac00b2c0 0x7f4fac092f50 0x7f504c062d90 137 0 9 0.000000
+0x7f4fac008440 0x7f4fac093a60 0x7f504c084730 32 0 5 0.000000
+0x7f4fac008440 0x7f4fac093ae0 0x7f504c16d850 36 0 5 0.000000
+0x7f4fac093ae0 0x7f4fac093b80 0x7f504c062d98 0 0 6 0.000000
+0x7f4fac008440 0x7f4fac094600 0x7f4fb3664de8 101 0 5 0.000000
+0x7f4fac008440 0x7f4fac094680 0x7f4fb3664dc0 115 0 5 0.000000
+0x7f4fac094680 0x7f4fac0947e0 0x7f4fd8c73528 1 0 6 0.000000
+0x7f4fac094680 0x7f4fac094880 0x7f504c084730 9 0 6 0.000000
+0x7f4fac094680 0x7f4fac094900 0x7f4fd8c73528 13 0 6 0.000000
+0x7f4fac094680 0x7f4fac094a90 0x7f4fda7cc580 18 0 6 0.000000
+0x7f4fac094680 0x7f4fac094b10 0x7f504c16d850 23 0 6 0.000000
+0x7f4fac094b10 0x7f4fac094bb0 0x7f504c062d98 0 0 7 0.000000
+0x7f4fac094680 0x7f4fac094c30 0x7f4fb3664dc8 27 0 6 0.000000
+0x7f4fac094c30 0x7f4fac094eb0 0x7f4ffa0d3288 1 0 7 0.000000
+0x7f4fac094c30 0x7f4fac094f30 0x7f4ffa0d3290 4 0 7 0.000000
+0x7f4fac094c30 0x7f4fac095700 0x7f4feec72188 156 0 7 0.000000
+0x7f4fac095700 0x7f4fac0957b0 0x7f5003e5bc80 4 0 8 0.000000
+0x7f4fac0957b0 0x7f4fac095830 0x7f504c725698 1 0 9 0.000000
+0x7f4fac095700 0x7f4fac0958b0 0x7f504c7256a0 11 0 8 0.000000
+0x7f4fac0958b0 0x7f4fac095930 0x7f504c7256a8 5 0 9 0.000000
+0x7f4fac095930 0x7f4fac0959b0 0x7f504c7256b0 2 0 10 0.000000
+0x7f4fac0959b0 0x7f4fac095b80 0x7f504c084730 0 0 11 0.000000
+0x7f4fac0959b0 0x7f4fac095c00 0x7f504c091b00 5 0 11 0.000000
+0x7f4fac0959b0 0x7f4fac095c80 0x7f504c1b0160 10 0 11 0.000000
+0x7f4fac0959b0 0x7f4fac095d00 0x7f504c7256b8 27 0 11 0.000000
+0x7f4fac0959b0 0x7f4fac095d80 0x7f5003e5bc88 33 0 11 0.000000
+0x7f4fac095d80 0x7f4fac095e00 0x7f5003e5bc90 1 0 12 0.000000
+0x7f4fac0959b0 0x7f4fac095eb0 0x7f504c091b08 52 0 11 0.000000
+0x7f4fac095eb0 0x7f4fac095f30 0x7f504c091b10 9 0 12 0.000000
+0x7f4fac094c30 0x7f4fac095090 0x7f4f940014c0 70 0 7 0.000000
+0x7f4fac095090 0x7f4fac0952d0 0x7f4fc985c3b8 121 0 8 0.000000
+0x7f4fac0952d0 0x7f4fac095430 0x7f4fc985c3c0 12 0 9 0.000000
+0x7f4fac095430 0x7f4fac0b4630 0x7f504c13bb68 19 0 10 0.000000
+0x7f4fac094c30 0x7f4fac0965d0 0x7f4fb3664dd8 214 0 7 0.000000
+0x7f4fac094c30 0x7f4fac096650 0x7f4fe0003658 249 0 7 0.000000
+0x7f4fac094c30 0x7f4fac095660 0x7f4f940014c8 118 0 7 0.000000
+0x7f4fac094c30 0x7f4fac0966d0 0x7f4ffa10dbf8 262 0 7 0.000000
+0x7f4fac0966d0 0x7f4fac096750 0x7f4ffa10dc00 6 0 8 0.000000
+0x7f4fac096750 0x7f4fac096820 0x7f4ffa10dc08 10 0 9 0.000000
+0x7f4fac096820 0x7f4fac0968c0 0x7f504c5eea50 2 0 10 0.000000
+0x7f4fac0968c0 0x7f4fac096950 0x7f504c062d30 1 0 11 0.000000
+0x7f4fac096750 0x7f4fac096ac0 0x7f4fd80273e8 37 0 9 0.000000
+0x7f4fac096ac0 0x7f4fac096ce0 0x7f4ffa10dc18 2 0 10 0.000000
+0x7f4fac096ce0 0x7f4fac096d60 0x7f4ffa10dc20 1 0 11 0.000000
+0x7f4fac096ac0 0x7f4fac097290 0x7f4ffa10dc30 133 0 10 0.000000
+0x7f4fac096ac0 0x7f4fac097310 0x7f504c062d90 138 0 10 0.000000
+0x7f4fac096ac0 0x7f4fac096de0 0x7f4ffa10dc30 45 0 10 0.000000
+0x7f4fac096ac0 0x7f4fac096e60 0x7f504c062d90 50 0 10 0.000000
+0x7f4fac096ac0 0x7f4fac096f70 0x7f4ffa10dc30 64 0 10 0.000000
+0x7f4fac096ac0 0x7f4fac096ff0 0x7f504c062d90 69 0 10 0.000000
+0x7f4fac096ac0 0x7f4fac097420 0x7f4ffa10dc30 187 0 10 0.000000
+0x7f4fac096ac0 0x7f4fac097100 0x7f4ffa10dc30 83 0 10 0.000000
+0x7f4fac096ac0 0x7f4fac097180 0x7f504c062d90 88 0 10 0.000000
+0x7f4fac096ac0 0x7f4fac0975b0 0x7f4ffa10dc30 206 0 10 0.000000
+0x7f4fac096ac0 0x7f4fac097630 0x7f504c062d90 211 0 10 0.000000
+0x7f4fac094680 0x7f4fac099f20 0x7f504c084730 32 0 6 0.000000
+0x7f4fac094680 0x7f4fac099fa0 0x7f504c16d850 36 0 6 0.000000
+0x7f4fac099fa0 0x7f4fac09a040 0x7f504c062d98 0 0 7 0.000000
+0x7f4fac094680 0x7f4fac09aac0 0x7f4fb3664de8 101 0 6 0.000000
+0x7f4fac094680 0x7f4fac09ab40 0x7f4fb3664dc0 115 0 6 0.000000
+0x7f4fac09ab40 0x7f4fac09aca0 0x7f4fd8c73528 1 0 7 0.000000
+0x7f4fac09aca0 0x7f4fac09ad40 0x7f4fd8c73528 23 0 8 0.000000
+0x7f4fac09ab40 0x7f4fac09ade0 0x7f504c084730 9 0 7 0.000000
+0x7f4fac09ab40 0x7f4fac09ae60 0x7f4fd8c73528 13 0 7 0.000000
+0x7f4fac09ae60 0x7f4fac09af00 0x7f4fd8c73528 23 0 8 0.000000
+0x7f4fac09ab40 0x7f4fac09afa0 0x7f4fda7cc580 18 0 7 0.000000
+0x7f4fac09ab40 0x7f4fac09b020 0x7f504c16d850 23 0 7 0.000000
+0x7f4fac09b020 0x7f4fac09b0c0 0x7f504c062d98 0 0 8 0.000000
+0x7f4fac09ab40 0x7f4fac09b220 0x7f4f940014d0 27 0 7 0.000000
+0x7f4fac09b220 0x7f4fac09b2e0 0x7f4fb3664dc8 1 0 8 0.000000
+0x7f4fac09b2e0 0x7f4fac09b560 0x7f4ffa0d3288 1 0 9 0.000000
+0x7f4fac09b2e0 0x7f4fac09b5e0 0x7f4ffa0d3290 4 0 9 0.000000
+0x7f4fac09b2e0 0x7f4fac09b660 0x7f4feec72188 156 0 9 0.000000
+0x7f4fac09b660 0x7f4fac09b710 0x7f5003e5bc80 4 0 10 0.000000
+0x7f4fac09b710 0x7f4fac09b790 0x7f504c725698 1 0 11 0.000000
+0x7f4fac09b660 0x7f4fac09b810 0x7f504c7256a0 11 0 10 0.000000
+0x7f4fac09b810 0x7f4fac09b890 0x7f504c7256a8 5 0 11 0.000000
+0x7f4fac09b890 0x7f4fac09b910 0x7f504c7256b0 2 0 12 0.000000
+0x7f4fac09b910 0x7f4fac09bae0 0x7f504c084730 0 0 13 0.000000
+0x7f4fac09b910 0x7f4fac09bb60 0x7f504c091b00 5 0 13 0.000000
+0x7f4fac09b910 0x7f4fac09bbe0 0x7f504c1b0160 10 0 13 0.000000
+0x7f4fac09b910 0x7f4fac09bc60 0x7f504c7256b8 27 0 13 0.000000
+0x7f4fac09b910 0x7f4fac09bce0 0x7f5003e5bc88 33 0 13 0.000000
+0x7f4fac09bce0 0x7f4fac09bd60 0x7f5003e5bc90 1 0 14 0.000000
+0x7f4fac09b910 0x7f4fac09be10 0x7f504c091b08 52 0 13 0.000000
+0x7f4fac09be10 0x7f4fac09be90 0x7f504c091b10 9 0 14 0.000000
+0x7f4fac09b2e0 0x7f4fac09c4a0 0x7f4f9169d460 203 0 9 0.000000
+0x7f4fac09b2e0 0x7f4fac09c530 0x7f4fb3664dd8 214 0 9 0.000000
+0x7f4fac09b2e0 0x7f4fac09c5b0 0x7f4fe0003658 249 0 9 0.000000
+0x7f4fac09b2e0 0x7f4fac09c630 0x7f4ffa10dbf8 262 0 9 0.000000
+0x7f4fac09c630 0x7f4fac09c6b0 0x7f4ffa10dc00 6 0 10 0.000000
+0x7f4fac09c6b0 0x7f4fac09c780 0x7f4ffa10dc08 10 0 11 0.000000
+0x7f4fac09c780 0x7f4fac09c820 0x7f504c5eea50 2 0 12 0.000000
+0x7f4fac09c820 0x7f4fac09c8b0 0x7f504c062d30 1 0 13 0.000000
+0x7f4fac09c6b0 0x7f4fac09c930 0x7f4fb3664de0 37 0 11 0.000000
+0x7f4fac09c930 0x7f4fac09cb10 0x7f4ffa10dc30 1 0 12 0.000000
+0x7f4fac09c930 0x7f4fac09cb90 0x7f504c062d90 6 0 12 0.000000
+0x7f4fac09c930 0x7f4fac09cca0 0x7f4ffa10dc30 110 0 12 0.000000
+0x7f4fac09c930 0x7f4fac09cd20 0x7f504c062d90 115 0 12 0.000000
+0x7f4fac09b220 0x7f4fac09ce30 0x7f4ffa0d3288 5 0 8 0.000000
+0x7f4fac09b220 0x7f4fac09ceb0 0x7f4ffa0d3290 8 0 8 0.000000
+0x7f4fac09b220 0x7f4fac09f900 0x7f4f917dfea8 33 0 8 0.000000
+0x7f4fac09b220 0x7f4fac09d020 0x7f4f917dfea8 16 0 8 0.000000
+0x7f4fac09ab40 0x7f4fac09d0a0 0x7f504c084730 32 0 7 0.000000
+0x7f4fac09ab40 0x7f4fac09d120 0x7f504c16d850 36 0 7 0.000000
+0x7f4fac09d120 0x7f4fac09d1c0 0x7f504c062d98 0 0 8 0.000000

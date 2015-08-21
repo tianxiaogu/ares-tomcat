@@ -1,0 +1,27 @@
+0x7f4fb3664da8 java.lang.ThreadGroup threadTerminated (Ljava/lang/Thread;)V
+0x7f504c09d770 java.lang.String startsWith (Ljava/lang/String;I)Z
+0x7f504c091da8 java.lang.System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V
+0x7f4f940e9b88 java.util.logging.LogManager$Cleaner run ()V
+0x7f504c1706a0 java.util.logging.LogManager access$100 ()Ljava/util/logging/LogManager;
+0x7f504c0e3b10 java.lang.String startsWith (Ljava/lang/String;)Z
+0x7f4f940e9b90 java.util.logging.LogManager access$602 (Ljava/util/logging/LogManager;Z)Z
+0x7f4fb3664da0 java.lang.Thread exit ()V
+0x7f4f940e9b98 java.util.logging.LogManager access$702 (Ljava/util/logging/LogManager;Z)Z
+0x7f4fb3664db0 java.lang.ThreadGroup remove (Ljava/lang/Thread;)V
+0x7f4f940e9ba8 org.apache.juli.ClassLoaderLogManager reset ()V
+0x7f504c0e16d0 java.lang.Class getName0 ()Ljava/lang/String;
+0x7f504c084730 java.lang.Thread currentThread ()Ljava/lang/Thread;
+0x7f504c0dd230 java.lang.Object getClass ()Ljava/lang/Class;
+0x7f504c0e16c8 java.lang.Class getName ()Ljava/lang/String;
+(nil) 0x7f4f80000f40 (nil) -2 0 0 0.000000
+0x7f4f80000f40 0x7f4f80001280 0x7f4f940e9b88 -2 0 1 0.000000
+0x7f4f80001280 0x7f4f80001420 0x7f504c1706a0 0 0 2 0.000000
+0x7f4f80001280 0x7f4f800016e0 0x7f4f940e9b98 25 0 2 0.000000
+0x7f4f80001280 0x7f4f80001580 0x7f4f940e9b90 16 0 2 0.000000
+0x7f4f80001280 0x7f4f80001830 0x7f4f940e9ba8 43 0 2 0.000000
+0x7f4f80001830 0x7f4f800019b0 0x7f504c084730 0 0 3 0.000000
+0x7f4f80001830 0x7f4f80001b10 0x7f504c0dd230 5 0 3 0.000000
+0x7f4f80001830 0x7f4f80001c50 0x7f504c0e16c8 8 0 3 0.000000
+0x7f4f80001c50 0x7f4f80001da0 0x7f504c0e16d0 11 0 4 0.000000
+0x7f4f80001830 0x7f4f80001f60 0x7f504c0e3b10 13 0 3 0.000000
+0x7f4f80001f60 0x7f4f80002160 0x7f504c09d770 3 0 4 0.000000

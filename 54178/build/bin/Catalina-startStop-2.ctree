@@ -1,0 +1,964 @@
+0x7f4fb3664da8 java.lang.ThreadGroup threadTerminated (Ljava/lang/Thread;)V
+0x7f4fb3664da0 java.lang.Thread exit ()V
+0x7f4f800324d8 java.util.concurrent.ThreadPoolExecutor terminated ()V
+0x7f4fc9902a00 java.util.concurrent.locks.AbstractQueuedSynchronizer$Node <init> ()V
+0x7f4f8c0b75f8 java.util.concurrent.locks.AbstractQueuedSynchronizer$Node <init> (Ljava/lang/Thread;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V
+0x7f4f8c0b75f0 java.util.concurrent.locks.AbstractQueuedSynchronizer addWaiter (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;
+0x7f4fc9902a10 java.util.concurrent.locks.AbstractQueuedSynchronizer fullyRelease (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)I
+0x7f4f8030e0f8 java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject unlinkCancelledWaiters ()V
+0x7f4fc9902998 java.util.concurrent.locks.ReentrantLock lockInterruptibly ()V
+0x7f4fc985c448 java.util.concurrent.LinkedBlockingQueue poll (JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+0x7f4fc985c438 java.util.concurrent.ThreadPoolExecutor getTask ()Ljava/lang/Runnable;
+0x7f4fc985c430 java.util.concurrent.ThreadPoolExecutor afterExecute (Ljava/lang/Runnable;Ljava/lang/Throwable;)V
+0x7f4fed796a00 java.util.concurrent.ThreadPoolExecutor ctlOf (II)I
+0x7f4fc985c408 sun.misc.Unsafe putOrderedInt (Ljava/lang/Object;JI)V
+0x7f4fc985c400 java.util.concurrent.FutureTask set (Ljava/lang/Object;)V
+0x7f5003e5bc90 java.util.concurrent.locks.AbstractQueuedSynchronizer apparentlyFirstQueuedIsExclusive ()Z
+0x7f5003e5bc88 java.util.concurrent.locks.ReentrantReadWriteLock$NonfairSync readerShouldBlock ()Z
+0x7f5003e5bc80 java.util.concurrent.locks.ReentrantReadWriteLock readLock ()Ljava/util/concurrent/locks/Lock;
+0x7f4f8c0b75d0 java.lang.InterruptedException <init> ()V
+0x7f504c091ba8 java.lang.System nanoTime ()J
+0x7f4feec72188 org.apache.catalina.core.ContainerBase getRealmInternal ()Lorg/apache/catalina/Realm;
+0x7f4fc985c440 java.util.concurrent.FutureTask report (I)Ljava/lang/Object;
+0x7f4ffa0e5eb8 sun.misc.Unsafe putObject (Ljava/lang/Object;JLjava/lang/Object;)V
+0x7f4fe0003620 java.util.concurrent.locks.LockSupport setBlocker (Ljava/lang/Thread;Ljava/lang/Object;)V
+0x7f4fe0003618 java.util.concurrent.locks.LockSupport park (Ljava/lang/Object;)V
+0x7f4feed41e00 java.util.concurrent.FutureTask$WaitNode <init> ()V
+0x7f4feed41df8 java.util.concurrent.FutureTask awaitDone (ZJ)I
+0x7f4feed41df0 java.util.concurrent.FutureTask get ()Ljava/lang/Object;
+0x7f4f8c0b75c0 java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject reportInterruptAfterWait (I)V
+0x7f504c1d0750 java.util.ArrayList access$200 (Ljava/util/ArrayList;)[Ljava/lang/Object;
+0x7f504c1d0748 java.util.ArrayList$Itr checkForComodification ()V
+0x7f504c0e8cb0 java.lang.Throwable fillInStackTrace (I)Ljava/lang/Throwable;
+0x7f504c1d0740 java.util.ArrayList$Itr next ()Ljava/lang/Object;
+0x7f504c1d0720 java.util.ArrayList$Itr <init> (Ljava/util/ArrayList;Ljava/util/ArrayList$1;)V
+0x7f4fe00564e8 java.util.concurrent.LinkedBlockingQueue signalNotEmpty ()V
+0x7f4fe00564e0 java.util.concurrent.locks.ReentrantLock$Sync isHeldExclusively ()Z
+0x7f4fe00564d8 java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject signal ()V
+0x7f4fe00564d0 java.util.concurrent.LinkedBlockingQueue enqueue (Ljava/util/concurrent/LinkedBlockingQueue$Node;)V
+0x7f4fe00564c8 java.util.concurrent.LinkedBlockingQueue offer (Ljava/lang/Object;)Z
+0x7f4fe00564c0 java.util.concurrent.ThreadPoolExecutor isRunning (I)Z
+0x7f504c0e8bf0 java.util.ArrayList grow (I)V
+0x7f504c0e8be8 java.util.ArrayList ensureExplicitCapacity (I)V
+0x7f504c0e8bd0 java.lang.Math max (II)I
+0x7f504c0e8be0 java.util.ArrayList ensureCapacityInternal (I)V
+0x7f504c0e8bd8 java.util.ArrayList add (Ljava/lang/Object;)Z
+0x7f504c091b50 java.util.concurrent.locks.ReentrantLock$Sync tryRelease (I)Z
+0x7f504c091b40 java.util.concurrent.locks.ReentrantLock unlock ()V
+0x7f504c17ada8 java.util.concurrent.locks.ReentrantLock$NonfairSync lock ()V
+0x7f504c17ada0 java.util.concurrent.locks.ReentrantLock lock ()V
+0x7f504c16d828 java.lang.Thread setPriority (I)V
+0x7f504c16d820 java.security.AccessControlContext optimize ()Ljava/security/AccessControlContext;
+0x7f504c16d818 java.security.AccessController getStackAccessControlContext ()Ljava/security/AccessControlContext;
+0x7f504c16d810 java.security.AccessController getContext ()Ljava/security/AccessControlContext;
+0x7f504c16d808 java.lang.Thread getContextClassLoader ()Ljava/lang/ClassLoader;
+0x7f4fec49d600 java.lang.Thread start0 ()V
+0x7f504c140318 java.lang.ThreadGroup checkAccess ()V
+0x7f504c0cbb40 java.lang.Object hashCode ()I
+0x7f504c0e3ab0 java.lang.String toCharArray ()[C
+0x7f4fec49d5f0 java.lang.Thread start ()V
+0x7f504c140308 java.lang.Thread init (Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;JLjava/security/AccessControlContext;)V
+0x7f4fec49d5e8 java.lang.Thread setDaemon (Z)V
+0x7f504c140300 java.lang.Thread init (Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;J)V
+0x7f504c1402f8 java.lang.Integer getChars (II[C)V
+0x7f504c1402f0 java.lang.Integer stringSize (I)I
+0x7f504c1402e8 java.lang.AbstractStringBuilder append (I)Ljava/lang/AbstractStringBuilder;
+0x7f504c1402e0 java.lang.StringBuilder append (I)Ljava/lang/StringBuilder;
+0x7f504c09d6e0 java.lang.String getChars (II[CI)V
+0x7f504c140630 java.util.HashSet size ()I
+0x7f504c09d6d0 java.lang.AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+0x7f504c09d6c8 java.lang.StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+0x7f504c062d40 java.lang.AbstractStringBuilder <init> (I)V
+0x7f504c062d38 java.lang.StringBuilder <init> ()V
+0x7f504c0e8c00 java.util.Arrays copyOf ([Ljava/lang/Object;ILjava/lang/Class;)[Ljava/lang/Object;
+0x7f504c091ad8 java.util.concurrent.locks.AbstractOwnableSynchronizer <init> ()V
+0x7f504c0e8bf8 java.util.Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object;
+0x7f504c091ad0 java.util.concurrent.locks.AbstractQueuedSynchronizer <init> ()V
+0x7f4feed41d60 java.util.concurrent.ThreadPoolExecutor compareAndIncrementWorkerCount (I)Z
+0x7f4feed41d58 java.util.concurrent.ThreadPoolExecutor runStateOf (I)I
+0x7f4feed41d50 java.util.concurrent.ThreadPoolExecutor addWorker (Ljava/lang/Runnable;Z)Z
+0x7f4feed41d38 java.util.concurrent.FutureTask <init> (Ljava/util/concurrent/Callable;)V
+0x7f4feed41d48 java.util.concurrent.ThreadPoolExecutor workerCountOf (I)I
+0x7f4feec72228 java.util.concurrent.AbstractExecutorService newTaskFor (Ljava/util/concurrent/Callable;)Ljava/util/concurrent/RunnableFuture;
+0x7f4feed41d40 java.util.concurrent.ThreadPoolExecutor execute (Ljava/lang/Runnable;)V
+0x7f4feec72220 java.util.concurrent.AbstractExecutorService submit (Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;
+0x7f504c0e8ca8 java.lang.Throwable fillInStackTrace ()Ljava/lang/Throwable;
+0x7f504c1d0738 java.util.ArrayList access$100 (Ljava/util/ArrayList;)I
+0x7f504c0e3ff8 java.util.AbstractCollection <init> ()V
+0x7f504c1d3f60 java.util.HashMap$HashIterator nextEntry ()Ljava/util/HashMap$Entry;
+0x7f504d1473b8 java.util.HashMap$ValueIterator next ()Ljava/lang/Object;
+0x7f504c1d3f40 java.util.HashMap$HashIterator <init> (Ljava/util/HashMap;)V
+0x7f504d57d3c8 java.util.HashMap$Values size ()I
+0x7f504c09d6d8 java.lang.AbstractStringBuilder ensureCapacityInternal (I)V
+0x7f504c140638 java.util.AbstractCollection toArray ([Ljava/lang/Object;)[Ljava/lang/Object;
+0x7f4feec72210 org.apache.catalina.core.ContainerBase findChildren ()[Lorg/apache/catalina/Container;
+0x7f4fac07f5c8 java.io.FileOutputStream close0 ()V
+0x7f504c170680 java.util.concurrent.atomic.AtomicInteger compareAndSet (II)Z
+0x7f4fac07f5c0 java.io.FileOutputStream close ()V
+0x7f4feed41d88 java.security.AccessController getInheritedAccessControlContext ()Ljava/security/AccessControlContext;
+0x7f504c1aef70 java.nio.charset.CharsetEncoder implFlush (Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;
+0x7f4feed41d80 java.lang.Thread <init> (Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;)V
+0x7f504c1aef68 java.nio.charset.CharsetEncoder flush (Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;
+0x7f4f9200d978 java.nio.HeapCharBuffer <init> (II)V
+0x7f4fac07f5b8 sun.nio.cs.StreamEncoder flushLeftoverChar (Ljava/nio/CharBuffer;Z)V
+0x7f4fac07f5b0 sun.nio.cs.StreamEncoder implClose ()V
+0x7f4fac07f5a8 sun.nio.cs.StreamEncoder close ()V
+0x7f4fac07f5a0 java.io.OutputStreamWriter close ()V
+0x7f4fc985c428 java.util.concurrent.FutureTask done ()V
+0x7f4fe0192350 java.io.PrintWriter close ()V
+0x7f4ffa0159b8 java.io.OutputStream flush ()V
+0x7f504dfaa798 java.nio.Buffer flip ()Ljava/nio/Buffer;
+0x7f4fe0003658 org.apache.catalina.valves.ValveBase getNext ()Lorg/apache/catalina/Valve;
+0x7f4ff9fd8d48 sun.nio.cs.StreamEncoder implFlush ()V
+0x7f4ff9fd8d40 sun.nio.cs.StreamEncoder flush ()V
+0x7f4feed41da0 java.util.concurrent.ThreadPoolExecutor runWorker (Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V
+0x7f504c0e8958 java.nio.Buffer limit ()I
+0x7f504c062d70 java.lang.String hashCode ()I
+0x7f504c1b0408 java.util.HashMap values ()Ljava/util/Collection;
+0x7f504c5eea88 java.util.concurrent.CopyOnWriteArrayList iterator ()Ljava/util/Iterator;
+0x7f504c5ee908 javax.management.ObjectName isPattern ()Z
+0x7f504c16d838 java.lang.ThreadGroup getMaxPriority ()I
+0x7f4f88000930 org.apache.catalina.core.ContainerBase stopInternal ()V
+0x7f504c725698 java.util.concurrent.locks.ReentrantReadWriteLock readLock ()Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;
+0x7f504c725690 com.sun.jmx.mbeanserver.Repository contains (Ljavax/management/ObjectName;)Z
+0x7f504c16d8b0 java.lang.Thread isAlive ()Z
+0x7f4f880009a8 org.apache.tomcat.util.modeler.Registry unregisterComponent (Ljavax/management/ObjectName;)V
+0x7f4f9200d970 java.nio.CharBuffer allocate (I)Ljava/nio/CharBuffer;
+0x7f504c5ee8b8 javax.management.ObjectName getDomain ()Ljava/lang/String;
+0x7f504c1b0350 sun.nio.cs.StreamEncoder ensureOpen ()V
+0x7f504c1ae8a0 java.util.HashMap size ()I
+0x7f504c5ee8b0 com.sun.jmx.interceptor.DefaultMBeanServerInterceptor nonDefaultDomain (Ljavax/management/ObjectName;)Ljavax/management/ObjectName;
+0x7f4fe0003628 sun.misc.Unsafe park (ZJ)V
+0x7f504c1b0348 sun.nio.cs.StreamEncoder write ([CII)V
+0x7f504c5ee918 java.util.concurrent.locks.AbstractQueuedSynchronizer hasQueuedPredecessors ()Z
+0x7f504c09d720 java.lang.String <init> ([CII)V
+0x7f504c5eea60 java.util.Date getTimeImpl ()J
+0x7f4f921ee3c0 java.util.concurrent.ThreadPoolExecutor processWorkerExit (Ljava/util/concurrent/ThreadPoolExecutor$Worker;Z)V
+0x7f4fec4787d0 java.util.concurrent.atomic.AtomicInteger getAndIncrement ()I
+0x7f4fac07f580 org.apache.tomcat.util.modeler.BaseModelMBean postDeregister ()V
+0x7f4fc9902a58 java.util.concurrent.locks.AbstractQueuedSynchronizer compareAndSetTail (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z
+0x7f4f880009a0 org.apache.catalina.startup.HostConfig stop ()V
+0x7f4fc99029f0 java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject addConditionWaiter ()Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;
+0x7f504c16d840 java.lang.Thread setPriority0 (I)V
+0x7f4f88000938 org.apache.catalina.core.ContainerBase threadStop ()V
+0x7f504c084798 java.lang.Math min (II)I
+0x7f504c7256a8 java.util.concurrent.locks.AbstractQueuedSynchronizer acquireShared (I)V
+0x7f4fe0003600 org.apache.catalina.startup.HostConfig setDeployXML (Z)V
+0x7f504c062d30 java.lang.Object <init> ()V
+0x7f504e41c8e0 java.lang.Exception <init> ()V
+0x7f4fac07f568 com.sun.jmx.mbeanserver.Repository unregistering (Lcom/sun/jmx/mbeanserver/Repository$RegistrationContext;Ljavax/management/ObjectName;)V
+0x7f4f800940c8 java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject signalAll ()V
+0x7f504c5eea48 javax.management.Notification <init> (Ljava/lang/String;Ljava/lang/Object;J)V
+0x7f4fb3664e00 java.io.BufferedWriter flush ()V
+0x7f4fc9902a50 java.util.concurrent.locks.AbstractQueuedSynchronizer compareAndSetHead (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z
+0x7f4f88000998 org.apache.tomcat.util.http.mapper.Mapper removeMap ([Lorg/apache/tomcat/util/http/mapper/Mapper$MapElement;[Lorg/apache/tomcat/util/http/mapper/Mapper$MapElement;Ljava/lang/String;)Z
+0x7f504c0e8c08 java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+0x7f504c091ae0 sun.misc.Unsafe compareAndSwapObject (Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z
+0x7f504c1d0718 java.util.ArrayList iterator ()Ljava/util/Iterator;
+0x7f504c091b60 java.util.concurrent.locks.AbstractQueuedSynchronizer setState (I)V
+0x7f504c0e8c60 java.util.HashMap$Entry <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Entry;)V
+0x7f504c16d848 java.lang.Thread nextThreadID ()J
+0x7f4ffa1be1f0 org.apache.catalina.core.StandardHost getName ()Ljava/lang/String;
+0x7f4fc9902a40 java.util.concurrent.locks.AbstractQueuedSynchronizer compareAndSetWaitStatus (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;II)Z
+0x7f4f88000988 org.apache.catalina.connector.MapperListener unregisterHost (Lorg/apache/catalina/Host;)V
+0x7f504c0e8c58 java.util.HashMap createEntry (ILjava/lang/Object;Ljava/lang/Object;I)V
+0x7f504c091b58 java.util.concurrent.locks.AbstractOwnableSynchronizer getExclusiveOwnerThread ()Ljava/lang/Thread;
+0x7f4fb3664de0 org.apache.catalina.connector.MapperListener lifecycleEvent (Lorg/apache/catalina/LifecycleEvent;)V
+0x7f4fc9902a30 java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject doSignal (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V
+0x7f504c091da8 java.lang.System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V
+0x7f4f88000978 org.apache.catalina.core.ContainerBase$StopChild call ()Ljava/lang/Object;
+0x7f504c091b48 java.util.concurrent.locks.AbstractQueuedSynchronizer release (I)Z
+0x7f504c0e8c48 java.util.HashMap indexFor (II)I
+0x7f4ffa0159b0 java.nio.Buffer clear ()Ljava/nio/Buffer;
+0x7f504c7256e8 java.util.concurrent.locks.AbstractQueuedSynchronizer doReleaseShared ()V
+0x7f504c091b08 java.util.concurrent.locks.AbstractQueuedSynchronizer compareAndSetState (II)Z
+0x7f504c0e8c30 java.util.HashMap initHashSeedAsNeeded (I)Z
+0x7f4fc9902a18 java.util.concurrent.locks.AbstractQueuedSynchronizer isOnSyncQueue (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z
+0x7f4f88000960 org.apache.catalina.core.StandardPipeline stopInternal ()V
+0x7f4feed41dc0 java.util.concurrent.ThreadPoolExecutor$Worker tryAcquire (I)Z
+0x7f4feed41dd0 java.util.concurrent.ThreadPoolExecutor beforeExecute (Ljava/lang/Thread;Ljava/lang/Runnable;)V
+0x7f4fc985c418 java.util.concurrent.locks.LockSupport unpark (Ljava/lang/Thread;)V
+0x7f504c1289b8 java.lang.Thread isInterrupted (Z)Z
+0x7f504c0e8c40 java.util.HashMap hash (Ljava/lang/Object;)I
+0x7f504c091b18 java.util.concurrent.locks.AbstractOwnableSynchronizer setExclusiveOwnerThread (Ljava/lang/Thread;)V
+0x7f4ffa015980 sun.nio.cs.StreamEncoder implFlushBuffer ()V
+0x7f504c7256b8 java.util.concurrent.locks.ReentrantReadWriteLock$Sync sharedCount (I)I
+0x7f4fc9902a48 java.util.concurrent.locks.AbstractQueuedSynchronizer enq (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;
+0x7f4f88000990 org.apache.tomcat.util.http.mapper.Mapper removeHost (Ljava/lang/String;)V
+0x7f504c0ff4c8 java.lang.String substring (II)Ljava/lang/String;
+0x7f504c0e8c18 java.util.HashMap roundUpToPowerOf2 (I)I
+0x7f4feca23440 java.util.HashMap remove (Ljava/lang/Object;)Ljava/lang/Object;
+0x7f4fc985c410 java.util.concurrent.FutureTask finishCompletion ()V
+0x7f504c1289b0 java.lang.Thread interrupted ()Z
+0x7f504c091b10 sun.misc.Unsafe compareAndSwapInt (Ljava/lang/Object;JII)Z
+0x7f504c1d3f48 java.util.HashMap$HashIterator hasNext ()Z
+0x7f504f01c2c8 org.apache.tomcat.util.modeler.Registry getRegistry (Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/tomcat/util/modeler/Registry;
+0x7f504c7256b0 java.util.concurrent.locks.ReentrantReadWriteLock$Sync tryAcquireShared (I)I
+0x7f4fe0003608 org.apache.catalina.core.StandardHost isUnpackWARs ()Z
+0x7f504c0e8c10 java.util.HashMap inflateTable (I)V
+0x7f4feed41d90 java.lang.Thread run ()V
+0x7f504c0ce5f0 java.util.HashMap get (Ljava/lang/Object;)Ljava/lang/Object;
+0x7f4ffa10dc20 java.util.EventObject getSource ()Ljava/lang/Object;
+0x7f4feed41d98 java.util.concurrent.ThreadPoolExecutor$Worker run ()V
+0x7f504c0e8950 java.nio.Buffer position ()I
+0x7f504c084730 java.lang.Thread currentThread ()Ljava/lang/Thread;
+0x7f4feed41da8 java.util.concurrent.ThreadPoolExecutor$Worker unlock ()V
+0x7f4feed41dc8 java.util.concurrent.ThreadPoolExecutor runStateAtLeast (II)Z
+0x7f4fc9902a38 java.util.concurrent.locks.AbstractQueuedSynchronizer transferForSignal (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z
+0x7f4f88000980 org.apache.catalina.core.ContainerBase$StopChild call ()Ljava/lang/Void;
+0x7f504c0e8c50 java.util.HashMap addEntry (ILjava/lang/Object;Ljava/lang/Object;I)V
+0x7f4ffa015988 sun.nio.cs.StreamEncoder writeBytes ()V
+0x7f504c7256c0 java.util.concurrent.locks.ReentrantReadWriteLock$FairSync readerShouldBlock ()Z
+0x7f504c170678 java.util.concurrent.atomic.AtomicInteger get ()I
+0x7f504c091af8 java.util.concurrent.locks.ReentrantLock$Sync nonfairTryAcquire (I)Z
+0x7f504c0e8c20 java.lang.Integer highestOneBit (I)I
+0x7f4feed41db0 java.util.concurrent.ThreadPoolExecutor$Worker tryRelease (I)Z
+0x7f4ffa0d3290 org.apache.catalina.LifecycleState isAvailable ()Z
+0x7f504c73be78 java.lang.String compareTo (Ljava/lang/String;)I
+0x7f504c1b0160 java.util.concurrent.locks.ReentrantReadWriteLock$Sync exclusiveCount (I)I
+0x7f4ffa015990 java.io.FileOutputStream write ([BII)V
+0x7f504c7256c8 com.sun.jmx.mbeanserver.Repository retrieveNamedObject (Ljavax/management/ObjectName;)Lcom/sun/jmx/mbeanserver/NamedObject;
+0x7f504c091b00 java.util.concurrent.locks.AbstractQueuedSynchronizer getState ()I
+0x7f504c0e8c28 java.lang.Math min (FF)F
+0x7f5000e64790 org.apache.tomcat.util.modeler.Registry getMBeanServer ()Ljavax/management/MBeanServer;
+0x7f4feed41db8 java.util.concurrent.ThreadPoolExecutor$Worker lock ()V
+0x7f4fd6d63ed0 org.apache.tomcat.util.http.mapper.Mapper find ([Lorg/apache/tomcat/util/http/mapper/Mapper$MapElement;Ljava/lang/String;)I
+0x7f504c1b0150 java.util.concurrent.locks.AbstractQueuedSynchronizer acquire (I)V
+0x7f4ffa10dbf8 org.apache.catalina.util.LifecycleBase fireLifecycleEvent (Ljava/lang/String;Ljava/lang/Object;)V
+0x7f504c1718c8 java.util.concurrent.atomic.AtomicInteger decrementAndGet ()I
+0x7f4f880009d8 com.sun.jmx.mbeanserver.NamedObject getObject ()Ljavax/management/DynamicMBean;
+0x7f504c13bb68 java.lang.System currentTimeMillis ()J
+0x7f4fc9902990 java.util.concurrent.TimeUnit$1 toNanos (J)J
+0x7f4feed41e08 org.apache.catalina.startup.HostConfig lifecycleEvent (Lorg/apache/catalina/LifecycleEvent;)V
+0x7f4fc9902a08 java.util.concurrent.locks.AbstractQueuedSynchronizer$Node <init> (Ljava/lang/Thread;I)V
+0x7f4ffa1be200 java.lang.Enum equals (Ljava/lang/Object;)Z
+0x7f4ffa10dbe8 org.apache.catalina.util.LifecycleBase setStateInternal (Lorg/apache/catalina/LifecycleState;Ljava/lang/Object;Z)V
+0x7f4fc9902a80 java.util.concurrent.locks.AbstractQueuedSynchronizer$Node predecessor ()Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;
+0x7f4f880009c8 com.sun.jmx.interceptor.DefaultMBeanServerInterceptor getMBean (Ljavax/management/ObjectName;)Ljavax/management/DynamicMBean;
+0x7f504c5ee928 javax.management.ObjectName getCanonicalKeyPropertyListString ()Ljava/lang/String;
+0x7f4f921ee3d0 java.util.concurrent.ThreadPoolExecutor tryTerminate ()V
+0x7f4fac07f590 org.apache.catalina.valves.AccessLogValve close (Z)V
+0x7f504c1d0a50 org.apache.juli.logging.DirectJDKLog isDebugEnabled ()Z
+0x7f4fc99029a8 java.util.concurrent.locks.ReentrantLock$NonfairSync tryAcquire (I)Z
+0x7f504c16d7f8 java.lang.Thread isDaemon ()Z
+0x7f4feed41e20 org.apache.catalina.startup.HostConfig setCopyXML (Z)V
+0x7f4fc99029e0 java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject awaitNanos (J)J
+0x7f504c16d830 java.lang.Thread checkAccess ()V
+0x7f504c0cc260 java.lang.String intern ()Ljava/lang/String;
+0x7f4fac07f550 org.apache.tomcat.util.modeler.BaseModelMBean preDeregister ()V
+0x7f504c5eea30 com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification (Ljava/lang/String;Ljavax/management/ObjectName;)V
+0x7f4ffa10dc18 org.apache.catalina.LifecycleEvent getLifecycle ()Lorg/apache/catalina/Lifecycle;
+0x7f504c16d800 java.lang.Thread getPriority ()I
+0x7f4feed41e28 org.apache.catalina.core.StandardHost isDeployXML ()Z
+0x7f504c1403c0 java.util.logging.Level intValue ()I
+0x7f4f880009b8 com.sun.jmx.interceptor.DefaultMBeanServerInterceptor unregisterMBean (Ljavax/management/ObjectName;)V
+0x7f4ffa10dbf0 org.apache.catalina.LifecycleState getLifecycleEvent ()Ljava/lang/String;
+0x7f4fc9902a88 java.util.concurrent.locks.AbstractQueuedSynchronizer setHead (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V
+0x7f504c1718c0 java.io.FileDescriptor decrementAndGetUseCount ()I
+0x7f4f880009d0 com.sun.jmx.mbeanserver.Repository retrieve (Ljavax/management/ObjectName;)Ljavax/management/DynamicMBean;
+0x7f4ffa10dc00 org.apache.catalina.util.LifecycleSupport fireLifecycleEvent (Ljava/lang/String;Ljava/lang/Object;)V
+0x7f4f880009e0 com.sun.jmx.interceptor.DefaultMBeanServerInterceptor checkMBeanPermission (Ljavax/management/DynamicMBean;Ljava/lang/String;Ljavax/management/ObjectName;Ljava/lang/String;)V
+0x7f4ffa10dc08 org.apache.catalina.LifecycleEvent <init> (Lorg/apache/catalina/Lifecycle;Ljava/lang/String;Ljava/lang/Object;)V
+0x7f4fed72fd50 java.util.concurrent.LinkedBlockingQueue$Node <init> (Ljava/lang/Object;)V
+0x7f4f880009e8 com.sun.jmx.interceptor.DefaultMBeanServerInterceptor preDeregisterInvoke (Ljavax/management/MBeanRegistration;)V
+0x7f4fc99029a0 java.util.concurrent.locks.AbstractQueuedSynchronizer acquireInterruptibly (I)V
+0x7f504c16d7f0 java.lang.ThreadGroup addUnstarted ()V
+0x7f4feed41e18 org.apache.catalina.core.StandardHost isCopyXML ()Z
+0x7f504c09d710 java.lang.AbstractStringBuilder expandCapacity (I)V
+0x7f504c5eea50 java.util.EventObject <init> (Ljava/lang/Object;)V
+0x7f504e41c8e8 java.lang.Throwable <init> ()V
+0x7f4f921ee3b0 java.util.concurrent.locks.AbstractQueuedSynchronizer transferAfterCancelledWait (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z
+0x7f504d57d3f8 java.util.HashMap isEmpty ()Z
+0x7f4fac07f570 com.sun.jmx.interceptor.DefaultMBeanServerInterceptor$ResourceContext$1 unregistered ()V
+0x7f4fb3664e08 java.io.BufferedWriter flushBuffer ()V
+0x7f4ffa10dc30 org.apache.catalina.LifecycleEvent getType ()Ljava/lang/String;
+0x7f504c062d90 java.lang.String equals (Ljava/lang/Object;)Z
+0x7f504c1af8d0 java.nio.HeapCharBuffer <init> ([CII)V
+0x7f4f88000b38 org.apache.catalina.util.LifecycleBase stop ()V
+0x7f4fc9902a68 java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject checkInterruptWhileWaiting (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)I
+0x7f4f880009b0 com.sun.jmx.mbeanserver.JmxMBeanServer unregisterMBean (Ljavax/management/ObjectName;)V
+0x7f504c0dd1f0 sun.misc.VM isBooted ()Z
+0x7f4fc9902a20 java.util.concurrent.locks.LockSupport parkNanos (Ljava/lang/Object;J)V
+0x7f4f88000968 org.apache.catalina.valves.ValveBase stopInternal ()V
+0x7f504c835618 com.sun.jmx.mbeanserver.JmxMBeanServer cloneObjectName (Ljavax/management/ObjectName;)Ljavax/management/ObjectName;
+0x7f504c1d0728 java.util.ArrayList$Itr <init> (Ljava/util/ArrayList;)V
+0x7f504c94cd60 java.util.HashMap removeEntryForKey (Ljava/lang/Object;)Ljava/util/HashMap$Entry;
+0x7f504c091da0 java.util.Arrays copyOf ([CI)[C
+0x7f4f88000970 org.apache.catalina.core.ContainerBase$StopChild <init> (Lorg/apache/catalina/Container;)V
+0x7f504c835620 javax.management.ObjectName getInstance (Ljavax/management/ObjectName;)Ljavax/management/ObjectName;
+0x7f504c1d0730 java.util.ArrayList$Itr hasNext ()Z
+0x7f504c091b78 java.lang.String length ()I
+0x7f504c94cd68 java.util.HashMap$Entry recordRemoval (Ljava/util/HashMap;)V
+0x7f4fec49d5f8 java.lang.ThreadGroup add (Ljava/lang/Thread;)V
+0x7f504c140310 java.lang.Thread getThreadGroup ()Ljava/lang/ThreadGroup;
+0x7f504c0dd230 java.lang.Object getClass ()Ljava/lang/Class;
+0x7f4f8c0b75e0 java.util.concurrent.ThreadPoolExecutor decrementWorkerCount ()V
+0x7f4ffa0d3288 org.apache.catalina.util.LifecycleBase getState ()Lorg/apache/catalina/LifecycleState;
+0x7f504c7625f8 java.lang.Object equals (Ljava/lang/Object;)Z
+0x7f504c73bea8 java.util.HashSet contains (Ljava/lang/Object;)Z
+0x7f504c5eea70 javax.management.Notification getSequenceNumber ()J
+0x7f504c09d730 java.util.HashMap containsKey (Ljava/lang/Object;)Z
+0x7f4feed41dd8 java.util.concurrent.FutureTask run ()V
+0x7f504c12ff88 java.util.HashSet add (Ljava/lang/Object;)Z
+0x7f504d57d498 javax.management.ObjectName hashCode ()I
+0x7f504c5ee910 java.util.concurrent.locks.ReentrantReadWriteLock$FairSync writerShouldBlock ()Z
+0x7f4fc9902a78 java.util.concurrent.locks.AbstractQueuedSynchronizer acquireQueued (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;I)Z
+0x7f4f880009c0 com.sun.jmx.interceptor.DefaultMBeanServerInterceptor exclusiveUnregisterMBean (Ljavax/management/ObjectName;)V
+0x7f504c062d98 java.lang.System getSecurityManager ()Ljava/lang/SecurityManager;
+0x7f504c1af8d8 java.nio.CharBuffer <init> (IIII[CI)V
+0x7f504c5ee8d8 com.sun.jmx.interceptor.DefaultMBeanServerInterceptor getResource (Ljavax/management/DynamicMBean;)Ljava/lang/Object;
+0x7f4fac07f558 com.sun.jmx.interceptor.DefaultMBeanServerInterceptor unregisterFromRepository (Ljava/lang/Object;Ljavax/management/DynamicMBean;Ljavax/management/ObjectName;)Lcom/sun/jmx/interceptor/DefaultMBeanServerInterceptor$ResourceContext;
+0x7f504c5ee8e8 com.sun.jmx.interceptor.DefaultMBeanServerInterceptor makeResourceContextFor (Ljava/lang/Object;Ljavax/management/ObjectName;)Lcom/sun/jmx/interceptor/DefaultMBeanServerInterceptor$ResourceContext;
+0x7f4fac07f560 com.sun.jmx.mbeanserver.Repository remove (Ljavax/management/ObjectName;Lcom/sun/jmx/mbeanserver/Repository$RegistrationContext;)V
+0x7f4f800940c0 java.util.concurrent.atomic.AtomicInteger set (I)V
+0x7f504c5eea40 javax.management.MBeanServerNotification <init> (Ljava/lang/String;Ljava/lang/Object;JLjavax/management/ObjectName;)V
+0x7f504c0fdf08 java.util.ArrayList <init> ()V
+0x7f504c1b0140 java.util.concurrent.locks.ReentrantReadWriteLock writeLock ()Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;
+0x7f504c0fdf10 java.util.AbstractList <init> ()V
+0x7f504c1b0148 java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock lock ()V
+0x7f504c1b0158 java.util.concurrent.locks.ReentrantReadWriteLock$Sync tryAcquire (I)Z
+0x7f4fb3664db0 java.lang.ThreadGroup remove (Ljava/lang/Thread;)V
+0x7f5002485438 java.lang.Object notifyAll ()V
+0x7f4ff9fd8d38 java.io.OutputStreamWriter flush ()V
+0x7f504c1b0368 java.util.concurrent.locks.ReentrantReadWriteLock$Sync isHeldExclusively ()Z
+0x7f504c1b0108 java.util.Date <init> ()V
+0x7f504c17acd0 java.util.Date <init> (J)V
+0x7f504c09d718 java.lang.StringBuilder toString ()Ljava/lang/String;
+0x7f504c5eea58 java.util.Date getTime ()J
+0x7f4f921ee3b8 java.util.concurrent.ThreadPoolExecutor compareAndDecrementWorkerCount (I)Z
+0x7f4fac07f578 com.sun.jmx.interceptor.DefaultMBeanServerInterceptor postDeregisterInvoke (Ljavax/management/ObjectName;Ljavax/management/MBeanRegistration;)V
+0x7f504c0fdf60 java.util.HashMap$Entry getValue ()Ljava/lang/Object;
+0x7f4fb3664e10 java.io.BufferedWriter ensureOpen ()V
+0x7f504c09d728 java.util.Arrays copyOfRange ([CII)[C
+0x7f4fee848320 org.apache.catalina.util.LifecycleBase setState (Lorg/apache/catalina/LifecycleState;)V
+0x7f504c5eea68 javax.management.MBeanServerDelegate sendNotification (Ljavax/management/Notification;)V
+0x7f4f921ee3c8 java.util.HashSet remove (Ljava/lang/Object;)Z
+0x7f4fac07f588 org.apache.catalina.valves.AccessLogValve stopInternal ()V
+0x7f504c09d738 java.util.HashMap getEntry (Ljava/lang/Object;)Ljava/util/HashMap$Entry;
+0x7f504c5eea78 javax.management.Notification setSequenceNumber (J)V
+0x7f504c5eea80 javax.management.NotificationBroadcasterSupport sendNotification (Ljavax/management/Notification;)V
+0x7f504c17adb0 java.util.concurrent.CopyOnWriteArrayList getArray ()[Ljava/lang/Object;
+0x7f504c5eea90 java.util.concurrent.CopyOnWriteArrayList$COWIterator <init> ([Ljava/lang/Object;ILjava/util/concurrent/CopyOnWriteArrayList$1;)V
+0x7f504c725680 com.sun.jmx.mbeanserver.JmxMBeanServer isRegistered (Ljavax/management/ObjectName;)Z
+0x7f504c5eea98 java.util.concurrent.CopyOnWriteArrayList$COWIterator <init> ([Ljava/lang/Object;I)V
+0x7f504c725688 com.sun.jmx.interceptor.DefaultMBeanServerInterceptor isRegistered (Ljavax/management/ObjectName;)Z
+0x7f504c5eeaa0 java.util.concurrent.CopyOnWriteArrayList$COWIterator hasNext ()Z
+0x7f504c1af8c8 java.nio.CharBuffer wrap ([CII)Ljava/nio/CharBuffer;
+0x7f504c7256a0 java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock lock ()V
+0x7f504c5eeab8 com.sun.jmx.interceptor.DefaultMBeanServerInterceptor$ResourceContext$1 done ()V
+0x7f504c1af8e0 java.nio.charset.CharsetEncoder encode (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;Z)Ljava/nio/charset/CoderResult;
+0x7f504c1b0360 java.util.concurrent.locks.ReentrantReadWriteLock$Sync tryRelease (I)Z
+0x7f4ff9fd8d30 java.io.PrintWriter flush ()V
+0x7f4fe0003610 org.apache.catalina.startup.HostConfig setUnpackWARs (Z)V
+0x7f504c1b0330 java.io.PrintWriter ensureOpen ()V
+0x7f4f921ee3d8 java.util.concurrent.ThreadPoolExecutor runStateLessThan (II)Z
+0x7f4fac07f598 java.io.BufferedWriter close ()V
+0x7f504c1d0a58 java.util.logging.Logger isLoggable (Ljava/util/logging/Level;)Z
+0x7f4fb37d3560 java.io.OutputStreamWriter write ([CII)V
+0x7f504c1b0358 java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock unlock ()V
+0x7f4ff9fd8d28 sun.nio.cs.StreamEncoder implWrite ([CII)V
+0x7f4ffa015998 sun.misc.IoTrace fileWriteBegin (Ljava/lang/String;)Ljava/lang/Object;
+0x7f504c7256d0 java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock unlock ()V
+0x7f504c0e8918 java.nio.Buffer <init> (IIII)V
+0x7f504c1af918 java.nio.ByteBuffer array ()[B
+0x7f4ffa0159a0 java.io.FileOutputStream writeBytes ([BIIZ)V
+0x7f504c7256d8 java.util.concurrent.locks.AbstractQueuedSynchronizer releaseShared (I)Z
+0x7f504c0e8920 java.nio.Buffer limit (I)Ljava/nio/Buffer;
+0x7f504c1af920 java.nio.ByteBuffer arrayOffset ()I
+0x7f4ffa0159a8 sun.misc.IoTrace fileWriteEnd (Ljava/lang/Object;J)V
+0x7f504c7256e0 java.util.concurrent.locks.ReentrantReadWriteLock$Sync tryReleaseShared (I)Z
+0x7f504c0e8928 java.nio.Buffer position (I)Ljava/nio/Buffer;
+0x7f504c1af928 sun.nio.cs.UTF_8 updatePositions (Ljava/nio/Buffer;ILjava/nio/Buffer;I)V
+0x7f4feed41d78 org.apache.catalina.core.ContainerBase$StartStopThreadFactory newThread (Ljava/lang/Runnable;)Ljava/lang/Thread;
+0x7f504c1aef60 java.nio.Buffer hasRemaining ()Z
+0x7f504c1af8e8 sun.nio.cs.UTF_8$Encoder encodeLoop (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;
+0x7f504c17ad60 java.util.HashMap$Values iterator ()Ljava/util/Iterator;
+0x7f504c1af8f0 java.nio.CharBuffer hasArray ()Z
+0x7f504c17ad68 java.util.HashMap newValueIterator ()Ljava/util/Iterator;
+0x7f504c1af8f8 java.nio.ByteBuffer hasArray ()Z
+0x7f504c17ad70 java.util.HashMap$ValueIterator <init> (Ljava/util/HashMap;Ljava/util/HashMap$1;)V
+0x7f504c1af900 sun.nio.cs.UTF_8$Encoder encodeArrayLoop (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;
+0x7f504c17ad78 java.util.HashMap$ValueIterator <init> (Ljava/util/HashMap;)V
+0x7f504c1af908 java.nio.CharBuffer array ()[C
+0x7f504c1af910 java.nio.CharBuffer arrayOffset ()I
+0x7f4feed41d68 java.util.concurrent.ThreadPoolExecutor$Worker <init> (Ljava/util/concurrent/ThreadPoolExecutor;Ljava/lang/Runnable;)V
+0x7f504c1aef50 java.nio.charset.CoderResult isOverflow ()Z
+0x7f4feed41d70 java.util.concurrent.ThreadPoolExecutor getThreadFactory ()Ljava/util/concurrent/ThreadFactory;
+0x7f504c1aef58 java.nio.charset.CoderResult isUnderflow ()Z
+0x7f4fc985c420 sun.misc.Unsafe unpark (Ljava/lang/Object;)V
+0x7f504e021c70 java.nio.Buffer remaining ()I
+(nil) 0x7f4fac001000 (nil) -2 0 0 0.000000
+0x7f4fac001000 0x7f4fac0988d0 0x7f4feed41d90 -2 0 1 0.000000
+0x7f4fac0988d0 0x7f4fac00d890 0x7f4feed41d98 11 0 2 0.000000
+0x7f4fac00d890 0x7f4fac013e50 0x7f4feed41da0 5 0 3 0.000000
+0x7f4fac013e50 0x7f4fac013df0 0x7f504c084730 0 0 4 0.000000
+0x7f4fac013e50 0x7f4fac03d9d0 0x7f4feed41da8 15 0 4 0.000000
+0x7f4fac03d9d0 0x7f4fac003380 0x7f504c091b48 2 0 5 0.000000
+0x7f4fac003380 0x7f4fac0071b0 0x7f4feed41db0 2 0 6 0.000000
+0x7f4fac0071b0 0x7f4fac016eb0 0x7f504c091b18 2 0 7 0.000000
+0x7f4fac013e50 0x7f4fac008f20 0x7f4fc985c438 26 0 4 0.000000
+0x7f4fac008f20 0x7f4fac009100 0x7f504c170678 6 0 5 0.000000
+0x7f4fac008f20 0x7f4fac009180 0x7f4feed41d58 11 0 5 0.000000
+0x7f4fac008f20 0x7f4fac03f660 0x7f4f8c0b75e0 38 0 5 0.000000
+0x7f4fac03f660 0x7f4fac03f850 0x7f4f921ee3b8 8 0 6 0.000000
+0x7f4fac03f850 0x7f4fac03f8d0 0x7f504c170680 8 0 7 0.000000
+0x7f4fac03f8d0 0x7f4fac03f950 0x7f504c091b10 9 0 8 0.000000
+0x7f4fac03f660 0x7f4fac03f6e0 0x7f504c170678 5 0 6 0.000000
+0x7f4fac008f20 0x7f4fac009200 0x7f4feed41d48 44 0 5 0.000000
+0x7f4fac008f20 0x7f4fac024720 0x7f4fc985c448 141 0 5 0.000000
+0x7f4fac024720 0x7f4fac024960 0x7f4fc9902990 8 0 6 0.000000
+0x7f4fac024720 0x7f4fac024ac0 0x7f4fc9902998 27 0 6 0.000000
+0x7f4fac024ac0 0x7f4fac024c20 0x7f4fc99029a0 5 0 7 0.000000
+0x7f4fac024c20 0x7f4fac024cc0 0x7f504c1289b0 0 0 8 0.000000
+0x7f4fac024cc0 0x7f4fac024d40 0x7f504c084730 0 0 9 0.000000
+0x7f4fac024c20 0x7f4fac024f20 0x7f4fc99029a8 16 0 8 0.000000
+0x7f4fac024f20 0x7f4fac025080 0x7f504c091af8 2 0 9 0.000000
+0x7f4fac025080 0x7f4fac025170 0x7f504c084730 0 0 10 0.000000
+0x7f4fac025080 0x7f4fac0251f0 0x7f504c091b00 5 0 10 0.000000
+0x7f4fac025080 0x7f4fac055be0 0x7f504c091b08 16 0 10 0.000000
+0x7f4fac055be0 0x7f4fac055c40 0x7f504c091b10 9 0 11 0.000000
+0x7f4fac025080 0x7f4fac055cc0 0x7f504c091b18 24 0 10 0.000000
+0x7f4fac024720 0x7f4fac055d40 0x7f504c170678 32 0 6 0.000000
+0x7f4fac024720 0x7f4fac03f0b0 0x7f504c091b40 112 0 6 0.000000
+0x7f4fac03f0b0 0x7f4fac03f130 0x7f504c091b48 5 0 7 0.000000
+0x7f4fac03f130 0x7f4fac03f1e0 0x7f504c091b50 2 0 8 0.000000
+0x7f4fac03f1e0 0x7f4fac03f2a0 0x7f504c091b00 1 0 9 0.000000
+0x7f4fac03f1e0 0x7f4fac03f320 0x7f504c084730 7 0 9 0.000000
+0x7f4fac03f1e0 0x7f4fac03f3a0 0x7f504c091b58 11 0 9 0.000000
+0x7f4fac03f1e0 0x7f4fac03f420 0x7f504c091b18 35 0 9 0.000000
+0x7f4fac03f1e0 0x7f4fac03f4a0 0x7f504c091b60 40 0 9 0.000000
+0x7f4fac024720 0x7f4fac055eb0 0x7f4fc99029e0 62 0 6 0.000000
+0x7f4fac055eb0 0x7f4fac056050 0x7f504c1289b0 0 0 7 0.000000
+0x7f4fac056050 0x7f4fac0560d0 0x7f504c084730 0 0 8 0.000000
+0x7f4fac055eb0 0x7f4fac0562f0 0x7f4fc99029f0 15 0 7 0.000000
+0x7f4fac0562f0 0x7f4fac056530 0x7f504c084730 31 0 8 0.000000
+0x7f4fac0562f0 0x7f4fac0566a0 0x7f4fc9902a08 36 0 8 0.000000
+0x7f4fac0566a0 0x7f4fac056720 0x7f504c062d30 1 0 9 0.000000
+0x7f4fac0562f0 0x7f4fac056440 0x7f4f8030e0f8 19 0 8 0.000000
+0x7f4fac055eb0 0x7f4fac038d70 0x7f4fc9902a10 24 0 7 0.000000
+0x7f4fac038d70 0x7f4fac038e40 0x7f504c091b00 3 0 8 0.000000
+0x7f4fac038d70 0x7f4fac038ec0 0x7f504c091b48 9 0 8 0.000000
+0x7f4fac038ec0 0x7f4fac038f70 0x7f504c091b50 2 0 9 0.000000
+0x7f4fac038f70 0x7f4fac039030 0x7f504c091b00 1 0 10 0.000000
+0x7f4fac038f70 0x7f4fac0390b0 0x7f504c084730 7 0 10 0.000000
+0x7f4fac038f70 0x7f4fac039130 0x7f504c091b58 11 0 10 0.000000
+0x7f4fac038f70 0x7f4fac0391b0 0x7f504c091b18 35 0 10 0.000000
+0x7f4fac038f70 0x7f4fac039230 0x7f504c091b60 40 0 10 0.000000
+0x7f4fac055eb0 0x7f4fac039370 0x7f504c091ba8 29 0 7 0.000000
+0x7f4fac055eb0 0x7f4fac01b650 0x7f4fc9902a78 112 0 7 0.000000
+0x7f4fac01b650 0x7f4fac054550 0x7f4fc9902a80 6 0 8 0.000000
+0x7f4fac01b650 0x7f4fac0545e0 0x7f4fc99029a8 22 0 8 0.000000
+0x7f4fac0545e0 0x7f4fac054660 0x7f504c091af8 2 0 9 0.000000
+0x7f4fac054660 0x7f4fac054750 0x7f504c084730 0 0 10 0.000000
+0x7f4fac054660 0x7f4fac0547d0 0x7f504c091b00 5 0 10 0.000000
+0x7f4fac054660 0x7f4fac054850 0x7f504c091b08 16 0 10 0.000000
+0x7f4fac054850 0x7f4fac0548d0 0x7f504c091b10 9 0 11 0.000000
+0x7f4fac054660 0x7f4fac054950 0x7f504c091b18 24 0 10 0.000000
+0x7f4fac01b650 0x7f4fac054ae0 0x7f4fc9902a88 30 0 8 0.000000
+0x7f4fac055eb0 0x7f4fac039500 0x7f4fc9902a18 42 0 7 0.000000
+0x7f4fac055eb0 0x7f4fac039690 0x7f4fc9902a20 68 0 7 0.000000
+0x7f4fac039690 0x7f4fac039730 0x7f504c084730 6 0 8 0.000000
+0x7f4fac039690 0x7f4fac039930 0x7f4fe0003620 25 0 8 0.000000
+0x7f4fac039930 0x7f4fac039990 0x7f4ffa0e5eb8 8 0 9 0.000000
+0x7f4fac039690 0x7f4fac0397b0 0x7f4fe0003620 12 0 8 0.000000
+0x7f4fac0397b0 0x7f4fac039830 0x7f4ffa0e5eb8 8 0 9 0.000000
+0x7f4fac055eb0 0x7f4fac01abd0 0x7f4fc9902a68 73 0 7 0.000000
+0x7f4fac01abd0 0x7f4fac01ac70 0x7f504c1289b0 0 0 8 0.000000
+0x7f4fac01ac70 0x7f4fac01acf0 0x7f504c084730 0 0 9 0.000000
+0x7f4fac01abd0 0x7f4fac01af10 0x7f4f921ee3b0 11 0 8 0.000000
+0x7f4fac01af10 0x7f4fac01afc0 0x7f4fc9902a40 4 0 9 0.000000
+0x7f4fac01afc0 0x7f4fac01b040 0x7f504c091b10 9 0 10 0.000000
+0x7f4fac01af10 0x7f4fac01b210 0x7f4fc9902a48 12 0 9 0.000000
+0x7f4fac01b210 0x7f4fac01b440 0x7f4fc9902a58 42 0 10 0.000000
+0x7f4fac01b440 0x7f4fac01b4c0 0x7f504c091ae0 9 0 11 0.000000
+0x7f4fac013e50 0x7f4fac010150 0x7f4feed41db8 35 0 4 0.000000
+0x7f4fac010150 0x7f4fac0192f0 0x7f504c1b0150 2 0 5 0.000000
+0x7f4fac0192f0 0x7f4fac00eae0 0x7f4feed41dc0 2 0 6 0.000000
+0x7f4fac00eae0 0x7f4fac00f160 0x7f504c091b08 3 0 7 0.000000
+0x7f4fac00f160 0x7f4fac00e3c0 0x7f504c091b10 9 0 8 0.000000
+0x7f4fac00eae0 0x7f4fac005450 0x7f504c091b18 13 0 7 0.000000
+0x7f4fac013e50 0x7f4fac001da0 0x7f504c170678 42 0 4 0.000000
+0x7f4fac013e50 0x7f4fac004cf0 0x7f4feed41dc8 47 0 4 0.000000
+0x7f4fac013e50 0x7f4fac003fb0 0x7f504c1289b0 53 0 4 0.000000
+0x7f4fac003fb0 0x7f4fac0048c0 0x7f504c084730 0 0 5 0.000000
+0x7f4fac013e50 0x7f4fac008b90 0x7f4feed41da8 169 0 4 0.000000
+0x7f4fac008b90 0x7f4fac008c10 0x7f504c091b48 2 0 5 0.000000
+0x7f4fac008c10 0x7f4fac008cc0 0x7f4feed41db0 2 0 6 0.000000
+0x7f4fac008cc0 0x7f4fac008d40 0x7f504c091b18 2 0 7 0.000000
+0x7f4fac013e50 0x7f4fac0028d0 0x7f4feed41dd0 88 0 4 0.000000
+0x7f4fac013e50 0x7f4fac010a60 0x7f4feed41dd8 95 0 4 0.000000
+0x7f4fac010a60 0x7f4fac03e870 0x7f4fc985c400 71 0 5 0.000000
+0x7f4fac03e870 0x7f4fac03ebb0 0x7f4fc985c410 32 0 6 0.000000
+0x7f4fac03ebb0 0x7f4fac008720 0x7f4fc985c418 39 0 7 0.000000
+0x7f4fac008720 0x7f4fac008840 0x7f4fc985c420 8 0 8 0.000000
+0x7f4fac03ebb0 0x7f4fac03ec10 0x7f504c091ae0 18 0 7 0.000000
+0x7f4fac03ebb0 0x7f4fac008990 0x7f4fc985c428 65 0 7 0.000000
+0x7f4fac03e870 0x7f4fac03e920 0x7f504c091b10 9 0 6 0.000000
+0x7f4fac03e870 0x7f4fac03ea60 0x7f4fc985c408 28 0 6 0.000000
+0x7f4fac010a60 0x7f4fac0109d0 0x7f504c084730 15 0 5 0.000000
+0x7f4fac010a60 0x7f4fac0098e0 0x7f504c091ae0 18 0 5 0.000000
+0x7f4fac010a60 0x7f4fac0949a0 0x7f4f88000978 42 0 5 0.000000
+0x7f4fac0949a0 0x7f4fac065210 0x7f4f88000980 1 0 6 0.000000
+0x7f4fac065210 0x7f4fac061190 0x7f4ffa0d3288 4 0 7 0.000000
+0x7f4fac065210 0x7f4fac001560 0x7f4f88000b38 19 0 7 0.000000
+0x7f4fac001560 0x7f4fac001500 0x7f4ffa1be200 7 0 8 0.000000
+0x7f4fac001560 0x7f4fac002670 0x7f4ffa1be200 20 0 8 0.000000
+0x7f4fac001560 0x7f4fac00b930 0x7f4ffa1be200 201 0 8 0.000000
+0x7f4fac001560 0x7f4fac002be0 0x7f4ffa1be200 33 0 8 0.000000
+0x7f4fac001560 0x7f4fac009b70 0x7f4ffa10dbe8 223 0 8 0.000000
+0x7f4fac009b70 0x7f4fac00b1d0 0x7f4ffa10dbf8 140 0 9 0.000000
+0x7f4fac00b1d0 0x7f4fac00bc20 0x7f4ffa10dc00 6 0 10 0.000000
+0x7f4fac00bc20 0x7f4fac00c0f0 0x7f4ffa10dc08 10 0 11 0.000000
+0x7f4fac00c0f0 0x7f4fac00c280 0x7f504c5eea50 2 0 12 0.000000
+0x7f4fac00c280 0x7f4fac007840 0x7f504c062d30 1 0 13 0.000000
+0x7f4fac00bc20 0x7f4fac039a30 0x7f4feed41e08 37 0 11 0.000000
+0x7f4fac039a30 0x7f4fac0399d0 0x7f4ffa10dc30 1 0 12 0.000000
+0x7f4fac039a30 0x7f4fac00de40 0x7f4fe0003610 76 0 12 0.000000
+0x7f4fac039a30 0x7f4fac00cea0 0x7f504c062d90 6 0 12 0.000000
+0x7f4fac039a30 0x7f4fac00d270 0x7f4ffa10dc18 18 0 12 0.000000
+0x7f4fac00d270 0x7f4fac00d1b0 0x7f4ffa10dc20 1 0 13 0.000000
+0x7f4fac039a30 0x7f4fac00dde0 0x7f4ffa10dc30 113 0 12 0.000000
+0x7f4fac039a30 0x7f4fac045110 0x7f4feed41e18 45 0 12 0.000000
+0x7f4fac039a30 0x7f4fac037e00 0x7f504c062d90 118 0 12 0.000000
+0x7f4fac039a30 0x7f4fac00d390 0x7f4feed41e20 48 0 12 0.000000
+0x7f4fac039a30 0x7f4fac045590 0x7f4feed41e28 59 0 12 0.000000
+0x7f4fac039a30 0x7f4fac037fa0 0x7f4ffa10dc30 132 0 12 0.000000
+0x7f4fac039a30 0x7f4fac00da80 0x7f4fe0003600 62 0 12 0.000000
+0x7f4fac039a30 0x7f4fac038070 0x7f504c062d90 137 0 12 0.000000
+0x7f4fac009b70 0x7f4fac03bca0 0x7f504c1d0a50 3 0 9 0.000000
+0x7f4fac03bca0 0x7f4fac018370 0x7f504c1d0a58 7 0 10 0.000000
+0x7f4fac018370 0x7f4fac00b5e0 0x7f504c1403c0 1 0 11 0.000000
+0x7f4fac009b70 0x7f4fac0139a0 0x7f4ffa10dbf0 126 0 9 0.000000
+0x7f4fac001560 0x7f4fac09c7c0 0x7f4f88000930 227 0 8 0.000000
+0x7f4fac09c7c0 0x7f4fac09c8b0 0x7f4f88000938 1 0 9 0.000000
+0x7f4fac09c7c0 0x7f4fac09c530 0x7f4fee848320 8 0 9 0.000000
+0x7f4fac09c530 0x7f4fac09c4a0 0x7f4ffa10dbe8 4 0 10 0.000000
+0x7f4fac09c4a0 0x7f4fac09be90 0x7f4ffa10dbf8 140 0 11 0.000000
+0x7f4fac09be90 0x7f4fac09bce0 0x7f4ffa10dc00 6 0 12 0.000000
+0x7f4fac09bce0 0x7f4fac09bd60 0x7f4ffa10dc08 10 0 13 0.000000
+0x7f4fac09bd60 0x7f4fac09bbe0 0x7f504c5eea50 2 0 14 0.000000
+0x7f4fac09bbe0 0x7f4fac09bb60 0x7f504c062d30 1 0 15 0.000000
+0x7f4fac09bce0 0x7f4fac09bae0 0x7f4feed41e08 37 0 13 0.000000
+0x7f4fac09bae0 0x7f4fac09b710 0x7f4ffa10dc30 1 0 14 0.000000
+0x7f4fac09bae0 0x7f4fac09aea0 0x7f4fe0003610 76 0 14 0.000000
+0x7f4fac09bae0 0x7f4fac09b790 0x7f504c062d90 6 0 14 0.000000
+0x7f4fac09bae0 0x7f4fac09b5e0 0x7f4ffa10dc18 18 0 14 0.000000
+0x7f4fac09b5e0 0x7f4fac09b560 0x7f4ffa10dc20 1 0 15 0.000000
+0x7f4fac09bae0 0x7f4fac09af00 0x7f4ffa10dc30 113 0 14 0.000000
+0x7f4fac09bae0 0x7f4fac09b020 0x7f4feed41e18 45 0 14 0.000000
+0x7f4fac09bae0 0x7f4fac09af40 0x7f504c062d90 118 0 14 0.000000
+0x7f4fac09bae0 0x7f4fac09b060 0x7f4feed41e20 48 0 14 0.000000
+0x7f4fac09bae0 0x7f4fac09b0c0 0x7f4feed41e28 59 0 14 0.000000
+0x7f4fac09bae0 0x7f4fac09ade0 0x7f4ffa10dc30 132 0 14 0.000000
+0x7f4fac09bae0 0x7f4fac09afa0 0x7f4fe0003600 62 0 14 0.000000
+0x7f4fac09bae0 0x7f4fac09aca0 0x7f504c062d90 137 0 14 0.000000
+0x7f4fac09c4a0 0x7f4fac09b660 0x7f504c1d0a50 3 0 11 0.000000
+0x7f4fac09b660 0x7f4fac09b810 0x7f504c1d0a58 7 0 12 0.000000
+0x7f4fac09b810 0x7f4fac09b910 0x7f504c1403c0 1 0 13 0.000000
+0x7f4fac09c4a0 0x7f4fac09be10 0x7f4ffa10dbf0 126 0 11 0.000000
+0x7f4fac09c7c0 0x7f4fac004e10 0x7f4ffa0d3288 28 0 9 0.000000
+0x7f4fac09c7c0 0x7f4fac0868a0 0x7f4ffa0d3290 33 0 9 0.000000
+0x7f4fac09c7c0 0x7f4fac07b2a0 0x7f4feec72188 220 0 9 0.000000
+0x7f4fac07b2a0 0x7f4fac07b440 0x7f5003e5bc80 4 0 10 0.000000
+0x7f4fac07b440 0x7f4fac07b4c0 0x7f504c725698 1 0 11 0.000000
+0x7f4fac07b2a0 0x7f4fac07b540 0x7f504c7256a0 11 0 10 0.000000
+0x7f4fac07b540 0x7f4fac07b5c0 0x7f504c7256a8 5 0 11 0.000000
+0x7f4fac07b5c0 0x7f4fac07b640 0x7f504c7256b0 2 0 12 0.000000
+0x7f4fac07b640 0x7f4fac07b810 0x7f504c084730 0 0 13 0.000000
+0x7f4fac07b640 0x7f4fac07b890 0x7f504c091b00 5 0 13 0.000000
+0x7f4fac07b640 0x7f4fac07b910 0x7f504c1b0160 10 0 13 0.000000
+0x7f4fac07b640 0x7f4fac07b990 0x7f504c7256b8 27 0 13 0.000000
+0x7f4fac07b640 0x7f4fac07bb00 0x7f5003e5bc88 33 0 13 0.000000
+0x7f4fac07bb00 0x7f4fac07a4d0 0x7f5003e5bc90 1 0 14 0.000000
+0x7f4fac07b640 0x7f4fac07a580 0x7f504c091b08 52 0 13 0.000000
+0x7f4fac07a580 0x7f4fac07a600 0x7f504c091b10 9 0 14 0.000000
+0x7f4fac09c7c0 0x7f4fac086920 0x7f4f88000b38 46 0 9 0.000000
+0x7f4fac086920 0x7f4fac086960 0x7f4ffa1be200 7 0 10 0.000000
+0x7f4fac086920 0x7f4fac0026d0 0x7f4ffa1be200 20 0 10 0.000000
+0x7f4fac086920 0x7f4fac00a970 0x7f4ffa1be200 201 0 10 0.000000
+0x7f4fac086920 0x7f4fac002750 0x7f4ffa1be200 33 0 10 0.000000
+0x7f4fac086920 0x7f4fac009ee0 0x7f4ffa10dbe8 223 0 10 0.000000
+0x7f4fac009ee0 0x7f4fac007ab0 0x7f4ffa10dbf8 140 0 11 0.000000
+0x7f4fac007ab0 0x7f4fac00a310 0x7f4ffa10dc00 6 0 12 0.000000
+0x7f4fac00a310 0x7f4fac00a3c0 0x7f4ffa10dc08 10 0 13 0.000000
+0x7f4fac00a3c0 0x7f4fac0038b0 0x7f504c5eea50 2 0 14 0.000000
+0x7f4fac0038b0 0x7f4fac003910 0x7f504c062d30 1 0 15 0.000000
+0x7f4fac009ee0 0x7f4fac009f40 0x7f504c1d0a50 3 0 11 0.000000
+0x7f4fac009f40 0x7f4fac00e5f0 0x7f504c1d0a58 7 0 12 0.000000
+0x7f4fac00e5f0 0x7f4fac00e690 0x7f504c1403c0 1 0 13 0.000000
+0x7f4fac009ee0 0x7f4fac007a30 0x7f4ffa10dbf0 126 0 11 0.000000
+0x7f4fac086920 0x7f4fac01d840 0x7f4f88000960 227 0 10 0.000000
+0x7f4fac01d840 0x7f4fac01d8f0 0x7f4fee848320 4 0 11 0.000000
+0x7f4fac01d8f0 0x7f4fac0115e0 0x7f4ffa10dbe8 4 0 12 0.000000
+0x7f4fac0115e0 0x7f4fac007050 0x7f4ffa10dbf8 140 0 13 0.000000
+0x7f4fac007050 0x7f4fac0070d0 0x7f4ffa10dc00 6 0 14 0.000000
+0x7f4fac0070d0 0x7f4fac001bb0 0x7f4ffa10dc08 10 0 15 0.000000
+0x7f4fac001bb0 0x7f4fac00a000 0x7f504c5eea50 2 0 16 0.000000
+0x7f4fac00a000 0x7f4fac00a060 0x7f504c062d30 1 0 17 0.000000
+0x7f4fac0115e0 0x7f4fac011640 0x7f504c1d0a50 3 0 13 0.000000
+0x7f4fac011640 0x7f4fac0116c0 0x7f504c1d0a58 7 0 14 0.000000
+0x7f4fac0116c0 0x7f4fac012880 0x7f504c1403c0 1 0 15 0.000000
+0x7f4fac0115e0 0x7f4fac012900 0x7f4ffa10dbf0 126 0 13 0.000000
+0x7f4fac01d840 0x7f4fac00a0e0 0x7f4f88000b38 36 0 11 0.000000
+0x7f4fac00a0e0 0x7f4fac00a5c0 0x7f4ffa1be200 7 0 12 0.000000
+0x7f4fac00a0e0 0x7f4fac00a640 0x7f4ffa1be200 20 0 12 0.000000
+0x7f4fac00a0e0 0x7f4fac019720 0x7f4ffa1be200 201 0 12 0.000000
+0x7f4fac00a0e0 0x7f4fac055a70 0x7f4ffa1be200 33 0 12 0.000000
+0x7f4fac00a0e0 0x7f4fac03bb60 0x7f4ffa10dbe8 223 0 12 0.000000
+0x7f4fac03bb60 0x7f4fac0651d0 0x7f4ffa10dbf8 140 0 13 0.000000
+0x7f4fac0651d0 0x7f4fac016600 0x7f4ffa10dc00 6 0 14 0.000000
+0x7f4fac016600 0x7f4fac0166d0 0x7f4ffa10dc08 10 0 15 0.000000
+0x7f4fac0166d0 0x7f4fac011eb0 0x7f504c5eea50 2 0 16 0.000000
+0x7f4fac011eb0 0x7f4fac011f10 0x7f504c062d30 1 0 17 0.000000
+0x7f4fac03bb60 0x7f4fac03bba0 0x7f504c1d0a50 3 0 13 0.000000
+0x7f4fac03bba0 0x7f4fac03bc20 0x7f504c1d0a58 7 0 14 0.000000
+0x7f4fac03bc20 0x7f4fac0650d0 0x7f504c1403c0 1 0 15 0.000000
+0x7f4fac03bb60 0x7f4fac065150 0x7f4ffa10dbf0 126 0 13 0.000000
+0x7f4fac00a0e0 0x7f4fac012ae0 0x7f4fac07f588 227 0 12 0.000000
+0x7f4fac012ae0 0x7f4fac007920 0x7f4fac07f590 9 0 13 0.000000
+0x7f4fac007920 0x7f4fac037d10 0x7f4ff9fd8d30 12 0 14 0.000000
+0x7f4fac037d10 0x7f4fac041870 0x7f504c1b0330 8 0 15 0.000000
+0x7f4fac037d10 0x7f4fac014db0 0x7f4fb3664e00 15 0 15 0.000000
+0x7f4fac014db0 0x7f4fac0580a0 0x7f4ff9fd8d38 15 0 16 0.000000
+0x7f4fac0580a0 0x7f4fac096c90 0x7f4ff9fd8d40 4 0 17 0.000000
+0x7f4fac096c90 0x7f4fac022920 0x7f4ff9fd8d48 12 0 18 0.000000
+0x7f4fac022920 0x7f4fac022a60 0x7f4ffa015980 1 0 19 0.000000
+0x7f4fac022a60 0x7f4fac016870 0x7f504c0e8950 4 0 20 0.000000
+0x7f4fac022920 0x7f4fac0210b0 0x7f4ffa0159b8 15 0 19 0.000000
+0x7f4fac096c90 0x7f4fac03a710 0x7f504c1b0350 8 0 18 0.000000
+0x7f4fac014db0 0x7f4fac013790 0x7f4fb3664e08 8 0 16 0.000000
+0x7f4fac013790 0x7f4fac0137d0 0x7f4fb3664e10 8 0 17 0.000000
+0x7f4fac007920 0x7f4fac00b300 0x7f4fe0192350 19 0 14 0.000000
+0x7f4fac00b300 0x7f4fac00b4a0 0x7f4fac07f598 21 0 15 0.000000
+0x7f4fac00b4a0 0x7f4fac009a10 0x7f4fb3664e08 18 0 16 0.000000
+0x7f4fac009a10 0x7f4fac009ae0 0x7f4fb3664e10 8 0 17 0.000000
+0x7f4fac00b4a0 0x7f4fac094d10 0x7f4fac07f5a0 25 0 16 0.000000
+0x7f4fac094d10 0x7f4fac094e60 0x7f4fac07f5a8 4 0 17 0.000000
+0x7f4fac094e60 0x7f4fac03cd80 0x7f4fac07f5b0 18 0 18 0.000000
+0x7f4fac03cd80 0x7f4fac08f750 0x7f4fac07f5b8 3 0 19 0.000000
+0x7f4fac08f750 0x7f4fac08cd80 0x7f504c1af8e0 115 0 20 0.000000
+0x7f4fac08cd80 0x7f4fac071770 0x7f504c1af8e8 57 0 21 0.000000
+0x7f4fac071770 0x7f4fac071810 0x7f504c1af8f0 1 0 22 0.000000
+0x7f4fac071770 0x7f4fac071930 0x7f504c1af900 17 0 22 0.000000
+0x7f4fac071930 0x7f4fac0713d0 0x7f504c1af908 1 0 23 0.000000
+0x7f4fac071930 0x7f4fac071480 0x7f504c1af910 6 0 23 0.000000
+0x7f4fac071930 0x7f4fac071530 0x7f504c0e8950 10 0 23 0.000000
+0x7f4fac071930 0x7f4fac0715b0 0x7f504c1af910 17 0 23 0.000000
+0x7f4fac071930 0x7f4fac0710a0 0x7f504c0e8958 21 0 23 0.000000
+0x7f4fac071930 0x7f4fac071120 0x7f504c1af918 28 0 23 0.000000
+0x7f4fac071930 0x7f4fac0711d0 0x7f504c1af920 34 0 23 0.000000
+0x7f4fac071930 0x7f4fac06fe00 0x7f504c0e8950 38 0 23 0.000000
+0x7f4fac071930 0x7f4fac06fe80 0x7f504c1af920 45 0 23 0.000000
+0x7f4fac071930 0x7f4fac06ff30 0x7f504c0e8958 49 0 23 0.000000
+0x7f4fac071930 0x7f4fac06ffb0 0x7f504c084798 67 0 23 0.000000
+0x7f4fac071930 0x7f4fac070010 0x7f504c1af928 482 0 23 0.000000
+0x7f4fac070010 0x7f4fac06fad0 0x7f504c1af910 3 0 24 0.000000
+0x7f4fac070010 0x7f4fac06fc40 0x7f504c1af920 14 0 24 0.000000
+0x7f4fac070010 0x7f4fac06fb80 0x7f504c0e8928 7 0 24 0.000000
+0x7f4fac070010 0x7f4fac06f700 0x7f504c0e8928 18 0 24 0.000000
+0x7f4fac071770 0x7f4fac0718a0 0x7f504c1af8f8 8 0 22 0.000000
+0x7f4fac08cd80 0x7f4fac06f7c0 0x7f504c1aef50 91 0 21 0.000000
+0x7f4fac08cd80 0x7f4fac06f840 0x7f504c1aef58 102 0 21 0.000000
+0x7f4fac08cd80 0x7f4fac06f8c0 0x7f504c1aef60 113 0 21 0.000000
+0x7f4fac08f750 0x7f4fac00c2e0 0x7f504c1aef58 120 0 20 0.000000
+0x7f4fac08f750 0x7f4fac03ce20 0x7f4f9200d970 21 0 20 0.000000
+0x7f4fac03ce20 0x7f4fac08ef30 0x7f4f9200d978 18 0 21 0.000000
+0x7f4fac08ef30 0x7f4fac08efb0 0x7f504c1af8d8 9 0 22 0.000000
+0x7f4fac08efb0 0x7f4fac08f040 0x7f504c0e8918 6 0 23 0.000000
+0x7f4fac08f040 0x7f4fac08cc90 0x7f504c062d30 1 0 24 0.000000
+0x7f4fac08f040 0x7f4fac08cd10 0x7f504c0e8920 55 0 24 0.000000
+0x7f4fac08f750 0x7f4fac00c360 0x7f504c1aef60 130 0 20 0.000000
+0x7f4fac08f750 0x7f4fac08c950 0x7f504dfaa798 84 0 20 0.000000
+0x7f4fac08f750 0x7f4fac08c9e0 0x7f504c1aef60 92 0 20 0.000000
+0x7f4fac03cd80 0x7f4fac008480 0x7f504c1aef68 14 0 19 0.000000
+0x7f4fac008480 0x7f4fac008610 0x7f504c1aef70 10 0 20 0.000000
+0x7f4fac008480 0x7f4fac008690 0x7f504c1aef58 15 0 20 0.000000
+0x7f4fac03cd80 0x7f4fac093c00 0x7f504c1aef58 19 0 19 0.000000
+0x7f4fac03cd80 0x7f4fac093dd0 0x7f4fac07f5c0 110 0 19 0.000000
+0x7f4fac093dd0 0x7f4fac020cc0 0x7f504c1718c0 58 0 20 0.000000
+0x7f4fac020cc0 0x7f4fac002470 0x7f504c1718c8 4 0 21 0.000000
+0x7f4fac002470 0x7f4fac002500 0x7f504c170678 1 0 22 0.000000
+0x7f4fac002470 0x7f4fac06c9a0 0x7f504c170680 12 0 22 0.000000
+0x7f4fac06c9a0 0x7f4fac06ca20 0x7f504c091b10 9 0 23 0.000000
+0x7f4fac093dd0 0x7f4fac06cb70 0x7f4fac07f5c8 73 0 20 0.000000
+0x7f4fac012ae0 0x7f4fac013f10 0x7f4fee848320 4 0 13 0.000000
+0x7f4fac013f10 0x7f4fac013f90 0x7f4ffa10dbe8 4 0 14 0.000000
+0x7f4fac013f90 0x7f4fac041a20 0x7f4ffa10dbf8 140 0 15 0.000000
+0x7f4fac041a20 0x7f4fac041aa0 0x7f4ffa10dc00 6 0 16 0.000000
+0x7f4fac041aa0 0x7f4fac020a30 0x7f4ffa10dc08 10 0 17 0.000000
+0x7f4fac020a30 0x7f4fac013a00 0x7f504c5eea50 2 0 18 0.000000
+0x7f4fac013a00 0x7f4fac013a70 0x7f504c062d30 1 0 19 0.000000
+0x7f4fac013f90 0x7f4fac013fd0 0x7f504c1d0a50 3 0 15 0.000000
+0x7f4fac013fd0 0x7f4fac007de0 0x7f504c1d0a58 7 0 16 0.000000
+0x7f4fac007de0 0x7f4fac007e80 0x7f504c1403c0 1 0 17 0.000000
+0x7f4fac013f90 0x7f4fac0419a0 0x7f4ffa10dbf0 126 0 15 0.000000
+0x7f4fac00a0e0 0x7f4fac00be60 0x7f4ffa1be200 282 0 12 0.000000
+0x7f4fac00a0e0 0x7f4fac055af0 0x7f4ffa1be200 135 0 12 0.000000
+0x7f4fac00a0e0 0x7f4fac00bee0 0x7f4ffa1be200 311 0 12 0.000000
+0x7f4fac00a0e0 0x7f4fac00bf60 0x7f4ffa1be200 324 0 12 0.000000
+0x7f4fac00a0e0 0x7f4fac0196a0 0x7f4ffa1be200 156 0 12 0.000000
+0x7f4fac00a0e0 0x7f4fac00bfe0 0x7f4ffa10dbe8 342 0 12 0.000000
+0x7f4fac00bfe0 0x7f4fac00d610 0x7f4ffa10dbf8 140 0 13 0.000000
+0x7f4fac00d610 0x7f4fac00d690 0x7f4ffa10dc00 6 0 14 0.000000
+0x7f4fac00d690 0x7f4fac00d760 0x7f4ffa10dc08 10 0 15 0.000000
+0x7f4fac00d760 0x7f4fac00d800 0x7f504c5eea50 2 0 16 0.000000
+0x7f4fac00d800 0x7f4fac06f2f0 0x7f504c062d30 1 0 17 0.000000
+0x7f4fac00bfe0 0x7f4fac0d6590 0x7f504c1d0a50 3 0 13 0.000000
+0x7f4fac0d6590 0x7f4fac0d6610 0x7f504c1d0a58 7 0 14 0.000000
+0x7f4fac0d6610 0x7f4fac00c020 0x7f504c1403c0 1 0 15 0.000000
+0x7f4fac00bfe0 0x7f4fac00c0a0 0x7f4ffa10dbf0 126 0 13 0.000000
+0x7f4fac01d840 0x7f4fac06f450 0x7f4fe0003658 42 0 11 0.000000
+0x7f4fac086920 0x7f4fac03e020 0x7f4ffa1be200 282 0 10 0.000000
+0x7f4fac086920 0x7f4fac00a890 0x7f4ffa1be200 135 0 10 0.000000
+0x7f4fac086920 0x7f4fac03e0a0 0x7f4ffa1be200 311 0 10 0.000000
+0x7f4fac086920 0x7f4fac03e120 0x7f4ffa1be200 324 0 10 0.000000
+0x7f4fac086920 0x7f4fac00a8f0 0x7f4ffa1be200 156 0 10 0.000000
+0x7f4fac086920 0x7f4fac03e1a0 0x7f4ffa10dbe8 342 0 10 0.000000
+0x7f4fac03e1a0 0x7f4fac03e200 0x7f4ffa10dbf8 140 0 11 0.000000
+0x7f4fac03e200 0x7f4fac085250 0x7f4ffa10dc00 6 0 12 0.000000
+0x7f4fac085250 0x7f4fac085320 0x7f4ffa10dc08 10 0 13 0.000000
+0x7f4fac085320 0x7f4fac0853c0 0x7f504c5eea50 2 0 14 0.000000
+0x7f4fac0853c0 0x7f4fac085450 0x7f504c062d30 1 0 15 0.000000
+0x7f4fac03e1a0 0x7f4fac018f20 0x7f504c1d0a50 3 0 11 0.000000
+0x7f4fac018f20 0x7f4fac018fa0 0x7f504c1d0a58 7 0 12 0.000000
+0x7f4fac018fa0 0x7f4fac019040 0x7f504c1403c0 1 0 13 0.000000
+0x7f4fac03e1a0 0x7f4fac0190c0 0x7f4ffa10dbf0 126 0 11 0.000000
+0x7f4fac09c7c0 0x7f4fac03bd60 0x7f4feec72210 52 0 9 0.000000
+0x7f4fac03bd60 0x7f4fac085a40 0x7f504c1b0408 22 0 10 0.000000
+0x7f4fac03bd60 0x7f4fac085c50 0x7f504c140638 26 0 10 0.000000
+0x7f4fac085c50 0x7f4fac03d890 0x7f504d57d3c8 1 0 11 0.000000
+0x7f4fac085c50 0x7f4fac085cf0 0x7f504c17ad60 34 0 11 0.000000
+0x7f4fac085cf0 0x7f4fac00ec80 0x7f504c17ad68 4 0 12 0.000000
+0x7f4fac00ec80 0x7f4fac00edf0 0x7f504c17ad70 6 0 13 0.000000
+0x7f4fac00edf0 0x7f4fac00eea0 0x7f504c17ad78 2 0 14 0.000000
+0x7f4fac00eea0 0x7f4fac00ef20 0x7f504c1d3f40 7 0 15 0.000000
+0x7f4fac00ef20 0x7f4fac06f0a0 0x7f504c062d30 6 0 16 0.000000
+0x7f4fac085c50 0x7f4fac01c2f0 0x7f504d1473b8 114 0 11 0.000000
+0x7f4fac01c2f0 0x7f4fac01c540 0x7f504c1d3f60 1 0 12 0.000000
+0x7f4fac085c50 0x7f4fac06f1f0 0x7f504c1d3f48 51 0 11 0.000000
+0x7f4fac085c50 0x7f4fac022ca0 0x7f504c1d3f48 128 0 11 0.000000
+0x7f4fac03bd60 0x7f4fac03bec0 0x7f504c1ae8a0 11 0 10 0.000000
+0x7f4fac09c7c0 0x7f4fac022d40 0x7f504c0fdf08 60 0 9 0.000000
+0x7f4fac022d40 0x7f4fac022e90 0x7f504c0fdf10 1 0 10 0.000000
+0x7f4fac022e90 0x7f4fac03d0b0 0x7f504c0e3ff8 1 0 11 0.000000
+0x7f4fac03d0b0 0x7f4fac03d130 0x7f504c062d30 1 0 12 0.000000
+0x7f4fac09c7c0 0x7f4fac03d2a0 0x7f4f88000970 84 0 9 0.000000
+0x7f4fac03d2a0 0x7f4fac03d320 0x7f504c062d30 1 0 10 0.000000
+0x7f4fac09c7c0 0x7f4fac05f520 0x7f4feec72220 87 0 9 0.000000
+0x7f4fac05f520 0x7f4fac05f740 0x7f4feec72228 14 0 10 0.000000
+0x7f4fac05f740 0x7f4fac056f00 0x7f4feed41d38 5 0 11 0.000000
+0x7f4fac056f00 0x7f4fac056fa0 0x7f504c062d30 1 0 12 0.000000
+0x7f4fac05f520 0x7f4fac057100 0x7f4feed41d40 20 0 10 0.000000
+0x7f4fac057100 0x7f4fac058bb0 0x7f504c170678 73 0 11 0.000000
+0x7f4fac057100 0x7f4fac058c30 0x7f4fe00564c0 78 0 11 0.000000
+0x7f4fac057100 0x7f4fac08ea30 0x7f504c170678 16 0 11 0.000000
+0x7f4fac057100 0x7f4fac08eb90 0x7f4feed41d48 21 0 11 0.000000
+0x7f4fac057100 0x7f4fac08eca0 0x7f4feed41d50 34 0 11 0.000000
+0x7f4fac08eca0 0x7f4fac0571a0 0x7f504c170678 4 0 12 0.000000
+0x7f4fac08eca0 0x7f4fac08c2b0 0x7f4feed41d58 9 0 12 0.000000
+0x7f4fac08eca0 0x7f4fac0541e0 0x7f504c170678 157 0 12 0.000000
+0x7f4fac08eca0 0x7f4fac0212d0 0x7f4feed41d58 164 0 12 0.000000
+0x7f4fac08eca0 0x7f4fac021350 0x7f504c16d8b0 185 0 12 0.000000
+0x7f4fac08eca0 0x7f4fac070b40 0x7f4feed41d48 43 0 12 0.000000
+0x7f4fac08eca0 0x7f4fac0213d0 0x7f504c12ff88 205 0 12 0.000000
+0x7f4fac0213d0 0x7f4fac021460 0x7f504c0e8c08 8 0 13 0.000000
+0x7f4fac021460 0x7f4fac0215e0 0x7f504c0e8c40 30 0 14 0.000000
+0x7f4fac0215e0 0x7f4fac021770 0x7f504c0cbb40 27 0 15 0.000000
+0x7f4fac021460 0x7f4fac0217f0 0x7f504c0e8c48 40 0 14 0.000000
+0x7f4fac021460 0x7f4fac021870 0x7f504c0e8c50 137 0 14 0.000000
+0x7f4fac021870 0x7f4fac094000 0x7f504c0e8c58 65 0 15 0.000000
+0x7f4fac094000 0x7f4fac094060 0x7f504c0e8c60 24 0 16 0.000000
+0x7f4fac094060 0x7f4fac094100 0x7f504c062d30 1 0 17 0.000000
+0x7f4fac08eca0 0x7f4fac094240 0x7f504c140630 213 0 12 0.000000
+0x7f4fac094240 0x7f4fac0942c0 0x7f504c1ae8a0 4 0 13 0.000000
+0x7f4fac08eca0 0x7f4fac070cb0 0x7f4feed41d60 79 0 12 0.000000
+0x7f4fac070cb0 0x7f4fac070d30 0x7f504c170680 8 0 13 0.000000
+0x7f4fac070d30 0x7f4fac070db0 0x7f504c091b10 9 0 14 0.000000
+0x7f4fac08eca0 0x7f4fac094420 0x7f504c091b40 238 0 12 0.000000
+0x7f4fac094420 0x7f4fac0944a0 0x7f504c091b48 5 0 13 0.000000
+0x7f4fac0944a0 0x7f4fac019f40 0x7f504c091b50 2 0 14 0.000000
+0x7f4fac019f40 0x7f4fac01a000 0x7f504c091b00 1 0 15 0.000000
+0x7f4fac019f40 0x7f4fac01a080 0x7f504c084730 7 0 15 0.000000
+0x7f4fac019f40 0x7f4fac01a100 0x7f504c091b58 11 0 15 0.000000
+0x7f4fac019f40 0x7f4fac01a180 0x7f504c091b18 35 0 15 0.000000
+0x7f4fac019f40 0x7f4fac01a200 0x7f504c091b60 40 0 15 0.000000
+0x7f4fac08eca0 0x7f4fac01a340 0x7f4fec49d5f0 261 0 12 0.000000
+0x7f4fac01a340 0x7f4fac01a4f0 0x7f4fec49d5f8 20 0 13 0.000000
+0x7f4fac01a340 0x7f4fac01bcb0 0x7f4fec49d600 26 0 13 0.000000
+0x7f4fac08eca0 0x7f4fac084140 0x7f4feed41d68 131 0 12 0.000000
+0x7f4fac084140 0x7f4fac076d10 0x7f4feed41d70 21 0 13 0.000000
+0x7f4fac084140 0x7f4fac0842d0 0x7f504c091ad0 6 0 13 0.000000
+0x7f4fac0842d0 0x7f4fac084440 0x7f504c091ad8 1 0 14 0.000000
+0x7f4fac084440 0x7f4fac076b20 0x7f504c062d30 1 0 15 0.000000
+0x7f4fac084140 0x7f4fac076ea0 0x7f4feed41d78 25 0 13 0.000000
+0x7f4fac076ea0 0x7f4fac0656d0 0x7f4fec4787d0 27 0 14 0.000000
+0x7f4fac0656d0 0x7f4fac065760 0x7f504c170678 1 0 15 0.000000
+0x7f4fac0656d0 0x7f4fac0657e0 0x7f504c170680 12 0 15 0.000000
+0x7f4fac0657e0 0x7f4fac065860 0x7f504c091b10 9 0 16 0.000000
+0x7f4fac076ea0 0x7f4fac039b00 0x7f504c1402e0 30 0 14 0.000000
+0x7f4fac039b00 0x7f4fac039c60 0x7f504c1402e8 2 0 15 0.000000
+0x7f4fac039c60 0x7f4fac039e50 0x7f504c1402f0 30 0 16 0.000000
+0x7f4fac039c60 0x7f4fac039fc0 0x7f504c09d6d8 43 0 16 0.000000
+0x7f4fac039c60 0x7f4fac03a0e0 0x7f504c1402f8 52 0 16 0.000000
+0x7f4fac076ea0 0x7f4fac03a320 0x7f504c09d718 33 0 14 0.000000
+0x7f4fac03a320 0x7f4fac03a3b0 0x7f504c09d720 13 0 15 0.000000
+0x7f4fac03a3b0 0x7f4fac023ff0 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac03a3b0 0x7f4fac024070 0x7f504c09d728 60 0 16 0.000000
+0x7f4fac024070 0x7f4fac0240d0 0x7f504c084798 54 0 17 0.000000
+0x7f4fac024070 0x7f4fac024150 0x7f504c091da8 57 0 17 0.000000
+0x7f4fac076ea0 0x7f4fac023b80 0x7f504c062d38 13 0 14 0.000000
+0x7f4fac023b80 0x7f4fac023cd0 0x7f504c062d40 3 0 15 0.000000
+0x7f4fac023cd0 0x7f4fac023d50 0x7f504c062d30 1 0 16 0.000000
+0x7f4fac076ea0 0x7f4fac024270 0x7f4feed41d80 36 0 14 0.000000
+0x7f4fac024270 0x7f4fac024340 0x7f504c062d30 1 0 15 0.000000
+0x7f4fac024270 0x7f4fac038620 0x7f504c062d30 34 0 15 0.000000
+0x7f4fac024270 0x7f4fac038790 0x7f504c140300 45 0 15 0.000000
+0x7f4fac038790 0x7f4fac038920 0x7f504c140308 7 0 16 0.000000
+0x7f4fac038920 0x7f4fac06c340 0x7f504c16d800 105 0 17 0.000000
+0x7f4fac038920 0x7f4fac075700 0x7f504c0e3ab0 16 0 17 0.000000
+0x7f4fac075700 0x7f4fac0757a0 0x7f504c091da8 20 0 18 0.000000
+0x7f4fac038920 0x7f4fac075820 0x7f504c084730 22 0 17 0.000000
+0x7f4fac038920 0x7f4fac075880 0x7f504c062d98 27 0 17 0.000000
+0x7f4fac038920 0x7f4fac056b30 0x7f504c16d810 159 0 17 0.000000
+0x7f4fac056b30 0x7f4fac056cb0 0x7f504c16d818 0 0 18 0.000000
+0x7f4fac056b30 0x7f4fac01db30 0x7f504c16d820 19 0 18 0.000000
+0x7f4fac01db30 0x7f4fac01df00 0x7f4feed41d88 15 0 19 0.000000
+0x7f4fac038920 0x7f4fac038a60 0x7f504c140318 58 0 17 0.000000
+0x7f4fac038a60 0x7f4fac06bf50 0x7f504c062d98 0 0 18 0.000000
+0x7f4fac038920 0x7f4fac05fe80 0x7f504c16d828 175 0 17 0.000000
+0x7f4fac05fe80 0x7f4fac060010 0x7f504c16d830 1 0 18 0.000000
+0x7f4fac060010 0x7f4fac060090 0x7f504c062d98 0 0 19 0.000000
+0x7f4fac05fe80 0x7f4fac0221a0 0x7f504c16d838 34 0 18 0.000000
+0x7f4fac05fe80 0x7f4fac0601e0 0x7f504c140310 24 0 18 0.000000
+0x7f4fac038920 0x7f4fac06c090 0x7f504c16d7f0 85 0 17 0.000000
+0x7f4fac038920 0x7f4fac06c200 0x7f504c16d7f8 96 0 17 0.000000
+0x7f4fac038920 0x7f4fac022420 0x7f504c16d848 205 0 17 0.000000
+0x7f4fac076ea0 0x7f4fac0426e0 0x7f504c09d6c8 20 0 14 0.000000
+0x7f4fac0426e0 0x7f4fac042850 0x7f504c09d6d0 2 0 15 0.000000
+0x7f4fac042850 0x7f4fac042910 0x7f504c091b78 8 0 16 0.000000
+0x7f4fac042850 0x7f4fac065510 0x7f504c09d6e0 33 0 16 0.000000
+0x7f4fac065510 0x7f4fac065570 0x7f504c091da8 58 0 17 0.000000
+0x7f4fac042850 0x7f4fac042a60 0x7f504c09d6d8 19 0 16 0.000000
+0x7f4fac042a60 0x7f4fac055630 0x7f504c09d710 12 0 17 0.000000
+0x7f4fac055630 0x7f4fac0557c0 0x7f504c091da0 43 0 18 0.000000
+0x7f4fac0557c0 0x7f4fac055850 0x7f504c084798 11 0 19 0.000000
+0x7f4fac0557c0 0x7f4fac0558d0 0x7f504c091da8 14 0 19 0.000000
+0x7f4fac084140 0x7f4fac076ba0 0x7f504c091b60 11 0 13 0.000000
+0x7f4fac057100 0x7f4fac058cb0 0x7f4feed41d48 101 0 11 0.000000
+0x7f4fac057100 0x7f4fac0235a0 0x7f4fe00564c0 50 0 11 0.000000
+0x7f4fac057100 0x7f4fac0237a0 0x7f4fe00564c8 61 0 11 0.000000
+0x7f4fac0237a0 0x7f4fac07dba0 0x7f4fe00564d0 67 0 12 0.000000
+0x7f4fac0237a0 0x7f4fac01fff0 0x7f4fec4787d0 71 0 12 0.000000
+0x7f4fac01fff0 0x7f4fac020060 0x7f504c170678 1 0 13 0.000000
+0x7f4fac01fff0 0x7f4fac0200e0 0x7f504c170680 12 0 13 0.000000
+0x7f4fac0200e0 0x7f4fac020160 0x7f504c091b10 9 0 14 0.000000
+0x7f4fac0237a0 0x7f4fac023910 0x7f504c170678 18 0 12 0.000000
+0x7f4fac0237a0 0x7f4fac0202d0 0x7f4fe00564d8 89 0 12 0.000000
+0x7f4fac0202d0 0x7f4fac020460 0x7f4fe00564e0 4 0 13 0.000000
+0x7f4fac020460 0x7f4fac0204e0 0x7f504c091b58 1 0 14 0.000000
+0x7f4fac020460 0x7f4fac020560 0x7f504c084730 4 0 14 0.000000
+0x7f4fac0237a0 0x7f4fac0205e0 0x7f504c091b40 96 0 12 0.000000
+0x7f4fac0205e0 0x7f4fac020660 0x7f504c091b48 5 0 13 0.000000
+0x7f4fac020660 0x7f4fac020710 0x7f504c091b50 2 0 14 0.000000
+0x7f4fac020710 0x7f4fac0603d0 0x7f504c091b00 1 0 15 0.000000
+0x7f4fac020710 0x7f4fac060450 0x7f504c084730 7 0 15 0.000000
+0x7f4fac020710 0x7f4fac0604d0 0x7f504c091b58 11 0 15 0.000000
+0x7f4fac020710 0x7f4fac060550 0x7f504c091b18 35 0 15 0.000000
+0x7f4fac020710 0x7f4fac0605d0 0x7f504c091b60 40 0 15 0.000000
+0x7f4fac0237a0 0x7f4fac07d500 0x7f4fed72fd50 37 0 12 0.000000
+0x7f4fac07d500 0x7f4fac07d640 0x7f504c062d30 1 0 13 0.000000
+0x7f4fac0237a0 0x7f4fac07d6c0 0x7f504c17ada0 50 0 12 0.000000
+0x7f4fac07d6c0 0x7f4fac07d740 0x7f504c17ada8 4 0 13 0.000000
+0x7f4fac07d740 0x7f4fac07d960 0x7f504c091b18 13 0 14 0.000000
+0x7f4fac07d740 0x7f4fac07d7e0 0x7f504c091b08 3 0 14 0.000000
+0x7f4fac07d7e0 0x7f4fac07d860 0x7f504c091b10 9 0 15 0.000000
+0x7f4fac07d740 0x7f4fac07d8e0 0x7f504c084730 10 0 14 0.000000
+0x7f4fac0237a0 0x7f4fac060730 0x7f4fe00564e8 117 0 12 0.000000
+0x7f4fac060730 0x7f4fac03c9f0 0x7f504c091b40 19 0 13 0.000000
+0x7f4fac03c9f0 0x7f4fac03ca70 0x7f504c091b48 5 0 14 0.000000
+0x7f4fac03ca70 0x7f4fac03cb20 0x7f504c091b50 2 0 15 0.000000
+0x7f4fac03cb20 0x7f4fac03cb60 0x7f504c091b00 1 0 16 0.000000
+0x7f4fac03cb20 0x7f4fac0589b0 0x7f504c084730 7 0 16 0.000000
+0x7f4fac03cb20 0x7f4fac058a30 0x7f504c091b58 11 0 16 0.000000
+0x7f4fac03cb20 0x7f4fac058ab0 0x7f504c091b18 35 0 16 0.000000
+0x7f4fac03cb20 0x7f4fac058b30 0x7f504c091b60 40 0 16 0.000000
+0x7f4fac060730 0x7f4fac060790 0x7f504c17ada0 6 0 13 0.000000
+0x7f4fac060790 0x7f4fac060810 0x7f504c17ada8 4 0 14 0.000000
+0x7f4fac060810 0x7f4fac060a30 0x7f504c091b18 13 0 15 0.000000
+0x7f4fac060810 0x7f4fac0608b0 0x7f504c091b08 3 0 15 0.000000
+0x7f4fac0608b0 0x7f4fac060930 0x7f504c091b10 9 0 16 0.000000
+0x7f4fac060810 0x7f4fac0609b0 0x7f504c084730 10 0 15 0.000000
+0x7f4fac060730 0x7f4fac060ab0 0x7f4fe00564d8 13 0 13 0.000000
+0x7f4fac060ab0 0x7f4fac03c2d0 0x7f4fe00564e0 4 0 14 0.000000
+0x7f4fac03c2d0 0x7f4fac03c330 0x7f504c091b58 1 0 15 0.000000
+0x7f4fac03c2d0 0x7f4fac03c3b0 0x7f504c084730 4 0 15 0.000000
+0x7f4fac060ab0 0x7f4fac03c550 0x7f4fc9902a30 29 0 14 0.000000
+0x7f4fac03c550 0x7f4fac03c720 0x7f4fc9902a38 27 0 15 0.000000
+0x7f4fac03c720 0x7f4fac03c8f0 0x7f4fc9902a40 4 0 16 0.000000
+0x7f4fac03c8f0 0x7f4fac03c970 0x7f504c091b10 9 0 17 0.000000
+0x7f4fac0237a0 0x7f4fac07d9e0 0x7f504c170678 54 0 12 0.000000
+0x7f4fac09c7c0 0x7f4fac01c060 0x7f504c0e8bd8 90 0 9 0.000000
+0x7f4fac01c060 0x7f4fac01c1a0 0x7f504c0e8be0 7 0 10 0.000000
+0x7f4fac01c1a0 0x7f4fac084790 0x7f504c0e8bd0 13 0 11 0.000000
+0x7f4fac01c1a0 0x7f4fac0848d0 0x7f504c0e8be8 19 0 11 0.000000
+0x7f4fac0848d0 0x7f4fac084a30 0x7f504c0e8bf0 22 0 12 0.000000
+0x7f4fac084a30 0x7f4fac084c00 0x7f504c0e8bf8 38 0 13 0.000000
+0x7f4fac084c00 0x7f4fac023300 0x7f504c0e8c00 6 0 14 0.000000
+0x7f4fac023300 0x7f4fac0233c0 0x7f504c084798 39 0 15 0.000000
+0x7f4fac023300 0x7f4fac023440 0x7f504c091da8 42 0 15 0.000000
+0x7f4fac084c00 0x7f4fac084c80 0x7f504c0dd230 3 0 14 0.000000
+0x7f4fac09c7c0 0x7f4fac058e20 0x7f504c1d0718 105 0 9 0.000000
+0x7f4fac058e20 0x7f4fac058f90 0x7f504c1d0720 6 0 10 0.000000
+0x7f4fac058f90 0x7f4fac059040 0x7f504c1d0728 2 0 11 0.000000
+0x7f4fac059040 0x7f4fac059190 0x7f504c062d30 6 0 12 0.000000
+0x7f4fac09c7c0 0x7f4fac041c20 0x7f504c1d0730 114 0 9 0.000000
+0x7f4fac041c20 0x7f4fac041e20 0x7f504c1d0738 8 0 10 0.000000
+0x7f4fac09c7c0 0x7f4fac041ed0 0x7f504c1d0740 124 0 9 0.000000
+0x7f4fac041ed0 0x7f4fac0420b0 0x7f504c1d0748 1 0 10 0.000000
+0x7f4fac041ed0 0x7f4fac0421e0 0x7f504c1d0738 14 0 10 0.000000
+0x7f4fac09c7c0 0x7f4fac072da0 0x7f4feed41df0 136 0 9 0.000000
+0x7f4fac072da0 0x7f4fac072f00 0x7f4feed41df8 13 0 10 0.000000
+0x7f4fac072f00 0x7f4fac073320 0x7f4feed41e00 88 0 11 0.000000
+0x7f4fac073320 0x7f4fac0733a0 0x7f504c062d30 1 0 12 0.000000
+0x7f4fac072f00 0x7f4fac0730c0 0x7f504c1289b0 21 0 11 0.000000
+0x7f4fac0730c0 0x7f4fac073140 0x7f504c084730 0 0 12 0.000000
+0x7f4fac072f00 0x7f4fac0521f0 0x7f504c091ae0 120 0 11 0.000000
+0x7f4fac072f00 0x7f4fac0523b0 0x7f4fe0003618 165 0 11 0.000000
+0x7f4fac0523b0 0x7f4fac052440 0x7f504c084730 0 0 12 0.000000
+0x7f4fac0523b0 0x7f4fac052850 0x7f4fe0003628 14 0 12 0.000000
+0x7f4fac0523b0 0x7f4fac0525b0 0x7f4fe0003620 6 0 12 0.000000
+0x7f4fac0525b0 0x7f4fac052710 0x7f4ffa0e5eb8 8 0 13 0.000000
+0x7f4fac0523b0 0x7f4fac0528d0 0x7f4fe0003620 19 0 12 0.000000
+0x7f4fac0528d0 0x7f4fac052950 0x7f4ffa0e5eb8 8 0 13 0.000000
+0x7f4fac072da0 0x7f4fac052b00 0x7f4fc985c440 19 0 10 0.000000
+0x7f4fac001560 0x7f4fac07ac10 0x7f4ffa1be200 282 0 8 0.000000
+0x7f4fac001560 0x7f4fac0082d0 0x7f4ffa1be200 135 0 8 0.000000
+0x7f4fac001560 0x7f4fac07ac90 0x7f4ffa1be200 311 0 8 0.000000
+0x7f4fac001560 0x7f4fac07ad10 0x7f4ffa1be200 324 0 8 0.000000
+0x7f4fac001560 0x7f4fac006b70 0x7f4ffa1be200 156 0 8 0.000000
+0x7f4fac001560 0x7f4fac07ad90 0x7f4ffa10dbe8 342 0 8 0.000000
+0x7f4fac07ad90 0x7f4fac05ebf0 0x7f4ffa10dbf8 140 0 9 0.000000
+0x7f4fac05ebf0 0x7f4fac05ec70 0x7f4ffa10dc00 6 0 10 0.000000
+0x7f4fac05ec70 0x7f4fac05ed40 0x7f4ffa10dc08 10 0 11 0.000000
+0x7f4fac05ed40 0x7f4fac05ede0 0x7f504c5eea50 2 0 12 0.000000
+0x7f4fac05ede0 0x7f4fac05ee70 0x7f504c062d30 1 0 13 0.000000
+0x7f4fac05ec70 0x7f4fac05eef0 0x7f4feed41e08 37 0 11 0.000000
+0x7f4fac05eef0 0x7f4fac05f080 0x7f4ffa10dc30 1 0 12 0.000000
+0x7f4fac05eef0 0x7f4fac082cd0 0x7f4fe0003610 76 0 12 0.000000
+0x7f4fac05eef0 0x7f4fac05f100 0x7f504c062d90 6 0 12 0.000000
+0x7f4fac05eef0 0x7f4fac05f210 0x7f4ffa10dc18 18 0 12 0.000000
+0x7f4fac05f210 0x7f4fac05f290 0x7f4ffa10dc20 1 0 13 0.000000
+0x7f4fac05eef0 0x7f4fac082d50 0x7f4ffa10dc30 113 0 12 0.000000
+0x7f4fac05eef0 0x7f4fac05f310 0x7f4feed41e18 45 0 12 0.000000
+0x7f4fac05eef0 0x7f4fac082dd0 0x7f504c062d90 118 0 12 0.000000
+0x7f4fac05eef0 0x7f4fac07ae10 0x7f4feed41e20 48 0 12 0.000000
+0x7f4fac05eef0 0x7f4fac07ae90 0x7f4feed41e28 59 0 12 0.000000
+0x7f4fac05eef0 0x7f4fac082ee0 0x7f4ffa10dc30 132 0 12 0.000000
+0x7f4fac05eef0 0x7f4fac082bd0 0x7f4fe0003600 62 0 12 0.000000
+0x7f4fac05eef0 0x7f4fac082f60 0x7f504c062d90 137 0 12 0.000000
+0x7f4fac07ad90 0x7f4fac05e9d0 0x7f504c1d0a50 3 0 9 0.000000
+0x7f4fac05e9d0 0x7f4fac05ea50 0x7f504c1d0a58 7 0 10 0.000000
+0x7f4fac05ea50 0x7f4fac05eaf0 0x7f504c1403c0 1 0 11 0.000000
+0x7f4fac07ad90 0x7f4fac05eb70 0x7f4ffa10dbf0 126 0 9 0.000000
+0x7f4fac065210 0x7f4fac0023b0 0x7f4ffa0d3290 9 0 7 0.000000
+0x7f4fac013e50 0x7f4fac008b10 0x7f4fc985c430 104 0 4 0.000000

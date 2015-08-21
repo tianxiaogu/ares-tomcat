@@ -1,0 +1,7 @@
+0x7f504c091da8 java.lang.System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V
+0x7f4fb3664db0 java.lang.ThreadGroup remove (Ljava/lang/Thread;)V
+0x7f4fb3664da8 java.lang.ThreadGroup threadTerminated (Ljava/lang/Thread;)V
+0x7f4fb3664da0 java.lang.Thread exit ()V
+0x7f4f940e9b78 org.apache.juli.ClassLoaderLogManager$Cleaner run ()V
+(nil) 0x7f4f88000f40 (nil) -2 0 0 0.000000
+0x7f4f88000f40 0x7f4f880012c0 0x7f4f940e9b78 -2 0 1 0.000000
